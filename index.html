@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico">
+
+    <title>{{title}}</title>
+    <meta name="description" content="{{description}}">
+    <meta property="og:title" content="{{title}}">
+    <meta property="og:description" content="{{description}}">
+    
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Dictionary">
+    <link rel="apple-touch-icon" href="app-icon.png">
+    <meta property="og:image" content="https://arutha.lk/og-image.jpg">
+    
+    <script>
+      // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+    </script>
+    <style>
+      @font-face { src: local('###'), url('/UN-Abhaya.ttf') format('truetype'); font-weight: normal; font-family: 'sinhala'; }
+    </style>
+  </head>
+  <body class="bg-gray-100 dark:bg-gray-900 antialiased text-s" style="font-family: sinhala;">
+    <div id="app" class="max-w-[1500px] mx-auto"></div>
+    <script type="module" src="/src/main.js"></script>
+    
+  </body>
+</html>
