@@ -29,3 +29,5 @@ coverage
 
 *.tsbuildinfo
 all-dict.db
+github-hide
+server/bin

@@ -8,6 +8,7 @@ import fs from 'fs'
 import vkb from 'vkbeautify'
 
 // following list copied from pitaka.lk and modified a bit
+// they have been moved to sanketha.json
 const allSanketha = {
     "pali_sumangala": {
         "පු.ක්‍රි.": ["පුබ්බ ක්‍රියා", 0],

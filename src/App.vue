@@ -3,7 +3,7 @@ import { RouterLink, RouterView, useRoute, useRouter } from 'vue-router'
 
 import { ref, onMounted } from 'vue'
 import { MenuIcon, XIcon, HomeIcon, MoonIcon, SunIcon, SettingsIcon, UsersIcon} from 'lucide-vue-next'
-import StarIcon from './components/icons/StarIcon.vue'
+import StarFilledIcon from './components/icons/StarFilledIcon.vue'
 
 const isSidebarOpen = ref(false)
 const toggleSidebar = () => isSidebarOpen.value = !isSidebarOpen.value
@@ -34,10 +34,8 @@ function doSearch() {
 function checkSearch(focused) {
     if (focused && searchTerm.value.length && route && !route.path.includes('search')) doSearch()
 }
-import { useSinhalaStore, dictionaryInfos } from '@/stores/sinhala'
-for (const info of dictionaryInfos) {
-    //useSinhalaStore(info.id).loadData()
-}
+import { useSinhalaStore } from '@/stores/sinhala'
+useSinhalaStore().loadData() // load sanketha
 
 import { useSavedStore, useSettingsStore } from '@/stores/savedStore'
 const settingsStore = useSettingsStore(), initStoreIds = ['bookmarks']
@@ -54,7 +52,7 @@ onMounted(() => {
 <template>
 
   <div class="flex flex-col h-screen bg-[var(--bg-color)] text-[var(--text-color)]">
-    <div class="px-4 py-1 flex justify-between items-center bg-green-600 dark:bg-green-900"> 
+    <div class="px-4 py-1 flex justify-between items-center bg-yellow-600 dark:bg-yellow-900"> 
       <button @click="toggleSidebar" >
         <MenuIcon></MenuIcon>  
       </button>
@@ -63,7 +61,7 @@ onMounted(() => {
         <!-- Input field -->
         <input type="text"
           class="w-full px-2 py-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500
-              dark:bg-green-700 dark:border-gray-600 dark:text-white dark:placeholder-gray-300 dark:focus:ring-blue-400"
+              dark:bg-yellow-800 dark:border-gray-600 dark:text-white dark:placeholder-gray-300 dark:focus:ring-blue-400"
           placeholder="සෙවුම් පද මෙතැන යොදන්න"
           v-model="searchTerm"
           @input="doSearch"
@@ -71,7 +69,7 @@ onMounted(() => {
         />
         
         <!-- Clear button (X) -->
-        <button @click="clearSearch"
+        <button @click="searchTerm = ''"
           class="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-500 dark:text-gray-300 hover:text-gray-800 dark:hover:text-white focus:outline-none">
           <XIcon size="15"/>
         </button>
@@ -84,19 +82,18 @@ onMounted(() => {
     </div> 
 
     <div class="flex-1 flex flex-col lg:flex-row relative">
-      <div :class="isSidebarOpen ? 'w-64' : 'w-0'" 
-        class="transition-all duration-300 overflow-hidden drop-shadow absolute lg:static top-0 left-0 h-screen lg:h-auto z-10 bg-[var(--bg-color)]">
+      <div :class="isSidebarOpen ? 'w-64 min-w-64' : 'w-0'" 
+        class="transition-all duration-300 overflow-hidden drop-shadow absolute lg:static top-0 left-0 h-screen z-10 bg-[var(--bg-color)]">
         <div class="flex flex-col lg:h-full">
           <RouterLink to="/" class="px-4 py-2 hover:bg-[var(--hover-color)] flex items-center"><HomeIcon class="mr-2" size="20"/>මුල් පිටුව / Home</RouterLink>
-          <RouterLink to="/" class="px-4 py-2 hover:bg-[var(--hover-color)] flex items-center"><StarIcon class="mr-2" size="20"/>තරුයෙදූ / Bookmarks</RouterLink>
+          <RouterLink to="/" class="px-4 py-2 hover:bg-[var(--hover-color)] flex items-center"><StarFilledIcon class="mr-2" size="20"/>තරුයෙදූ / Bookmarks</RouterLink>
           <RouterLink to="/about" class="px-4 py-2 hover:bg-[var(--hover-color)] flex items-center"><UsersIcon class="mr-2" size="20"/>අප ගැන</RouterLink>
-          <div class="flex-grow"></div>
           <RouterLink to="/about" class="px-4 py-2 hover:bg-[var(--hover-color)] flex items-center"><SettingsIcon class="mr-2" size="20"/>සැකසුම් / Settings</RouterLink>
         </div>
         <XIcon @click="closeSidebar" class="absolute top-3 right-3 text-gray-500 cursor-pointer lg:hidden" size="18"></XIcon>
       </div>
 
-      <div class="p-4 flex-grow">
+      <div class="p-4">
         <RouterView /> 
       </div>
     </div>

@@ -1,14 +1,14 @@
 <script setup>
 import { useSettingsStore } from '@/stores/savedStore'
 import VAlert from '../components/VAlert.vue';
-import {AtSignIcon, SendIcon} from 'lucide-vue-next'
+import {AtSignIcon, ChevronRight, SendIcon} from 'lucide-vue-next'
 
 const examples = [
   ['alu.', 'අලු, අළු'],
   ['nuvana.', 'නුවණ, නුවන'],
   ['kala.', 'කල, කලා, කාල, කළ, කාළ, කළා'],
   ['naengu', 'නැඟු..., නැංගු...'],
-  ['samkra', 'සංක්‍ර..., සංක්‍රා...'],
+  ['sankra', 'සංක්‍ර..., සංක්‍රා...'],
   ['krumiya', 'කෘමියා']
 ]
 
@@ -23,9 +23,9 @@ const examples = [
         </div>
       </VAlert>
 
-      <div class="text-primary text-4xl text-center mt-4">අරුත.lk</div>
+      <div class="text-7xl text-center mt-4 text-yellow-800 dark:text-yellow-300">අරුත.lk</div>
 
-      <ul class="mx-8 mt-4 list-disc list-inside">
+      <ul class="mx-2 mt-4 list-[circle] list-inside">
         <li>සෙවීම සඳහා උඩ කොටුවේ සෙවුම් පද යොදන්න.</li>
         <li>ඉංග්‍රීසි අකුරු හෝ සිංහල අකුරු යොදා ගෙන සෙවීම සිදු කළ හැකිය. උදා. <RouterLink to="/search/janaka">janaka</RouterLink>, <RouterLink to="/search/ජනක">ජනක</RouterLink></li>
         <li>සෙවුම් පදයෙන් ආරම්භ වන සියලුම වචන පෙන්වන අතර සෙවුම් පදයෙන් අවසන් වීම ද සිදුවිය යුතු නම් අගට තිතක් යොදන්න. උදා <RouterLink to="/search/ජනක.">ජනක.</RouterLink></li>
@@ -34,20 +34,26 @@ const examples = [
       </ul>
 
       <table class="max-w-[600px] w-full my-3 border-collapse">
-        <thead>
+        <thead class="bg-gray-300 dark:bg-gray-700">
           <tr>
-            <th class="border border-gray-300 p-2">ඉංග්‍රීසියෙන් සොයන අයුරු</th>
-            <th class="border border-gray-300 p-2">සිංහලෙන් ලැබෙන ප්‍රතිඵල</th>
+            <td class="border border-gray-300 p-2">ඉංග්‍රීසියෙන් සොයන අයුරු</td>
+            <td class="border border-gray-300 p-2">සිංහලෙන් ලැබෙන ප්‍රතිඵල</td>
           </tr>
         </thead>
         <tbody>
-          <tr v-for="([first, second], i) in examples" :key="i">
-            <th class="border border-gray-300 p-2 text-subtitle-1">
-              <RouterLink :to="'/search/' + first" class="no-underline">{{ first }}</RouterLink>
-            </th>
-            <th class="border border-gray-300 p-2">{{ second }}</th>
+          <tr v-for="([first, second], i) in examples" :key="i" class="even:bg-gray-200 even:dark:bg-gray-800">
+            <td class="border border-gray-300 p-2 text-subtitle-1">
+              <RouterLink :to="'/search/' + first">{{ first }}</RouterLink>
+            </td>
+            <td class="border border-gray-300 p-2">{{ second }}</td>
           </tr>
         </tbody>
       </table>
   </div>
 </template>
+
+<style lang="css" scoped>
+a {
+  @apply text-blue-600 dark:text-blue-400
+}
+</style>

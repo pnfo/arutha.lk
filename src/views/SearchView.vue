@@ -1,7 +1,7 @@
 <script setup>
 
 import { getPossibleMatches, isSinglishQuery } from '@pnfo/singlish-search'
-import { dictionaryInfos, useSinhalaStore } from '@/stores/sinhala'
+import { dictionaryInfos } from '@/stores/sinhala'
 import { useSavedStore, useSettingsStore } from '@/stores/savedStore'
 import { copyClipboard, queryDb, parseDictRows } from '@/stores/utils';
 import { useRoute } from 'vue-router'
@@ -101,17 +101,14 @@ const searchStatus = computed(() => {
 
 <template>
   <VAlert :border="true" :color="searchStatus.type">
-    <div>
-          {{ searchStatus.text }}
-    </div>
+    <div>{{ searchStatus.text }}</div>
   </VAlert>
-  {{ `isLoading: ${isLoading}, state: ${searchResults.length}` }}
   <div class="relative" ref="dropdownRef">
-    <VButton @click="isOpen = !isOpen" :prependIcon="LibraryBigIcon" class="bg-green-400 dark:bg-green-800">
-      {{ `${selectedDicts.length}/${dictionaryInfos.length} ශබ්දකෝෂ` }}
+    <VButton @click="isOpen = !isOpen" :prependIcon="LibraryBigIcon" class="bg-sky-400 dark:bg-sky-800 bg-opacity-50">
+      {{ `${selectedDicts.length}/${dictionaryInfos.length} ශබ්දකෝෂ තෝරන්න` }}
     </VButton>
     <div v-if="isOpen" class="absolute z-10 w-100 mt-1 border border-gray-300 rounded-md shadow-xl bg-gray-200" >
-      <ul class="max-h-60 overflow-auto" >
+      <ul class="max-h-80 overflow-auto" >
         <li class="text-sm p-2">සෙවුම් ප්‍රතිඵල ලැබිය යුතු ශබ්දකෝෂ තෝරන්න</li>
         <li v-for="dict in dictionaryInfos" :key="dict.index" @click="toggleDict(dict.index)" :class="isSelected(dict.index) ? 'text-black' : 'text-gray-500'"
             class="p-2 cursor-pointer hover:bg-blue-200 flex items-center space-x-2">
@@ -124,19 +121,14 @@ const searchStatus = computed(() => {
   </div>
   
   <div v-if="isLoading" role='status' class='max-w-sm animate-pulse'>
-      <h3 class='h-3 bg-gray-300 rounded-full  w-48 mb-4'></h3>
+      <h3 class='h-3 bg-gray-300 rounded-full w-48 mb-4'></h3>
       <p class='h-2 bg-gray-300 rounded-full max-w-[380px] mb-2.5'></p>
       <p class='h-2 bg-gray-300 rounded-full max-w-[340px] mb-2.5'></p>
       <p class='h-2 bg-gray-300 rounded-full max-w-[320px] mb-2.5'></p>
   </div>
-  <ul v-else>
-    <li v-for="r in searchResults">{{ r.word }}</li>
-  </ul>
-  <div class="container mx-auto"> 
-    <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4"> 
-      <div v-for="(item, i) in searchResults" :key="i" class="col-span-1"> 
-        <DictionaryEntry :entry="item" />
-      </div>
+  <div v-else class="container"> 
+    <div class="sm:columns-2 xl:columns-3">
+        <DictionaryEntry v-for="(entry, i) in searchResults" :entry="entry" :key="i" class="break-inside-avoid-column"/>
     </div>
   </div>
 </template>

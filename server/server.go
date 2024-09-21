@@ -29,10 +29,10 @@ type QueryPayload struct {
 var (
 	dbConnections = make(map[string]*sqlx.DB)
 	mutex         sync.Mutex
-	APPNAME       = "Arutha.lk v2.0"
+	APPNAME       = "Arutha.lk v1.0"
 	rootPath      = "" // call such as ./server -root-path=../../ relative to the exePath
 	exePath       = "" // determined programmetically below
-	PORT          = ":8800"
+	PORT          = ":3000"
 	URL           = "http://localhost" + PORT
 )
 
@@ -141,7 +141,7 @@ func printBox() {
 		{"Suggestions and Errors - path.nirvana@gmail.com", gray},
 		{"┄┄┄┄┄┄┄┄┄┈┈┈", gray},
 		{"You can check if there is a newer version at", gray},
-		{"https://github.com/pathnirvana/arutha.lk/releases", gray},
+		{"https://github.com/pnfo/arutha.lk/releases", gray},
 	}
 	width := 60
 	boxColor := gray

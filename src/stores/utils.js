@@ -40,10 +40,10 @@ export async function queryDb(query) {
 }
 
 export function parseDictRows(rows) {
-    return rows.map(({word, meaning}) => {
+    return rows.map(({dict, word, meaning}) => {
         const parts = meaning.split('\n').map(l => l.trim())
         const breakup = /^\[.+?\+.+?\]$/.test(parts[0]) ? parts[0] : ''
         meaning = breakup ? parts.slice(1) : parts
-        return {word, meaning, breakup}
+        return {dict, word, meaning, breakup}
     })
 }
