@@ -11,22 +11,31 @@ const createOrAppend = (obj, key, value) => {
     }
 }
 
+let duRemoveCount = 0
 const appendToGroups = (obj, key, value, a) => {
+    let shouldRemove = false
     if (obj[key]) {
-        // const noSpace = value.replace(/ /g, '')
-        // if (value != noSpace && obj[key][noSpace]) console.log(value)
+        // const duToDa = value.replace(/ජු/g, 'ඬු')
+        // if (value != duToDa && obj[key][duToDa] && !a) {
+        //     console.log(value)
+        //     duRemoveCount++
+        //     shouldRemove = true
+        // }
         if (!obj[key][value]) obj[key][value] = [a]
         else {
+            // if (!a) {
+            //     shouldRemove = true
+            //     console.log(value)
+            // }
             obj[key][value].push(a)
         }
     } else {
         obj[key] = ({[value]: [a]})
     }
+    return shouldRemove
 }
 
-//const englishGroups = {}, sinhalaGroups = {}
-const englishGroups = {}
-let duplicateCount = 0
+const englishGroups = {}, sinhalaGroups = {}
 
 const data = fs.readFileSync('english-dict.json', 'utf8'); 
 const jsonData = JSON.parse(data);
@@ -34,36 +43,26 @@ console.log(`total entries in the english dict ${jsonData.length}`)
 const dedupedDict = jsonData.filter(entry => {
     if (!entry.s || !entry.e) console.error(`empty s or e ${entry}`)
     
-    appendToGroups(englishGroups, entry.e, entry.s, entry.a)
-    // if (isDup) {
-    //     duplicateCount++
-    //     //console.log(entry)
-    // }
-    // return !isDup
-
-    // const aStr = entry.a ? `[${entry.a}] ` : ''
-    // createOrAppend(englishGroups, entry.e + ' ', aStr + entry.s)
-    // createOrAppend(sinhalaGroups, entry.s, aStr + entry.e)
+    //return !appendToGroups(englishGroups, entry.e + ' ', entry.s + ' ', entry.a)
+    
+    appendToGroups(englishGroups, entry.e + ' ', entry.s + ' ', entry.a)
+    appendToGroups(sinhalaGroups, entry.s + ' ', entry.e + ' ', entry.a)
 });
-console.log(`num duplicates ${duplicateCount}`)
-
-// const groupsToDictStr = groups => Object.entries(groups).map(([key, arr]) => 
-//     arr.length > 1 ? key.trim() + '\n' + arr.map((line, i) => `${i+1}. ${line}`).join('\n') : key.trim() + '\n' + arr[0]
-// ).join('\n\n')
+// console.log(`num duplicates ${jsonData.length - dedupedDict.length}`)
+// console.log(`du remove count ${duRemoveCount}`)
 
 const groupsToDictStr = groups => Object.entries(groups).map(([key, meanings]) => {
     const entries = Object.entries(meanings)
-    const mStr = entries.map(([meaning, types], i) => 
-        (entries.length > 1 ? `${i+1}. ` : '') + 
-        types.map(a => a ? `[${a}]` : '').join('') + ' ' + 
-        meaning.trim()
-    ).join('\n')
+    const meaningsStr = entries.map(([meaning, types], i) =>{
+        const typesStr = types.sort().map(a => a ? `[${a}]` : '').join('')
+        return (entries.length > 1 ? `${i+1}. ` : '') + (typesStr ? typesStr + ' ' : '') + meaning.trim()
+    }).join('\n')
     
-    return key.trim() + '\n' + mStr
+    return key.trim() + '\n' + meaningsStr
 }).join('\n\n')
 
 //fs.writeFileSync('english-deduped-2.json', vk.json(JSON.stringify(dedupedDict.reverse())), 'utf8')
-fs.writeFileSync('english-to-sinhala.txt', groupsToDictStr(englishGroups), 'utf-8')
-// fs.writeFileSync('sinhala-to-english.txt', groupsToDictStr(sinhalaGroups), 'utf-8')
+fs.writeFileSync('english_to_sinhala.txt', groupsToDictStr(englishGroups), 'utf-8')
+fs.writeFileSync('sinhala_to_english.txt', groupsToDictStr(sinhalaGroups), 'utf-8')
 
 
