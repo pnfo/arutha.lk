@@ -59,12 +59,12 @@ const allSanketha = {
 }
 
 const dictId = 'pali_sumangala'
-const jsonFilename = dictId == 'pali_buddhadatta' ? 'si-buddhadatta.json' : 'si-sumangala.json'
+const jsonFilename = dictId == 'pali_buddhadatta' ? 'buddhadatta_dict.json' : 'sumangala_dict.json'
 
 const sanketha = allSanketha[dictId]
 Object.keys(sanketha).forEach(san => sanketha[san] = {title: sanketha[san][0], count: 0})
 
-const dict = JSON.parse(fs.readFileSync('../../tipitaka.lk/dev/dicts/dict-input/' + jsonFilename, 'utf-8'))
+const dict = JSON.parse(fs.readFileSync('dict-input/pali/' + jsonFilename, 'utf-8')) // from submodule
 console.log(`num entries in dict ${dictId} is ${dict.length}`)
 
 const wordDuplicateCheck = {}
