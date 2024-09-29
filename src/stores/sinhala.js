@@ -12,16 +12,24 @@ export const dictionaryInfos = [
 
 export function useSinhalaStore() {
     return defineStore('sanketha', () => {
-        const sanketha = {} // not reactive but const
-        const loaded = ref(false), searchCache = reactive({})
+        const sanketha = {} // not reactive but const (needs to be const)
+        const loaded = ref(false), searchCache = reactive({}), entryCounts = reactive({})
         
         async function loadData() {
             try {
-                const response = await fetch(import.meta.env.BASE_URL + 'sanketha/sanketha.json')
-                if (!response.ok) throw new Error(`${response.status} - ${response.statusText}`);
+                //const response = await fetch(import.meta.env.BASE_URL + 'sanketha/sanketha.json')
+                const [sankethaRes, countsRes] = await Promise.all([
+                    fetch(import.meta.env.BASE_URL + 'sanketha/sanketha.json'),
+                    fetch(import.meta.env.BASE_URL + 'sanketha/entry-counts.json')
+                ]);
+                if (!sankethaRes.ok) throw new Error(`${sankethaRes.status} - ${sankethaRes.statusText}`);
+                if (!countsRes.ok) throw new Error(`${countsRes.status} - ${countsRes.statusText}`);
               
-                const sankethaData = await response.json();
+                const sankethaData = await sankethaRes.json(), countsData = await countsRes.json()
                 Object.assign(sanketha, sankethaData)
+                Object.assign(entryCounts, countsData)
+
+                sanketha['english_to_sinhala'] = sanketha['sinhala_to_english']
                 console.log(`sanketha loaded: ${Object.keys(sanketha).length}`)
                 loaded.value = true
             } catch (error) {
@@ -43,6 +51,6 @@ export function useSinhalaStore() {
             return results
         })
     
-        return { loadData, loaded, sanketha }
+        return { loadData, loaded, sanketha, entryCounts }
     })()
 }

@@ -10,7 +10,7 @@ export default defineConfig({
   ],
   server: {
     proxy: {
-      '/sql-query': "http://localhost:3000",
+      '/sql-query': "http://192.168.1.20:3000",
     },
   },
   resolve: {

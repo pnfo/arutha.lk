@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@pnfo/singlish-search": "^1.2.7",
-    "@vueuse/core": "^11.0.3",
     "lucide-vue-next": "^0.439.0",
     "pinia": "^2.1.7",
     "vue": "^3.4.29",
@@ -20,6 +19,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
     "autoprefixer": "^10.4.20",
+    "cheerio": "^1.0.0",
     "postcss": "^8.4.45",
     "sqlite3": "^5.1.7",
     "tailwindcss": "^3.4.10",

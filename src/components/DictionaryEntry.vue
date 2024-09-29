@@ -1,5 +1,5 @@
 <script setup>
-import { copyClipboard, toggleBookmark } from '@/stores/utils';
+import { copyClipboard, toggleBookmark, isStarred } from '@/stores/utils';
 import { useSavedStore } from '@/stores/savedStore';
 import { dictionaryInfos, useSinhalaStore } from '@/stores/sinhala';
 import { computed } from 'vue'
@@ -14,8 +14,8 @@ const item = computed(() => {
   if (!useSinhalaStore().loaded) return []
   const entry = props.entry
   // TODO patterns need to be changed for the akshaya vinyasa dict. currently does not show sankheta within round brackets
-  const pattern = /(^\d+\. ?|\[.*?\]|\(.*?\.\))/g, sankethaPatttern = /\[.*?\]|\(.*?\.\)/
-  return {...entry, starred: bookmarksStore.state[entry.word], 
+  const pattern = /(^\d+\. ?|\[.*?\.\]|\(.*?\.\))/g, sankethaPatttern = /\[.*?\.\]|\(.*?\.\)/
+  return {...entry,  
     lineParts: entry.meaning.map(l => l.split(pattern)
       .filter(pt => pt.length).map(text => {
         let type = 'normal', tooltip
@@ -53,9 +53,9 @@ import { ShareIcon, StarIcon } from 'lucide-vue-next';
           <span v-if="item.breakup" class="text-green-800 dark:text-green-500">{{ item.breakup }}</span>
 
           <span class="invisible group-hover/entry:visible flex">
-            <span class="ml-1 p-1 rounded-full text-yellow-700 hover:bg-gray-300 focus:outline-none" 
-              @click="toggleBookmark(item.word, item.starred)">
-              <StarFilledIcon v-if="item.starred" class="w-4"></StarFilledIcon>
+            <span class="ml-1 p-1 rounded-full text-yellow-700 hover:bg-gray-300 focus:outline-none" :class="{visible: isStarred(entry)}"
+              @click="toggleBookmark(entry)">
+              <StarFilledIcon v-if="isStarred(entry)" class="w-4"></StarFilledIcon>
               <StarIcon v-else class="w-4"></StarIcon>
             </span>
             <span class="ml-1 p-1 rounded-full text-blue-700 hover:bg-gray-300 focus:outline-none"
@@ -65,8 +65,6 @@ import { ShareIcon, StarIcon } from 'lucide-vue-next';
           </span>
           
         </div>
-  
-        
           <div v-for="(line, i) in item.lineParts" :key="i">
             <span v-for="part in line" :class="part.type" class="group relative">
               {{ part.text }}
@@ -75,8 +73,6 @@ import { ShareIcon, StarIcon } from 'lucide-vue-next';
               </span>
             </span>
           </div>
-        
-
       </div>
   </template>
   

@@ -189,9 +189,20 @@ func metadataMiddleware(metadata *map[string]PageMetadata) fiber.Handler {
 			return c.Next()
 		}
 
-		if len(parts) > 2 && strings.Contains(pageMetadata.Title, "%s") {
-			pageMetadata.Title = fmt.Sprintf(pageMetadata.Title, parts[2])
-			pageMetadata.Description = fmt.Sprintf(pageMetadata.Description, parts[2])
+		// If there are parameters in the URL (more than one part after "/"), process them (chatgpt)
+		if len(parts) > 2 {
+			// Count the number of %s placeholders in the title and description
+			paramCount := strings.Count(pageMetadata.Title, "%s")
+
+			// Make sure we have enough parameters in the URL to replace the placeholders
+			if paramCount > 0 && len(parts)-2 >= paramCount {
+				// Slice the required number of parameters from the URL
+				params := parts[2 : 2+paramCount]
+
+				// Replace the %s placeholders with the corresponding URL parameters
+				pageMetadata.Title = fmt.Sprintf(pageMetadata.Title, interfaceSlice(params)...)
+				pageMetadata.Description = fmt.Sprintf(pageMetadata.Description, interfaceSlice(params)...)
+			}
 		}
 
 		// Replace placeholders in your index.html template
@@ -207,4 +218,13 @@ func metadataMiddleware(metadata *map[string]PageMetadata) fiber.Handler {
 		c.Set(fiber.HeaderContentType, fiber.MIMETextHTMLCharsetUTF8)
 		return c.SendString(htmlStr)
 	}
+}
+
+// Helper function to convert a string slice into an interface slice for Sprintf (chatgpt)
+func interfaceSlice(slice []string) []interface{} {
+	converted := make([]interface{}, len(slice))
+	for i, v := range slice {
+		converted[i] = v
+	}
+	return converted
 }

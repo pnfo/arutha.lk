@@ -30,4 +30,5 @@ coverage
 *.tsbuildinfo
 all-dict.db
 github-hide
+madhura-scraped
 server/bin

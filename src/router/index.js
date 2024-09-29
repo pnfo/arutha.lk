@@ -1,6 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import SearchView from '../views/SearchView.vue'
+import BookpageView from '@/views/BookpageView.vue'
+import BookmarksView from '@/views/BookmarksView.vue'
+import SettingsView from '@/views/SettingsView.vue'
+import SankethaView from '@/views/SankethaView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -20,9 +24,28 @@ const router = createRouter({
     },
     { 
       path: '/search/:term', // The colon indicates a dynamic parameter named 'term'
-      name: 'Term', 
+      name: 'search', 
       component: SearchView,
-      //props: true // Pass the route params as props to the component
+    },
+    {
+      path: '/bookpage/:dictId/:page',
+      name: 'bookpage', 
+      component: BookpageView,
+    },
+    {
+      path: '/bookmarks',
+      name: 'bookmarks', 
+      component: BookmarksView,
+    },
+    {
+      path: '/settings',
+      name: 'settings', 
+      component: SettingsView,
+    },
+    {
+      path: '/sanketha/:dictId',
+      name: 'sanketha', 
+      component: SankethaView,
     }
   ]
 })

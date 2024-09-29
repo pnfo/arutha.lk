@@ -2,12 +2,13 @@
 import { RouterLink, RouterView, useRoute, useRouter } from 'vue-router'
 
 import { ref, onMounted } from 'vue'
-import { MenuIcon, XIcon, HomeIcon, MoonIcon, SunIcon, SettingsIcon, UsersIcon} from 'lucide-vue-next'
+import { MenuIcon, XIcon, HomeIcon, MoonIcon, SunIcon, SettingsIcon, UsersIcon, BookOpenIcon, GithubIcon, BracketsIcon, CircleHelpIcon} from 'lucide-vue-next'
 import StarFilledIcon from './components/icons/StarFilledIcon.vue'
 
 const isSidebarOpen = ref(false)
 const toggleSidebar = () => isSidebarOpen.value = !isSidebarOpen.value
 const closeSidebar = () => isSidebarOpen.value = false
+const closeAbsoluteSidebar = () => (window.innerWidth < 1024) ? isSidebarOpen.value = false : ''
 
 const darkMode = ref(false)
 function toggleDarkMode() {
@@ -22,14 +23,14 @@ function toggleDarkMode() {
 }
 
 const searchTerm = ref('')
-// prevent multiple searches that makes the UI sluggish when typing fast in the search box
+// prevent multiple searches that makes the UI sluggish when typing fast in the search box, also prevent too many network requests
 let timeoutId
 const router = useRouter(), route = useRoute()
 function doSearch() {
     const term = searchTerm.value.trim().toLowerCase().replace(/[^a-z\u0D80-\u0DFF \.%\-\u200d]/g, '')
     if (!term.length) return
     clearTimeout(timeoutId)
-    timeoutId = setTimeout(() => router.push('/search/' + term), 400)
+    timeoutId = setTimeout(() => router.push('/search/' + term), 500)
 }
 function checkSearch(focused) {
     if (focused && searchTerm.value.length && route && !route.path.includes('search')) doSearch()
@@ -41,19 +42,19 @@ import { useSavedStore, useSettingsStore } from '@/stores/savedStore'
 const settingsStore = useSettingsStore(), initStoreIds = ['bookmarks']
 
 onMounted(() => {
-  settingsStore.loadSettings()
-  initStoreIds.forEach(id => useSavedStore(id).loadState())
+    settingsStore.loadSettings()
+    initStoreIds.forEach(id => useSavedStore(id).loadState())
 
-  darkMode.value = document.documentElement.classList.contains('dark');
-  isSidebarOpen.value = window.innerWidth > 1024; // Adjust 768 to your desired breakpoint
+    darkMode.value = document.documentElement.classList.contains('dark');
+    isSidebarOpen.value = window.innerWidth > 1024; // Adjust 768 to your desired breakpoint
 });
 </script>
 
 <template>
 
-  <div class="flex flex-col h-screen bg-[var(--bg-color)] text-[var(--text-color)]">
+  <div class="flex flex-col h-full bg-[var(--bg-color)] text-[var(--text-color)]" @click="closeAbsoluteSidebar">
     <div class="px-4 py-1 flex justify-between items-center bg-yellow-600 dark:bg-yellow-900"> 
-      <button @click="toggleSidebar" >
+      <button @click.stop="toggleSidebar" >
         <MenuIcon></MenuIcon>  
       </button>
 
@@ -83,16 +84,19 @@ onMounted(() => {
 
     <div class="flex-1 flex flex-col lg:flex-row relative">
       <div :class="isSidebarOpen ? 'w-64 min-w-64' : 'w-0'" 
-        class="transition-all duration-300 overflow-hidden drop-shadow absolute lg:static top-0 left-0 h-screen z-10 bg-[var(--bg-color)]">
-        <div class="flex flex-col lg:h-full">
+        class="transition-all duration-300 overflow-hidden absolute lg:static shadow-xl lg:shadow-none top-0 left-0 z-10 bg-[var(--bg-color)]">
+        <div class="flex flex-col text-nowrap">
           <RouterLink to="/" class="px-4 py-2 hover:bg-[var(--hover-color)] flex items-center"><HomeIcon class="mr-2" size="20"/>මුල් පිටුව / Home</RouterLink>
-          <RouterLink to="/" class="px-4 py-2 hover:bg-[var(--hover-color)] flex items-center"><StarFilledIcon class="mr-2" size="20"/>තරුයෙදූ / Bookmarks</RouterLink>
-          <RouterLink to="/about" class="px-4 py-2 hover:bg-[var(--hover-color)] flex items-center"><UsersIcon class="mr-2" size="20"/>අප ගැන</RouterLink>
-          <RouterLink to="/about" class="px-4 py-2 hover:bg-[var(--hover-color)] flex items-center"><SettingsIcon class="mr-2" size="20"/>සැකසුම් / Settings</RouterLink>
+          <RouterLink to="/bookmarks" class="px-4 py-2 hover:bg-[var(--hover-color)] flex items-center"><StarFilledIcon class="mr-2" size="20"/>තරුයෙදූ / Bookmarks</RouterLink>
+          <RouterLink to="/about" class="px-4 py-2 hover:bg-[var(--hover-color)] flex items-center"><CircleHelpIcon class="mr-2" size="20"/>උපදෙස් / Help</RouterLink>
+          <RouterLink to="/sanketha/sankshiptha" class="px-4 py-2 hover:bg-[var(--hover-color)] flex items-center"><BracketsIcon class="mr-2" size="20"/>සංකේත නිරූපණය</RouterLink>
+          <RouterLink to="/bookpage/sankshiptha/1" class="px-4 py-2 hover:bg-[var(--hover-color)] flex items-center"><BookOpenIcon class="mr-2" size="20"/>පොත් අන්තර්ගතය</RouterLink>
+          <a href="https://github.com/pnfo/arutha.lk" target="blank" class="px-4 py-2 hover:bg-[var(--hover-color)] flex items-center"><GithubIcon class="mr-2" size="20"/>GitHub Repo</a>
+          <RouterLink to="/settings" class="px-4 py-2 hover:bg-[var(--hover-color)] flex items-center"><SettingsIcon class="mr-2" size="20"/>සැකසුම් / Settings</RouterLink>
         </div>
-        <XIcon @click="closeSidebar" class="absolute top-3 right-3 text-gray-500 cursor-pointer lg:hidden" size="18"></XIcon>
+        <!-- <XIcon @click="closeSidebar" class="absolute top-3 right-3 text-gray-500 cursor-pointer lg:hidden" size="18"></XIcon> -->
       </div>
-
+      
       <div class="p-4">
         <RouterView /> 
       </div>

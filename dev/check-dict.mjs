@@ -44,8 +44,3 @@ console.log(notFound.map(n => n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|'
 fs.writeFileSync(`public/${dictId}-sanketha-counts.json`, vkb.json(JSON.stringify(sanketha)), 'utf-8')
 //Object.entries(sankethaCounts)
 //    .sort((a, b) => a[0].localeCompare(b[0])).map(pair => pair.join(',')).join('\n'), 'utf-8')
-
-// write sitemap file
-const numEntriesPerPage = 24, numPages = Math.ceil(entries.length / numEntriesPerPage), sitemapLines = []
-for (let i = 1; i <= numPages; i++) sitemapLines.push(`https://arutha.lk/bookpage/${dictId}/${i}`)
-fs.writeFileSync(`public/sitemap-${dictId}.txt`, sitemapLines.join('\n'), 'utf-8')

@@ -1,15 +1,19 @@
 import { useSavedStore, useSettingsStore } from '@/stores/savedStore'
 
-export function toggleBookmark(word, isStarred) {
+const bookmarkKey = (entry) => `${entry.dict}-${entry.word}`
+export const isStarred = (entry) => !!useSavedStore('bookmarks').state[bookmarkKey(entry)]
+
+export function toggleBookmark(entry) {
     const settingsStore = useSettingsStore(), bookmarksStore = useSavedStore('bookmarks')
-    if (isStarred) {
-        bookmarksStore.unsetState(word)
-        settingsStore.setSnackbar({ param: word, type: 'bookmark-removed' })
+    if (isStarred(entry)) {
+        bookmarksStore.unsetState(bookmarkKey(entry))
+        settingsStore.setSnackbar({ param: entry.word, type: 'bookmark-removed' })
     } else {
-        bookmarksStore.setState(word, {time: Date.now(), coll: 'dict'})
-        settingsStore.setSnackbar({ param: word, type: 'bookmark-added' })
+        bookmarksStore.setState(bookmarkKey(entry), {time: Date.now(), coll: 'dict', entry})
+        settingsStore.setSnackbar({ param: entry.word, type: 'bookmark-added' })
     }
 }
+
 
 // note package.json of vue-clipboard3 need to be changed to "main": "dist/esm/index.js",
 import useClipboard from 'vue-clipboard3'

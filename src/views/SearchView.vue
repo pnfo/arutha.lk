@@ -3,7 +3,7 @@
 import { getPossibleMatches, isSinglishQuery } from '@pnfo/singlish-search'
 import { dictionaryInfos } from '@/stores/sinhala'
 import { useSavedStore, useSettingsStore } from '@/stores/savedStore'
-import { copyClipboard, queryDb, parseDictRows } from '@/stores/utils';
+import { queryDb, parseDictRows } from '@/stores/utils';
 import { useRoute } from 'vue-router'
 import { ref, computed, onMounted, onUnmounted, watchEffect } from 'vue'
 import VAlert from '@/components/VAlert.vue';
@@ -11,7 +11,6 @@ import VAlert from '@/components/VAlert.vue';
 const settingsStore = useSettingsStore(), historyStore = useSavedStore('history')
 const route = useRoute()
 const searchTerm = computed(() => route.params.term.trim())
-const searchError = ref('')
 const maxResults = 50
 
 onMounted(() => document.addEventListener('click', handleClickOutside))
@@ -20,6 +19,7 @@ onUnmounted(() => document.addEventListener('click', handleClickOutside))
 import { LibraryBigIcon, CircleCheckBigIcon, CircleIcon } from 'lucide-vue-next';
 import VButton from '@/components/VButton.vue';
 import DictionaryEntry from '@/components/DictionaryEntry.vue';
+import VSkeleton from '@/components/VSkeleton.vue';
 
 const selectedDicts = computed({
   get() { return settingsStore.settings.dicts },
@@ -38,7 +38,7 @@ const handleClickOutside = (event) => {
     }
 }
 
-const isLoading = ref(false), searchResults = ref([])
+const isLoading = ref(false), searchResults = ref([]), searchError = ref('')
 const fetchSearchResults = async () => {
     isLoading.value = true
     const exact = searchTerm.value.endsWith('.')
@@ -120,11 +120,8 @@ const searchStatus = computed(() => {
     </div>
   </div>
   
-  <div v-if="isLoading" role='status' class='max-w-sm animate-pulse'>
-      <h3 class='h-3 bg-gray-300 rounded-full w-48 mb-4'></h3>
-      <p class='h-2 bg-gray-300 rounded-full max-w-[380px] mb-2.5'></p>
-      <p class='h-2 bg-gray-300 rounded-full max-w-[340px] mb-2.5'></p>
-      <p class='h-2 bg-gray-300 rounded-full max-w-[320px] mb-2.5'></p>
+  <div v-if="isLoading">
+    <VSkeleton></VSkeleton>
   </div>
   <div v-else class="container"> 
     <div class="sm:columns-2 xl:columns-3">

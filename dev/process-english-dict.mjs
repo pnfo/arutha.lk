@@ -3,11 +3,11 @@
 import fs from 'fs'; // Import the file system module
 import vk from 'vkbeautify'
 
-const createOrAppend = (obj, key, value) => {
+const createOrIncrement = (obj, key) => {
     if (obj[key]) {
-        obj[key].push(value)
+        obj[key].count++
     } else {
-        obj[key] = [value]
+        obj[key] = {count: 1}
     }
 }
 
@@ -35,10 +35,14 @@ const appendToGroups = (obj, key, value, a) => {
     return shouldRemove
 }
 
-const englishGroups = {}, sinhalaGroups = {}
+// const noZwj = (s) => s.replace(/\u200d/g, '') + ' '
+// let filledCount = 0
+// const mdrData = JSON.parse(fs.readFileSync('madhura-scraped/mdr-english-dict.json', 'utf8')), mdrGroups = {}
+// mdrData.forEach(({e, s, a}) => appendToGroups(mdrGroups, e + ' ', noZwj(s), a))
 
-const data = fs.readFileSync('english-dict.json', 'utf8'); 
-const jsonData = JSON.parse(data);
+const englishGroups = {}, sinhalaGroups = {}, sanketha = {}
+
+const jsonData = JSON.parse(fs.readFileSync('english-dict.json', 'utf8'))
 console.log(`total entries in the english dict ${jsonData.length}`)
 const dedupedDict = jsonData.filter(entry => {
     if (!entry.s || !entry.e) console.error(`empty s or e ${entry}`)
@@ -47,6 +51,9 @@ const dedupedDict = jsonData.filter(entry => {
     
     appendToGroups(englishGroups, entry.e + ' ', entry.s + ' ', entry.a)
     appendToGroups(sinhalaGroups, entry.s + ' ', entry.e + ' ', entry.a)
+    if (entry.a) {
+        createOrIncrement(sanketha, entry.a)
+    }
 });
 // console.log(`num duplicates ${jsonData.length - dedupedDict.length}`)
 // console.log(`du remove count ${duRemoveCount}`)
@@ -61,8 +68,8 @@ const groupsToDictStr = groups => Object.entries(groups).map(([key, meanings]) =
     return key.trim() + '\n' + meaningsStr
 }).join('\n\n')
 
-//fs.writeFileSync('english-deduped-2.json', vk.json(JSON.stringify(dedupedDict.reverse())), 'utf8')
-fs.writeFileSync('english_to_sinhala.txt', groupsToDictStr(englishGroups), 'utf-8')
-fs.writeFileSync('sinhala_to_english.txt', groupsToDictStr(sinhalaGroups), 'utf-8')
-
-
+//fs.writeFileSync('english-filled.json', vk.json(JSON.stringify(dedupedDict)), 'utf8')
+fs.writeFileSync('dict-input/english_to_sinhala.txt', groupsToDictStr(englishGroups), 'utf-8')
+fs.writeFileSync('dict-input/sinhala_to_english.txt', groupsToDictStr(sinhalaGroups), 'utf-8')
+const sortedEntries = Object.entries(sanketha).sort((a, b) => b[1].count - a[1].count); // sort by count
+fs.writeFileSync('../public/sanketha/sinhala_to_english-sanketha-counts.json', vk.json(JSON.stringify(Object.fromEntries(sortedEntries))), 'utf-8')
