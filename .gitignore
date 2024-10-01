@@ -10,6 +10,7 @@ lerna-debug.log*
 node_modules
 .DS_Store
 dist
+dist-desktop
 dist-ssr
 coverage
 *.local
@@ -32,3 +33,4 @@ all-dict.db
 github-hide
 madhura-scraped
 server/bin
+Arutha.lk.app/

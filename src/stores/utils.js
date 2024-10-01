@@ -17,9 +17,9 @@ export function toggleBookmark(entry) {
 
 // note package.json of vue-clipboard3 need to be changed to "main": "dist/esm/index.js",
 import useClipboard from 'vue-clipboard3'
-export async function copyClipboard(word) {
-  await useClipboard().toClipboard(`https://arutha.lk/search/${word}`)
-  useSettingsStore().setSnackbar({ type: 'link-copied' })
+export async function copyClipboard(content, type) {
+    await useClipboard().toClipboard(content)
+    useSettingsStore().setSnackbar({ type })
 }
 
 export async function queryDb(query) {
@@ -35,7 +35,7 @@ export async function queryDb(query) {
 
         // Parse the JSON response
         const data = await response.json();
-        console.log('Success:', data);
+        //console.log('Success:', data);
         return data
     } catch (error) {
         console.error(error);

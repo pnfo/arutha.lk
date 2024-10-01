@@ -30,7 +30,7 @@ export function useSavedStore(storeId, initialObject = {}) {
 
 const snackbarTypeToMsg = {
     'link-copied': 'සබැඳිය පිටපත් විය. ඔබට අවශ්‍ය තැනක අලවන්න.',
-    'content-copied': 'ඡේදයේ අන්තර්ගතය පිටපත් විය. අවශ්‍ය තැනක අලවන්න.',
+    'content-copied': 'අන්තර්ගතය පිටපත් විය. අවශ්‍ය තැනක අලවන්න.',
     'bookmark-added': '“param” යන වචනයට තරු ලකුණක් එක් කළා.',
     'bookmark-removed': '“param” යන වචනයෙන් තරු ලකුණ ඉවත් කළා.',
 }
@@ -54,7 +54,8 @@ export const useSettingsStore = defineStore('settings-parent', () => {
         if (!message && type) message = snackbarTypeToMsg[type]
         if (param && message) message = message.replace(/param/g, param)
         if (message) {
-            Object.assign(snackbar, { model: true, timeout: timeout || 2000, message })
+            Object.assign(snackbar, { model: true, message })
+            setTimeout(() => Object.assign(snackbar, { model: false }), timeout || 2000)
         }
     }
 

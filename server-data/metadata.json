@@ -11,6 +11,14 @@
         "title": "තරු යෙදූ - Bookmarks",
         "description": "ඔබ විසින් තරු යොදන ලද වචන - අරුත.lk සිංහල ශබ්දකෝෂය"
     },
+    "/about": {
+        "title": "උපදෙස් සහ අප ගැන / Help and About Us",
+        "description": "උපදෙස් සහ අප ගැන / Help and About Us - අරුත.lk සිංහල ශබ්දකෝෂය."
+    },
+    "/abbreviations": {
+        "title": "සංකේත නිරූපණය කෙටි යෙදුම් / Abbreviations of %s",
+        "description": "සංකේත නිරූපණය කෙටි යෙදුම් / Abbreviations of %s - අරුත.lk සිංහල ශබ්දකෝෂය."
+    },
     "/bookpage": {
         "title": "%s පොතේ %s පිටුවේ වචන",
         "description": "%s පොතේ %s පිටුවේ වචන - අරුත.lk සිංහල ශබ්දකෝෂය."

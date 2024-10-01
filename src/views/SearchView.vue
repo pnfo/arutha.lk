@@ -61,7 +61,7 @@ const fetchSearchResults = async () => {
               where = usedMatches.map(match => `word LIKE "${match}"`).join(' OR ')
             return `SELECT ${i} AS dict, word, meaning FROM ${dictId} WHERE ${where}`
         }).join(' UNION ALL ') + ' LIMIT 100'
-        console.log(query)
+        //console.log(query)
 
         const rows = await queryDb(query)
         searchResults.value = rows ? parseDictRows(rows) : [] // null sent when zero results

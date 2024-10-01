@@ -1,6 +1,5 @@
 <script setup>
 import { copyClipboard, toggleBookmark, isStarred } from '@/stores/utils';
-import { useSavedStore } from '@/stores/savedStore';
 import { dictionaryInfos, useSinhalaStore } from '@/stores/sinhala';
 import { computed } from 'vue'
 
@@ -8,7 +7,6 @@ const props = defineProps({
   entry: Object,
 })
 const dictInfo = computed(() => dictionaryInfos[props.entry.dict])
-const bookmarksStore = useSavedStore('bookmarks')
 
 const item = computed(() => {
   if (!useSinhalaStore().loaded) return []
@@ -31,7 +29,7 @@ import LetterPIcon from './icons/LetterPIcon.vue';
 import LetterSIcon from './icons/LetterSIcon.vue';
 import LetterEIcon from './icons/LetterEIcon.vue';
 import StarFilledIcon from './icons/StarFilledIcon.vue';
-import { ShareIcon, StarIcon } from 'lucide-vue-next';
+import { CopyIcon, ShareIcon, StarIcon } from 'lucide-vue-next';
 
 </script>
 
@@ -53,14 +51,18 @@ import { ShareIcon, StarIcon } from 'lucide-vue-next';
           <span v-if="item.breakup" class="text-green-800 dark:text-green-500">{{ item.breakup }}</span>
 
           <span class="invisible group-hover/entry:visible flex">
-            <span class="ml-1 p-1 rounded-full text-yellow-700 hover:bg-gray-300 focus:outline-none" :class="{visible: isStarred(entry)}"
+            <span class="text-yellow-500 hover-icon" :class="{visible: isStarred(entry)}"
               @click="toggleBookmark(entry)">
               <StarFilledIcon v-if="isStarred(entry)" class="w-4"></StarFilledIcon>
               <StarIcon v-else class="w-4"></StarIcon>
             </span>
-            <span class="ml-1 p-1 rounded-full text-blue-700 hover:bg-gray-300 focus:outline-none"
-              @click="copyClipboard(item.words[0] + '.')">
+            <span class="text-blue-700 hover-icon"
+              @click="copyClipboard(`https://arutha.lk/search/${item.word}.`, 'link-copied')">
               <ShareIcon class="w-4"></ShareIcon>
+            </span>
+            <span class="text-blue-700 hover-icon"
+              @click="copyClipboard([item.word, ...item.meaning].join('\n'), 'content-copied')">
+              <CopyIcon class="w-4"></CopyIcon>
             </span>
           </span>
           
@@ -82,5 +84,8 @@ import { ShareIcon, StarIcon } from 'lucide-vue-next';
   }
   .tooltip {
     @apply absolute z-10 hidden text-sm bg-white dark:bg-gray-800 rounded shadow-lg p-2;
+  }
+  .hover-icon {
+    @apply ml-1 p-1 rounded-full hover:bg-gray-300 hover:dark:bg-black focus:outline-none;
   }
   </style>

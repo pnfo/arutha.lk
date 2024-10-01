@@ -1,7 +1,6 @@
 <script setup>
-import { useSettingsStore } from '@/stores/savedStore'
 import VAlert from '../components/VAlert.vue';
-import {AtSignIcon, ChevronRight, SendIcon} from 'lucide-vue-next'
+import {AtSignIcon, SendIcon} from 'lucide-vue-next'
 
 const examples = [
   ['alu.', 'අලු, අළු'],
@@ -27,7 +26,7 @@ const examples = [
 
       <ul class="mx-2 mt-4 list-[circle] list-inside">
         <li>සෙවීම සඳහා උඩ කොටුවේ සෙවුම් පද යොදන්න.</li>
-        <li>ඉංග්‍රීසි අකුරු හෝ සිංහල අකුරු යොදා ගෙන සෙවීම සිදු කළ හැකිය. උදා. <RouterLink to="/search/janaka">janaka</RouterLink>, <RouterLink to="/search/ජනක">ජනක</RouterLink></li>
+        <li>ඉංග්‍රීසි අකුරු හෝ සිංහල අකුරු යොදා ගෙන සෙවීම සිදු කළ හැකිය. උදා. <RouterLink to="/search/janaka">janaka</RouterLink>, <RouterLink to="/search/ජනක">ජනක</RouterLink>, <RouterLink to="/search/jaනක">jaනක</RouterLink></li>
         <li>සෙවුම් පදයෙන් ආරම්භ වන සියලුම වචන පෙන්වන අතර සෙවුම් පදයෙන් අවසන් වීම ද සිදුවිය යුතු නම් අගට තිතක් යොදන්න. උදා <RouterLink to="/search/ජනක.">ජනක.</RouterLink></li>
         <li>අක්ෂර වින්‍යාසය හෝ නණලළ භේදය නොසලකා සෙවීම කළ යුතු නම් ඉංග්‍රීසි අකුරු යොදාගන්න. උදා <RouterLink to="/search/naya.">naya.</RouterLink> යන සෙවුම මගින් “නය” සහ “ණය” යන වචන දෙකටම අදාළ ප්‍රතිඵල ලැබේ.
           එමගින් යම් වචනයක නිවැරදි අක්ෂර වින්‍යාසය ඔබට සොයාගත හැකිය.</li>
@@ -49,6 +48,14 @@ const examples = [
           </tr>
         </tbody>
       </table>
+
+      <VAlert color="info">අන්තර්ජාලය නැතිව Offline භාවිතා කළ හැකි මෘදුකාංග පහතින් බාගත කරගන්න.</VAlert>
+      <div class="flex flex-wrap gap-3 download-software-list">
+          <a href="https://play.google.com/store/apps/details?id=lk.tipitaka.main" target="_blank"><img src="/images/android2.png"></a>
+          <a href="https://github.com/pnfo/arutha.lk/releases/" target="_blank"><img src="/images/windows.png"></a>
+          <a href="https://github.com/pnfo/arutha.lk/releases/" target="_blank"><img src="/images/macos2.png"></a>
+          <a href="https://github.com/pnfo/arutha.lk/releases/" target="_blank"><img src="/images/linux.png"></a>
+      </div>
   </div>
 </template>
 
@@ -56,4 +63,8 @@ const examples = [
 a {
   @apply text-blue-600 dark:text-blue-400
 }
+.download-software-list img { 
+  @apply h-14 invert-[.95] dark:invert-0 mx-2;
+}
+
 </style>

@@ -2,7 +2,7 @@
 import { RouterLink, RouterView, useRoute, useRouter } from 'vue-router'
 
 import { ref, onMounted } from 'vue'
-import { MenuIcon, XIcon, HomeIcon, MoonIcon, SunIcon, SettingsIcon, UsersIcon, BookOpenIcon, GithubIcon, BracketsIcon, CircleHelpIcon} from 'lucide-vue-next'
+import { MenuIcon, XIcon, HomeIcon, MoonIcon, SunIcon, SettingsIcon, UsersIcon, BookOpenIcon, GithubIcon, BracketsIcon, CircleHelpIcon, ExternalLinkIcon} from 'lucide-vue-next'
 import StarFilledIcon from './components/icons/StarFilledIcon.vue'
 
 const isSidebarOpen = ref(false)
@@ -84,15 +84,21 @@ onMounted(() => {
 
     <div class="flex-1 flex flex-col lg:flex-row relative">
       <div :class="isSidebarOpen ? 'w-64 min-w-64' : 'w-0'" 
-        class="transition-all duration-300 overflow-hidden absolute lg:static shadow-xl lg:shadow-none top-0 left-0 z-10 bg-[var(--bg-color)]">
+        class="transition-all duration-300 overflow-hidden absolute lg:static shadow-xl top-0 left-0 z-10 bg-[var(--bg-color)]">
         <div class="flex flex-col text-nowrap">
-          <RouterLink to="/" class="px-4 py-2 hover:bg-[var(--hover-color)] flex items-center"><HomeIcon class="mr-2" size="20"/>මුල් පිටුව / Home</RouterLink>
-          <RouterLink to="/bookmarks" class="px-4 py-2 hover:bg-[var(--hover-color)] flex items-center"><StarFilledIcon class="mr-2" size="20"/>තරුයෙදූ / Bookmarks</RouterLink>
-          <RouterLink to="/about" class="px-4 py-2 hover:bg-[var(--hover-color)] flex items-center"><CircleHelpIcon class="mr-2" size="20"/>උපදෙස් / Help</RouterLink>
-          <RouterLink to="/sanketha/sankshiptha" class="px-4 py-2 hover:bg-[var(--hover-color)] flex items-center"><BracketsIcon class="mr-2" size="20"/>සංකේත නිරූපණය</RouterLink>
-          <RouterLink to="/bookpage/sankshiptha/1" class="px-4 py-2 hover:bg-[var(--hover-color)] flex items-center"><BookOpenIcon class="mr-2" size="20"/>පොත් අන්තර්ගතය</RouterLink>
-          <a href="https://github.com/pnfo/arutha.lk" target="blank" class="px-4 py-2 hover:bg-[var(--hover-color)] flex items-center"><GithubIcon class="mr-2" size="20"/>GitHub Repo</a>
-          <RouterLink to="/settings" class="px-4 py-2 hover:bg-[var(--hover-color)] flex items-center"><SettingsIcon class="mr-2" size="20"/>සැකසුම් / Settings</RouterLink>
+          <RouterLink to="/" class="px-4 py-3 hover:bg-[var(--hover-color)] flex items-center">
+            <HomeIcon class="mr-2 text-green-700" size="20"/>මුල් පිටුව / Home</RouterLink>
+          <RouterLink to="/bookmarks" class="px-4 py-3 hover:bg-[var(--hover-color)] flex items-center">
+            <StarFilledIcon class="mr-2 text-yellow-500" size="20"/>තරුයෙදූ / Bookmarks</RouterLink>
+          <RouterLink to="/about" class="px-4 py-3 hover:bg-[var(--hover-color)] flex items-center">
+            <CircleHelpIcon class="mr-2 text-blue-500" size="20"/>උපදෙස් / Help</RouterLink>
+          <RouterLink to="/abbreviations/sankshiptha" class="px-4 py-3 hover:bg-[var(--hover-color)] flex items-center">
+            <BracketsIcon class="mr-2" size="20"/>සංකේත නිරූපණය</RouterLink>
+          <RouterLink to="/bookpage/sankshiptha/1" class="px-4 py-3 hover:bg-[var(--hover-color)] flex items-center">
+            <BookOpenIcon class="mr-2" size="20"/>පොත් අන්තර්ගතය</RouterLink>
+          <a href="https://github.com/pnfo/arutha.lk" target="blank" class="px-4 py-3 hover:bg-[var(--hover-color)] flex items-center">
+            <GithubIcon class="mr-2" size="20"/>GitHub Repo<ExternalLinkIcon class="ml-2 text-blue-500" size="20"/></a>
+          <RouterLink to="/settings" class="px-4 py-3 hover:bg-[var(--hover-color)] flex items-center"><SettingsIcon class="mr-2" size="20"/>සැකසුම් / Settings</RouterLink>
         </div>
         <!-- <XIcon @click="closeSidebar" class="absolute top-3 right-3 text-gray-500 cursor-pointer lg:hidden" size="18"></XIcon> -->
       </div>
@@ -100,6 +106,13 @@ onMounted(() => {
       <div class="p-4">
         <RouterView /> 
       </div>
+    </div>
+
+     <!-- Snackbar -->
+    <div v-if="settingsStore.snackbar.model"
+      class="fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-blue-900 text-white px-4 py-1 rounded-xl shadow-lg transition-opacity duration-300 ease-in-out"
+      :class="{ 'opacity-0': !settingsStore.snackbar.model, 'opacity-100': settingsStore.snackbar.model }">
+      {{ settingsStore.snackbar.message }}
     </div>
 
   </div>

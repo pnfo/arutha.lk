@@ -9,7 +9,7 @@ const route = useRoute(), router = useRouter()
 const dictInfo = computed(() => dictionaryInfos.find(({id}) => route.params.dictId == id))
 const selectedDict = computed({
   get: () => dictInfo.value.index,
-  set: (i) => router.replace(`/sanketha/${dictionaryInfos[i].id}`) // this will change the addressbar without refreshing the whole page
+  set: (i) => router.replace(`/abbreviations/${dictionaryInfos[i].id}`) // this will change the addressbar without refreshing the whole page
 })
 
 const isLoading = ref(false), sankethaCounts = ref([])
@@ -56,7 +56,7 @@ watchEffect(loadData)
         <VSkeleton></VSkeleton>
     </div>
     <div v-else>
-        <VAlert color="info"> {{ `මෙම ශබ්දකෝෂයේ වචන ${useSinhalaStore().entryCounts[dictInfo.id]} ක තේරුම් අන්තර්ගතව ඇත.` }}</VAlert>
+        <VAlert color="info"> {{ `මෙම ${dictInfo.desc || dictInfo.title}ේ වචන ${useSinhalaStore().entryCounts[dictInfo.id].toLocaleString()} ක තේරුම් අන්තර්ගතව ඇත. එහි යෙදෙන කෙටි යෙදුම් වල විස්තර පහතින් බලන්න.` }}</VAlert>
         <table class="max-w-[600px] w-full my-3 border-collapse">
             <thead class="bg-gray-300 dark:bg-gray-700">
                 <tr>
