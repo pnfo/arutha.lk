@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import SearchView from '../views/SearchView.vue'
 import BookpageView from '@/views/BookpageView.vue'
@@ -8,7 +8,9 @@ import SankethaView from '@/views/SankethaView.vue'
 import AboutView from '../views/AboutView.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  // If Native Android -> Use Hash Mode (#/home) - Essential for file:// loading
+  // If Web Browser   -> Use Web Mode (/home)   - Prettier URLs
+  history: !!window.AndroidBackend ? createWebHashHistory() : createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
@@ -20,29 +22,29 @@ const router = createRouter({
       name: 'about',
       component: AboutView,
     },
-    { 
+    {
       path: '/search/:term', // The colon indicates a dynamic parameter named 'term'
-      name: 'search', 
+      name: 'search',
       component: SearchView,
     },
     {
       path: '/bookpage/:dictId/:page',
-      name: 'bookpage', 
+      name: 'bookpage',
       component: BookpageView,
     },
     {
       path: '/bookmarks',
-      name: 'bookmarks', 
+      name: 'bookmarks',
       component: BookmarksView,
     },
     {
       path: '/settings',
-      name: 'settings', 
+      name: 'settings',
       component: SettingsView,
     },
     {
       path: '/abbreviations/:dictId',
-      name: 'abbreviations', 
+      name: 'abbreviations',
       component: SankethaView,
     }
   ]

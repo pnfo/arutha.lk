@@ -14,28 +14,52 @@ export function useSinhalaStore() {
     return defineStore('sanketha', () => {
         const sanketha = {} // not reactive but const (needs to be const)
         const loaded = ref(false), searchCache = reactive({}), entryCounts = reactive({})
-        
+
         async function loadData() {
             try {
-                //const response = await fetch(import.meta.env.BASE_URL + 'sanketha/sanketha.json')
-                const [sankethaRes, countsRes] = await Promise.all([
-                    fetch(import.meta.env.BASE_URL + 'sanketha/sanketha.json'),
-                    fetch(import.meta.env.BASE_URL + 'sanketha/entry-counts.json')
-                ]);
-                if (!sankethaRes.ok) throw new Error(`${sankethaRes.status} - ${sankethaRes.statusText}`);
-                if (!countsRes.ok) throw new Error(`${countsRes.status} - ${countsRes.statusText}`);
-              
-                const sankethaData = await sankethaRes.json(), countsData = await countsRes.json()
-                Object.assign(sanketha, sankethaData)
-                Object.assign(entryCounts, countsData)
+                let sankethaData, countsData;
 
-                sanketha['english_to_sinhala'] = sanketha['sinhala_to_english']
-                console.log(`sanketha loaded: ${Object.keys(sanketha).length}`)
-                loaded.value = true
+                // --- ANDROID MODE ---
+                if (window.AndroidBackend) {
+                    // Read files via Java Bridge (Sync execution, very fast for local files)
+                    // Note: Pass the path relative to the 'assets' folder
+                    const sankethaJsonStr = window.AndroidBackend.readAssetFile('dist/sanketha/sanketha.json');
+                    const countsJsonStr = window.AndroidBackend.readAssetFile('dist/sanketha/entry-counts.json');
+
+                    if (!sankethaJsonStr || !countsJsonStr) {
+                        throw new Error("Failed to load JSON assets via Android Bridge");
+                    }
+
+                    sankethaData = JSON.parse(sankethaJsonStr);
+                    countsData = JSON.parse(countsJsonStr);
+                }
+                // --- WEB MODE server ---
+                else {
+                    const [sankethaRes, countsRes] = await Promise.all([
+                        fetch(import.meta.env.BASE_URL + 'sanketha/sanketha.json'),
+                        fetch(import.meta.env.BASE_URL + 'sanketha/entry-counts.json')
+                    ]);
+
+                    if (!sankethaRes.ok) throw new Error(`${sankethaRes.status} - ${sankethaRes.statusText}`);
+                    if (!countsRes.ok) throw new Error(`${countsRes.status} - ${countsRes.statusText}`);
+
+                    sankethaData = await sankethaRes.json();
+                    countsData = await countsRes.json();
+                }
+
+                // --- MERGE DATA (Common Logic) ---
+                Object.assign(sanketha, sankethaData);
+                Object.assign(entryCounts, countsData);
+
+                sanketha['english_to_sinhala'] = sanketha['sinhala_to_english'];
+                console.log(`sanketha loaded: ${Object.keys(sanketha).length}`);
+                loaded.value = true;
+
             } catch (error) {
                 console.error(`Error loading sanketha`, error);
             }
         }
+
         const search = computed(() => (regexpStr, maxResults = 50) => {
             if (searchCache[regexpStr]) return searchCache[regexpStr]
 
@@ -50,7 +74,7 @@ export function useSinhalaStore() {
             searchCache[regexpStr] = results
             return results
         })
-    
+
         return { loadData, loaded, sanketha, entryCounts }
     })()
 }

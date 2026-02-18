@@ -20,6 +20,16 @@ function toggleDarkMode() {
     document.documentElement.classList.remove('dark')
     localStorage.theme = 'light'
   }
+  // --- CALL ANDROID ---
+    if (window.AndroidBackend) {
+        if (darkMode.value) {
+            // Dark Mode: Tailwind Yellow-900 (#713f12)
+            window.AndroidBackend.setStatusBarColor("#713f12");
+        } else {
+            // Light Mode: Tailwind Yellow-600 (#ca8a04)
+            window.AndroidBackend.setStatusBarColor("#ca8a04");
+        }
+    }
 }
 
 const searchTerm = ref('')

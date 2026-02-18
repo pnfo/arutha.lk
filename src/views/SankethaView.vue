@@ -18,13 +18,27 @@ async function loadData() {
     try {
         isLoading.value = true
         const dictId = dictInfo.value.id == 'english_to_sinhala' ? 'sinhala_to_english' : dictInfo.value.id
-        const response = await fetch(import.meta.env.BASE_URL + `sanketha/${dictId}-sanketha-counts.json`)
-        if (!response.ok) throw new Error(`${response.status} - ${response.statusText}`);
         
-        const json = await response.json()
-        sankethaCounts.value = Object.entries(useSinhalaStore().sanketha[dictId]).map(
-            ([abbreviation, title]) => ({abbreviation, title, count: json[abbreviation] ? json[abbreviation].count : 0})
-        )
+        // --- ANDROID MODE ---
+        if (window.AndroidBackend) {
+             const jsonStr = window.AndroidBackend.readAssetFile(`dist/sanketha/${dictId}-sanketha-counts.json`)
+             if (!jsonStr) throw new Error("Failed to load JSON assets via Android Bridge")
+             
+             const json = JSON.parse(jsonStr)
+             sankethaCounts.value = Object.entries(useSinhalaStore().sanketha[dictId]).map(
+                ([abbreviation, title]) => ({abbreviation, title, count: json[abbreviation] ? json[abbreviation].count : 0})
+            )
+        } 
+        // --- WEB MODE ---
+        else {
+            const response = await fetch(import.meta.env.BASE_URL + `sanketha/${dictId}-sanketha-counts.json`)
+            if (!response.ok) throw new Error(`${response.status} - ${response.statusText}`);
+            
+            const json = await response.json()
+            sankethaCounts.value = Object.entries(useSinhalaStore().sanketha[dictId]).map(
+                ([abbreviation, title]) => ({abbreviation, title, count: json[abbreviation] ? json[abbreviation].count : 0})
+            )
+        }
         console.log(`sanketha counts loaded: ${sankethaCounts.value.length}`)
 
     } catch (error) {
@@ -42,7 +56,7 @@ watchEffect(loadData)
 <template>
 <div class="flex flex-col gap-3">
     <div class="flex items-center gap-2">
-        <label>ශබ්දකෝෂය </label>
+        <label class="hidden sm:block">ශබ්දකෝෂය </label>
         <select v-model="selectedDict" class="block px-3 py-2 dark:bg-black border border-gray-300 rounded-md">
             <!-- can't apply styles to options since it is rendered by os -->
             <option v-for="info in dictionaryInfos" :key="info.index" :value="info.index">

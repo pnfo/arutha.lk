@@ -17,5 +17,8 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }
+  },
+  // This ensures assets are loaded like "./assets/file.js" 
+  // instead of "/assets/file.js" needed for android app
+  base: './',
 })
