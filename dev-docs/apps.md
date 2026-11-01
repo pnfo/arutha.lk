@@ -24,7 +24,7 @@
    feature graphic, icon), then `node scripts/play/play-release.mjs` (production; `--dry` first).
 3. Farewell of `lk.arutha.dictionary` 1.4 (`/Volumes/2TB/Android/Arutha.lk`, dialog with an Install button):
    `./gradlew bundleRelease` there, `node scripts/play/play-farewell.mjs`.
-4. iOS: the App Store record is created by hand (App Store Connect → Apps → +: name "ශබ්දකෝෂය: Sinhala English Pali",
+4. iOS: the App Store record is created by hand (App Store Connect → Apps → +: name "Arutha Sinhala Dictionary" (Latin letters only),
    primary language English (U.S.), bundle id lk.pitaka.dictionary, SKU lk.pitaka.dictionary). Then
    `scripts/build-apple.sh ios --upload`, `ASC_APP=<id> node scripts/asc/asc-screenshots.mjs`,
    `ASC_APP=<id> node scripts/asc/asc-submit.mjs --submit` (age rating, category Reference, privacy "no data

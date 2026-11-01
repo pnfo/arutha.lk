@@ -4,7 +4,7 @@
 // screenshots of asc-screenshots.mjs). From pitaka.lk dev/apple.
 //   ASC_APP=<id> node scripts/asc/asc-submit.mjs [--submit]
 import { api, APP, editableVersion } from './asc.mjs'
-import { check, listing, marketingUrl, privacyUrl, supportUrl } from '../../release/store/listing.mjs'
+import { appStoreName, check, listing, marketingUrl, privacyUrl, supportUrl } from '../../release/store/listing.mjs'
 
 const LOCALE = 'en-US', en = listing['en-US'], si = listing['si-LK']
 if (check().length) throw new Error(check().join('\n'))
@@ -25,8 +25,8 @@ if (info) {
   const iloc = (await api('GET', `/v1/appInfos/${info.id}/appInfoLocalizations`)).data.find(l => l.attributes.locale === LOCALE)
   if (iloc) {
     await api('PATCH', `/v1/appInfoLocalizations/${iloc.id}`, { data: { type: 'appInfoLocalizations', id: iloc.id,
-      attributes: { subtitle: en.subtitle, privacyPolicyUrl: privacyUrl } } })
-    console.log('subtitle, privacy policy')
+      attributes: { name: appStoreName, subtitle: en.subtitle, privacyPolicyUrl: privacyUrl } } })
+    console.log('name, subtitle, privacy policy')
   }
 }
 

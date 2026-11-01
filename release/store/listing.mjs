@@ -52,6 +52,10 @@ Errors or missing words: path.nirvana@gmail.com`,
   },
 }
 
+/** the App Store name: Latin letters only (App Store Connect rejects Sinhala in the name); the home screen still shows
+ *  ශබ්දකෝෂය (CFBundleDisplayName, apple/project.yml) */
+export const appStoreName = 'Arutha Sinhala Dictionary'
+
 export const privacyUrl = 'https://arutha.lk/privacy-policy.html'
 export const supportUrl = 'https://arutha.lk/about'
 export const marketingUrl = 'https://arutha.lk/'
@@ -67,6 +71,7 @@ export function check() {
 }
 if (import.meta.url === `file://${process.argv[1]}`) {
   const e = check()
+  if (appStoreName.length > 30 || /[^\x20-\x7e]/.test(appStoreName)) e.push(`appStoreName: ${appStoreName}`)
   for (const [lang, l] of Object.entries(listing)) console.log(lang, Object.fromEntries(Object.keys(LIMITS).map(k => [k, [...l[k]].length])))
   console.log(e.length ? e.join('\n') : 'all within the limits')
   process.exit(e.length ? 1 : 0)
