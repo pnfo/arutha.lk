@@ -1,37 +1,32 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
 node_modules
 .DS_Store
+*.log
+*.local
+.cache/
+.venv/
+
+# build outputs
+/db/
+web/dist/
+web/dist-app/
+server/bin/
+e2e/test-results/
+e2e/fixtures/db/build-info.json
+coverage
+
+# legacy (v1) build outputs
 dist
 dist-desktop
-dist-ssr
-coverage
-*.local
+legacy/server/bin
+legacy/server-data/all-dict.db
+Arutha.lk.app/
+Android
 
-/cypress/videos/
-/cypress/screenshots/
+# third party sources kept locally (dev/)
+github-hide
+madhura-scraped
 
-# Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
 *.tsbuildinfo
-all-dict.db
-github-hide
-madhura-scraped
-server/bin
-Arutha.lk.app/
-Android

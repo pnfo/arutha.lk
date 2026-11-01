@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="si">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>අරුත.lk සිංහල ශබ්දකෝෂය</title>
+    <meta name="description" content="අරුත.lk සිංහල ශබ්දකෝෂය. වචනවල තේරුම් අර්ථයන් සොයන්න. Sinhala, English and Pali dictionaries.">
+    <link rel="icon" href="/favicon.ico" sizes="48x48">
+    <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <meta name="theme-color" content="#7a1824">
+    <meta name="apple-mobile-web-app-title" content="ශබ්දකෝෂය">
+    <meta property="og:site_name" content="අරුත.lk">
+    <meta property="og:image" content="https://arutha.lk/images/og.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <script>
+      // theme before the first paint (stores/settings.ts: localStorage arutha-settings-1 .theme, v1: localStorage.theme)
+      (function () {
+        var t = 'light'
+        try { t = (JSON.parse(localStorage.getItem('arutha-settings-1') || '{}').theme) || localStorage.getItem('theme') || 'light' } catch (e) {}
+        if (t === 'dark') document.documentElement.className += ' dark'
+        if (t === 'sepia') document.documentElement.className += ' theme-sepia'
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

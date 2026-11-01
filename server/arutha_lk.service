@@ -1,24 +1,31 @@
-# Systemd conf file to run the Go binary in production
-# Should be located in /etc/systemd/system/arutha_lk.service
-
+# systemd unit for the arutha.lk Go server (v3). Install: /etc/systemd/system/arutha_lk.service (scripts/deploy.sh)
+# Each release is in ~/www/arutha.lk/releases/<ts>, `current` points at the live one. The v1 files (the old binary,
+# dist/, server-data/ in ~/www/arutha.lk) stay for a rollback: legacy/server/arutha_lk.service is the v1 unit.
+# nginx: location / { proxy_pass http://localhost:3000; }  (unchanged from v1)
 [Unit]
-Description=Arutha.lk Go server
+Description=arutha.lk Go server
 After=network.target
 
 [Service]
 Type=simple
 User=janaka
-
-WorkingDirectory=/home/janaka/www/arutha.lk
-ExecStart=/home/janaka/www/arutha.lk/arutha_lk_linux_intel -no-open
-Restart=on-failure
-RestartSec=5
+WorkingDirectory=/home/janaka/www/arutha.lk/current
+ExecStart=/home/janaka/www/arutha.lk/current/arutha_lk -listen 127.0.0.1:3000 -root-path /home/janaka/www/arutha.lk/current \
+  -metrics /home/janaka/www/arutha.lk/metrics.db -geoip /home/janaka/www/arutha.lk/geo/country.csv.gz
+# STATS_PASSWORD=... for /stats (server/stats_page.go); without the file there is no /stats
+EnvironmentFile=-/home/janaka/www/arutha.lk/stats.env
+# always: also after a kill by the watchdog (arutha_lk_watchdog.timer) or the memory limit
+Restart=always
+RestartSec=3
+# the db is read-only and memory mapped by sqlite; a small go heap on the shared 1 GB droplet
+Environment=GOMEMLIMIT=150MiB
+MemoryHigh=250M
+MemoryMax=350M
+MemorySwapMax=100M
+LimitNOFILE=65536
 
 [Install]
 WantedBy=multi-user.target
 
-# Start Service
-# sudo systemctl start arutha_lk.service
-
-# View Logs
-# journalctl -u arutha_lk.service
+# sudo systemctl daemon-reload && sudo systemctl restart arutha_lk
+# journalctl -u arutha_lk.service -f

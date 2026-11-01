@@ -1,0 +1,8 @@
+# Health check of arutha_lk (server/arutha_lk_watchdog.sh), started by arutha_lk_watchdog.timer.
+[Unit]
+Description=arutha.lk health check
+After=arutha_lk.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/arutha_lk_watchdog

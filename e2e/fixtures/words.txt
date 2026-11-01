@@ -1,0 +1,53 @@
+# The headwords of the test fixture db (npm run build:dict:fixture -> e2e/fixtures/db/dict.db): all their entries in
+# every dictionary. Lines starting with ~ are the DPD inflected forms kept (Roman). Used by the Go tests and e2e.
+# Sinhala
+ධර්මය
+ධම්ම
+අංක
+අඞ්ක
+අංකය
+අඞ්කය
+අංගාංගී
+අංග
+අංගී
+ගස
+ගසට
+අකුරු
+අකුරුමැටි
+ආදරය
+ආදරය කරනවා
+අම්මා
+මව
+ජනිත්‍රී
+ආස්වාදය
+ආශීර්වාදය
+ක්‍රියාව
+ලවාලනවා
+බුදු
+බුදු දහම
+# Pali
+බුද්ධ
+ධම්මචක්කප්පවත්තන
+අංස
+අ
+ඉස්ස
+# English
+love
+lover
+lovely
+low
+lo
+a
+a.d.
+about
+abacus
+dhamma
+mother
+tree
+~dhammassa
+~buddhassa
+~dhammacakkappavattana
+~dhamma
+~buddha
+~ammā
+~dhamme

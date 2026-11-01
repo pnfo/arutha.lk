@@ -1,0 +1,16 @@
+/* Sinhala: Abhaya Uni (as tipitaka.lk), only for the Sinhala letters (unicode-range) so that Latin text stays in the
+ * system font (interface) or Noto Serif (meanings, Pali in Roman with its diacritics). The size-adjust matches
+ * Abhaya's small letter body to the Latin fonts around it: 133.5% is one size (17/18) smaller than tipitaka.app's
+ * 141.3%, which looked too big next to English; small text (si-sm) keeps 141.3% to stay readable, reading text
+ * (si-text, 126%: .text and .prose of main.css) is one more point smaller.
+ * Single font-weight values: ranges need Chrome 62, WebView 53 would use the bold face for all text. */
+@font-face { font-family: 'si'; src: url('../assets/fonts/AbhayaUni-Regular.woff2') format('woff2'); font-weight: 400; font-display: swap; unicode-range: U+0D80-0DFF, U+111E0-111FF, U+200C-200D, U+25CC; size-adjust: 133.5%; }
+@font-face { font-family: 'si-text'; src: url('../assets/fonts/AbhayaUni-Regular.woff2') format('woff2'); font-weight: 400; font-display: swap; unicode-range: U+0D80-0DFF, U+111E0-111FF, U+200C-200D, U+25CC; size-adjust: 126%; }
+@font-face { font-family: 'si-sm'; src: url('../assets/fonts/AbhayaUni-Regular.woff2') format('woff2'); font-weight: 400; font-display: swap; unicode-range: U+0D80-0DFF, U+111E0-111FF, U+200C-200D, U+25CC; size-adjust: 141.3%; }
+@font-face { font-family: 'si'; src: url('../assets/fonts/AbhayaUni-Bold.woff2') format('woff2'); font-weight: 700; font-display: swap; unicode-range: U+0D80-0DFF, U+111E0-111FF, U+200C-200D, U+25CC; size-adjust: 133.5%; }
+@font-face { font-family: 'si-text'; src: url('../assets/fonts/AbhayaUni-Bold.woff2') format('woff2'); font-weight: 700; font-display: swap; unicode-range: U+0D80-0DFF, U+111E0-111FF, U+200C-200D, U+25CC; size-adjust: 126%; }
+@font-face { font-family: 'si-sm'; src: url('../assets/fonts/AbhayaUni-Bold.woff2') format('woff2'); font-weight: 700; font-display: swap; unicode-range: U+0D80-0DFF, U+111E0-111FF, U+200C-200D, U+25CC; size-adjust: 141.3%; }
+@font-face { font-family: 'latn-serif'; src: url('../assets/fonts/NotoSerif-Regular.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'latn-serif'; src: url('../assets/fonts/NotoSerif-Bold.woff2') format('woff2'); font-weight: 700; font-display: swap; }
+/* the brand title (home page): Abhaya Bold for every letter, Sinhala and Latin (.lk) alike, no size-adjust */
+@font-face { font-family: 'abhaya-all'; src: url('../assets/fonts/AbhayaUni-Bold.woff2') format('woff2'); font-weight: 700; font-display: swap; }

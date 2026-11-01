@@ -1,0 +1,21 @@
+{
+  "name": "අරුත.lk සිංහල ශබ්දකෝෂය",
+  "short_name": "ශබ්දකෝෂය",
+  "description": "Sinhala, English and Pali dictionaries – සිංහල, ඉංග්‍රීසි, පාලි ශබ්දකෝෂ",
+  "lang": "si",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#faf7f2",
+  "theme_color": "#7a1824",
+  "icons": [
+    { "src": "/images/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/images/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/images/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "related_applications": [{ "platform": "play", "id": "lk.pitaka.dictionary" }],
+  "shortcuts": [
+    { "name": "Bookmarks", "url": "/bookmarks" },
+    { "name": "පාලි ශබ්දකෝෂය", "url": "/dict/pali" }
+  ]
+}

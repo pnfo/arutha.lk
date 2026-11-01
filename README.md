@@ -1,26 +1,19 @@
-# Arutha.lk Sinhala Dictionary Website and Apps
+# arutha.lk – Sinhala · English · Pali dictionary
 
-Uses Vue3, Vite, Tailwind CSS for the front end and Web Server written in Go for the bank end. Uses Sqlite db to hold the dictionary entries.
+The website https://arutha.lk and the apps (Android / iOS `lk.pitaka.dictionary`, "ශබ්දකෝෂය"): the Concise Sinhala
+Dictionary and the Spelling Dictionary of the Sinhala Dictionary Office, English↔Sinhala, the Pali-Sinhala
+dictionaries of Buddhadatta and Sumaṅgala, and the Digital Pāḷi Dictionary (inflections and grammar). It replaces
+pitaka.lk/dict. No ads, no accounts.
 
-## Project Setup
-* `npm install` install dependencies
-* `node populate-sqlite.mjs` for (re)creating the db from the dictionary files in `dict-input` folder
+Go engine + server (`server/`), Vue 3 + TypeScript web app (`web/`), SQLite built by `build/`. See
+[dev-docs/architecture.md](dev-docs/architecture.md).
 
-### Compile and Hot-Reload for Development
-1. `npm run dev` to start dev frontend server on port 5173
-2. `go build` and then start backend server `./server -no-open -root-dir=..` to handle backend sqlite requests
-
-### Production Website
-1. `npm run build` to generate `dist` folder with minified frontend files
-2. Compile the `arutha_lk_linux_intel` go binary and copy it with the `dist` and `server-data` folders to the cloud droplet
-3. Follow the instructions in the `arutha_lk.service` file to register a systemctl service and start it
-4. The server runs on port 3000
-
-## Building the Apps
 ```sh
-cd server
-./build-all.sh # build the go binaries for all platforms
-./create-zips.sh # create zip files with the binary and dist/server-data folder for windows/linux
-./sign-notorize.sh # codesign and notorize a dmg file for macos
+npm install
+npm run build:dict            # db/dict.db (needs ../cst/db/dict.db: tipitaka.app)
+npm run build:web && npm run build:server
+server/bin/arutha_lk          # http://127.0.0.1:3000
+npm run dev                   # vite on :5173, /api proxied to :3000
+npm test && npm run test:go && npm run test:e2e
 ```
-Then upload the resulting files to this Github repo's releases
+Deploy: [dev-docs/deploy.md](dev-docs/deploy.md). The v1 site is in `legacy/` until v3 is live.

@@ -1,0 +1,11 @@
+# Every 2 minutes: restart arutha_lk when it stops answering. systemctl list-timers arutha_lk_watchdog
+[Unit]
+Description=arutha.lk health check every 2 minutes
+
+[Timer]
+OnBootSec=3min
+OnUnitActiveSec=2min
+AccuracySec=15s
+
+[Install]
+WantedBy=timers.target

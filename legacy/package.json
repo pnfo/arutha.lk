@@ -1,0 +1,31 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@pnfo/singlish-search": "^1.2.7",
+    "lucide-vue-next": "^0.439.0",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.29",
+    "vue-clipboard3": "^2.0.0",
+    "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^8.0.1",
+    "@vitejs/plugin-vue": "^6.0.6",
+    "autoprefixer": "^10.4.20",
+    "cheerio": "^1.0.0",
+    "postcss": "^8.4.45",
+    "sqlite3": "^5.1.7",
+    "tailwindcss": "^3.4.10",
+    "terser": "^5.46.1",
+    "vite": "^8.0.8",
+    "vkbeautify": "^0.99.3"
+  }
+}

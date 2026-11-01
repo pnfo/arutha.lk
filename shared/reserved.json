@@ -1,0 +1,30 @@
+{
+ "_": "first url segments that are not words: server/ssr.go reserved, web/src/router.ts (tests check both)",
+ "reserved": [
+  "search",
+  "word",
+  "bookpage",
+  "abbreviations",
+  "dict",
+  "about",
+  "settings",
+  "bookmarks",
+  "history",
+  "stats",
+  "api",
+  "assets",
+  "images",
+  "fonts",
+  "sitemaps",
+  "sitemap.xml",
+  "sitemap.txt",
+  "robots.txt",
+  "manifest.webmanifest",
+  "sw.js",
+  "favicon.ico",
+  "privacy-policy.html",
+  ".well-known",
+  "offline.html",
+  "index.html"
+ ]
+}

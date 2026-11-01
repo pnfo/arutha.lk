@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- themes: light (default), sepia, dark - the palettes of pitaka.lk books and dhammapada
+   (pitaka.lk dev/site-lib/reader.css) with the maroon of the icon ---------- */
+:root {
+  --c-primary: #7a1824; --c-primary-soft: #f6e3d1; --c-accent: #c2621f; --c-link: #8e1f2e;
+  --c-bg: #fdfbf7; --c-surface: #ffffff; --c-surface2: #f6f0e6; --c-fg: #29231c; --c-muted: #6b6155; --c-line: #e4d9c7;
+  --c-highlight: #ffe58a; --c-error: #c62828;
+  --c-si: #8e1f2e; --c-pi: #1f8a81; --c-en: #b86e12;
+  --font-ui: 'si', system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;
+  --font-ui-sm: 'si-sm', system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;
+  --font-text: 'si-text', 'latn-serif', 'Noto Serif', Georgia, serif;
+  --text-size: 18px;
+  --prose-size: 1.0625rem;
+  color-scheme: light;
+}
+.theme-sepia { /* පුස්කොළ */
+  --c-primary: #6e1c22; --c-primary-soft: #e8d2ae; --c-accent: #a8521a; --c-link: #7d2a20;
+  --c-bg: #f4ead5; --c-surface: #f9f1df; --c-surface2: #ebdfc3; --c-fg: #3a2d1f; --c-muted: #6d5b44; --c-line: #d8c6a1;
+  --c-highlight: #f3d36b;
+  --c-si: #7d2a20; --c-pi: #2f6f5f; --c-en: #9a5a12;
+}
+.dark { /* අඳුරු */
+  --c-primary: #f0c08a; --c-primary-soft: #3b2b1b; --c-accent: #e0954a; --c-link: #f2b56f;
+  --c-bg: #161412; --c-surface: #211e1a; --c-surface2: #2d2924; --c-fg: #e8e1d5; --c-muted: #a69c8d; --c-line: #39332b;
+  --c-highlight: #6b5410; --c-error: #ef9a9a;
+  --c-si: #e8a0a6; --c-pi: #6fd3c8; --c-en: #f2b866;
+  color-scheme: dark;
+}
+
+html, body { background: var(--c-bg); color: var(--c-fg); }
+/* nothing may widen the layout on phones (mobile browsers would zoom the whole page out) */
+body { overflow-x: hidden; font-family: var(--font-ui); margin: 0; -webkit-tap-highlight-color: transparent; -webkit-text-size-adjust: 100%; }
+button { cursor: pointer; }
+a { color: inherit; text-decoration: none; }
+@layer base { :focus-visible { outline: 2px solid var(--c-primary); outline-offset: 2px; } }
+input[type=range], input[type=checkbox] { accent-color: var(--c-primary); }
+input[type=search]::-webkit-search-cancel-button { -webkit-appearance: none; display: none; } /* SearchBox has its own */
+
+@layer components {
+  .icon-btn { @apply inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-fg; }
+  .icon-btn:hover { background: var(--c-surface2); }
+  .icon-btn.active { background: var(--c-primary-soft); color: var(--c-primary); }
+  .btn { @apply inline-flex items-center gap-1.5 rounded-lg border border-line px-3 py-1.5 text-sm; background: var(--c-surface); }
+  .btn:hover { background: var(--c-surface2); }
+  .btn.on { border-color: var(--c-primary); background: var(--c-primary-soft); color: var(--c-primary); }
+  .btn-primary { @apply inline-flex items-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium text-white; background: var(--c-primary); }
+  .dark .btn-primary { color: #1d1a18; }
+  .card { @apply rounded-2xl border border-line p-4; background: var(--c-surface); }
+  .chip { @apply inline-flex items-center gap-1 rounded-full border border-line px-3 py-1 text-sm; background: var(--c-surface); }
+  .chip:hover { border-color: var(--c-primary); }
+  .chip.on { border-color: var(--c-primary); background: var(--c-primary-soft); color: var(--c-primary); }
+  .input { @apply w-full rounded-lg border border-line bg-surface px-3 py-2 text-fg outline-none; }
+  .input:focus { border-color: var(--c-primary); }
+  .menu-item { @apply flex w-full items-center gap-3 rounded-lg px-3 py-2.5 text-left; }
+  .menu-item:hover { background: var(--c-surface2); }
+  .section-title { @apply mb-2 text-sm font-semibold text-muted; }
+  /* the theme buttons show their own colours (as on pitaka.lk) */
+  .theme-choice { @apply flex-1 rounded-xl border-2 border-line px-3 py-3 text-center font-medium; }
+  .theme-choice.on { border-color: var(--c-accent); }
+  .link { color: var(--c-link); }
+  .link:hover { text-decoration: underline; }
+  /* the dictionary badge: Sinhala, Pali and English dictionaries in the colours of the icon's cards */
+  .badge { @apply inline-flex h-6 min-w-[1.5rem] items-center justify-center rounded-md px-1.5 text-xs font-semibold text-white; background: var(--badge, var(--c-muted)); }
+  .dark .badge { color: #1b1917; }
+}
+/* outside the layer: the class is made at runtime (DictBadge), tailwind would drop it */
+.src-si { --badge: var(--c-si); } .src-pi { --badge: var(--c-pi); } .src-en { --badge: var(--c-en); }
+
+/* small interface text: Sinhala keeps its larger size (fonts.css si-sm) */
+.text-xs:not(.text), .text-sm:not(.text), .badge, .meaning abbr[data-a], .meaning .gram, .meaning .sn { font-family: var(--font-ui-sm); }
+/* a filled icon (the bookmark star): lucide draws outlines, fill="none" on the paths */
+.icon-filled path, .icon-filled polygon { fill: currentColor; }
+
+/* ---------- typography ----------
+ * Three roles; each sets the font (the Sinhala face, fonts.css) and the size, so new content takes a role instead of
+ * its own sizes:
+ *   (none)   the interface: buttons, menus, lists, labels (body: --font-ui, Sinhala at 133.5%)
+ *   .text    dictionary text: meanings, headwords (--font-text, Sinhala at 126%; the size of Settings, --text-size)
+ *   .prose   paragraphs to read: about texts of the dictionaries, help (--font-text at --prose-size, justified; styles
+ *            its p, h2, h3, a, ul, table, details)
+ * Small interface text (text-xs, text-sm) gets the larger Sinhala face (si-sm) by itself.
+ * Headings of dictionary words: the font only (font-text) with their own size (text-xl ...), not .text (its size wins). */
+.text { font-family: var(--font-text); font-size: var(--text-size); line-height: 1.7; }
+.prose { font-family: var(--font-text); font-size: var(--prose-size); line-height: 1.75; text-align: justify; overflow-wrap: anywhere; }
+.prose p, .prose ul, .prose ol, .prose table, .prose details { margin: 0 0 0.6em; }
+.prose > :last-child { margin-bottom: 0; }
+.prose h2, .prose h3 { font-family: var(--font-ui); font-weight: 700; text-align: left; margin: 0.9em 0 0.35em; }
+.prose h2 { font-size: 1.1em; } .prose h3 { font-size: 1em; }
+.prose a { color: var(--c-link); text-decoration: underline; text-decoration-color: var(--c-line); text-underline-offset: 3px; }
+.prose a:hover { text-decoration-color: currentColor; }
+.prose ul { list-style: disc; padding-left: 1.3em; } .prose ol { list-style: decimal; padding-left: 1.5em; }
+.prose li { margin-bottom: 0.25em; }
+.prose td { padding: 0 1em 0.15em 0; vertical-align: top; text-align: left; } .prose td:first-child { font-weight: 700; color: var(--c-accent); }
+.prose summary { cursor: pointer; font-family: var(--font-ui); font-weight: 700; color: var(--c-primary); text-align: left; }
+.prose .sign { text-align: right; margin-top: 1em; }
+.prose .lnum { font-size: 0.8em; color: var(--c-muted); }
+
+/* ---------- meanings ---------- */
+.meaning { overflow-wrap: anywhere; }
+.meaning .sn { color: var(--c-muted); font-weight: 600; font-family: var(--font-ui); font-size: 0.85em; }
+.meaning a[data-dict] { color: var(--c-link); cursor: pointer; text-decoration: underline; text-decoration-color: var(--c-line); text-underline-offset: 3px; }
+.meaning a[data-dict]:hover { text-decoration-color: currentColor; }
+.meaning abbr[data-a], .meaning .gram { display: inline-block; margin: 0 0.15em; padding: 0 0.4em; border-radius: 0.4em; font-family: var(--font-ui);
+  font-size: 0.72em; line-height: 1.6; vertical-align: 0.12em; text-decoration: none; background: var(--c-surface2); color: var(--c-accent); cursor: help; }
+.meaning .gram { cursor: default; }
+.meaning .breakup { color: var(--c-muted); }
+.meaning .lnum { font-size: 0.75em; color: var(--c-muted); }
+
+/* the server rendered page (server/ssr.go), shown until the app starts and to crawlers */
+#ssr { max-width: 760px; margin: 0 auto; padding: 1rem; font-family: var(--font-text); line-height: 1.7; }
+#ssr h1 { font-size: 2rem; color: var(--c-primary); }
+#ssr h2 { font-size: 1.1rem; margin-top: 1rem; font-family: var(--font-ui); color: var(--c-muted); }
+#ssr a { color: var(--c-link); }
+#ssr abbr { color: var(--c-accent); text-decoration: none; font-size: 0.8em; }
+#ssr .ssr-links a, #ssr .ssr-letters a { display: inline-block; margin: 0.15rem 0.4rem 0.15rem 0; }
+
+/* the safe areas of phones with a notch (installed app, iOS) */
+.pt-safe { padding-top: env(safe-area-inset-top); }
+.pb-safe { padding-bottom: env(safe-area-inset-bottom); }
+
+.theme-choice-light { background: #fdfbf7; color: #29231c; }
+.theme-choice-sepia { background: #f4ead5; color: #3a2d1f; }
+.theme-choice-dark { background: #161412; color: #e8e1d5; }
+
+/* the title bar logo: maroon text, gold in the dark theme; next to the search box on phones only the icon */
+.logo-dark { display: none; }
+.dark .logo-light { display: none; }
+.dark .logo-dark { display: block; }
+@media (max-width: 639px) { .logo-narrow { width: 2.25rem; object-fit: cover; object-position: left; } }
+.brand-title { font-family: 'abhaya-all', 'si', serif; font-weight: 700; font-size: 2.5rem; line-height: 1.2; }
+@media (min-width: 640px) { .brand-title { font-size: 3rem; } }
+

@@ -1,0 +1,24 @@
+# Systemd conf file to run the Go binary in production
+# Should be located in /etc/systemd/system/arutha_lk.service
+
+[Unit]
+Description=Arutha.lk Go server
+After=network.target
+
+[Service]
+Type=simple
+User=janaka
+
+WorkingDirectory=/home/janaka/www/arutha.lk
+ExecStart=/home/janaka/www/arutha.lk/arutha_lk_linux_intel -no-open
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
+
+# Start Service
+# sudo systemctl start arutha_lk.service
+
+# View Logs
+# journalctl -u arutha_lk.service
