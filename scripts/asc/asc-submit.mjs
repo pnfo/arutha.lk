@@ -18,6 +18,9 @@ await api('PATCH', `/v1/appStoreVersionLocalizations/${loc.id}`, { data: { type:
   description, promotionalText: en.promo, keywords: en.keywords, supportUrl, marketingUrl,
   ...(first ? {} : { whatsNew: en.whatsNew }) } } }) // no "what's new" on the first version
 console.log('texts', LOCALE)
+await api('PATCH', `/v1/appStoreVersions/${version.id}`, { data: { type: 'appStoreVersions', id: version.id,
+  attributes: { copyright: `© ${new Date().getFullYear()} Path Nirvana Foundation` } } })
+console.log('copyright')
 
 // subtitle and privacy policy: the app info that can be edited
 const info = (await api('GET', `/v1/apps/${APP}/appInfos`)).data.find(i => !['READY_FOR_DISTRIBUTION', 'REPLACED_WITH_NEW_INFO'].includes(i.attributes.state ?? i.attributes.appStoreState))
