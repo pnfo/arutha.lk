@@ -56,6 +56,20 @@ Errors or missing words: path.nirvana@gmail.com`,
  *  ශබ්දකෝෂය (CFBundleDisplayName, apple/project.yml) */
 export const appStoreName = 'Arutha Sinhala Dictionary'
 
+/** the App Store description: it rejects Sinhala letters in every text (2026-11), so English only, Latin examples */
+export const appStoreDescription = `Sinhala word meanings, English–Sinhala and Sinhala–English, and Pali–Sinhala with the Digital Pāḷi Dictionary – the dictionaries of arutha.lk on your iPhone and iPad, offline.
+
+• The Concise Sinhala Dictionary and the Sinhala Spelling Dictionary (Sinhala Dictionary Office)
+• English–Sinhala and Sinhala–English dictionaries
+• The Pali–Sinhala dictionaries of Ven. Buddhadatta and Ven. Sumaṅgala
+• The Digital Pāḷi Dictionary: type any inflected Pali form (buddhassa, dhammassa) and get its headword and grammar
+• Type in Sinhala, in Singlish (akuru, budu) or in English, with suggestions as you type
+• Finds words by their meanings too (amma → mother)
+• Bookmarks, history, light / sepia / dark themes, text size
+• Everything works offline. No ads, no accounts, no data collected.
+
+Errors or missing words: path.nirvana@gmail.com`
+
 export const privacyUrl = 'https://arutha.lk/privacy-policy.html'
 export const supportUrl = 'https://arutha.lk/about'
 export const marketingUrl = 'https://arutha.lk/'
@@ -72,6 +86,10 @@ export function check() {
 if (import.meta.url === `file://${process.argv[1]}`) {
   const e = check()
   if (appStoreName.length > 30 || /[^\x20-\x7e]/.test(appStoreName)) e.push(`appStoreName: ${appStoreName}`)
+  const en = listing['en-US']
+  for (const [k, v] of Object.entries({ appStoreDescription, subtitle: en.subtitle, promo: en.promo, keywords: en.keywords, whatsNew: en.whatsNew }))
+    if (/[\u0d80-\u0dff]/.test(v)) e.push(`App Store ${k}: Sinhala letters are rejected there`)
+  if ([...appStoreDescription].length > 4000) e.push('appStoreDescription > 4000')
   for (const [lang, l] of Object.entries(listing)) console.log(lang, Object.fromEntries(Object.keys(LIMITS).map(k => [k, [...l[k]].length])))
   console.log(e.length ? e.join('\n') : 'all within the limits')
   process.exit(e.length ? 1 : 0)

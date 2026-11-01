@@ -1,14 +1,14 @@
 // Gets the editable App Store version of ශබ්දකෝෂය (ASC_APP) ready: the texts of release/store/listing.mjs (the App Store
-// has no Sinhala listing: the en-US description has the English and the Sinhala text), the subtitle and privacy policy
+// has no Sinhala listing and rejects Sinhala letters: appStoreDescription), the name, subtitle and privacy policy
 // of the app, and the newest processed build (BUILD picks one); then with --submit sends it for review (with the
 // screenshots of asc-screenshots.mjs). From pitaka.lk dev/apple.
 //   ASC_APP=<id> node scripts/asc/asc-submit.mjs [--submit]
 import { api, APP, editableVersion } from './asc.mjs'
-import { appStoreName, check, listing, marketingUrl, privacyUrl, supportUrl } from '../../release/store/listing.mjs'
+import { appStoreDescription, appStoreName, check, listing, marketingUrl, privacyUrl, supportUrl } from '../../release/store/listing.mjs'
 
-const LOCALE = 'en-US', en = listing['en-US'], si = listing['si-LK']
+const LOCALE = 'en-US', en = listing['en-US']
 if (check().length) throw new Error(check().join('\n'))
-const description = `${en.full}\n\n——\n\n${si.full}`
+const description = appStoreDescription // no Sinhala letters: App Store Connect rejects them
 
 const version = await editableVersion()
 const first = (await api('GET', `/v1/apps/${APP}/appStoreVersions?filter[appStoreState]=READY_FOR_SALE&limit=1`)).data.length === 0
