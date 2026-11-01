@@ -238,9 +238,11 @@ export function buildDict(o: BuildOpts) {
     }
     report.push(`headwords ${sorted.length}, keys ${db.prepare('SELECT count(*) FROM hkey').pluck().get()}, bookpages ${pages}`)
     db.exec(INDEXES)
-    // content hash: the headwords' hashes, the dictionaries and the build version
+    // content hash: the headwords' hashes, the about texts of the dictionary pages and the build version
+    // (the deploy uploads the db only when its hash is new: everything the pages show must be in it)
     const all = crypto.createHash('sha256').update(String(BUILD_VERSION))
     for (const h of sorted) all.update(h.word + '\u0001' + (db.prepare('SELECT hash FROM headword WHERE id = ?').pluck().get(h.id) as string))
+    for (const code of [...DICTS.map(d => d.code), 'pali']) all.update('\u0002' + code + readAbout(o.dataDir, code))
     const meta: Record<string, string> = {
       content_hash: all.digest('hex').slice(0, 16), built_at: new Date().toISOString(), build_version: String(BUILD_VERSION),
       headwords: String(sorted.length), cst_built_at: cst.builtAt, dpd_version: cst.dpdVersion, dpd_citation: cst.dpdCitation, dpd_license: cst.dpdLicense,
