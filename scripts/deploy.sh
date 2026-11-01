@@ -52,9 +52,11 @@ ssh "$HOST" "mkdir -p $BASE/geo && cd $BASE/geo && f=dbip-country-lite-\$(date -
   || { rm -f \$f.part; echo 'geoip: no DB-IP file for this month yet, keeping the last one'; }; }"
 
 if [ "$MODE" = --stage ]; then
-  ssh -t "$HOST" "sudo systemctl stop arutha_lk_stage 2>/dev/null; sudo systemd-run --unit=arutha_lk_stage --uid=janaka -p MemoryMax=350M \
-    -p WorkingDirectory=/home/janaka/$REL /home/janaka/$REL/arutha_lk -listen 127.0.0.1:3001 -root-path /home/janaka/$REL"
-  sleep 2
+  # as the user, no sudo: the previous staged server (its pid in stage.pid) is stopped first
+  # (; not &&: only the server goes to the background, so that $! is its pid)
+  ssh "$HOST" "cd ~/$BASE; [ -f stage.pid ] && kill \$(cat stage.pid) 2>/dev/null; sleep 1; \
+    setsid nohup /home/janaka/$REL/arutha_lk -listen 127.0.0.1:3001 -root-path /home/janaka/$REL > stage.log 2>&1 < /dev/null & echo \$! > stage.pid"
+  sleep 3
   ssh "$HOST" "curl -fsS http://127.0.0.1:3001/api/health" && echo && echo "staged $TS on 127.0.0.1:3001: ssh -L 3001:127.0.0.1:3001 $HOST"
   exit 0
 fi

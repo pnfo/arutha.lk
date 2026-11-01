@@ -5,8 +5,8 @@ Droplet `tipitaka.lk` (1 CPU, 1 GB RAM, shared with tipitaka.app and tipitaka.lk
 
 1. `npm run build:dict` (needs `../cst/db/dict.db`).
 2. `scripts/deploy.sh` prints the plan. `scripts/deploy.sh --stage` uploads a release and runs it on 127.0.0.1:3001
-   (live site untouched): `ssh -L 3001:127.0.0.1:3001 tipitaka.lk`, then http://localhost:3001. Stop it with
-   `sudo systemctl stop arutha_lk_stage`.
+   (live site untouched, no sudo): `ssh -L 3001:127.0.0.1:3001 tipitaka.lk`, then http://localhost:3001. Stop it with
+   `ssh tipitaka.lk 'kill $(cat www/arutha.lk/stage.pid)'`.
 3. `scripts/deploy.sh --go`: points `~/www/arutha.lk/current` at the release, installs the units
    (`server/arutha_lk.service`, the watchdog timer) when they changed, restarts and waits for `/api/health` to report
    the new content hash. The db is uploaded zstd compressed (only when new) and shared by releases.
