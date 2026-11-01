@@ -28,7 +28,8 @@ Into `pitaka.lk/nginx/pitaka.lk.conf` (server block of pitaka.lk, before the reg
 after v3 runs on arutha.lk:
 ```nginx
     # the dictionary moved to arutha.lk (2026-11)
-    location ^~ /dict {
+    location = /dict { return 301 https://arutha.lk/dict/pali; }
+    location ^~ /dict/ {
         location = /dict/intro.html {
             if ($arg_goto = usage) { return 301 https://arutha.lk/about#help; }
             if ($arg_goto = abbre) { return 301 https://arutha.lk/abbreviations/pali_buddhadatta; }
@@ -39,7 +40,8 @@ after v3 runs on arutha.lk:
         return 301 https://arutha.lk/dict/pali;
     }
 ```
-`sudo nginx -t && sudo systemctl reload nginx`; remove `dict` from pitaka.lk `dev/deploy.sh`.
+Installed 2026-11-01 (pitaka.lk `nginx/pitaka.lk.conf`, `dict` removed from its `dev/deploy.sh`). The sitemap
+https://arutha.lk/sitemap.xml was submitted to Search Console the same day (API, webmasters scope).
 
 ## Load
 `server/guard.go` (from tipitaka.app): at most 2 page renders and 2 searches at once; a crawler gets 503 +
