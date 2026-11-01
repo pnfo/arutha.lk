@@ -13,7 +13,10 @@
     { "src": "/images/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
     { "src": "/images/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ],
-  "related_applications": [{ "platform": "play", "id": "lk.pitaka.dictionary" }],
+  "related_applications": [
+    { "platform": "play", "id": "lk.pitaka.dictionary", "url": "https://play.google.com/store/apps/details?id=lk.pitaka.dictionary" },
+    { "platform": "itunes", "url": "https://apps.apple.com/app/id6829488363" }
+  ],
   "shortcuts": [
     { "name": "Bookmarks", "url": "/bookmarks" },
     { "name": "පාලි ශබ්දකෝෂය", "url": "/dict/pali" }
