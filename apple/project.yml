@@ -1,0 +1,64 @@
+# XcodeGen spec of the iOS app (scripts/build-apple.sh generates Dictionary.xcodeproj from it): the app build of the
+# web UI (web/dist-app) in a WKWebView + the gomobile engine (server/mobile) next to dict.db, iPhone and iPad.
+# Bundle id lk.pitaka.dictionary, as the Android app. From tipitaka.app (apple/project.yml there).
+name: Dictionary
+options:
+  deploymentTarget: { iOS: "15.0" }
+  createIntermediateGroups: true
+settings:
+  base:
+    PRODUCT_BUNDLE_IDENTIFIER: lk.pitaka.dictionary
+    PRODUCT_NAME: Dictionary
+    DEVELOPMENT_TEAM: ${TEAM_ID}
+    CODE_SIGN_STYLE: Automatic
+    MARKETING_VERSION: ${VERSION}
+    CURRENT_PROJECT_VERSION: ${BUILD}
+    SWIFT_VERSION: "5.0"
+    GENERATE_INFOPLIST_FILE: NO
+targets:
+  Dictionary-iOS:
+    type: application
+    platform: iOS
+    sources:
+      - path: iOS
+      - path: Shared/PrivacyInfo.xcprivacy
+      - path: ../web/dist-app
+        type: folder
+        buildPhase: resources
+      - path: build/db
+        type: folder
+        buildPhase: resources
+    dependencies:
+      - framework: ../server/mobile/build/Engine.xcframework
+        embed: false
+    entitlements:
+      path: build/Dictionary.entitlements
+      properties:
+        # Universal Links: arutha.lk pages open in the app (web/public/.well-known/apple-app-site-association)
+        com.apple.developer.associated-domains: [applinks:arutha.lk]
+    settings:
+      base:
+        TARGETED_DEVICE_FAMILY: "1,2"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        SUPPORTS_MACCATALYST: NO
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
+        SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: NO
+        OTHER_LDFLAGS: -lresolv
+    info:
+      path: build/iOS-Info.plist
+      properties:
+        CFBundleDisplayName: ශබ්දකෝෂය
+        CFBundleDevelopmentRegion: si
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        ITSAppUsesNonExemptEncryption: false
+        LSRequiresIPhoneOS: true
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+          UISceneConfigurations:
+            UIWindowSceneSessionRoleApplication:
+              - UISceneConfigurationName: Default
+                UISceneDelegateClassName: $(PRODUCT_MODULE_NAME).SceneDelegate
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        UISupportedInterfaceOrientations~ipad: [UIInterfaceOrientationPortrait, UIInterfaceOrientationPortraitUpsideDown, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]

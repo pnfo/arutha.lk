@@ -29,6 +29,9 @@ func (a *App) handleStatic(w http.ResponseWriter, r *http.Request) {
 				w.Header().Set("Cache-Control", "public, max-age=31536000, immutable")
 			case p == "/sw.js":
 				w.Header().Set("Cache-Control", "no-cache")
+			case p == "/.well-known/apple-app-site-association":
+				w.Header().Set("Content-Type", "application/json") // no extension: Apple wants json
+				w.Header().Set("Cache-Control", "public, max-age=3600")
 			default:
 				w.Header().Set("Cache-Control", "public, max-age=86400")
 			}

@@ -61,6 +61,8 @@ func TestPages(t *testing.T) {
 		{"/api/search?q=love", 200, []string{`"cards"`}},
 		{"/api/nope", 404, []string{"not_found"}},
 		{"/assets/missing.js", 404, nil},
+		{"/.well-known/apple-app-site-association", 200, []string{"4456F3J27A.lk.pitaka.dictionary"}},
+		{"/.well-known/assetlinks.json", 200, []string{"lk.pitaka.dictionary"}},
 	}
 	for _, c := range cases {
 		res, body := get(t, h, c.path)

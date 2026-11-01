@@ -63,6 +63,9 @@ def assets():
     out['icon-maskable'] = svg(1024, 1024, tile(0) + scaled(LETTER, 0.8), DEFS)
     out['adaptive-foreground'] = svg(1024, 1024, scaled(LETTER, 0.62))
     out['adaptive-background'] = svg(1024, 1024, tile(0), DEFS)
+    # Android 13 themed icons: the letter alone, one colour (the system tints it)
+    out['adaptive-monochrome'] = svg(1024, 1024, scaled(fit(SI_BOLD, 'අ', 860, 860, 512, 512 + (1024 - 942), '#000000'), 0.62))
+    out['icon-round'] = svg(1024, 1024, '<circle cx="512" cy="512" r="512" fill="url(#bg)"/>' + scaled(LETTER, 0.86), DEFS)
     out['favicon'] = svg(1024, 1024, tile(200) + LETTER, DEFS)
 
     def banner(w, h, k, x, y, tx, s1, s2, s3):

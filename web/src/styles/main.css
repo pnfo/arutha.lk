@@ -133,3 +133,6 @@ input[type=search]::-webkit-search-cancel-button { -webkit-appearance: none; dis
 .brand-title { font-family: 'abhaya-all', 'si', serif; font-weight: 700; font-size: 2.5rem; line-height: 1.2; }
 @media (min-width: 640px) { .brand-title { font-size: 3rem; } }
 
+
+/* web only: store links and install hints are hidden in the apps (main.ts adds .native) */
+.native .web-only { display: none !important; }

@@ -21,9 +21,9 @@
 
     <footer class="pb-safe border-t border-line py-4 text-center text-sm text-muted">
       <RouterLink to="/about" class="link">{{ S.about }}</RouterLink> ·
-      <a :href="base + 'privacy-policy.html'" class="link">Privacy</a> ·
-      <a :href="ANDROID_URL" class="link" rel="noopener">Android app</a> ·
-      <a v-if="IOS_URL" :href="IOS_URL" class="link" rel="noopener">iPhone / iPad app</a><RouterLink v-else to="/about#apps" class="link">{{ IOS_SOON }}</RouterLink>
+      <a :href="privacyUrl" class="link">Privacy</a>
+      <span class="web-only">· <a :href="ANDROID_URL" class="link" rel="noopener">Android app</a> ·
+        <a v-if="IOS_URL" :href="IOS_URL" class="link" rel="noopener">iPhone / iPad app</a><RouterLink v-else to="/about#apps" class="link">{{ IOS_SOON }}</RouterLink></span>
       <div class="mt-1 text-xs">{{ S.site }} – {{ S.tagline }} · Sinhala · English · Pali</div>
     </footer>
 
@@ -71,6 +71,8 @@ import { S } from './strings'
 import { ANDROID_URL, IOS_SOON, IOS_URL } from './apps'
 
 const base = import.meta.env.BASE_URL
+// the apps open the privacy policy of the site in the browser (a file of the app would replace the app's page)
+const privacyUrl = isNativeApp() ? 'https://arutha.lk/privacy-policy.html' : base + 'privacy-policy.html'
 const route = useRoute()
 const router = useRouter()
 const settings = useSettings()

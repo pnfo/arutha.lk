@@ -50,7 +50,7 @@
       </div>
     </section>
 
-    <section id="apps" class="card prose">
+    <section id="apps" class="card prose web-only">
       <h2>Apps</h2>
       <p>අන්තර්ජාලය නැතිව භාවිතා කළ හැකි app: <a :href="ANDROID_URL" rel="noopener">Android – Google Play</a>,
         <a v-if="IOS_URL" :href="IOS_URL" rel="noopener">iPhone / iPad – App Store</a><template v-else>{{ IOS_SOON }}</template>.
@@ -61,7 +61,7 @@
       <h2>අප ගැන / Contact</h2>
       <p>තිබෙන වැරදි ගැන දැනුවත් කිරීමෙන්, අලුත් වචන සහ තේරුම් එකතු කිරීමෙන් සහ යෝජනා ඉදිරිපත් කිරීමෙන් මේ වෙබ් අඩවිය ඉදිරියට පවත්වාගෙන යාමට ඔබටත් උපකාර කළ හැකිය:
         <a href="mailto:path.nirvana@gmail.com" class="link">path.nirvana@gmail.com</a></p>
-      <p>No ads. No accounts. <a :href="base + 'privacy-policy.html'" class="link">Privacy policy</a></p>
+      <p>No ads. No accounts. <a :href="privacyUrl" class="link">Privacy policy</a></p>
     </section>
   </div>
 </template>
@@ -70,13 +70,14 @@
 import { onMounted, ref } from 'vue'
 import { useHead } from '@unhead/vue'
 import { singlish_combinations, singlish_consonants, singlish_specials, singlish_vowels } from '@pnfo/singlish-search'
-import { useApi } from '@/data/api'
+import { isNativeApp, useApi } from '@/data/api'
 import type { Meta } from '@/data/types'
 import { useDicts, wordPath } from '@/composables/dict'
 import { ANDROID_URL, IOS_SOON, IOS_URL } from '@/apps'
 import DictBadge from '@/components/DictBadge.vue'
 
 const base = import.meta.env.BASE_URL
+const privacyUrl = isNativeApp() ? 'https://arutha.lk/privacy-policy.html' : base + 'privacy-policy.html'
 const { dicts } = useDicts()
 const meta = ref<Meta | null>(null)
 onMounted(async () => { try { meta.value = await useApi().meta() } catch { /* offline */ } })

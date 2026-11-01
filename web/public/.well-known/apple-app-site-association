@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["4456F3J27A.lk.pitaka.dictionary"],
+        "components": [
+          { "/": "/api/*", "exclude": true },
+          { "/": "/stats*", "exclude": true },
+          { "/": "/sitemap*", "exclude": true },
+          { "/": "/*.html", "exclude": true },
+          { "/": "/*.pdf", "exclude": true },
+          { "/": "/*" }
+        ]
+      }
+    ]
+  }
+}

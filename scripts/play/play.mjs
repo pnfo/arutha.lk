@@ -1,0 +1,55 @@
+// Google Play Developer API (androidpublisher v3) with the service account key of the Play console (PLAY_KEY), from pitaka.lk dev/play:
+// a token, and api(method, path, body) relative to /androidpublisher/v3/applications/<PACKAGE>
+import { createSign } from 'node:crypto'
+import { readFileSync } from 'node:fs'
+
+export const PACKAGE = process.env.PACKAGE || 'lk.pitaka.dictionary'
+const KEY = JSON.parse(readFileSync(process.env.PLAY_KEY || '/Volumes/2TB/node/misc-projects/sinhala-ocr/play-console-api-key.json'))
+const b64 = o => Buffer.from(JSON.stringify(o)).toString('base64url')
+
+const tokens = {}
+/** an access token of the service account, for the androidpublisher api or another scope (devstorage.read_only) */
+export async function auth(scope = 'https://www.googleapis.com/auth/androidpublisher') {
+  if (tokens[scope]) return tokens[scope]
+  const now = Math.floor(Date.now() / 1000)
+  const unsigned = `${b64({ alg: 'RS256', typ: 'JWT' })}.${b64({ iss: KEY.client_email, scope,
+    aud: KEY.token_uri, iat: now, exp: now + 3600 })}`
+  const jwt = `${unsigned}.${createSign('RSA-SHA256').update(unsigned).sign(KEY.private_key).toString('base64url')}`
+  const r = await fetch(KEY.token_uri, { method: 'POST', body: new URLSearchParams({ grant_type: 'urn:ietf:params:oauth:grant-type:jwt-bearer', assertion: jwt }) })
+  const json = await r.json()
+  if (!r.ok) throw new Error(`token: ${JSON.stringify(json)}`)
+  return tokens[scope] = json.access_token
+}
+
+/** body: an object (json) or { bytes, type } (an upload, path then goes to the upload endpoint) */
+export async function api(method, path, body) {
+  const upload = body?.bytes
+  const url = `https://androidpublisher.googleapis.com/${upload ? 'upload/' : ''}androidpublisher/v3/applications/${PACKAGE}${path}${upload ? '?uploadType=media' : ''}`
+  if (upload && upload.length > CHUNK) return resumable(method, url.replace('uploadType=media', 'uploadType=resumable'), path, body)
+  const r = await fetch(url, { method, body: upload ? body.bytes : body && JSON.stringify(body),
+    headers: { Authorization: `Bearer ${await auth()}`, 'Content-Type': upload ? body.type : 'application/json' } })
+  const text = await r.text()
+  if (!r.ok) throw new Error(`${method} ${path} -> ${r.status} ${text.slice(0, 1500)}`)
+  return text ? JSON.parse(text) : {}
+}
+
+// a big upload (the bundle) in parts: one request of 256 MB fails with EPIPE
+const CHUNK = 16 << 20
+async function resumable(method, url, path, { bytes, type }) {
+  const start = await fetch(url, { method, headers: { Authorization: `Bearer ${await auth()}`, 'X-Upload-Content-Type': type,
+    'X-Upload-Content-Length': String(bytes.length) } })
+  if (!start.ok) throw new Error(`${method} ${path} (start) -> ${start.status} ${(await start.text()).slice(0, 1500)}`)
+  const session = start.headers.get('location')
+  let r
+  for (let from = 0; from < bytes.length; from += CHUNK) {
+    const to = Math.min(from + CHUNK, bytes.length)
+    r = await fetch(session, { method: 'PUT', body: bytes.subarray(from, to), headers: { 'Content-Range': `bytes ${from}-${to - 1}/${bytes.length}` } })
+    if (r.status != 308 && !r.ok) break
+    if (r.status == 308) await r.arrayBuffer()
+    process.stdout.write(`\r${path}: ${Math.round(to / bytes.length * 100)}%`)
+  }
+  console.log()
+  const text = await r.text()
+  if (!r.ok) throw new Error(`${method} ${path} -> ${r.status} ${text.slice(0, 1500)}`)
+  return text ? JSON.parse(text) : {}
+}

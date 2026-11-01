@@ -30,3 +30,9 @@ madhura-scraped
 !.vscode/extensions.json
 .idea
 *.tsbuildinfo
+server/mobile/build/
+
+# the iOS app: generated project and build products (scripts/build-apple.sh)
+apple/build/
+apple/*.xcodeproj
+release/store-screenshots/

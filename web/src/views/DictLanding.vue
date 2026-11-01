@@ -39,7 +39,7 @@
 import { computed, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useHead } from '@unhead/vue'
-import { useApi } from '@/data/api'
+import { isNativeApp, useApi } from '@/data/api'
 import type { DictLanding } from '@/data/types'
 import { cleanAbout, wordPath } from '@/composables/dict'
 import { S } from '@/strings'
@@ -53,7 +53,12 @@ const router = useRouter()
 function onAbout(e: MouseEvent) {
   const a = (e.target as Element | null)?.closest?.('a[href^="/"]')
   const href = a?.getAttribute('href') || ''
-  if (!a || /\.(pdf|html)$/.test(href)) return
+  if (!a) return
+  if (/\.(pdf|html)$/.test(href)) {
+    // a file: the apps open the site's copy in the browser (the app's WebView shows no pdf)
+    if (isNativeApp()) { e.preventDefault(); location.href = 'https://arutha.lk' + href }
+    return
+  }
   e.preventDefault()
   router.push(decodeURIComponent(href))
 }
