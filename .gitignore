@@ -36,3 +36,4 @@ server/mobile/build/
 apple/build/
 apple/*.xcodeproj
 release/store-screenshots/
+release/review-video.mp4

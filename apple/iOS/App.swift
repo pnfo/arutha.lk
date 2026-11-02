@@ -95,6 +95,10 @@ final class WebViewController: UIViewController, WKNavigationDelegate, WKUIDeleg
             let js = "localStorage.setItem('arutha-settings-1', JSON.stringify(Object.assign(JSON.parse(localStorage.getItem('arutha-settings-1') || '{}'), { theme: '\(theme)' })))"
             config.userContentController.addUserScript(WKUserScript(source: js, injectionTime: .atDocumentStart, forMainFrameOnly: true))
         }
+        // the App Review screen recording: the source of scripts/asc/review-demo.js in the defaults (scripts/asc/review-video.sh)
+        if let js = UserDefaults.standard.string(forKey: "script") {
+            config.userContentController.addUserScript(WKUserScript(source: js, injectionTime: .atDocumentEnd, forMainFrameOnly: true))
+        }
         #endif
         webView.load(URLRequest(url: URL(string: start)!))
     }

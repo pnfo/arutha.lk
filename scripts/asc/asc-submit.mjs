@@ -3,8 +3,11 @@
 // of the app, and the newest processed build (BUILD picks one); then with --submit sends it for review (with the
 // screenshots of asc-screenshots.mjs). From pitaka.lk dev/apple.
 //   ASC_APP=<id> node scripts/asc/asc-submit.mjs [--submit]
+import { createHash } from 'node:crypto'
+import { readFileSync } from 'node:fs'
+import { basename } from 'node:path'
 import { api, APP, editableVersion } from './asc.mjs'
-import { appStoreDescription, appStoreName, check, listing, marketingUrl, privacyUrl, supportUrl } from '../../release/store/listing.mjs'
+import { appStoreDescription, appStoreName, check, listing, marketingUrl, privacyUrl, reviewNotes, reviewVideo, supportUrl } from '../../release/store/listing.mjs'
 
 const LOCALE = 'en-US', en = listing['en-US']
 if (check().length) throw new Error(check().join('\n'))
@@ -21,6 +24,30 @@ console.log('texts', LOCALE)
 await api('PATCH', `/v1/appStoreVersions/${version.id}`, { data: { type: 'appStoreVersions', id: version.id,
   attributes: { copyright: `© ${new Date().getFullYear()} Path Nirvana Foundation` } } })
 console.log('copyright')
+
+// App Review notes: the answers to Guideline 2.1 "Information Needed", and the screen recording as an attachment
+const detail = (await api('GET', `/v1/appStoreVersions/${version.id}/appStoreReviewDetail`)).data
+await api('PATCH', `/v1/appStoreReviewDetails/${detail.id}`, { data: { type: 'appStoreReviewDetails', id: detail.id, attributes: { notes: reviewNotes } } })
+console.log('review notes')
+{
+  const file = readFileSync(reviewVideo), fileName = basename(reviewVideo)
+  const checksum = createHash('md5').update(file).digest('hex')
+  const old = (await api('GET', `/v1/appStoreReviewDetails/${detail.id}/appStoreReviewAttachments`)).data
+  if (old.some(a => a.attributes.fileName === fileName && a.attributes.sourceFileChecksum === checksum)) console.log('review video: unchanged')
+  else {
+    for (const a of old.filter(a => a.attributes.fileName === fileName)) await api('DELETE', `/v1/appStoreReviewAttachments/${a.id}`)
+    const att = (await api('POST', '/v1/appStoreReviewAttachments', { data: { type: 'appStoreReviewAttachments', attributes: { fileName, fileSize: file.length },
+      relationships: { appStoreReviewDetail: { data: { type: 'appStoreReviewDetails', id: detail.id } } } } })).data
+    for (const op of att.attributes.uploadOperations) {
+      const r = await fetch(op.url, { method: op.method, headers: Object.fromEntries(op.requestHeaders.map(h => [h.name, h.value])),
+        body: file.subarray(op.offset, op.offset + op.length) })
+      if (!r.ok) throw new Error(`upload ${fileName}: ${r.status} ${await r.text()}`)
+    }
+    await api('PATCH', `/v1/appStoreReviewAttachments/${att.id}`, { data: { type: 'appStoreReviewAttachments', id: att.id,
+      attributes: { uploaded: true, sourceFileChecksum: checksum } } })
+    console.log('review video', fileName, `${(file.length / 1e6).toFixed(1)} MB`)
+  }
+}
 
 // subtitle and privacy policy: the app info that can be edited
 const info = (await api('GET', `/v1/apps/${APP}/appInfos`)).data.find(i => !['READY_FOR_DISTRIBUTION', 'REPLACED_WITH_NEW_INFO'].includes(i.attributes.state ?? i.attributes.appStoreState))

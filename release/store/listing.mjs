@@ -70,6 +70,29 @@ export const appStoreDescription = `Sinhala word meanings, English–Sinhala and
 
 Errors or missing words: path.nirvana@gmail.com`
 
+/** the screen recording that App Review asked for (Guideline 2.1, 2026-11), from the launch: scripts/asc/review-video.sh
+ *  (an iPhone simulator: no iPhone here); asc-submit.mjs uploads it as an App Review attachment */
+export const reviewVideo = 'release/review-video.mp4'
+
+/** App Review Information → Notes (max 4000), the answers to the 2.1 "Information Needed" questions */
+export const reviewNotes = `1. Screen recording: attached to App Review Information (review-video.mp4, 76 s). It starts at the launch of the app and shows the typical use: searching in English, Singlish and Pali, a word inside a meaning, a bookmark, the history, the settings and themes, and the about pages.
+The app has no accounts, no login, no user-generated content and no paid content or in-app purchases.
+
+2. Purpose and audience: an offline dictionary for Sinhala speakers (Sri Lanka and Sri Lankans abroad), students, teachers and translators, and for readers and students of Pali (the language of the Buddhist scriptures). It puts seven Sinhala, English-Sinhala and Pali-Sinhala dictionaries in one search: Sinhala word meanings and spelling, English-Sinhala and Sinhala-English, and Pali-Sinhala with the grammar of inflected Pali words. It is the app version of the free website arutha.lk, by the Path Nirvana Foundation, a non-profit. It is free, with no ads.
+
+3. Instructions: no setup or login. Open the app and type in the search box at the top; suggestions appear as you type; tap one to see the meanings from all dictionaries. Try: "love" (English to Sinhala), "akuru" (Sinhala typed in Latin letters, "Singlish"), "buddhassa" (an inflected Pali word: the app finds its headword "buddha" and shows its grammar). Tap a word inside a meaning to look it up. The star adds a bookmark; the menu has the bookmarks, the history, the theme (light / sepia / dark), the text size and the about pages of each dictionary. Everything works offline (try it in Airplane Mode).
+
+4. External services: none. All dictionary data (about 360 MB) is inside the app and is searched on the device by an engine bundled with the app. The app makes no network requests, has no analytics, no tracking, no ads, no AI services and collects no data. Links to the website (arutha.lk) open in Safari.
+
+5. Regional differences: none. The app and its content are the same in every region.
+
+6. Regulated industry: no. Third-party material: the dictionaries are used with permission and offered free and non-commercially, as on arutha.lk and pitaka.lk for many years, with their sources named in the app (menu → about each dictionary):
+- The Concise Sinhala Dictionary and the Sinhala Spelling Dictionary, prepared by the Sinhala Dictionary Office (Sri Lanka).
+- The Pali-Sinhala dictionaries of Ven. Polwatte Buddhadatta and Ven. Maditiyawela Sri Sumangala; the text of the Buddhadatta dictionary was typed and kindly given for this use by Ven. Galpotugoda Nyanawansa.
+- The Digital Pali Dictionary by Bodhirasa Bhikkhu (dpdict.net), under the Creative Commons BY-NC-SA 4.0 licence, credited in the app.
+- English-Sinhala and Sinhala-English dictionaries.
+Contact: path.nirvana@gmail.com`
+
 export const privacyUrl = 'https://arutha.lk/privacy-policy.html'
 export const supportUrl = 'https://arutha.lk/about'
 export const marketingUrl = 'https://arutha.lk/'
@@ -90,6 +113,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   for (const [k, v] of Object.entries({ appStoreDescription, subtitle: en.subtitle, promo: en.promo, keywords: en.keywords, whatsNew: en.whatsNew }))
     if (/[\u0d80-\u0dff]/.test(v)) e.push(`App Store ${k}: Sinhala letters are rejected there`)
   if ([...appStoreDescription].length > 4000) e.push('appStoreDescription > 4000')
+  if ([...reviewNotes].length > 4000) e.push(`reviewNotes: ${[...reviewNotes].length} > 4000`)
   for (const [lang, l] of Object.entries(listing)) console.log(lang, Object.fromEntries(Object.keys(LIMITS).map(k => [k, [...l[k]].length])))
   console.log(e.length ? e.join('\n') : 'all within the limits')
   process.exit(e.length ? 1 : 0)
