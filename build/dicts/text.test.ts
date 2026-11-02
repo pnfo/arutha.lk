@@ -36,3 +36,18 @@ describe('text dictionary markup', () => {
       '<b class="sn">1.</b> <abbr data-a="n.">n.</abbr> <a data-dict="ආදරය">ආදරය</a><br><b class="sn">2.</b> <abbr data-a="n.">n.</abbr> නැති වචනය')
   })
 })
+
+describe('the cleaning of the text (M3)', async () => {
+  const { cleanLine } = await import('./text')
+  it('fixes the encoding', () => {
+    expect(cleanLine('ඇල්fපැල්fපා')).toBe('ඇල්ෆැල්ෆා')
+    expect(cleanLine('අ‍ඥේයවාදය ‍තොරතුර')).toBe('අඥේයවාදය තොරතුර') // joiners that join nothing
+    expect(cleanLine('ක්‍ෂණ ක්‍රම ක්‍ය')).toBe('ක්‍ෂණ ක්‍රම ක්‍ය') // kept
+    expect(cleanLine('a b​c')).toBe('a bc')
+  })
+  it('fixes the spacing and punctuation', () => {
+    expect(cleanLine(' තේරුම ;  අදහස . ')).toBe('තේරුම; අදහස.')
+    expect(cleanLine('(නා. ) ( වෙන්කර ) x')).toBe('(නා.) (වෙන්කර) x')
+    expect(cleanLine('පාපී ; ; සාපරාධි.. ආදී...')).toBe('පාපී; සාපරාධි. ආදී...')
+  })
+})

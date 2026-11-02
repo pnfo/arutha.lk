@@ -16,16 +16,77 @@ import fs from 'node:fs'
 import { escapeAttr, escapeHtml } from '@shared/normalize'
 import type { DictRow } from './types'
 
-export function readTextDict(file: string, opts: { aliases?: boolean } = {}): DictRow[] {
+/**
+ * The mechanical cleaning of a line (M3): Unicode NFC, ෆ written as "fප" (an old font conversion), joiners that join
+ * nothing (a ZWJ belongs after the hal kirima: ක්‍ෂ ක්‍ය ක්‍ර), invisible characters, the spacing around punctuation
+ * ("X ; Y", "(නා. )") and doubled punctuation ("; ;", "..", not "...").
+ */
+export function cleanLine(s: string): string {
+  return s.normalize('NFC')
+    .replace(/f\u0db4/g, '\u0dc6')
+    .replace(/(^|[^\u0dca])\u200d+/g, '$1').replace(/\u200d+(?=$|[^\u0d9a-\u0dc6])/g, '').replace(/\u200c/g, '')
+    .replace(/[\u00a0\t]/g, ' ').replace(/[\u0000-\u0008\u000b-\u001f\u007f\u00ad\u200b\ufeff]/g, '')
+    .replace(/ {2,}/g, ' ')
+    .replace(/ +([,;:)\]])/g, '$1').replace(/([([]) +/g, '$1').replace(/ +\.(?=\s|$)/g, '.')
+    .replace(/([,;])(?: ?\1)+/g, '$1').replace(/(?<!\.)\.\.(?!\.)/g, '.')
+    .trim()
+}
+
+/**
+ * The hand fixes of a dictionary (data/dict-fixes/<code>.tsv: headword, text, replacement; \\n a line break; # comments): applied to the
+ * entry (its headword line and meaning) after the cleaning; the fixes that found nothing are returned (build report)
+ */
+export function readFixes(file: string): string[][] {
+  if (!fs.existsSync(file)) return []
+  return fs.readFileSync(file, 'utf8').split('\n').filter(l => l.trim() && !l.startsWith('#'))
+    .map(l => l.split('\t').map(f => f.replace(/\\n/g, '\n').normalize('NFC')))
+}
+
+/**
+ * opts.senses: the Sinhala senses of the English-Sinhala dictionary renamed everywhere (data/dict-fixes/senses.tsv: a
+ * typo fixed once): on the sense lines of English-Sinhala (senses: 'lines') and as the headwords of Sinhala-English
+ * (senses: 'headword')
+ */
+export function readTextDict(file: string, opts: { aliases?: boolean; fixes?: [string, string, string][]; missed?: string[]; senses?: Map<string, string>; sensesIn?: 'lines' | 'headword' } = {}): DictRow[] {
   const text = fs.readFileSync(file, 'utf8').replace(/\r\n?/g, '\n')
-  const rows: DictRow[] = []
+  const fixes = new Map<string, [string, string][]>()
+  for (const [w, a, b] of (opts.fixes ?? []) as [string, string, string][]) fixes.set(w, [...(fixes.get(w) ?? []), [a, b]])
+  const rows: DictRow[] = [], used = new Set<string>()
   for (const block of text.split(/\n\s*\n/)) {
-    const lines = block.split('\n').map(l => l.trim()).filter(Boolean)
+    let lines = block.split('\n').map(cleanLine).filter(Boolean)
     if (lines.length < 2) continue
+    const head = fixes.has(lines[0]) ? lines[0] : lines[0].split(/\s*,\s*/)[0] // the first variant names an entry
+    if (fixes.has(head)) used.add(head)
+    for (const [a, b] of fixes.get(head) ?? []) {
+      const joined = lines.join('\n')
+      if (!joined.includes(a)) { opts.missed?.push(`${head}: ${a}`); continue }
+      lines = joined.replace(a, b).split('\n').map(cleanLine).filter(Boolean)
+    }
+    if (opts.senses?.size) {
+      if (opts.sensesIn === 'headword') lines[0] = opts.senses.get(lines[0]) ?? lines[0]
+      else lines = lines.map((l, i) => {
+        const m = i ? /^((?:\d+\.\s*)?(?:\[[^\]]*\]\s*)*)(.+)$/.exec(l) : null
+        return m && opts.senses!.has(m[2]) ? m[1] + opts.senses!.get(m[2]) : l
+      })
+    }
     const words = opts.aliases ? lines[0].split(/\s*,\s*/).filter(Boolean) : [lines[0]]
-    rows.push({ word: words[0].normalize('NFC'), aliases: words.slice(1).map(w => w.normalize('NFC')), meaning: lines.slice(1).join('\n').normalize('NFC') })
+    rows.push({ word: words[0], aliases: words.slice(1), meaning: lines.slice(1).join('\n') })
   }
+  if (opts.sensesIn === 'headword' && opts.senses?.size) mergeSame(rows)
+  for (const w of fixes.keys()) if (!used.has(w)) opts.missed?.push(`${w}: no such headword`)
   return rows
+}
+
+/** the entries of the same headword (a renamed sense meets the correct one) as one: the senses renumbered, once each */
+function mergeSame(rows: DictRow[]) {
+  const first = new Map<string, DictRow>()
+  for (let i = 0; i < rows.length; i++) {
+    const r = rows[i], f = first.get(r.word)
+    if (!f) { first.set(r.word, r); continue }
+    const senses = [...new Set([f.meaning, r.meaning].flatMap(m => m.split('\n')).map(l => l.replace(/^\d+\.\s*/, '')))]
+    f.meaning = senses.length > 1 ? senses.map((l, j) => `${j + 1}. ${l}`).join('\n') : senses[0]
+    rows.splice(i--, 1)
+  }
 }
 
 export interface MarkupCtx {

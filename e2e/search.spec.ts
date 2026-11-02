@@ -19,7 +19,7 @@ test('Enter searches; a Pali inflected form finds its headword with DPD', async 
   await page.getByTestId('search-input').fill('buddhassa')
   await page.getByTestId('search-input').press('Enter')
   await expect(page).toHaveURL(/\/search\/buddhassa$/)
-  await expect(page.getByTestId('dpd-analysis')).toContainText('dat sg')
+  await expect(page.getByTestId('dpd-analysis')).toContainText('සම්ප්‍රදාන ඒ.ව.')
   const first = page.getByTestId('result').first()
   await expect(first).toContainText('බුද්ධ')
   await expect(first).toContainText('පාලි විභක්ති රූපය')

@@ -14,7 +14,7 @@ import path from 'node:path'
 import { convert } from '@pnfo/pali-converter'
 import { fold, ftsTokens, key } from '@shared/normalize'
 import { CST_DICTS, copyDpd, cstInfo, cstRows } from './dicts/cst'
-import { markupMeaning, newStats, readTextDict, type MarkupCtx } from './dicts/text'
+import { markupMeaning, newStats, readFixes, readTextDict, type MarkupCtx } from './dicts/text'
 import type { DictDef, DictRow, Src } from './dicts/types'
 
 export const DPD_FTS_BASE = 100_000_000
@@ -116,7 +116,16 @@ export function buildDict(o: BuildOpts) {
   for (const d of DICTS) {
     if (d.code === 'dpd') continue
     let rows: DictRow[]
-    if (TEXT[d.code]) rows = readTextDict(path.join(o.dataDir, 'dicts', TEXT[d.code].file), { aliases: TEXT[d.code].aliases })
+    if (TEXT[d.code]) {
+      const missed: string[] = []
+      const es = d.code === 'english-sinhala' || d.code === 'sinhala-english'
+      const senses = es ? new Map(readFixes(path.join(o.dataDir, 'dict-fixes', 'senses.tsv')) as [string, string][]) : undefined
+      rows = readTextDict(path.join(o.dataDir, 'dicts', TEXT[d.code].file), {
+        aliases: TEXT[d.code].aliases, fixes: readFixes(path.join(o.dataDir, 'dict-fixes', `${d.code}.tsv`)) as [string, string, string][], missed,
+        senses, sensesIn: d.code === 'sinhala-english' ? 'headword' : 'lines',
+      })
+      if (missed.length) report.push(`${d.code}: dict-fixes that found nothing: ${missed.join('; ')}`, '')
+    }
     else if (CST_DICTS.includes(d.code)) rows = cstRows(db, d.code, abbrevs(d.code))
     else throw new Error(`no importer for ${d.code}`)
     if (o.only) rows = rows.filter(r => o.only!.has(d.src === 'pi' ? romanToSinh(r.word) : r.word))

@@ -1,0 +1,143 @@
+{"headword":"bodkin","from":"ති) මොට කටුව","to":"මොට කටුව","kind":"bracket","why":"stray fragment 'ති)' with unbalanced bracket","code":"english-sinhala","job":"flagged"}
+{"headword":"calendering","from":"(සුවිකාර්ය ද්‍රව්‍ය තුනී","to":"(සුවිකාර්ය ද්‍රව්‍ය) තුනී","kind":"bracket","why":"unclosed bracket","code":"english-sinhala","job":"flagged"}
+{"headword":"calendering","from":"නිෂ්පාදුනයේදී","to":"නිෂ්පාදනයේදී","kind":"typo","why":"misspelling","code":"english-sinhala","job":"flagged"}
+{"headword":"calendering","from":"තුනී තහඩු නිපැදුවීම","to":"තුනී තහඩු නිපැදවීම","kind":"typo","why":"misspelling, cf. line 1","code":"english-sinhala","job":"flagged"}
+{"headword":"calendering","from":"පදම් කිරිම","to":"පදම් කිරීම","kind":"typo","why":"short vowel for long","code":"english-sinhala","job":"flagged"}
+{"headword":"hygroplasm","from":"හයිග්රොප්ලාස්මය","to":"හයිග්‍රොප්ලාස්මය","kind":"typo","why":"missing ZWJ in rakaransaya","code":"english-sinhala","job":"flagged"}
+{"headword":"hygroplasm","from":"හයිෙග්‍රාප්ලාස්මය","to":"හයිග්‍රොප්ලාස්මය","kind":"typo","why":"broken vowel sign ෙ...ා for ො","code":"english-sinhala","job":"flagged"}
+{"headword":"illusive","from":"ංවටිලි සහිත","to":"රැවටිලි සහිත","kind":"typo","why":"broken 'රැ' encoded as 'ං'","code":"english-sinhala","job":"flagged"}
+{"headword":"imitation","from":"ංවටිල්ල","to":"රැවටිල්ල","kind":"typo","why":"broken 'රැ' encoded as 'ං'","code":"english-sinhala","job":"flagged"}
+{"headword":"incubation","from":"බිජු ංකීම","to":"බිජු රැකීම","kind":"typo","why":"broken 'රැ' encoded as 'ං'","code":"english-sinhala","job":"flagged"}
+{"headword":"incubation","from":"බිජුංකීම","to":"බිජුරැකීම","kind":"typo","why":"broken 'රැ' encoded as 'ං'","code":"english-sinhala","job":"flagged"}
+{"headword":"octagon","from":"1.)","to":"1.","kind":"bracket","why":"stray closing bracket, empty sense","code":"english-sinhala","job":"flagged"}
+{"headword":"ogee","from":"6. හැඩයේ) ලීස්තරය","to":"6. (S හැඩයේ) ලීස්තරය","kind":"bracket","why":"lost opening of bracket, cf. line 1","code":"english-sinhala","job":"flagged"}
+{"headword":"piracy","from":"[Soc.] මුහුද කොල්ලය","to":"[Soc.] මුහුදු කොල්ලය","kind":"typo","why":"misspelling of මුහුදු","code":"english-sinhala","job":"flagged"}
+{"headword":"අත් කොපු","from":"[නා. බහු.)","to":"[නා. බහු.]","kind":"bracket","why":"label opened with [ but closed with )","code":"sankshiptha","job":"flagged"}
+{"headword":"අප්‍රදාලිත","from":"නොපැළුෑ","to":"නොපැළූ","kind":"typo","why":"ු + ෑ should be ූ","code":"sankshiptha","job":"flagged"}
+{"headword":"කීල්රෙදි","from":"[නා.ප්‍ර.)","to":"[නා.ප්‍ර.]","kind":"bracket","why":"label opened with [ but closed with )","code":"sankshiptha","job":"flagged"}
+{"headword":"කූටය","from":"(ශරීරයේ ඇඟිලි ආදි ස්ථානවල, කෙළවර","to":"(ශරීරයේ ඇඟිලි ආදි ස්ථානවල) කෙළවර","kind":"bracket","why":"parenthesis not closed; comma should be )","code":"sankshiptha","job":"flagged"}
+{"headword":"කෛෙවල්‍ය","from":"කෛෙවල්‍ය","to":"කෛවල්‍ය","kind":"typo","why":"extra ෙ after ෛ","code":"sankshiptha","job":"flagged"}
+{"headword":"කොළනවා","from":"(ධාන්‍ය ආදිය තැලීමේ දී මිටි","to":"(ධාන්‍ය ආදිය තැලීමේ දී) මිටි","kind":"bracket","why":"Unclosed parenthesis around the parenthetical.","code":"sankshiptha","job":"flagged"}
+{"headword":"චතුෂ්කෝටික","from":"[වා.]","to":"[වි.]","kind":"label","why":"Adjective meaning 'having four corners'; වා. is a mistyped වි.","code":"sankshiptha","job":"flagged"}
+{"headword":"නියාමක අක්ෂය","from":"(ගණිත.) කේතුවක හැම","to":"(ගණිත.) (කේතුවක හැම","kind":"bracket","why":"Closing parenthesis after අයුරු has no opening one.","code":"sankshiptha","job":"flagged"}
+{"headword":"පංසුකූල","from":"පාංශුකූල බ.","to":"පාංශුකූලය බ.","kind":"ref","why":"Headword is පාංශුකූලය","code":"sankshiptha","job":"flagged"}
+{"headword":"පරිණාමික","from":"[වි.)","to":"[වි.]","kind":"bracket","why":"Mismatched bracket","code":"sankshiptha","job":"flagged"}
+{"headword":"පශ්චිම පාර්ශ්ව කපාල සන්ධිය","from":"දෙකෙහිා","to":"දෙකෙහි","kind":"typo","why":"Stray vowel sign","code":"sankshiptha","job":"flagged"}
+{"headword":"පස්දොර","from":"පඤ්චද්වාර බ.","to":"පඤ්චද්වාරය බ.","kind":"ref","why":"Headword is පඤ්චද්වාරය","code":"sankshiptha","job":"flagged"}
+{"headword":"පස් ලෝ","from":"පඤච ලෝහ","to":"පඤ්ච ලෝහ","kind":"typo","why":"Missing virama","code":"sankshiptha","job":"flagged"}
+{"headword":"පැලඉන්න","from":"පැළඉන්න බ.","to":"පැළ ඉන්න බ.","kind":"ref","why":"Headword is පැළ ඉන්න","code":"sankshiptha","job":"flagged"}
+{"headword":"පැලෝපීය නාලය","from":"[නා.)","to":"[නා.]","kind":"bracket","why":"Mismatched bracket","code":"sankshiptha","job":"flagged"}
+{"headword":"ඵලදානය","from":"(ගිහියන්ගේ සිත් ගන්නට) ගන්නට)","to":"(ගිහියන්ගේ සිත් ගන්නට)","kind":"bracket","why":"Duplicated word with extra closing bracket","code":"sankshiptha","job":"flagged"}
+{"headword":"බඳුන","from":"[නා.)","to":"[නා.]","kind":"bracket","why":"Mismatched closing bracket in label","code":"sankshiptha","job":"flagged"}
+{"headword":"බෙක්මාන් උෂ්ණත්වමානය","from":"(නා.]","to":"[නා.]","kind":"bracket","why":"Mismatched opening bracket in label","code":"sankshiptha","job":"flagged"}
+{"headword":"බෝධකර","from":"නිඳා (සිටින්නවුන්","to":"නිදා සිටින්නවුන්","kind":"bracket","why":"Stray opening bracket; නිඳා misspelling of නිදා","code":"sankshiptha","job":"flagged"}
+{"headword":"මකනවා","from":"4. (තීන්ත","to":"4. තීන්ත","kind":"bracket","why":"Stray unclosed opening bracket","code":"sankshiptha","job":"flagged"}
+{"headword":"මත","from":"1. (මත්පැන්","to":"1. මත්පැන්","kind":"bracket","why":"Stray unclosed opening bracket","code":"sankshiptha","job":"flagged"}
+{"headword":"මත","from":"උච්චාරණය කිරිමට","to":"උච්චාරණය කිරීමට","kind":"typo","why":"කිරිමට misspelling of කිරීමට","code":"sankshiptha","job":"flagged"}
+{"headword":"මරඟන","from":"දුහිතෘෘන්","to":"දුහිතෘන්","kind":"typo","why":"vowel sign ෘ doubled","code":"sankshiptha","job":"flagged"}
+{"headword":"මහග්ගත","from":"අය විසින්) ම","to":"අය විසින් ම","kind":"bracket","why":"stray closing bracket","code":"sankshiptha","job":"flagged"}
+{"headword":"මෘදු යකඩ","from":"චුුම්බකන ක්ෂේත්‍රය","to":"චුම්බක ක්ෂේත්‍රය","kind":"typo","why":"doubled ු and stray න","code":"sankshiptha","job":"flagged"}
+{"headword":"යටතුරාව","from":"1. (රුවල් ඔරුවෙහි","to":"1. රුවල් ඔරුවෙහි","kind":"bracket","why":"stray opening bracket","code":"sankshiptha","job":"flagged"}
+{"headword":"රාජධීතා","from":"රාජ දූහිතෘ බ.","to":"රාජ දුහිතෘ බ.","kind":"ref","why":"දුහිතෘ is spelled with short u","code":"sankshiptha","job":"flagged"}
+{"headword":"වණ්ණ මට්ටය","from":"[නා.) සිතුවම්","to":"[නා.] සිතුවම්","kind":"bracket","why":"Closing bracket should be ]","code":"sankshiptha","job":"flagged"}
+{"headword":"වාන්දු කරනවා","from":"(පැළුෑ වේවැල්","to":"(පැළූ වේවැල්","kind":"typo","why":"Two vowel signs in a row; should be පැළූ","code":"sankshiptha","job":"flagged"}
+{"headword":"වැරහැල්ල","from":"[නා) ඉරීගිය","to":"[නා.] ඉරීගිය","kind":"bracket","why":"Broken label bracket and missing full stop","code":"sankshiptha","job":"flagged"}
+{"headword":"විකෘත","from":"[වි. විකාරයට","to":"[වි.] විකාරයට","kind":"bracket","why":"Label bracket was never closed","code":"sankshiptha","job":"flagged"}
+{"headword":"වියන","from":"පිිහටි","to":"පිහිටි","kind":"typo","why":"Vowel sign in the wrong place; should be පිහිටි","code":"sankshiptha","job":"flagged"}
+{"headword":"විසුණු","from":"[වි.) වඩා","to":"[වි.] වඩා","kind":"bracket","why":"Mismatched bracket in label","code":"sankshiptha","job":"flagged"}
+{"headword":"වෙට්ටර","from":"[වි.) මුරණ්ඩු","to":"[වි.] මුරණ්ඩු","kind":"bracket","why":"Mismatched bracket in label","code":"sankshiptha","job":"flagged"}
+{"headword":"වෙෙභජ්‍යවාදය","from":"වෙෙභජ්‍යවාදය","to":"වෛභජ්‍යවාදය","kind":"typo","why":"Two kombuva signs typed instead of ෛ","code":"sankshiptha","job":"flagged"}
+{"headword":"ව්‍යඤ්ජනාක්ෂරය","from":"ව්‍යංජනාක්ෂරය බ.","to":"ව්‍යංජනාක්ෂර බ.","kind":"ref","why":"Reference target headword is ව්‍යංජනාක්ෂර","code":"sankshiptha","job":"flagged"}
+{"headword":"ශංඛක","from":"පිිහිටි","to":"පිහිටි","kind":"typo","why":"Doubled vowel sign","code":"sankshiptha","job":"flagged"}
+{"headword":"ශිශුකතා ජනනය","from":"[නා. නොමේරූ","to":"[නා.] නොමේරූ","kind":"bracket","why":"Unclosed label bracket","code":"sankshiptha","job":"flagged"}
+{"headword":"ශුකිකාව","from":"ශූකිතාව බ.","to":"ශූකිකාව බ.","kind":"ref","why":"Reference target headword is ශූකිකාව","code":"sankshiptha","job":"flagged"}
+{"headword":"සංගත සනාල කලාපය","from":"පිිහටන","to":"පිහිටන","kind":"typo","why":"Vowel sign misplaced (doubled on ප, missing on හ)","code":"sankshiptha","job":"flagged"}
+{"headword":"සන්ධාන ප්‍රසරය","from":"පිිහටි","to":"පිහිටි","kind":"typo","why":"misplaced vowel sign","code":"sankshiptha","job":"flagged"}
+{"headword":"සඳලුතලය","from":"වැටෙන පරිදි, වහල","to":"වැටෙන පරිදි), වහල","kind":"bracket","why":"missing closing bracket","code":"sankshiptha","job":"flagged"}
+{"headword":"සමීපස්ථ","from":"පිිහිටි","to":"පිහිටි","kind":"typo","why":"duplicated vowel sign","code":"sankshiptha","job":"flagged"}
+{"headword":"සාක්ෂරතාව","from":"පැැහදිලි","to":"පැහැදිලි","kind":"typo","why":"misplaced vowel sign","code":"sankshiptha","job":"flagged"}
+{"headword":"සාපරාධී කුමන්ත්‍රණය","from":"කිරීෟමට","to":"කිරීමට","kind":"typo","why":"stray vowel sign","code":"sankshiptha","job":"flagged"}
+{"headword":"සිද්ධි කරගන්නවා","from":"[ක්‍රි.)","to":"[ක්‍රි.]","kind":"bracket","why":"mismatched bracket","code":"sankshiptha","job":"flagged"}
+{"headword":"ස්වයං උත්ප්‍රේරණය","from":"ප්‍රතික්‍රිියාවක","to":"ප්‍රතික්‍රියාවක","kind":"typo","why":"Vowel sign ි typed twice","code":"sankshiptha","job":"flagged"}
+{"headword":"අධිශීතකරණය","from":"ශීත කිරීමේ උපකරණය]","to":"ශීත කිරීමේ උපකරණය","kind":"bracket","why":"Stray closing bracket","code":"akshara","job":"flagged"}
+{"headword":"අලුත්වැඩියාව","from":"ප්‍රතිසංස්කරණය)","to":"ප්‍රතිසංස්කරණය","kind":"bracket","why":"Stray closing bracket","code":"akshara","job":"flagged"}
+{"headword":"ගිනිසුළ","from":"වියළිා","to":"වියළි","kind":"typo","why":"Extra vowel sign","code":"akshara","job":"flagged"}
+{"headword":"චූඩාමාණික්‍යය","from":"හිසෙහිා","to":"හිසෙහි","kind":"typo","why":"Extra vowel sign","code":"akshara","job":"flagged"}
+{"headword":"නිරක්ෂය","from":"පිිහිටි","to":"පිහිටි","kind":"typo","why":"Doubled vowel sign","code":"akshara","job":"flagged"}
+{"headword":"පළුව","from":"පැළුෑ","to":"පැළූ","kind":"typo","why":"Broken vowel sign: should be පැළූ","code":"akshara","job":"flagged"}
+{"headword":"පුස්තකාලයාධිපති","from":"නිලධාරියා)","to":"නිලධාරියා","kind":"bracket","why":"Stray closing bracket","code":"akshara","job":"flagged"}
+{"headword":"පොළනවා","from":"ධාන්‍යාදියෙිහ","to":"ධාන්‍යාදියෙහි","kind":"typo","why":"Vowel sign in the wrong place","code":"akshara","job":"flagged"}
+{"headword":"ප්‍රතිසංවිධානය","from":"පිිහිටුවීම","to":"පිහිටුවීම","kind":"typo","why":"Doubled vowel sign","code":"akshara","job":"flagged"}
+{"headword":"ප්‍රතිස්ථාපනය","from":"පිිහිටුවීම","to":"පිහිටුවීම","kind":"typo","why":"Doubled vowel sign","code":"akshara","job":"flagged"}
+{"headword":"බින්න","from":"විවාහ චාරිත්‍රය)","to":"විවාහ චාරිත්‍රය","kind":"bracket","why":"Stray closing bracket","code":"akshara","job":"flagged"}
+{"headword":"මග","from":"පිළිාවෙල","to":"පිළිවෙල","kind":"typo","why":"Extra vowel sign","code":"akshara","job":"flagged"}
+{"headword":"යාත්‍රා","from":"දියෙිහ","to":"දියෙහි","kind":"typo","why":"Vowel sign ි in the wrong place","code":"akshara","job":"flagged"}
+{"headword":"යුද්ධාධිකරණය","from":"පිිහිටුවන","to":"පිහිටුවන","kind":"typo","why":"Vowel sign ි typed twice","code":"akshara","job":"flagged"}
+{"headword":"වධකයා","from":"නියේාගයෙන්","to":"නියෝගයෙන්","kind":"typo","why":"ෝ wrongly typed as ේ + ා","code":"akshara","job":"flagged"}
+{"headword":"වෙළුෑ","from":"වෙළුෑ","to":"වෙළූ","kind":"typo","why":"Two vowel signs; past participle is වෙළූ","code":"akshara","job":"flagged"}
+{"headword":"සම්ප්‍රයුක්ත","from":"යෙදුුණු","to":"යෙදුණු","kind":"typo","why":"Vowel sign ු typed twice","code":"akshara","job":"flagged"}
+{"headword":"සුඹුල්","from":"සූරා ගන්නා කුඩු)","to":"සූරා ගන්නා කුඩු","kind":"bracket","why":"Stray closing bracket","code":"akshara","job":"flagged"}
+{"headword":"සෙවල","from":"ගතිාය","to":"ගතිය","kind":"typo","why":"Extra vowel sign","code":"akshara","job":"flagged"}
+{"headword":"fariness","from":"fariness","to":"fairness","kind":"typo","why":"Headword misspelt; the meaning සාධාරණත්වය is 'fairness'.","code":"english-sinhala","job":"pilot"}
+{"headword":"contract","from":"[Eco.] කේන්ත්‍රාත්තුව","to":"[Eco.] කොන්ත්‍රාත්තුව","kind":"typo","why":"Wrong vowel sign (ේ instead of ො); compare sense 11.","code":"english-sinhala","job":"pilot"}
+{"headword":"diatribe","from":"දීර්ඝ ද්‍යෝෂ විවේචනය","to":"දීර්ඝ දෝෂ විවේචනය","kind":"typo","why":"Stray yansaya; දෝෂ as in sense 3.","code":"english-sinhala","job":"pilot"}
+{"headword":"nominally","from":"[a.] නමට","to":"[adv.] නමට","kind":"label","why":"Adverb, not adjective.","code":"english-sinhala","job":"pilot"}
+{"headword":"wainscot","from":"බිත්ති ජනේල වැඩ කරනවා","to":"බිත්ති පනේල වැඩ කරනවා","kind":"typo","why":"ජනේල (window) mistyped for පනේල (panel); compare the noun sense බිත්ති පනේලය","code":"english-sinhala","job":"pilot"}
+{"headword":"sporophytic","from":"[Bot.] බීජාණූශාකීය","to":"[Bot.] බීජාණුශාකීය","kind":"typo","why":"බීජාණු takes a short u (aṇu), as in sense 1.","code":"english-sinhala","job":"pilot"}
+{"headword":"carry","from":"1. ආනිතය","to":"1. ආනීතය","kind":"typo","why":"ānīta takes a long ī, as in sense 2.","code":"english-sinhala","job":"pilot"}
+{"headword":"meaningless","from":"[a.] අර්ථශුන්‍ය","to":"[a.] අර්ථශූන්‍ය","kind":"typo","why":"śūnya is spelt ශූන්‍ය with a long ū.","code":"english-sinhala","job":"pilot"}
+{"headword":"meaningless","from":"[a.] නිෂ්එල","to":"[a.] නිෂ්ඵල","kind":"typo","why":"The letter එ was typed instead of ඵ; the correct form appears in sense 5.","code":"english-sinhala","job":"pilot"}
+{"headword":"distaste","from":"3. අරුවය","to":"3. අරුචිය","kind":"typo","why":"ච mistyped as ව","code":"english-sinhala","job":"pilot"}
+{"headword":"colony","from":"9. [n.] යටත් විතය","to":"9. [n.] යටත් විජිතය","kind":"typo","why":"lost letter ජි","code":"english-sinhala","job":"pilot"}
+{"headword":"colony","from":"11. [n.] යටත්විතය","to":"11. [n.] යටත්විජිතය","kind":"typo","why":"lost letter ජි","code":"english-sinhala","job":"pilot"}
+{"headword":"colony","from":"13. [n.] විතය","to":"13. [n.] විජිතය","kind":"typo","why":"lost letter ජි","code":"english-sinhala","job":"pilot"}
+{"headword":"colony","from":"[Bot.] සමුහය","to":"[Bot.] සමූහය","kind":"typo","why":"short vowel should be long: සමූහය","code":"english-sinhala","job":"pilot"}
+{"headword":"sebum","from":"ස්නෙහය","to":"ස්නේහය","kind":"typo","why":"short vowel should be long: ස්නේහය","code":"english-sinhala","job":"pilot"}
+{"headword":"enterobius vermicularis","from":"වරැමියුලේරිස්","to":"වර්මියුලේරිස්","kind":"typo","why":"broken sequence: ර + ැ should be ර් (ver-)","code":"english-sinhala","job":"pilot"}
+{"headword":"cross-check","from":"1. [n.] නැවත පරීක්ෂා කරනවා","to":"1. [v.] නැවත පරීක්ෂා කරනවා","kind":"label","why":"Sense is a verb (කරනවා) but labelled noun","code":"english-sinhala","job":"pilot"}
+{"headword":"observant","from":"[a.] පරික්ෂාකාරී","to":"[a.] පරීක්ෂාකාරී","kind":"typo","why":"පරීක්ෂා is spelled with long ී","code":"english-sinhala","job":"pilot"}
+{"headword":"petrify","from":"ගල් ගැභෙනවා","to":"ගල් ගැහෙනවා","kind":"typo","why":"භ typed for හ (ගැහෙනවා)","code":"english-sinhala","job":"pilot"}
+{"headword":"decorated","from":"සජ්ත","to":"සජ්ජිත","kind":"typo","why":"Missing letters; the word is සජ්ජිත (decorated).","code":"english-sinhala","job":"pilot"}
+{"headword":"loudness","from":"හඩේ සැර","to":"හඬේ සැර","kind":"typo","why":"ඩ should be ඬ in හඬ (sound), as in sense 4.","code":"english-sinhala","job":"pilot"}
+{"headword":"palaeoethnobotany","from":"පුරාමානවවංශ්‍රීය","to":"පුරාමානවවංශීය","kind":"typo","why":"Broken ්‍ර sign inside වංශීය.","code":"english-sinhala","job":"pilot"}
+{"headword":"palaeoethnobotany","from":"උද්භිදු විද්‍යාව","to":"උද්භිද විද්‍යාව","kind":"typo","why":"Extra ු sign; the term is උද්භිද විද්‍යාව.","code":"english-sinhala","job":"pilot"}
+{"headword":"angelica","from":"සුවඳවත් ශාඛ විශේෂයක්","to":"සුවඳවත් ශාක විශේෂයක්","kind":"typo","why":"ශාඛ (branch) mistyped for ශාක (plant)","code":"english-sinhala","job":"pilot"}
+{"headword":"apathetic","from":"මන්ද්‍යෝත්සාහී","to":"මන්දෝත්සාහී","kind":"typo","why":"Broken Unicode: a stray virama and yansaya inside මන්දෝත්සාහී.","code":"english-sinhala","job":"pilot"}
+{"headword":"promote","from":"අන්‍රග්‍රහ දෙනවා","to":"අනුග්‍රහ දෙනවා","kind":"typo","why":"Broken Unicode: අන්‍රග්‍රහ should be අනුග්‍රහ.","code":"english-sinhala","job":"pilot"}
+{"headword":"harridan","from":"1. වෘජ වේශ්‍යාව","to":"1. වෘද්ධ වේශ්‍යාව","kind":"typo","why":"වෘජ is a broken form of වෘද්ධ ('old').","code":"english-sinhala","job":"pilot"}
+{"headword":"harridan","from":"වෘඬ වේශ්‍යාව","to":"වෘද්ධ වේශ්‍යාව","kind":"typo","why":"වෘඬ is a broken form of වෘද්ධ ('old').","code":"english-sinhala","job":"pilot"}
+{"headword":"criminate","from":"අපරාධරෝපණය","to":"අපරාධාරෝපණය","kind":"typo","why":"Missing vowel sign ා (අපරාධ + ආරෝපණය)","code":"english-sinhala","job":"pilot"}
+{"headword":"catheter","from":"ශරීරය් දියර","to":"ශරීරයේ දියර","kind":"typo","why":"Broken vowel sign: ශරීරය් should be ශරීරයේ","code":"english-sinhala","job":"pilot"}
+{"headword":"anthropomorphism","from":"මානවතත්වාරෝපණය","to":"මානවත්වාරෝපණය","kind":"typo","why":"Extra ත","code":"english-sinhala","job":"pilot"}
+{"headword":"climatotherapy","from":"දේශගුණ චීකිත්සාව","to":"දේශගුණ චිකිත්සාව","kind":"typo","why":"චිකිත්සාව takes a short i","code":"english-sinhala","job":"pilot"}
+{"headword":"regelation","from":"ප්‍රතිශිතනය","to":"ප්‍රතිශීතනය","kind":"typo","why":"ශීත (cold) takes a long ී","code":"english-sinhala","job":"pilot"}
+{"headword":"centrifuge","from":"කෙන්ද්‍රාපසාරකය","to":"කේන්ද්‍රාපසාරකය","kind":"typo","why":"කේන්ද්‍ර needs the long vowel sign (as in sense 2)","code":"english-sinhala","job":"pilot"}
+{"headword":"hosier","from":"මේස් වෙළෙන්ඳා","to":"මේස් වෙළෙන්දා","kind":"typo","why":"Wrong letter: ඳ after න් should be ද (වෙළෙන්දා)","code":"english-sinhala","job":"pilot"}
+{"headword":"output","from":"නිපදුවන ප්‍රමාණය","to":"නිපදවන ප්‍රමාණය","kind":"typo","why":"Misspelling of නිපදවන (as in sense 1–2); a stray u-vowel sign (ු) was typed after ද.","code":"english-sinhala","job":"pilot"}
+{"headword":"antidimmer","from":"ප්‍රතිදිපකය","to":"ප්‍රතිදීපකය","kind":"typo","why":"The word දීපකය (lamp) takes a long ī vowel sign (ී). දිපකය is not a word.","code":"english-sinhala","job":"pilot"}
+{"headword":"reprieve","from":"1. [n.] තාවකාලික සහනයක් දෙනවා","to":"1. [v.] තාවකාලික සහනයක් දෙනවා","kind":"label","why":"The meaning 'give temporary relief' is a verb, so the [n.] label is wrong.","code":"english-sinhala","job":"pilot"}
+{"headword":"bomber","from":"බෝම්බ භෙලන ගුවන්","to":"බෝම්බ හෙලන ගුවන්","kind":"typo","why":"භ typed for හ","code":"english-sinhala","job":"pilot"}
+{"headword":"decollete","from":"ගැඔුරු කර","to":"ගැඹුරු කර","kind":"typo","why":"ඔ typed for ඹ","code":"english-sinhala","job":"pilot"}
+{"headword":"decollete","from":"ගැඹුරට කැපු කර","to":"ගැඹුරට කැපූ කර","kind":"typo","why":"past participle needs a long vowel: කැපූ","code":"english-sinhala","job":"pilot"}
+{"headword":"clavicle","from":"කුංවකාව","to":"කුංචිකාව","kind":"typo","why":"letters missing or mistyped; should be කුංචිකාව as in sense 3","code":"english-sinhala","job":"pilot"}
+{"headword":"clavicle","from":"ග්‍රීවාස්ථීය","to":"ග්‍රීවාස්ථිය","kind":"typo","why":"wrong vowel length: should be අස්ථිය","code":"english-sinhala","job":"pilot"}
+{"headword":"clavicle","from":"ශ්‍රීවාස්ථිය","to":"ග්‍රීවාස්ථිය","kind":"typo","why":"ශ typed for ග (ග්‍රීවා = neck)","code":"english-sinhala","job":"pilot"}
+{"headword":"reproach","from":"ද්‍යෝෂාරෝපණය","to":"දෝෂාරෝපණය","kind":"typo","why":"stray yansaya in දෝෂ","code":"english-sinhala","job":"pilot"}
+{"headword":"melt","from":"උණූ කරනවා","to":"උණු කරනවා","kind":"typo","why":"vowel sign is wrong: should be උණු","code":"english-sinhala","job":"pilot"}
+{"headword":"melt","from":"ද්‍රව කරනව\n","to":"ද්‍රව කරනවා\n","kind":"typo","why":"final ා is missing","code":"english-sinhala","job":"pilot"}
+{"headword":"back-painting","from":"පසු චිත්‍රනය","to":"පසු චිත්‍රණය","kind":"typo","why":"චිත්‍රණය is spelled with ණ (as in sense 1).","code":"english-sinhala","job":"pilot"}
+{"headword":"night blindness","from":"[n.] රූ ඇඳිරිය","to":"[n.] රෑ ඇඳිරිය","kind":"typo","why":"Night is රෑ, not රූ (form).","code":"english-sinhala","job":"pilot"}
+{"headword":"night blindness","from":"[n.] රූ කණ","to":"[n.] රෑ කණ","kind":"typo","why":"Night blindness is රෑ කණ; රූ is a typo.","code":"english-sinhala","job":"pilot"}
+{"headword":"night blindness","from":"රාති අන්ධතාව","to":"රාත්‍රී අන්ධතාව","kind":"typo","why":"The conjunct ත්‍ර is missing from රාත්‍රී (night).","code":"english-sinhala","job":"pilot"}
+{"headword":"definitely","from":"එක භෙළා","to":"එක හෙළා","kind":"typo","why":"භ mistyped for හ; the correct form එක හෙළා appears as item 3","code":"english-sinhala","job":"pilot"}
+{"headword":"occupant","from":"පදිංච්කරු","to":"පදිංචිකරු","kind":"typo","why":"missing i-vowel sign on ච","code":"english-sinhala","job":"pilot"}
+{"headword":"erythropsia","from":"1. [Psy.] එරිත්රොප්සියාව","to":"1. [Psy.] එරිත්‍රොප්සියාව","kind":"typo","why":"missing ZWJ for the rakaransaya, as in item 2","code":"english-sinhala","job":"pilot"}
+{"headword":"fascinating","from":"3. මහහර","to":"3. මනහර","kind":"typo","why":"Typo for මනහර (charming)","code":"english-sinhala","job":"pilot"}
+{"headword":"fascinating","from":"5. වත්තාකර්ෂණීය","to":"5. චිත්තාකර්ෂණීය","kind":"typo","why":"Typo: the first letter is missing (චි), so it should read චිත්තාකර්ෂණීය","code":"english-sinhala","job":"pilot"}
+{"headword":"fascinating","from":"සිත් ඇදු ගන්නා","to":"සිත් ඇද ගන්නා","kind":"typo","why":"Wrong vowel sign: ඇදු should be ඇද","code":"english-sinhala","job":"pilot"}
+{"headword":"haversian canal","from":"හැවරැසියන්","to":"හැවර්සියන්","kind":"typo","why":"Broken Unicode: the vowel sign ැ was typed where the virama ් belongs (Haversian)","code":"english-sinhala","job":"pilot"}
+{"headword":"clear-sighted","from":"පැහැදිලව අසන","to":"පැහැදිලිව අසන","kind":"typo","why":"Missing vowel sign: පැහැදිලිව (clearly)","code":"english-sinhala","job":"pilot"}
+{"headword":"clear-sighted","from":"පැහැදිලව දකින","to":"පැහැදිලිව දකින","kind":"typo","why":"Missing vowel sign: පැහැදිලිව (clearly)","code":"english-sinhala","job":"pilot"}
+{"headword":"stick-in-the-mud","from":"අප්‍රගතිශ්‍රීලී","to":"අප්‍රගතිශීලී","kind":"typo","why":"Extra rakaransaya (්‍ර); the correct word is ප්‍රගතිශීලී, as in line 2.","code":"english-sinhala","job":"pilot"}
+{"headword":"sympathy","from":"සභානුභූතිය","to":"සහානුභූතිය","kind":"typo","why":"භ was typed instead of හ; the correct spelling is සහානුභූතිය, as in line 11.","code":"english-sinhala","job":"pilot"}
+{"headword":"disorder","from":"කැළඹිම","to":"කැළඹීම","kind":"typo","why":"The verbal noun needs the long ී vowel sign: කැළඹීම.","code":"english-sinhala","job":"pilot"}

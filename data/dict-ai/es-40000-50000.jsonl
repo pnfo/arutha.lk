@@ -1,0 +1,2585 @@
+{"h":"short","f":"කෙටි සිනිමා වත්‍රය","t":"කෙටි සිනිමා චිත්‍රය","by":"opus"}
+{"h":"short-circuit","f":"ලූහුවත් කරනවා","t":"ලුහුවත් කරනවා","by":"opus"}
+{"h":"short-sighted","f":"අවිදුර","t":"අවිදූර","by":"opus"}
+{"h":"short","f":"6. කෙටි සිනිමා වත්‍රය","t":"6. කෙටි සිනිමා චිත්‍රය","by":"gemini","v":"right"}
+{"h":"short-circuit","f":"5. [Ele.] ලූහුවත් කරනවා","t":"5. [Ele.] ලුහුවත් කරනවා","by":"gemini","v":"right"}
+{"h":"short-sighted","f":"2. අවිදුර දෘෂ්ටිකත්වයෙන් යුත්","t":"2. අවිදූර දෘෂ්ටිකත්වයෙන් යුත්","by":"gemini","v":"right"}
+{"h":"shot","f":"උංඩය","t":"උණ්ඩය","by":"opus"}
+{"h":"shoulder","f":"බාහුශ්‍රීර්ෂය","t":"බාහුශීර්ෂය","by":"both"}
+{"h":"shout","f":"සසෙ දමනවා","t":"ඕසෙ දමනවා","by":"gemini","v":"right"}
+{"h":"shriek","f":"හීන් හඬ්න් කෑගසනවා","t":"හීන් හඬින් කෑගසනවා","by":"opus"}
+{"h":"shrill","f":"විනවිද","t":"විනිවිද","by":"both"}
+{"h":"shower","f":"ආශිර්වාද","t":"ආශීර්වාද","by":"opus"}
+{"h":"showmanship","f":"සාමර්ථය","t":"සාමර්ථ්‍යය","by":"gemini","v":"right"}
+{"h":"showy","f":"කලේලි","t":"කලඑළි","by":"gemini"}
+{"h":"shredding","f":"ඉරා ගැනිම","t":"ඉරා ගැනීම","by":"gemini","v":"right"}
+{"h":"shrew","f":"එරිස්සල්කාරී","t":"පරිස්සල්කාරී","by":"gemini","v":"wrong"}
+{"h":"shriek","f":"හඬ්න්","t":"හඬින්","by":"gemini","v":"right"}
+{"h":"shrink","f":"අකිළෙනවා","t":"ඇකිළෙනවා","by":"both"}
+{"h":"shrinkage","f":"ඇකිලීම","t":"ඇකිළීම","by":"opus"}
+{"h":"shrive","f":"පාපොච්චාරණ","t":"පාපෝච්චාරණ","by":"both"}
+{"h":"shrivel","f":"වැකරැළි ගැභෙනවා","t":"වැකරැළි ගැහෙනවා","by":"opus"}
+{"h":"shrub","f":"පඳූර","t":"පඳුර","by":"both"}
+{"h":"shunt","f":"උවත් කරනවා","t":"ඉවත් කරනවා","by":"both"}
+{"h":"shut","f":"වැභෙනවා","t":"වැහෙනවා","by":"both"}
+{"h":"shrivel","f":"ගැභෙනවා","t":"ගැහෙනවා","by":"gemini","v":"right"}
+{"h":"shrouds","f":"යොදන න්","t":"යොදන ලණු","by":"gemini","v":"right"}
+{"h":"shrubbery","f":"පඳුර ලන්ද","t":"පඳුරු ලන්ද","by":"gemini","v":"right"}
+{"h":"shutter","f":"[Sur.] සංචාරකය","t":"[Sur.] සංවාරකය","by":"opus"}
+{"h":"shylock","f":"භෙට්ටියා","t":"හෙට්ටියා","by":"both"}
+{"h":"sib","f":"සහෝරයා","t":"සහෝදරයා","by":"both"}
+{"h":"sibilant","f":"ඌස්මාක්ෂරය","t":"ඌෂ්මාක්ෂරය","by":"opus"}
+{"h":"siccative","f":"පරිශෝකය","t":"පරිශෝෂකය","by":"both"}
+{"h":"shutter","f":"සංචාරකය","t":"සංවාරකය","by":"gemini","v":"right"}
+{"h":"sial","f":"සියැලු පාෂාණ","t":"සියැල් පාෂාණ","by":"gemini","v":"right"}
+{"h":"sickening","f":"පිළිකුළ","t":"පිළිකුල","by":"opus"}
+{"h":"sickening","f":"වෙභෙස","t":"වෙහෙස","by":"both"}
+{"h":"sickle","f":"දැකැන්ත","t":"දෑකැත්ත","by":"both"}
+{"h":"side","f":"පාර්ශ්චය","t":"පාර්ශ්වය","by":"both"}
+{"h":"sidereal","f":"1. ජ්‍යෙතිෂ","t":"1. ජ්‍යොතිෂ","by":"opus"}
+{"h":"sidereal","f":"ජ්‍යෙෆතිෂ","t":"ජ්‍යෝතිෂ","by":"both"}
+{"h":"sickness","f":"අඑාසුව","t":"අඵාසුව","by":"gemini","v":"right"}
+{"h":"sidereal","f":"ජ්‍යෙතිෂ","t":"ජ්‍යෝතිෂ","by":"gemini","v":"right"}
+{"h":"sieve","f":"[n.] සලනවා","t":"[v.] සලනවා","by":"opus"}
+{"h":"sieve","f":"3. [Mat.] පරහන","t":"3. [Mat.] පෙරහන","by":"gemini","v":"right"}
+{"h":"sieve","f":"7. [n.] සලනවා","t":"7. [v.] සලනවා","by":"gemini","v":"right"}
+{"h":"sift","f":"2. නිර්යලනය","t":"2. නිර්ගලනය","by":"gemini"}
+{"h":"sifting","f":"1. නිර්යලනය කරනවා","t":"1. නිර්ගලනය කරනවා","by":"gemini"}
+{"h":"sign","f":"වහ්නය","t":"චිහ්නය","by":"opus"}
+{"h":"sign","f":"විහ්නය","t":"චිහ්නය","by":"opus"}
+{"h":"signatory","f":"අස්සන්කරු","t":"අත්සන්කරු","by":"opus"}
+{"h":"significant","f":"අර්තාන්විත","t":"අර්ථාන්විත","by":"opus"}
+{"h":"sign","f":"2. [n.] අඩායාළම","t":"2. [n.] අඩයාළම","by":"gemini","v":"right"}
+{"h":"sign","f":"14. වහ්නය","t":"14. චිහ්නය","by":"gemini","v":"right"}
+{"h":"sign","f":"16. [n.] විහ්නය","t":"16. [n.] චිහ්නය","by":"gemini","v":"right"}
+{"h":"significant","f":"1. [Aes.] අර්තාන්විත","t":"1. [Aes.] අර්ථාන්විත","by":"gemini","v":"right"}
+{"h":"silence","f":"[n.] මොන","t":"[n.] මෞන","by":"opus"}
+{"h":"silicoethane","f":"සිලිකොළුතේන්","t":"සිලිකොඑතේන්","by":"both"}
+{"h":"signified","f":"ඇගැවුම","t":"ඇඟැවුම","by":"gemini","v":"right"}
+{"h":"silence","f":"8. [n.] මොන","t":"8. [n.] මෞන","by":"gemini","v":"right"}
+{"h":"silicone","f":"සිලකෝන","t":"සිලිකෝන","by":"opus"}
+{"h":"silicone","f":"සිලකෝන හා ඔක්සිජන්වල බහුඅවයවීය ඓන්ද්‍රික සංයුතික්","t":"සිලිකෝන හා ඔක්සිජන්වල බහුඅවයවීය ඓන්ද්‍රික සංයුතියක්","by":"gemini","v":"right"}
+{"h":"silver","f":"කලද්‍යෝ","t":"කලදෝ","by":"gemini"}
+{"h":"silver","f":"රිදිකාසි","t":"රිදීකාසි","by":"gemini"}
+{"h":"similar","f":"අනූරූප","t":"අනුරූප","by":"both"}
+{"h":"simmer","f":"වතුර භෙමින්","t":"වතුර හෙමින්","by":"opus"}
+{"h":"simmering","f":"මඳු ගින්නේ","t":"මඳ ගින්නේ","by":"opus"}
+{"h":"silvery","f":"රිදිවන්","t":"රිදීවන්","by":"both"}
+{"h":"simmer","f":"භෙමින්","t":"හෙමින්","by":"gemini","v":"right"}
+{"h":"simple","f":"නිරාකූල","t":"නිරාකුල","by":"gemini","v":"right"}
+{"h":"simplify","f":"ලෙභෙසි","t":"ලෙහෙසි","by":"opus"}
+{"h":"simply","f":"නිරායාශයෙන්","t":"නිරායාසයෙන්","by":"both"}
+{"h":"simulacrum","f":"ඡයාමාත්‍රය","t":"ඡායාමාත්‍රය","by":"both"}
+{"h":"simulated","f":"විඩිම්බක","t":"විඩම්බක","by":"both"}
+{"h":"simplify","f":"ලෙභෙසි කරනවා","t":"ලෙහෙසි කරනවා","by":"gemini","v":"right"}
+{"h":"simulcast","f":"සමතරා හැරුම","t":"සමතර විහැරුම","by":"gemini"}
+{"h":"simultaneous","f":"සමාවී","t":"සමගාමී","by":"gemini","v":"wrong"}
+{"h":"sinfonia","f":"සන්ධවනිය","t":"සන්ධ්වනිය","by":"both"}
+{"h":"single-hearted","f":"යතු","t":"යුතු","by":"both"}
+{"h":"single","f":"ප්‍රත්‍යක","t":"ප්‍රත්‍යේක","by":"both"}
+{"h":"single-acting","f":"එකත් කිරිය","t":"එකත්කිරිය","by":"gemini"}
+{"h":"singleness","f":"[prep.] එකමකම","t":"[n.] එකමකම","by":"opus"}
+{"h":"singleness","f":"[prep.] තනිකම","t":"[n.] තනිකම","by":"opus"}
+{"h":"singleness","f":"[prep.] හුදකලා බව","t":"[n.] හුදකලා බව","by":"opus"}
+{"h":"sinhalese","f":"භෙළ","t":"හෙළ","by":"opus"}
+{"h":"sink","f":"ගිලාහිනවා","t":"ගිලාබහිනවා","by":"opus"}
+{"h":"singleness","f":"1. [prep.] එකමකම","t":"1. [n.] එකමකම","by":"gemini","v":"right"}
+{"h":"singleness","f":"2. [prep.] තනිකම","t":"2. [n.] තනිකම","by":"gemini","v":"right"}
+{"h":"singleness","f":"3. [prep.] හුදකලා බව","t":"3. [n.] හුදකලා බව","by":"gemini","v":"right"}
+{"h":"singsong","f":"එකස්වර කථාව","t":"ඒකස්වර කථාව","by":"gemini","v":"right"}
+{"h":"sinhalese","f":"[st.] භෙළ","t":"[st.] හෙළ","by":"gemini","v":"right"}
+{"h":"sink","f":"කිදා බහිනවා","t":"කිඳා බහිනවා","by":"gemini","v":"right"}
+{"h":"sink","f":"ගිලාහිනවා","t":"ගිලා බහිනවා","by":"gemini","v":"right"}
+{"h":"sink","f":"සෝදුන බක්කිය","t":"සෝදන බක්කිය","by":"gemini","v":"right"}
+{"h":"siphon","f":"සයිනය","t":"සයිෆනය","by":"opus"}
+{"h":"sinuous","f":"2. [a.] චක්‍ර","t":"2. [a.] වක්‍ර","by":"gemini","v":"right"}
+{"h":"siphon","f":"6. සයිනය","t":"6. සයිපනය","by":"gemini","v":"right"}
+{"h":"sit-in","f":"[n.] නිරීක්ෂකයෙක්","t":"[v.] නිරීක්ෂකයෙක්","by":"opus"}
+{"h":"siren","f":"6. [Psy.] සයිරම","t":"6. [Phy.] සයිරම","by":"gemini","v":"right"}
+{"h":"siren","f":"7. [Psy.] සයිරම් නලාව","t":"7. [Phy.] සයිරම් නලාව","by":"gemini","v":"right"}
+{"h":"sister","f":"2. [a.] එ","t":"2. [a.] එක","by":"gemini","v":"right"}
+{"h":"sit-in","f":"1. [n.] නිරීක්ෂකයෙක්","t":"1. [v.] නිරීක්ෂකයෙක්","by":"gemini","v":"right"}
+{"h":"sixteenfold","f":"දහසහ ගුණයක්","t":"දහසය ගුණයක්","by":"opus"}
+{"h":"site","f":"2. [Civ.] ගපොළ","t":"2. [Civ.] ගෙපොළ","by":"gemini","v":"right"}
+{"h":"sitting","f":"1. [n.] චිත්‍රයකට පෙනී සිටිනවා","t":"1. [vi.] චිත්‍රයකට පෙනී සිටිනවා","by":"gemini"}
+{"h":"sitting","f":"2. [n.] ඡායාරූපයකට පෙනී සිටිනවා","t":"2. [vi.] ඡායාරූපයකට පෙනී සිටිනවා","by":"gemini"}
+{"h":"sixteenfold","f":"2. දහසහ ගුණයක්","t":"2. දහසය ගුණයක්","by":"gemini","v":"right"}
+{"h":"sizing","f":"කැඳු දැමිම","t":"කැඳ දැමීම","by":"both"}
+{"h":"skate","f":"[v.] හිම මත ලිස්සීම","t":"[n.] හිම මත ලිස්සීම","by":"opus"}
+{"h":"sketch","f":"වත්‍රය","t":"චිත්‍රය","by":"opus"}
+{"h":"sketchy","f":"ලුහුඩු","t":"ලුහුඬු","by":"opus"}
+{"h":"skate","f":"3. [v.] හිම මත ලිස්සීම","t":"3. [n.] හිම මත ලිස්සීම","by":"gemini","v":"right"}
+{"h":"skerry","f":"1. [n.] ගල්දුව","t":"1. [n.] ගල්දූව","by":"gemini","v":"wrong"}
+{"h":"sketch","f":"11. වත්‍රය","t":"11. චිත්‍රය","by":"gemini"}
+{"h":"sketchy","f":"3. [a.] ලුහුඩු","t":"3. [a.] ලුහුඬු","by":"gemini","v":"right"}
+{"h":"skilful","f":"උපායශ්‍රීලී","t":"උපායශීලී","by":"both"}
+{"h":"skill","f":"සාමර්ථයක්","t":"සාමර්ථ්‍යයක්","by":"opus"}
+{"h":"skillful","f":"නිපුණු","t":"නිපුණ","by":"both"}
+{"h":"skids","f":"ලුහුටු","t":"ලුහුටූ","by":"opus"}
+{"h":"skewness","f":"කූටිලතාව","t":"කුටිලතාව","by":"gemini","v":"right"}
+{"h":"skill","f":"සාමර්ථයක්","t":"සාමර්ථ්‍යය","by":"gemini","v":"right"}
+{"h":"skilled","f":"සමත","t":"සමත්","by":"gemini","v":"right"}
+{"h":"skimming","f":"මේදු ඉවත් කිරීම","t":"මේද ඉවත් කිරීම","by":"gemini","v":"right"}
+{"h":"skink","f":"[n.] හිකනවා","t":"[n.] හිකනලා","by":"both"}
+{"h":"skin","f":"[st.] වර","t":"[st.] චර","by":"gemini","v":"wrong"}
+{"h":"skin-deep","f":"2. [vt.] නොගැඹුරු","t":"2. [a.] නොගැඹුරු","by":"gemini","v":"right"}
+{"h":"skin-deep","f":"3. [vt.] මතුපිට පමණක්","t":"3. [adv.] මතුපිට පමණක්","by":"gemini","v":"right"}
+{"h":"skin-deep","f":"4. [vt.] යන්තම්","t":"4. [adv.] යන්තම්","by":"gemini","v":"right"}
+{"h":"skitter","f":"එහා මෙහා වනවා","t":"එහා මෙහා යනවා","by":"gemini"}
+{"h":"skull","f":"ශ්‍රීර්ෂකපාලය","t":"ශීර්ෂකපාලය","by":"both"}
+{"h":"skull","f":"ශ්‍රීර්ෂකය","t":"ශීර්ෂකය","by":"both"}
+{"h":"skyrocket","f":"ගිණි","t":"ගිනි","by":"opus"}
+{"h":"skull","f":"[n.] කපල","t":"[n.] කපාල","by":"gemini","v":"right"}
+{"h":"skylark","f":"තුලිකාවා අලඋඩා","t":"තූලිකාවා අලඋඩා","by":"gemini"}
+{"h":"skylark","f":"තුලිකාවා ගී","t":"තූලිකාවා ගී","by":"gemini"}
+{"h":"skyrocket","f":"ගිණි කෙළියක්","t":"ගිනි කෙළියක්","by":"gemini","v":"right"}
+{"h":"slab","f":"එලකය","t":"ඵලකය","by":"opus"}
+{"h":"slab","f":"2. [Phy.] එලකය","t":"2. [Phy.] ඵලකය","by":"gemini","v":"right"}
+{"h":"slack","f":"11. [a.] මන්ද්‍යෝත්සාහී","t":"11. [a.] මන්දෝත්සාහී","by":"gemini","v":"right"}
+{"h":"slander","f":"7. [n.] දූප","t":"7. [n.] දූෂාව","by":"gemini","v":"wrong"}
+{"h":"slap","f":"කම්මුපාර","t":"කම්මුල්පාර","by":"both"}
+{"h":"slate","f":"සිලා පුවරුව","t":"ශිලා පුවරුව","by":"opus"}
+{"h":"slatternly","f":"[n.] කැත","t":"[a.] කැත","by":"opus"}
+{"h":"slatternly","f":"[n.] කුණු","t":"[a.] කුණු","by":"opus"}
+{"h":"slap","f":"අතුලපාර","t":"අතුල්පාර","by":"gemini","v":"right"}
+{"h":"slatternly","f":"1. [n.] කැත","t":"1. [a.] කැත","by":"gemini","v":"right"}
+{"h":"slatternly","f":"2. [n.] කුණු තැවරුණු","t":"2. [a.] කුණු තැවරුණු","by":"gemini","v":"right"}
+{"h":"slaughterhouse","f":"සතුන් මරණ ස්ථානය","t":"සතුන් මරන ස්ථානය","by":"gemini","v":"right"}
+{"h":"slavery","f":"වහල් මෙභෙය","t":"වහල් මෙහෙය","by":"opus"}
+{"h":"sleek","f":"මිටසිලුටු","t":"මටසිලුටු","by":"both"}
+{"h":"sleepless","f":"නිදි වර්ජීත","t":"නිදි වර්ජිත","by":"opus"}
+{"h":"sleet","f":"ශ්‍රීකර වර්ෂාව","t":"ශීතකර වර්ෂාව","by":"opus"}
+{"h":"sleet","f":"ශ්‍රීතකර වර්ෂාව","t":"ශීතකර වර්ෂාව","by":"both"}
+{"h":"sleet","f":"ශිතකර වර්ෂාව","t":"ශීතකර වර්ෂාව","by":"both"}
+{"h":"sleet","f":"5. ශීකර වර්ෂාව","t":"5. ශීතකර වර්ෂාව","by":"opus"}
+{"h":"slavery","f":"මෙභෙය","t":"මෙහෙය","by":"gemini","v":"right"}
+{"h":"sleep","f":"4. ට නවාතැන් ගන්නවා","t":"4. රෑට නවාතැන් ගන්නවා","by":"gemini","v":"right"}
+{"h":"sleep","f":"රූට නවාතැන් ගන්නවා","t":"රෑට නවාතැන් ගන්නවා","by":"gemini","v":"right"}
+{"h":"sleep","f":"15. සනවා","t":"15. සයනය කරනවා","by":"gemini"}
+{"h":"sleepless","f":"වර්ජීත","t":"වර්ජිත","by":"gemini","v":"right"}
+{"h":"sleet","f":"ශ්‍රීකර වර්ෂාව","t":"ශීකර වර්ෂාව","by":"gemini","v":"right"}
+{"h":"sleeve","f":"ඈඳුම් අත","t":"ඇඳුම් අත","by":"both"}
+{"h":"slice","f":"[adv.] පෙති කපනවා","t":"[v.] පෙති කපනවා","by":"both"}
+{"h":"slice","f":"[adv.] පෙති ගහනවා","t":"[v.] පෙති ගහනවා","by":"both"}
+{"h":"sliding","f":"ස්‍යන්දුනය","t":"ස්‍යන්දනය","by":"both"}
+{"h":"sleeveless","f":"[a.] අත් නැති ඇඳුම","t":"[n.] අත් නැති ඇඳුම","by":"gemini","v":"wrong"}
+{"h":"slink","f":"[v.] තුරුදහන්","t":"[v.] අතුරුදහන්","by":"opus"}
+{"h":"slip","f":"ගිලිභෙනවා","t":"ගිලිහෙනවා","by":"opus"}
+{"h":"slippery","f":"ලිස්සන සුලු","t":"ලිස්සන සුළු","by":"opus"}
+{"h":"slit","f":"හිඩැස්ස","t":"හිඩැස","by":"opus"}
+{"h":"slink","f":"2. [v.] තුරුදහන් වෙනවා","t":"2. [v.] අතුරුදහන් වෙනවා","by":"gemini","v":"wrong"}
+{"h":"slip","f":"3. [n.] කඩදාසි ආදියෙහි තිරය","t":"3. [n.] කඩදාසි ආදියෙහි තීරය","by":"gemini","v":"right"}
+{"h":"slip","f":"8. [v.] ගිලිභෙනවා","t":"8. [v.] ගිලිහෙනවා","by":"gemini","v":"right"}
+{"h":"slip","f":"30. ලෙස්සනව","t":"30. ලෙස්සනවා","by":"gemini","v":"right"}
+{"h":"slivering","f":"පුලුන් වැටි සෑදිම","t":"පුලුන් වැටි සෑදීම","by":"opus"}
+{"h":"sloe","f":"[n.] එල වර්ගයක්","t":"[n.] ඵල වර්ගයක්","by":"opus"}
+{"h":"slogan","f":"උද්යෝග","t":"උද්‍යෝග","by":"both"}
+{"h":"sloper","f":"මුලික","t":"මූලික","by":"both"}
+{"h":"slosh","f":"අප්‍රවේසමෙන්","t":"අප්‍රවේශමෙන්","by":"opus"}
+{"h":"slivering","f":"සෑදිම","t":"සෑදීම","by":"gemini","v":"right"}
+{"h":"sloe","f":"එල වර්ගයක්","t":"ඵල වර්ගයක්","by":"gemini","v":"right"}
+{"h":"slog","f":"පන්දකට","t":"පන්දුවකට","by":"gemini","v":"right"}
+{"h":"sloth","f":"ථින","t":"ථීන","by":"gemini","v":"right"}
+{"h":"slow","f":"අශිඝ්‍ර","t":"අශීඝ්‍ර","by":"opus"}
+{"h":"sludge","f":"ගොහොදු මඩ","t":"ගොහොරු මඩ","by":"opus"}
+{"h":"sluggish","f":"මන්දුගාමී","t":"මන්දගාමී","by":"opus"}
+{"h":"sluggishness","f":"මන්දුගාමිත්වය","t":"මන්දගාමිත්වය","by":"opus"}
+{"h":"slow","f":"3. [a.] අශිඝ්‍ර","t":"3. [a.] අශීඝ්‍ර","by":"gemini","v":"right"}
+{"h":"slow","f":"8. [adv.] භෙමින්","t":"8. [adv.] හෙමින්","by":"gemini","v":"right"}
+{"h":"slow","f":"9. [a.] භෙමින් ක්‍රියා කරන","t":"9. [a.] හෙමින් ක්‍රියා කරන","by":"gemini","v":"right"}
+{"h":"slowly","f":"2. [adv.] භෙමින්","t":"2. [adv.] හෙමින්","by":"gemini","v":"right"}
+{"h":"slowly","f":"3. [adv.] භෙමින් සැරේ","t":"3. [adv.] හෙමින් සැරේ","by":"gemini","v":"right"}
+{"h":"slowly","f":"4. [adv.] භෙමිහිට","t":"4. [adv.] හෙමිහිට","by":"gemini","v":"right"}
+{"h":"sluggard","f":"1. [n.] කංජය්‍යා","t":"1. [n.] කංජයියා","by":"gemini","v":"right"}
+{"h":"sluggish","f":"4. [a.] භෙමින් ක්‍රියා කරන","t":"4. [a.] හෙමින් ක්‍රියා කරන","by":"gemini","v":"right"}
+{"h":"sluggish","f":"5. මන්දුගාමී","t":"5. මන්දගාමී","by":"gemini","v":"right"}
+{"h":"sluggishness","f":"3. මන්දුගාමිත්වය","t":"3. මන්දගාමිත්වය","by":"gemini","v":"right"}
+{"h":"smack","f":"අතුලපාර","t":"අතුල්පාර","by":"both"}
+{"h":"sly","f":"කළ්ළ","t":"කල්ල","by":"gemini"}
+{"h":"small","f":"කො","t":"කොට","by":"gemini","v":"right"}
+{"h":"small-talk","f":"සපාදූප","t":"සල්ලාප","by":"gemini","v":"right"}
+{"h":"smash","f":"කඩා බිද දැමීම","t":"කඩා බිඳ දැමීම","by":"both"}
+{"h":"smearing","f":"ආලේප කිරිම","t":"ආලේප කිරීම","by":"both"}
+{"h":"smelting","f":"ලෝහ උණු කිරිම","t":"ලෝහ උණු කිරීම","by":"both"}
+{"h":"smart","f":"කලේලි ඇති","t":"කලෙලි ඇති","by":"gemini","v":"right"}
+{"h":"smart","f":"[a.] සැර පහර","t":"[n.] සැර පහර","by":"gemini"}
+{"h":"smear","f":"තරවනවා","t":"තවරනවා","by":"gemini","v":"right"}
+{"h":"smithereens","f":"කැබෙලි","t":"කැබලි","by":"opus"}
+{"h":"smock","f":"[a.] පිට ගවුම","t":"[n.] පිට ගවුම","by":"both"}
+{"h":"smooth","f":"හිරුහැර","t":"හිරිහැර","by":"opus"}
+{"h":"smooth","f":"මෙළෙක්","t":"මෙලෙක්","by":"gemini","v":"wrong"}
+{"h":"smooth","f":"හිරුහැර නැති","t":"හිරිහැර නැති","by":"gemini","v":"right"}
+{"h":"smoothened","f":"[a.] සැස","t":"[a.] සැසූ","by":"gemini","v":"right"}
+{"h":"smoothing","f":"සුම ටනය","t":"සුමටනය","by":"both"}
+{"h":"smoother","f":"සුමටකුරුව","t":"සුමටකරුව","by":"gemini","v":"right"}
+{"h":"smoothness","f":"සුසිනිදු","t":"සුසිනිඳු","by":"gemini","v":"right"}
+{"h":"smoulder","f":"නොනැහී","t":"නොනැඟී","by":"gemini","v":"right"}
+{"h":"snake","f":"2. [n.] එණි","t":"2. [n.] ඵණි","by":"gemini","v":"wrong"}
+{"h":"sneaking","f":"කේළාම් කියන්නා","t":"කේලාම් කියන්නා","by":"opus"}
+{"h":"snarl","f":"1. [vi.] ගෙරවීම","t":"1. [n.] ගෙරවීම","by":"gemini","v":"right"}
+{"h":"sneerer","f":"භෙලා දකින්නා","t":"හෙළා දකින්නා","by":"gemini","v":"right"}
+{"h":"snip","f":"එකවරට කපා භෙළනවා","t":"එකවරට කපා හෙළනවා","by":"gemini","v":"right"}
+{"h":"snore","f":"ගෙරවීම","t":"ගොරවීම","by":"opus"}
+{"h":"snort","f":"මහ හඩින්","t":"මහ හඬින්","by":"opus"}
+{"h":"snort","f":"හඬ්න්","t":"හඬින්","by":"opus"}
+{"h":"snort","f":"මහ හන්","t":"මහ හඬින්","by":"opus"}
+{"h":"snivel","f":"නහයෙන් නහින් අඬනවා","t":"නහයෙන් නාහෙන් අඬනවා","by":"gemini"}
+{"h":"snook","f":"විහිදීමෙ","t":"විහිදීම","by":"gemini","v":"right"}
+{"h":"snort","f":"මහ හඩින් නහයෙන්","t":"මහ හඬින් නහයෙන්","by":"gemini","v":"right"}
+{"h":"snort","f":"මහ හඬ්න් නාසයෙන්","t":"මහ හඬින් නාසයෙන්","by":"gemini","v":"right"}
+{"h":"snort","f":"මහ හන් නාසයෙන්","t":"මහ හඬින් නාසයෙන්","by":"gemini","v":"right"}
+{"h":"snug","f":"[a.] සැප විකාවට සෑභෙන","t":"[a.] සැප විකාවට සෑහෙන","by":"opus"}
+{"h":"snuffles","f":"ස්වසන","t":"ශ්වසන","by":"opus"}
+{"h":"snow-capped","f":"මුඳුනේ","t":"මුදුනේ","by":"gemini","v":"right"}
+{"h":"snuffers","f":"කරනකතුර","t":"කරන කතුර","by":"gemini","v":"right"}
+{"h":"snuffles","f":"නැගි උරුව","t":"නැහැ උරුව","by":"gemini"}
+{"h":"snug","f":"2. [a.] සැප විකාවට සෑභෙන","t":"2. [a.] සැප විහරණයට සෑහෙන","by":"gemini","v":"wrong"}
+{"h":"snug","f":"3. සැප විකාවට සෑහෙන","t":"3. සැප විහරණයට සෑහෙන","by":"gemini","v":"wrong"}
+{"h":"so-and-so","f":"2. [adv.] අහවලා","t":"2. [n.] අහවලා","by":"gemini","v":"right"}
+{"h":"so-and-so","f":"3. [prep.] මෙනම්","t":"3. [a.] මෙනම්","by":"gemini"}
+{"h":"sob","f":"ඉකිබිදිනවා","t":"ඉකිබිඳිනවා","by":"opus"}
+{"h":"social","f":"සාමාක","t":"සාමාජික","by":"opus"}
+{"h":"social","f":"හුදකලා විතයට නුපුරුදු","t":"හුදකලා ජීවිතයට නුපුරුදු","by":"opus"}
+{"h":"social","f":"හුදකලා විතයට නුසුදුසු","t":"හුදකලා ජීවිතයට නුසුදුසු","by":"opus"}
+{"h":"soak","f":"5. [n.] බිගැනීම","t":"5. [n.] බීගැනීම","by":"gemini","v":"right"}
+{"h":"soak","f":"6. [n.] බිම","t":"6. [n.] බීම","by":"gemini","v":"right"}
+{"h":"sob","f":"5. [v.] ඉකිබිදිනවා","t":"5. [v.] ඉකිබිඳිනවා","by":"gemini","v":"right"}
+{"h":"soberness","f":"[n.] සන්සුන්මකම","t":"[n.] සන්සුන්කම","by":"gemini","v":"right"}
+{"h":"sobriety","f":"[n.] සන්සුන්මකම","t":"[n.] සන්සුන්කම","by":"gemini","v":"right"}
+{"h":"sociability","f":"3. [Soc.] සමාජශ්‍රීලිත්වය","t":"3. [Soc.] සමාජශීලිත්වය","by":"gemini","v":"right"}
+{"h":"sociable","f":"4. [Aes.] සභාශ්‍රීලී","t":"4. [Aes.] සභාශීලී","by":"gemini","v":"right"}
+{"h":"sociable","f":"6. [Soc.] සමාජශ්‍රීලී","t":"6. [Soc.] සමාජශීලී","by":"gemini","v":"right"}
+{"h":"social","f":"7. [a.] සමාය","t":"7. [a.] සමාජීය","by":"gemini","v":"right"}
+{"h":"social","f":"8. [a.] සාමාක","t":"8. [a.] සාමාජික","by":"gemini","v":"right"}
+{"h":"social","f":"9. [a.] හුදකලා විතයට නුපුරුදු","t":"9. [a.] හුදකලා ජීවිතයට නුපුරුදු","by":"gemini","v":"right"}
+{"h":"social","f":"10. [a.] හුදකලා විතයට නුසුදුසු","t":"10. [a.] හුදකලා ජීවිතයට නුසුදුසු","by":"gemini","v":"right"}
+{"h":"society","f":"පෙලන්තියේ","t":"පෙළන්තියේ","by":"opus"}
+{"h":"socialized","f":"සමාජිකෘත","t":"සමාජීකෘත","by":"both"}
+{"h":"socialization","f":"සමාකරණය","t":"සමාජකරණය","by":"gemini","v":"right"}
+{"h":"socius","f":"සමාජීකයා","t":"සමාජිකයා","by":"gemini","v":"right"}
+{"h":"sofa","f":"සොපාව","t":"සෝපාව","by":"opus"}
+{"h":"sodding","f":"පෙගීම","t":"පෙඟීම","by":"gemini","v":"right"}
+{"h":"softness","f":"4. මොළොක","t":"4. මොළොක්","by":"opus"}
+{"h":"soldering","f":"පැස්සීම","t":"පෑස්සීම","by":"both"}
+{"h":"soldier","f":"යෝධාවයා","t":"යෝධයා","by":"opus"}
+{"h":"soldier","f":"සෙවා භටයා","t":"සේවා භටයා","by":"both"}
+{"h":"soldier","f":"සේවාකම් කරනවා","t":"හේවාකම් කරනවා","by":"opus"}
+{"h":"soldier","f":"[n.] සෙබළිය","t":"[n.] සෙබළියා","by":"opus"}
+{"h":"softner","f":"softner","t":"softener","by":"gemini","v":"right"}
+{"h":"softwood","f":"ඵල ලී","t":"එල ලී","by":"gemini"}
+{"h":"solicitor","f":"පෙරකද්‍යෝරුවකු","t":"පෙරකදෝරුවකු","by":"both"}
+{"h":"soles","f":"යටි පතුළ්","t":"යටි පතුල්","by":"both"}
+{"h":"solid","f":"ස්ථීර","t":"ස්ථිර","by":"both"}
+{"h":"solid-state","f":"අවස්තාව","t":"අවස්ථාව","by":"both"}
+{"h":"solenostele","f":"පරිනාලස්ථුණය","t":"පරිනාලස්ථූණය","by":"both"}
+{"h":"solenostelic","f":"පරිනාලස්ථුණික","t":"පරිනාලස්ථූණික","by":"both"}
+{"h":"sole","f":"ප්‍රත්‍යක","t":"ප්‍රත්‍යේක","by":"gemini","v":"right"}
+{"h":"solids","f":"ද්‍රාවනයක","t":"ද්‍රාවණයක","by":"opus"}
+{"h":"solifluction","f":"පාංශු ස්‍යන්ද්‍යය","t":"පාංශු ස්‍යන්දනය","by":"opus"}
+{"h":"solitary","f":"2. එකාකී","t":"2. ඒකාකී","by":"gemini","v":"right"}
+{"h":"solitary","f":"4. [a.] එකීය","t":"4. [a.] ඒකීය","by":"gemini","v":"right"}
+{"h":"solvency","f":"[Acc.] නුබූන්වත්කම","t":"[Acc.] නුබුන්වත්කම","by":"opus"}
+{"h":"soma","f":"[Psy.] දෛහය","t":"[Psy.] දේහය","by":"opus"}
+{"h":"somatic","f":"[Soc.] දෙහික","t":"[Soc.] දෛහික","by":"opus"}
+{"h":"solution","f":"දියකරන උද ද්‍රව්‍යය","t":"දියකරන ලද ද්‍රව්‍යය","by":"gemini","v":"right"}
+{"h":"solvency","f":"නුබූන්වත්කම","t":"නුබුන්වත්කම","by":"gemini","v":"right"}
+{"h":"somatic","f":"[Soc.] දෙහික","t":"[Soc.] දේහික","by":"gemini","v":"right"}
+{"h":"somebody","f":"කවුද්‍යෝ කෙනෙක්","t":"කවුදෝ කෙනෙක්","by":"opus"}
+{"h":"sometimes","f":"[prep.] බාගදා","t":"[adv.] බාගදා","by":"opus"}
+{"h":"somite","f":"දෛහපිණ්ඩය","t":"දේහපිණ්ඩය","by":"opus"}
+{"h":"somnolent","f":"නිඳිමත ඇති","t":"නිදිමත ඇති","by":"opus"}
+{"h":"somnolent","f":"නිඳිමත වූ","t":"නිදිමත වූ","by":"opus"}
+{"h":"somebody","f":"1. [a.] කවුද්‍යෝ කෙනෙක්","t":"1. [pron.] කවුදෝ කෙනෙක්","by":"gemini","v":"right"}
+{"h":"somebody","f":"3. [a.] යමෙක්","t":"3. [pron.] යමෙක්","by":"gemini","v":"right"}
+{"h":"sometimes","f":"1. [prep.] බාගදා","t":"1. [adv.] බාගදා","by":"gemini","v":"right"}
+{"h":"sonar","f":"ද්‍යෝංකාරය","t":"දෝංකාරය","by":"both"}
+{"h":"sonata","f":"රවත","t":"රචිත","by":"both"}
+{"h":"sonication","f":"ද්වනිකරණය","t":"ධ්වනිකරණය","by":"opus"}
+{"h":"sonneteer","f":"සොනට රචනා","t":"සොනට් රචනා","by":"both"}
+{"h":"sophism","f":"2. වතණ්ඩවාදය","t":"2. විතණ්ඩවාදය","by":"opus"}
+{"h":"sophism","f":"චිතණ්ඩවාදය","t":"විතණ්ඩවාදය","by":"gemini","v":"right"}
+{"h":"sophism","f":"වතණ්ඩවාදය","t":"විතණ්ඩවාදය","by":"gemini","v":"right"}
+{"h":"sophist","f":"චිතණ්ඩවාදියා","t":"විතණ්ඩවාදියා","by":"gemini","v":"right"}
+{"h":"sophistic","f":"චිතණ්ඩවාදී","t":"විතණ්ඩවාදී","by":"gemini","v":"right"}
+{"h":"sophistry","f":"චිතණ්ඩ ක්‍රමය","t":"විතණ්ඩ ක්‍රමය","by":"gemini","v":"right"}
+{"h":"sophistry","f":"චිතණ්ඩවාදය","t":"විතණ්ඩවාදය","by":"gemini","v":"right"}
+{"h":"sophists","f":"චිතණ්ඩවාදියෝ","t":"විතණ්ඩවාදියෝ","by":"gemini","v":"right"}
+{"h":"soralium","f":"සෞරාලිය","t":"සොරාලිය","by":"gemini"}
+{"h":"soredial","f":"2. සොරේය","t":"2. සොරේඩීය","by":"gemini","v":"right"}
+{"h":"sorely","f":"1. [adv.] තදබල","t":"1. [a.] තදබල","by":"gemini","v":"wrong"}
+{"h":"sound","f":"ද්වනිය","t":"ධ්වනිය","by":"opus"}
+{"h":"sound","f":"ස්ථීර","t":"ස්ථිර","by":"opus"}
+{"h":"soul","f":"[n.] වය","t":"[n.] ජීවය","by":"gemini","v":"right"}
+{"h":"sound","f":"1. අජ","t":"1. අරාජ","by":"gemini","v":"wrong"}
+{"h":"sound","f":"16. [st.] රා","t":"16. [st.] රාව","by":"gemini","v":"wrong"}
+{"h":"sound","f":"31. ස්","t":"31. ස්වන","by":"gemini","v":"right"}
+{"h":"sound","f":"[a.] ස්ථීර","t":"[a.] ස්ථිර","by":"gemini","v":"right"}
+{"h":"sounder","f":"[Phy.] හඬ කුරුව","t":"[Phy.] හඬ කූරුව","by":"gemini"}
+{"h":"sounder","f":"[n.] හඬකුරුව","t":"[n.] හඬකූරුව","by":"gemini"}
+{"h":"soup","f":"2. [st.] සූ","t":"2. [st.] සූප","by":"gemini","v":"right"}
+{"h":"soup","f":"4. [st.] හූ","t":"4. [st.] සූප්","by":"gemini"}
+{"h":"south","f":"දකණ","t":"දකුණ","by":"opus"}
+{"h":"sovereign","f":"ස්වෙරී","t":"ස්වෛරී","by":"both"}
+{"h":"sovereignty","f":"පරිමාධිපත්‍යය","t":"පරමාධිපත්‍යය","by":"both"}
+{"h":"sovereign","f":"මහරැන","t":"මහරැජින","by":"gemini","v":"right"}
+{"h":"spangle","f":"ලොවිච්වය","t":"ලොවිච්චිය","by":"opus"}
+{"h":"spangle","f":"ලොවිරිච්වයෙන්","t":"ලොවිරිච්චියෙන්","by":"both"}
+{"h":"span","f":"අහස්‍යාත්‍රාවේ","t":"අහස්යාත්‍රාවේ","by":"gemini","v":"right"}
+{"h":"spangle","f":"3. ලොවිච්වය","t":"3. ලොවිච්චිය","by":"gemini","v":"right"}
+{"h":"spanish","f":"ස්පාඤ්ඤය භාෂාව","t":"ස්පාඤ්ඤ භාෂාව","by":"gemini","v":"right"}
+{"h":"spanish","f":"3. ස්පාඤ්ඤයට භාෂාව","t":"3. ස්පාඤ්ඤ භාෂාව","by":"gemini","v":"right"}
+{"h":"spark","f":"ස්එුලිංග","t":"ස්ඵුලිංග","by":"both"}
+{"h":"spasm","f":"ආන්ද්‍යෝලනය","t":"ආන්දෝලනය","by":"both"}
+{"h":"spastic","f":"මොලයේ","t":"මොළයේ","by":"opus"}
+{"h":"spartan","f":"විතයට","t":"ජීවිතයට","by":"gemini","v":"right"}
+{"h":"spasm","f":"භ්‍රාසය","t":"ත්‍රාසය","by":"gemini","v":"right"}
+{"h":"spathe","f":"ඉපියා","t":"ඉපියාව","by":"gemini"}
+{"h":"spear","f":"7. [Soc.] භෙල්ල","t":"7. [Soc.] හෙල්ල","by":"gemini","v":"right"}
+{"h":"spear","f":"භෙල්ලය","t":"හෙල්ලය","by":"gemini","v":"right"}
+{"h":"spear","f":"භෙල්ලයෙන්","t":"හෙල්ලයෙන්","by":"gemini","v":"right"}
+{"h":"special","f":"විශේෂ දුමිරිය","t":"විශේෂ දුම්රිය","by":"both"}
+{"h":"specialize","f":"සාමර්ථය","t":"සාමර්ථ්‍යය","by":"both"}
+{"h":"speciation","f":"විශේෂප්‍රාප්තීය","t":"විශේෂප්‍රාප්තිය","by":"both"}
+{"h":"specie","f":"ලොහමය","t":"ලෝහමය","by":"both"}
+{"h":"specification","f":"වෛශේෂීකරණය","t":"වෛශේෂිකරණය","by":"opus"}
+{"h":"specialist","f":"3. විශේෂඥු","t":"3. විශේෂඥ","by":"gemini","v":"right"}
+{"h":"specialist","f":"විශේෂඥුයා","t":"විශේෂඥයා","by":"gemini","v":"right"}
+{"h":"spectrometer","f":"වර්නාවලී මානය","t":"වර්ණාවලී මානය","by":"both"}
+{"h":"spectrogram","f":"වර්ණාවලී රේඛය","t":"වර්ණාවලී ලේඛය","by":"opus"}
+{"h":"specks","f":"කුණු කැබැලිල","t":"කුණු කැබැලි","by":"opus"}
+{"h":"specks","f":"කුණු කැබැලිල","t":"කුණු කැබැල්ල","by":"gemini","v":"right"}
+{"h":"spectrum","f":"පරෙක්ෂාවලිය","t":"ප්‍රේක්ෂාවලිය","by":"opus"}
+{"h":"spectrum","f":"3. ප්‍රෙක්ෂාවලිය","t":"3. ප්‍රේක්ෂාවලිය","by":"both"}
+{"h":"speculation","f":"[a.] අනුමාන කල්පනාව","t":"[n.] අනුමාන කල්පනාව","by":"opus"}
+{"h":"speech","f":"වානී","t":"වාණී","by":"opus"}
+{"h":"spell","f":"වශ්‍රීකරණය","t":"වශීකරණය","by":"opus"}
+{"h":"spell","f":"වශ්‍රීය","t":"වශීය","by":"opus"}
+{"h":"speleology","f":"ගුහා විමර්ෂණ","t":"ගුහා විමර්ශන","by":"opus"}
+{"h":"spectrum","f":"2. [Sta.] පරෙක්ෂාවලිය","t":"2. [Sta.] ප්‍රේක්ෂාවලිය","by":"gemini","v":"right"}
+{"h":"speculation","f":"2. [a.] අනුමාන කල්පනාව","t":"2. [n.] අනුමාන කල්පනාව","by":"gemini","v":"right"}
+{"h":"speech","f":"9. [Log.] වානී","t":"9. [Log.] වාණී","by":"gemini","v":"right"}
+{"h":"spent","f":"වෙභෙසට","t":"වෙහෙසට","by":"opus"}
+{"h":"sperm","f":"ශූක්‍රාණුව","t":"ශුක්‍රාණුව","by":"both"}
+{"h":"spend","f":"5. [v.] විසඳනවා","t":"5. [v.] වියදම් කරනවා","by":"gemini","v":"wrong"}
+{"h":"spent","f":"වෙභෙසට පැමිණි","t":"වෙහෙසට පැමිණි","by":"gemini","v":"right"}
+{"h":"spermagonium","f":"පූමණුධානිය","t":"පුමණුධානිය","by":"gemini","v":"right"}
+{"h":"spermagonium","f":"3. මගෝනිය","t":"3. ස්පමගෝනිය","by":"gemini","v":"right"}
+{"h":"spermatangium","f":"2. මටැන්ජිය","t":"2. ස්පමටැන්ජිය","by":"gemini","v":"right"}
+{"h":"spermatid","f":"පූමණුව","t":"පුමණුව","by":"gemini","v":"right"}
+{"h":"spermatium","f":"පූමණුව","t":"පුමණුව","by":"gemini","v":"right"}
+{"h":"spermatogonium","f":"1. මැටොගෝනියම","t":"1. ස්පමැටොගෝනියම","by":"gemini","v":"right"}
+{"h":"spermatogonium","f":"ස්පරැමැටොගෝනියම","t":"ස්පමැටොගෝනියම","by":"gemini"}
+{"h":"sphenopsid","f":"ස්පොනොප්සිඩය","t":"ස්පෙනොප්සිඩය","by":"opus"}
+{"h":"sphinx","f":"ඊප්තුවේ","t":"ඊජිප්තුවේ","by":"both"}
+{"h":"spice","f":"[st.] සරක්කු","t":"[n.] සරක්කු","by":"opus"}
+{"h":"spermicide","f":"ශුක්රාණු","t":"ශුක්‍රාණු","by":"gemini","v":"right"}
+{"h":"spicule","f":"[Bot.] ශුලිකාව","t":"[Bot.] ශූලිකාව","by":"opus"}
+{"h":"spinel","f":"2. කිරිංව","t":"2. කිරිංචි","by":"both"}
+{"h":"spinster","f":"අවිවාහක ස්ත්‍රිය","t":"අවිවාහක ස්ත්‍රීය","by":"opus"}
+{"h":"spine","f":"අස්තිය","t":"අස්ථිය","by":"gemini","v":"right"}
+{"h":"spinner","f":"දඟ පන්ද යවන්නා","t":"දඟ පන්දු යවන්නා","by":"gemini","v":"right"}
+{"h":"spiral","f":"භෙලික්සිය","t":"හෙලික්සිය","by":"both"}
+{"h":"spirit","f":"ස්ප්‍රීත්තු","t":"ස්ප්‍රීතු","by":"opus"}
+{"h":"spirit","f":"ස්ත්‍රීතුව","t":"ස්ප්‍රීතුව","by":"both"}
+{"h":"spiritualism","f":"[a.] භූත විද්‍යාව","t":"[n.] භූත විද්‍යාව","by":"opus"}
+{"h":"spiralling","f":"මෝලී ඇල්ලීම","t":"මෝලි ඇල්ලීම","by":"gemini","v":"right"}
+{"h":"spirit","f":"[n.] වය","t":"[n.] ජීවය","by":"gemini","v":"right"}
+{"h":"spiritualism","f":"1. [a.] භූත විද්‍යාව","t":"1. [n.] භූත විද්‍යාව","by":"gemini","v":"right"}
+{"h":"spit","f":"භෙමින් වහිනවා","t":"හෙමින් වහිනවා","by":"both"}
+{"h":"splay","f":"පිටට ඇළ වී","t":"පිටට ඇල වී","by":"opus"}
+{"h":"spirochaete","f":"ස්පයිරොකිටයා","t":"ස්පයිරොකීටයා","by":"opus"}
+{"h":"splash","f":"කැලති වැගිරෙනවා","t":"කැලතී වැගිරෙනවා","by":"gemini","v":"right"}
+{"h":"splasher","f":"විසිවරනය","t":"විසිවරණය","by":"gemini"}
+{"h":"split","f":"[Acc.] විශේදනය","t":"[Acc.] විභේදනය","by":"opus"}
+{"h":"splendour","f":"1. [n.] අලංකාර","t":"1. [a.] අලංකාර","by":"gemini","v":"wrong"}
+{"h":"splendour","f":"10. [n.] ශ්‍රේෂ්ඨ","t":"10. [a.] ශ්‍රේෂ්ඨ","by":"gemini","v":"wrong"}
+{"h":"splenic","f":"[n.] පිලාවට සම්බන්ධ","t":"[a.] පිලාවට සම්බන්ධ","by":"gemini","v":"right"}
+{"h":"splicing","f":"විච්ඡේදු සම්බන්ධනය","t":"විච්ඡේද සම්බන්ධනය","by":"gemini","v":"right"}
+{"h":"split","f":"27. [Acc.] විශේදනය","t":"27. [Acc.] විභේදනය","by":"gemini","v":"right"}
+{"h":"split","f":"28. වෙන් කරනව","t":"28. වෙන් කරනවා","by":"gemini","v":"right"}
+{"h":"spokesman","f":"නියෝතයා","t":"නියෝජිතයා","by":"both"}
+{"h":"spoliation","f":"බුත්ති පුනස්ථිතිය","t":"භුක්ති පුනස්ථිතිය","by":"gemini","v":"right"}
+{"h":"sponge","f":"ඉස්පන්ඡිය","t":"ඉස්පන්ජිය","by":"gemini","v":"right"}
+{"h":"sponge","f":"ඉස්පන්යෙන්","t":"ඉස්පන්ජියෙන්","by":"gemini","v":"right"}
+{"h":"sponge","f":"ඉස්පන්‍යෙන්","t":"ඉස්පන්ජියෙන්","by":"gemini","v":"right"}
+{"h":"sponge","f":"ස්පන්‍ය","t":"ස්පන්ජිය","by":"gemini","v":"right"}
+{"h":"sponge-cake","f":"ඉස්පන්ව","t":"ඉස්පන්ජ්","by":"gemini","v":"right"}
+{"h":"sponges","f":"1. [Art.] ඉස්පන්","t":"1. [Art.] ඉස්පන්ජ","by":"gemini","v":"right"}
+{"h":"sponging","f":"ස්පන් කිරීම","t":"ස්පන්ජ් කිරීම","by":"gemini","v":"right"}
+{"h":"spontaneously","f":"[a.] හිටිවන","t":"[adv.] හිටිවන","by":"opus"}
+{"h":"spontaneous","f":"4. සපපාතික","t":"4. ඕපපාතික","by":"gemini","v":"right"}
+{"h":"spontaneous","f":"7. [n.] ස්වයංසිද්ධ","t":"7. [a.] ස්වයංසිද්ධ","by":"gemini","v":"right"}
+{"h":"spontaneously","f":"2. [a.] හිටිවන","t":"2. [adv.] හිටිවන","by":"gemini","v":"right"}
+{"h":"sporadic","f":"3. විකිර්ණ","t":"3. විකීර්ණ","by":"both"}
+{"h":"sporangiferous","f":"බීජණුධානිධර","t":"බීජාණුධානිධර","by":"opus"}
+{"h":"sporangium","f":"ස්පොරැන්‍ය","t":"ස්පොරැන්ජිය","by":"opus"}
+{"h":"sporophore","f":"බීජාණූධරය","t":"බීජාණුධරය","by":"opus"}
+{"h":"sporophytic","f":"බීජාණූශාකීය","t":"බීජාණුශාකීය","by":"opus"}
+{"h":"sporozoite","f":"බීජාණ්වංශුවා","t":"බීජාණ්වංශුව","by":"opus"}
+{"h":"sporangiferous","f":"1. [Bot.] බීජණුධානිධර","t":"1. [Bot.] බීජාණුධානිධර","by":"gemini","v":"right"}
+{"h":"sporangium","f":"3. [Bot.] ස්පොරැන්‍ය","t":"3. [Bot.] ස්පොරැන්ජිය","by":"gemini","v":"right"}
+{"h":"sporophore","f":"2. [Bot.] බීජාණූධරය","t":"2. [Bot.] බීජාණුධරය","by":"gemini","v":"right"}
+{"h":"sporophytic","f":"2. [Bot.] බීජාණූශාකීය","t":"2. [Bot.] බීජාණුශාකීය","by":"gemini","v":"right"}
+{"h":"sportsmanship","f":"ක්‍රීඩාශ්‍රීලිත්වය","t":"ක්‍රීඩාශීලිත්වය","by":"opus"}
+{"h":"spot-weld","f":"තැන් වෙල්ඩිම","t":"තැන් වෙල්ඩුම","by":"opus"}
+{"h":"sprawl","f":"[Aes.] දිගැදී වැතිරීම","t":"[Aes.] දිගෑදී වැතිරීම","by":"opus"}
+{"h":"sportsmanship","f":"ක්‍රීඩාශ්‍රීලිත්වය","t":"ක්‍රීඩාශීලීත්වය","by":"gemini","v":"wrong"}
+{"h":"sprat","f":"හැල්මැස්සා","t":"හෑල්මැස්සා","by":"gemini"}
+{"h":"spring","f":"[n.] උනනවා","t":"[v.] උනනවා","by":"opus"}
+{"h":"sprinkling","f":"පරිසේවනය","t":"පරිසේචනය","by":"both"}
+{"h":"sprinkling","f":"[n.] සේවනය","t":"[n.] සේචනය","by":"opus"}
+{"h":"spread","f":"24. විශාල ප්‍රද","t":"24. විශාල ප්‍රදේශ","by":"gemini","v":"right"}
+{"h":"sprig","f":"කැනිති අලංකරණය","t":"කිනිති අලංකරණය","by":"gemini","v":"right"}
+{"h":"sprig","f":"කුඩුම්මි නැති ඇණය","t":"කුඩුම්බි නැති ඇණය","by":"gemini","v":"right"}
+{"h":"spring","f":"4. [n.] උනනවා","t":"4. [v.] උනනවා","by":"gemini","v":"right"}
+{"h":"sprinkle","f":"ද්‍යෝවනවා","t":"දෝවනවා","by":"gemini","v":"right"}
+{"h":"sprinkling","f":"6. [n.] සේවනය","t":"6. [n.] සේචනය","by":"gemini","v":"right"}
+{"h":"sprouting","f":"දුලුලනවා","t":"දළුලනවා","by":"opus"}
+{"h":"sprocket","f":"ස්ප්‍රෝකට්","t":"ස්ප්‍රොකට්","by":"gemini"}
+{"h":"sprouting","f":"දුලුලනවා","t":"දලුලනවා","by":"gemini","v":"right"}
+{"h":"sprouting","f":"හැප්සීම","t":"හැද්සීම","by":"gemini"}
+{"h":"squamous","f":"ශල් සහිත","t":"ශල්ක සහිත","by":"both"}
+{"h":"square","f":"සමචත්‍රරස්‍ර","t":"සමචතුරස්‍ර","by":"both"}
+{"h":"square","f":"සෑභෙන","t":"සෑහෙන","by":"both"}
+{"h":"square","f":"හතරුස් කොටුව","t":"හතරැස් කොටුව","by":"both"}
+{"h":"sputum","f":"ඛෙට","t":"ඛේට","by":"gemini","v":"right"}
+{"h":"squabble","f":"අරෝච","t":"අරෝව","by":"gemini","v":"right"}
+{"h":"squall","f":"අජනවා","t":"අඬනවා","by":"gemini","v":"right"}
+{"h":"square","f":"වර්ග එලය","t":"වර්ග ඵලය","by":"gemini","v":"right"}
+{"h":"square","f":"සමතුරඝ්‍රය","t":"සමචතුරශ්‍රය","by":"gemini","v":"right"}
+{"h":"square","f":"සමතුරස්‍රය","t":"සමචතුරස්‍රය","by":"gemini","v":"right"}
+{"h":"squeal","f":"[vi.] බියෙන් නඟන හඬ","t":"[n.] බියෙන් නඟන හඬ","by":"opus"}
+{"h":"squeal","f":"1. [vi.] බියෙන් නඟන හඬ","t":"1. [n.] බියෙන් නඟන හඬ","by":"gemini","v":"right"}
+{"h":"squeezing","f":"4. මැම","t":"4. මැඩුම","by":"gemini","v":"right"}
+{"h":"squire","f":"[a.] විශේෂයෙන්","t":"[n.] විශේෂයෙන්","by":"opus"}
+{"h":"squire","f":"[a.] සහචරයා","t":"[n.] සහචරයා","by":"opus"}
+{"h":"stability","f":"3. චිස්ථිතිය","t":"3. චිරස්ථිතිය","by":"opus"}
+{"h":"squire","f":"1. [a.] විශේෂයෙන්","t":"1. [n.] විශේෂයෙන්","by":"gemini","v":"right"}
+{"h":"squire","f":"2. [a.] සහචරයා","t":"2. [n.] සහචරයා","by":"gemini","v":"right"}
+{"h":"stability","f":"සථායිතාව","t":"ස්ථායිතාව","by":"gemini","v":"right"}
+{"h":"stability","f":"සථීරත්වය","t":"ස්ථිරත්වය","by":"gemini","v":"right"}
+{"h":"stableness","f":"3. වරස්ථිතිය","t":"3. චිරස්ථිතිය","by":"opus"}
+{"h":"stableness","f":"සථීරත්වය","t":"ස්ථීරත්වය","by":"both"}
+{"h":"stable","f":"ස්ථීර","t":"ස්ථිර","by":"opus"}
+{"h":"staccato","f":"එභෙත්","t":"එහෙත්","by":"both"}
+{"h":"stack","f":"අඩුක් කරනවා","t":"අඩුක්කු කරනවා","by":"opus"}
+{"h":"stadium","f":"ක්‍රීඩාංගනය","t":"ක්‍රීඩාංගණය","by":"opus"}
+{"h":"staff","f":"මීට","t":"මිට","by":"opus"}
+{"h":"stableness","f":"වරස්ථිතිය","t":"චිරස්ථිතිය","by":"gemini","v":"right"}
+{"h":"staff","f":"[n.] මීට","t":"[n.] මිට","by":"gemini","v":"right"}
+{"h":"stagnation","f":"නිහ්චලනය","t":"නිශ්චලනය","by":"opus"}
+{"h":"stale","f":"අරුව වූ","t":"අරුචි වූ","by":"opus"}
+{"h":"stalk","f":"චෘන්තය","t":"වෘන්තය","by":"opus"}
+{"h":"stagnation","f":"8. [Eco.] නිහ්චලනය","t":"8. [Eco.] නිශ්චලනය","by":"gemini","v":"right"}
+{"h":"stale","f":"1. [n.] අරුචි වූ","t":"1. [a.] අරුචි වූ","by":"gemini","v":"right"}
+{"h":"stale","f":"2. අරුව වූ","t":"2. අරුචි වූ","by":"gemini","v":"right"}
+{"h":"stale","f":"3. [n.] කබල් වූ","t":"3. [a.] කබල් වූ","by":"gemini","v":"right"}
+{"h":"stale","f":"6. [n.] පල් වූ","t":"6. [a.] පල් වූ","by":"gemini","v":"right"}
+{"h":"stale","f":"9. [n.] පිලුනු වූ","t":"9. [a.] පිලුනු වූ","by":"gemini","v":"right"}
+{"h":"stalk","f":"3. චෘන්තය","t":"3. වෘන්තය","by":"gemini","v":"right"}
+{"h":"stamen","f":"පුරුෂකේෂරය","t":"පුරුෂකේශරය","by":"both"}
+{"h":"staminode","f":"වඳු රේණුව","t":"වඳ රේණුව","by":"both"}
+{"h":"stanch","f":"ස්ථීර","t":"ස්ථිර","by":"both"}
+{"h":"staminate","f":"පූමංගී","t":"පුමංගී","by":"gemini","v":"right"}
+{"h":"staminode","f":"රේණුවාහය","t":"රේණුවාභය","by":"gemini","v":"right"}
+{"h":"staminody","f":"රේණුවාහතාව","t":"රේණුවාභතාව","by":"gemini","v":"right"}
+{"h":"stamp","f":"අස් ඔබනවා","t":"අච්චු ඔබනවා","by":"gemini"}
+{"h":"stampede","f":"5. [v.] කුලප්පු වීම","t":"5. [n.] කුලප්පු වීම","by":"gemini","v":"right"}
+{"h":"stand","f":"ධාරනය","t":"ධාරණය","by":"opus"}
+{"h":"standardization","f":"ප්‍රමත කිරීම","t":"ප්‍රමිත කිරීම","by":"both"}
+{"h":"stank","f":"ගඳ ගැසු","t":"ගඳ ගැසූ","by":"both"}
+{"h":"stand-in","f":"[n.] කෙනෙකු වෙනුවෙන් කටයුතු කරනවා","t":"[v.] කෙනෙකු වෙනුවෙන් කටයුතු කරනවා","by":"gemini","v":"right"}
+{"h":"star","f":"තාරුකාව","t":"තාරකාව","by":"opus"}
+{"h":"starch","f":"පිෂ් ධාතුව","t":"පිෂ්ට ධාතුව","by":"both"}
+{"h":"staring","f":"පෙනන","t":"පෙනෙන","by":"both"}
+{"h":"staring","f":"එරවීම","t":"ඔරවීම","by":"opus"}
+{"h":"stardom","f":"තත්වය","t":"තත්ත්වය","by":"opus"}
+{"h":"state","f":"[n.] විතය","t":"[n.] විජිතය","by":"opus"}
+{"h":"station","f":"9. මිරියපොළ","t":"9. දුම්රියපොළ","by":"both"}
+{"h":"state","f":"21. ර","t":"21. රට","by":"gemini","v":"right"}
+{"h":"state","f":"විතය","t":"විජිතය","by":"gemini","v":"right"}
+{"h":"state","f":"[st.] හව්","t":"[st.] භව්","by":"gemini"}
+{"h":"static","f":"ස්ථීතික","t":"ස්ථිතික","by":"gemini","v":"wrong"}
+{"h":"statical","f":"ස්ථීතිමය","t":"ස්ථිතිමය","by":"gemini","v":"wrong"}
+{"h":"statics","f":"ස්ථීති ගණිත","t":"ස්ථිති ගණිත","by":"gemini"}
+{"h":"statics","f":"5. [Mat.] ස්ථීති විද්‍යාව","t":"5. [Mat.] ස්ථිති විද්‍යාව","by":"gemini","v":"wrong"}
+{"h":"statics","f":"6. [Mat.] ස්ථීතිකය","t":"6. [Mat.] ස්ථිතිකය","by":"gemini","v":"wrong"}
+{"h":"stationer","f":"වෙළෙන්ඳා","t":"වෙළෙන්දා","by":"both"}
+{"h":"statistician","f":"සංඛ්‍යානඥායා","t":"සංඛ්‍යානඥයා","by":"both"}
+{"h":"staunch","f":"ස්ථීර","t":"ස්ථිර","by":"both"}
+{"h":"stationer","f":"වෙළෙන්දි","t":"වෙළෙන්දා","by":"gemini","v":"right"}
+{"h":"statistic","f":"සංඛ්‍යාතිය","t":"සංඛ්‍යානය","by":"gemini","v":"wrong"}
+{"h":"statistician","f":"සංඛ්‍යාංඥ","t":"සංඛ්‍යානඥ","by":"gemini","v":"right"}
+{"h":"statistician","f":"සංඛ්‍යානඥු","t":"සංඛ්‍යානඥ","by":"gemini","v":"right"}
+{"h":"statistics","f":"සංඛ්‍යාති","t":"සංඛ්‍යාන","by":"gemini","v":"wrong"}
+{"h":"statistics","f":"සංඛ්‍යාතිය","t":"සංඛ්‍යානය","by":"gemini","v":"wrong"}
+{"h":"statohm","f":"ස්ටැට් සම","t":"ස්ටැට් ඕම","by":"gemini","v":"right"}
+{"h":"statuettes","f":"ප්‍රතිමාක","t":"ප්‍රතිමිකා","by":"gemini","v":"wrong"}
+{"h":"stature","f":"ප්‍රස්ථීතිය","t":"ප්‍රස්ථිතිය","by":"gemini"}
+{"h":"status","f":"ස්ථීත්‍යය","t":"ස්ථිත්‍යය","by":"gemini"}
+{"h":"steady","f":"[int.] භෙමින්","t":"[int.] හෙමින්","by":"opus"}
+{"h":"stealthily","f":"භෙමින් සීරුවේ","t":"හෙමින් සීරුවේ","by":"both"}
+{"h":"stealing","f":"අදත්තාදනය","t":"අදත්තාදානය","by":"both"}
+{"h":"steady","f":"භෙමින්","t":"හෙමින්","by":"gemini","v":"right"}
+{"h":"steady","f":"18. [a.] ස්ථීර","t":"18. [a.] ස්ථිර","by":"gemini","v":"right"}
+{"h":"steady","f":"19. [vti.] ස්ථීර බවට පමුණුවනවා","t":"19. [vti.] ස්ථිර බවට පමුණුවනවා","by":"gemini","v":"right"}
+{"h":"steady","f":"20. [vti.] ස්ථීර බවට පැමිණෙනවා","t":"20. [vti.] ස්ථිර බවට පැමිණෙනවා","by":"gemini","v":"right"}
+{"h":"steeple","f":"ශාංගය","t":"ශෘංගය","by":"both"}
+{"h":"steel-clad","f":"සන්නාභ","t":"සන්නාහ","by":"gemini","v":"right"}
+{"h":"stela","f":"ශිලා ස්ථම්භය","t":"ශිලා ස්තම්භය","by":"opus"}
+{"h":"step","f":"දැක්වීමට යොද","t":"දැක්වීමට යොදන","by":"gemini","v":"right"}
+{"h":"step","f":"භෙමින්","t":"හෙමින්","by":"gemini","v":"right"}
+{"h":"step-by-step","f":"භෙමිහිට","t":"හෙමිහිට","by":"gemini","v":"right"}
+{"h":"stereocomparator","f":"සංසන්දුකය","t":"සංසන්දකය","by":"both"}
+{"h":"step-ladder","f":"හෝ තරප්","t":"හෝ තරප්පුව","by":"gemini","v":"right"}
+{"h":"stepbrother","f":"හදගත්","t":"හදාගත්","by":"gemini","v":"right"}
+{"h":"stepladder","f":"හෝ තරප්","t":"හෝ තරප්පුව","by":"gemini","v":"right"}
+{"h":"stereotypical","f":"ඒකාකීතික","t":"ඒකාකෘතික","by":"both"}
+{"h":"stereoscopy","f":"දැකිම","t":"දැකීම","by":"both"}
+{"h":"stereotype","f":"ඒකායක රූපය","t":"ඒකායත රූපය","by":"gemini","v":"right"}
+{"h":"sterile","f":"නිර්වාණු","t":"නිර්ජීවාණු","by":"gemini","v":"right"}
+{"h":"sterile","f":"නිෂ්එල","t":"නිෂ්ඵල","by":"gemini","v":"right"}
+{"h":"sterilization","f":"1. ජිවාණුහරණය","t":"1. ජීවාණුහරණය","by":"gemini","v":"right"}
+{"h":"sterilization","f":"නිෂ්එලනය","t":"නිෂ්ඵලනය","by":"gemini","v":"right"}
+{"h":"sterilization","f":"9. [n.] වාණුහරණය","t":"9. [n.] ජීවාණුහරණය","by":"gemini","v":"right"}
+{"h":"sterilize","f":"5. [Bot.] වාණුහරණය","t":"5. [Bot.] ජීවාණුහරණය","by":"gemini","v":"right"}
+{"h":"sterilize","f":"6. [v.] වාණුහරණය කරනවා","t":"6. [v.] ජීවාණුහරණය කරනවා","by":"gemini","v":"right"}
+{"h":"sterilizer","f":"ජිවාණුහාරකය","t":"ජීවාණුහාරකය","by":"gemini","v":"right"}
+{"h":"sterilizing","f":"ජිවාණුහරණය කිරීම","t":"ජීවාණුහරණය කිරීම","by":"gemini","v":"right"}
+{"h":"steroid","f":"විටමින හා","t":"විටමින් හා","by":"opus"}
+{"h":"stethoscope","f":"වෙදු නලාව","t":"වෙද නලාව","by":"both"}
+{"h":"stevedore","f":"සිවිද්‍යෝරුවා","t":"සිවිදෝරුවා","by":"both"}
+{"h":"stewing","f":"කිරිම","t":"කිරීම","by":"opus"}
+{"h":"stick","f":"රීට","t":"රිට","by":"opus"}
+{"h":"stick-in-the-mud","f":"අප්‍රගතිශ්‍රීලී","t":"අප්‍රගතිශීලී","by":"both"}
+{"h":"stewing","f":"ඉස්ටු කිරිම","t":"ඉස්ටු කිරීම","by":"gemini","v":"right"}
+{"h":"stick","f":"[n.] රීට","t":"[n.] රිට","by":"gemini","v":"right"}
+{"h":"still","f":"එභෙත්","t":"එහෙත්","by":"opus"}
+{"h":"stiletto","f":"කුඩා කිරිච්වය","t":"කුඩා කිරිච්චිය","by":"opus"}
+{"h":"stiffening","f":"දළ කිරිම","t":"දළ කිරීම","by":"opus"}
+{"h":"stiff-necked","f":"4. [a.] මුරන්ඩු","t":"4. [a.] මුරණ්ඩු","by":"gemini","v":"right"}
+{"h":"stiffening","f":"2. කැඳු දැමීම","t":"2. කැඳ දැමීම","by":"gemini","v":"right"}
+{"h":"stiffening","f":"3. දළ කිරිම","t":"3. දළ කිරීම","by":"gemini","v":"right"}
+{"h":"stiffness","f":"4. දුළ ගතිය","t":"4. දළ ගතිය","by":"gemini","v":"right"}
+{"h":"stiletto","f":"2. කුඩා කිරිච්වය","t":"2. කුඩා කිරිච්චිය","by":"gemini","v":"right"}
+{"h":"still","f":"2. [adv.] එභෙත්","t":"2. [adv.] එහෙත්","by":"gemini","v":"right"}
+{"h":"still","f":"26. [adv.] මත්පැන් බුබුළු නොදමන","t":"26. [a.] මත්පැන් බුබුළු නොදමන","by":"gemini","v":"right"}
+{"h":"still","f":"28. සන්සුන්බ","t":"28. සන්සුන් බව","by":"gemini","v":"right"}
+{"h":"sting","f":"දුංශනය","t":"දංශනය","by":"both"}
+{"h":"stinger","f":"කන හරහ පාර","t":"කන හරහා පාර","by":"opus"}
+{"h":"stinking","f":"දුඟද","t":"දුගඳ","by":"both"}
+{"h":"stilted","f":"ගාධ","t":"ගාඪ","by":"gemini","v":"right"}
+{"h":"sting","f":"දුෂ්ටය","t":"දෂ්ටය","by":"gemini","v":"right"}
+{"h":"stipulatio","f":"සම්ප්‍රතිඥාය","t":"සම්ප්‍රතිඥාව","by":"opus"}
+{"h":"stirrer","f":"මන්ථන දුණ්ඩ","t":"මන්ථන දණ්ඩ","by":"opus"}
+{"h":"stipples","f":"2. [Geo.] තිත්‍රටා","t":"2. [Geo.] තිත් රටා","by":"gemini","v":"right"}
+{"h":"stipulatio","f":"1. [Law.] ප්‍රශ්නොත්තර ගිවිසුම","t":"1. [Law.] ප්‍රශ්නෝත්තර ගිවිසුම","by":"gemini","v":"right"}
+{"h":"stipulatio","f":"2. [Law.] සම්ප්‍රතිඥාය","t":"2. [Law.] සම්ප්‍රතිඥාව","by":"gemini"}
+{"h":"stirrer","f":"2. මන්ථන දුණ්ඩ","t":"2. මන්ථන දණ්ඩ","by":"gemini","v":"right"}
+{"h":"stock-in-trade","f":"ව්‍යාපාර බඬු තොගය","t":"ව්‍යාපාර බඩු තොගය","by":"opus"}
+{"h":"stock-broker","f":"තැරැවුකරු","t":"තැරැව්කරු","by":"opus"}
+{"h":"stock","f":"4. කඳු","t":"4. කඳ","by":"gemini","v":"right"}
+{"h":"stock","f":"9. ග්‍රාහක කඳු","t":"9. ග්‍රාහක කඳ","by":"gemini","v":"right"}
+{"h":"stock-in-trade","f":"3. [Law.] ව්‍යාපාර බඬු තොගය","t":"3. [Law.] ව්‍යාපාර බඩු තොගය","by":"gemini","v":"right"}
+{"h":"stomach","f":"12. රුවය","t":"12. රුචිය","by":"opus"}
+{"h":"stoking","f":"මෙලවීම","t":"මොලවීම","by":"opus"}
+{"h":"stoma","f":"1. පුටිකාව","t":"1. පූටිකාව","by":"opus"}
+{"h":"stoker","f":"ගිනි පෙභෙණිය","t":"ගිනි පෙහෙණිය","by":"gemini","v":"right"}
+{"h":"stoker","f":"ගිනි පෙභෙණියා","t":"ගිනි පෙහෙණියා","by":"gemini","v":"right"}
+{"h":"stomach","f":"රුවය","t":"රුචිය","by":"gemini","v":"right"}
+{"h":"stone-cold","f":"ඉතා ශ්‍රීතල","t":"ඉතා ශීතල","by":"opus"}
+{"h":"stone-cold","f":"1. [a.] ඉතා ශ්‍රීතල","t":"1. [a.] ඉතා ශීතල","by":"gemini","v":"right"}
+{"h":"stop","f":"තොරතෝංවය","t":"තොරතෝංචිය","by":"both"}
+{"h":"storage","f":"සංවත","t":"සංචිත","by":"both"}
+{"h":"storage","f":"සංචායකයය","t":"සංචායකය","by":"both"}
+{"h":"stop","f":"බිම හිර කට්ටිය","t":"බිම හිර කට්ටය","by":"gemini","v":"right"}
+{"h":"stopgap","f":"1. [vt.] තාවකාලිකව කරන තැනැත්තා","t":"1. [n.] තාවකාලිකව කරන තැනැත්තා","by":"gemini","v":"right"}
+{"h":"stopgap","f":"2. [vt.] තාවකාලිකව කරන දේ","t":"2. [n.] තාවකාලිකව කරන දේ","by":"gemini","v":"right"}
+{"h":"stopgap","f":"3. [vt.] පාළුකපන්නා","t":"3. [n.] පාළුකපන්නා","by":"gemini","v":"right"}
+{"h":"stopgap","f":"4. [vt.] හිලව්ව","t":"4. [n.] හිලව්ව","by":"gemini","v":"right"}
+{"h":"store","f":"සම්හාරය","t":"සම්භාරය","by":"gemini","v":"right"}
+{"h":"storeyed","f":"භූමක","t":"භූමික","by":"opus"}
+{"h":"storm","f":"මහත් කබලය","t":"මහත් කලබලය","by":"both"}
+{"h":"stoutly","f":"ස්ථීරවම","t":"ස්ථිරවම","by":"both"}
+{"h":"story","f":"කතන්තදරය","t":"කතන්දරය","by":"gemini","v":"right"}
+{"h":"storyboard","f":"වැටිසන","t":"වටසන","by":"gemini","v":"wrong"}
+{"h":"stowage","f":"බඬු ඇහුරුම් කුලිය","t":"බඩු ඇහුරුම් කුලිය","by":"opus"}
+{"h":"strain","f":"වික්‍රයාව","t":"වික්‍රියාව","by":"opus"}
+{"h":"stowage","f":"බඬු","t":"බඩු","by":"gemini","v":"right"}
+{"h":"strain","f":"3. [vt.] අමාරුවේ භෙළනවා","t":"3. [vt.] අමාරුවේ හෙළනවා","by":"gemini","v":"right"}
+{"h":"strain","f":"22. [vt.] බොහෝ සේ වෙභෙසෙනවා","t":"22. [vt.] බොහෝ සේ වෙහෙසෙනවා","by":"gemini","v":"right"}
+{"h":"strain","f":"25. [n.] මහත් වෙභෙස","t":"25. [n.] මහත් වෙහෙස","by":"gemini","v":"right"}
+{"h":"strain","f":"27. මාද","t":"27. මාදිලිය","by":"gemini"}
+{"h":"strain","f":"31. [Aes.] වික්‍රයාව","t":"31. [Aes.] වික්‍රියාව","by":"gemini","v":"right"}
+{"h":"strain","f":"36. [vt.] වෙභෙසවනවා","t":"36. [vt.] වෙහෙසවනවා","by":"gemini","v":"right"}
+{"h":"strain","f":"37. [vt.] වෙභෙසීමෙන් දුර්වල කරනවා","t":"37. [vt.] වෙහෙසීමෙන් දුර්වල කරනවා","by":"gemini","v":"right"}
+{"h":"strain","f":"38. [vt.] වෙභෙසීමෙන් දුර්වල වෙනවා","t":"38. [vt.] වෙහෙසීමෙන් දුර්වල වෙනවා","by":"gemini","v":"right"}
+{"h":"strait","f":"සමුද්‍ර සන්ධය","t":"සමුද්‍ර සන්ධිය","by":"both"}
+{"h":"strange","f":"පරදේශ්‍රීය","t":"පරදේශීය","by":"both"}
+{"h":"strait-laced","f":"විනයධාරි","t":"විනයධාරී","by":"gemini","v":"right"}
+{"h":"strangely","f":"නාදුනන","t":"නාඳුනන","by":"gemini","v":"right"}
+{"h":"strangulation","f":"උස්මුරුතාව","t":"උස්මුරුත්තාව","by":"gemini","v":"right"}
+{"h":"strategy","f":"උපයඥානය","t":"උපායඥානය","by":"both"}
+{"h":"strategy","f":"ව්‍යහ ශාස්ත්‍රය","t":"ව්‍යුහ ශාස්ත්‍රය","by":"opus"}
+{"h":"stratified","f":"ස්‍රීභූත","t":"ස්තරීභූත","by":"both"}
+{"h":"stratification","f":"ස්තරිභවනය","t":"ස්තරීභවනය","by":"opus"}
+{"h":"strategists","f":"උපායඥුයෝ","t":"උපායඥයෝ","by":"gemini","v":"right"}
+{"h":"strategy","f":"ව්‍යහ ශාස්ත්‍රය","t":"ව්‍යූහ ශාස්ත්‍රය","by":"gemini","v":"right"}
+{"h":"strategy","f":"[n.] ව්‍යුහ ශාස්ත්‍රය","t":"[n.] ව්‍යූහ ශාස්ත්‍රය","by":"gemini","v":"right"}
+{"h":"stratification","f":"7. ස්තරිභවනය","t":"7. ස්තරීභවනය","by":"gemini","v":"right"}
+{"h":"stratosphere","f":"අපරිවර්ති ගෝලය","t":"අපරිවර්තී ගෝලය","by":"gemini","v":"right"}
+{"h":"stream","f":"14. නැකැ යන සමූහය","t":"14. නැකැඩී යන සමූහය","by":"opus"}
+{"h":"streptomycin","f":"ප්‍රතිවකයක්","t":"ප්‍රතිජීවකයක්","by":"opus"}
+{"h":"streetwise","f":"[n.] නූතන","t":"[a.] නූතන","by":"both"}
+{"h":"streamlining","f":"නිරවුල් කිරිම","t":"නිරවුල් කිරීම","by":"opus"}
+{"h":"strawberry","f":"2. [Med.] ස්ටෝබෙරි","t":"2. [Med.] ස්ට්‍රෝබෙරි","by":"gemini","v":"right"}
+{"h":"stream","f":"14. නැකැ යන සමූහය","t":"14. නොකැඩී යන සමූහය","by":"gemini","v":"right"}
+{"h":"stream","f":"15. [n.] නැකැඩී යන සමූහය","t":"15. [n.] නොකැඩී යන සමූහය","by":"gemini","v":"right"}
+{"h":"streamline","f":"1. [Ele.] අනාකූල","t":"1. [Ele.] අනාකුල","by":"gemini","v":"wrong"}
+{"h":"streamline","f":"5. නිරාකූල කිරීම","t":"5. නිරාකුල කිරීම","by":"gemini","v":"wrong"}
+{"h":"streamlined","f":"2. අනාකූල","t":"2. අනාකුල","by":"gemini","v":"wrong"}
+{"h":"streamlined","f":"3. [Aes.] අනාකූල රේඛිත","t":"3. [Aes.] අනාකුල රේඛිත","by":"gemini","v":"wrong"}
+{"h":"streamlining","f":"1. [Eco.] අනාකූලනය","t":"1. [Eco.] අනාකුලනය","by":"gemini","v":"wrong"}
+{"h":"streamlining","f":"3. නිරවුල් කිරිම","t":"3. නිරවුල් කිරීම","by":"gemini","v":"right"}
+{"h":"streamlining","f":"4. නිරාකූලනය","t":"4. නිරාකුලනය","by":"gemini","v":"wrong"}
+{"h":"streptomycin","f":"2. [n.] ප්‍රතිවකයක්","t":"2. [n.] ප්‍රතිජීවකයක්","by":"gemini","v":"right"}
+{"h":"stress","f":"වෙභෙස","t":"වෙහෙස","by":"both"}
+{"h":"strew","f":"[n.] අතුරනවා","t":"[vt.] අතුරනවා","by":"both"}
+{"h":"striction","f":"සභිරය","t":"සහිරය","by":"both"}
+{"h":"strictly","f":"නිතිමතින්","t":"නීතිමතින්","by":"opus"}
+{"h":"stress","f":"අයාසය","t":"ආයාසය","by":"gemini","v":"right"}
+{"h":"strike","f":"තිරශ්වකාව","t":"තිරශ්චිකාව","by":"opus"}
+{"h":"string","f":"එක්‍රුස් කරනවා","t":"එක්‍රැස් කරනවා","by":"opus"}
+{"h":"string","f":"ලනුව","t":"ලණුව","by":"opus"}
+{"h":"stringent","f":"ද්‍රෘඪ","t":"දෘඪ","by":"opus"}
+{"h":"striped","f":"විලිබිත","t":"විලිඛිත","by":"opus"}
+{"h":"strike","f":"7. තිරශ්වකාව","t":"7. තිරශ්චිකාව","by":"gemini","v":"right"}
+{"h":"string","f":"4. එක්‍රුස් කරනවා","t":"4. එක්‍රැස් කරනවා","by":"gemini","v":"right"}
+{"h":"string","f":"19. [n.] ලනුව","t":"19. [n.] ලණුව","by":"gemini","v":"right"}
+{"h":"stringent","f":"3. ද්‍රෘඪ","t":"3. දෘඪ","by":"gemini","v":"right"}
+{"h":"striped","f":"3. [Bot.] විලිබිත","t":"3. [Bot.] විලිඛිත","by":"gemini","v":"right"}
+{"h":"stripping","f":"[Civ.] පෙභෙළි කිරීම","t":"[Civ.] පෙහෙළි කිරීම","by":"opus"}
+{"h":"strive","f":"වෙභෙස","t":"වෙහෙස","by":"opus"}
+{"h":"stroke","f":"ස්එාර","t":"ස්ඵාර","by":"both"}
+{"h":"stripping","f":"පෙභෙළි කිරීම","t":"පෙහෙළි කිරීම","by":"gemini","v":"right"}
+{"h":"strive","f":"වෙභෙස වෙනවා","t":"වෙහෙස වෙනවා","by":"gemini","v":"right"}
+{"h":"strophoid","f":"කුංවතාභය","t":"කුංචිතාභය","by":"both"}
+{"h":"structure","f":"[Soc.] වියුහය","t":"[Soc.] ව්‍යුහය","by":"opus"}
+{"h":"struggle","f":"සේ වෙභෙසෙනවා","t":"සේ වෙහෙසෙනවා","by":"opus"}
+{"h":"struggle","f":"[n.] වෙභෙස","t":"[n.] වෙහෙස","by":"opus"}
+{"h":"strop","f":"මුවහත් කරනව","t":"මුවහත් කරනවා","by":"gemini","v":"right"}
+{"h":"structural","f":"5. ව්‍යහ","t":"5. ව්‍යුහ","by":"gemini","v":"right"}
+{"h":"structural","f":"6. ව්‍යහාත්මක","t":"6. ව්‍යුහාත්මක","by":"gemini","v":"right"}
+{"h":"structuralism","f":"1. ව්‍යහවාදය","t":"1. ව්‍යුහවාදය","by":"gemini","v":"right"}
+{"h":"structure","f":"අතිව්‍යාප්ත ව්‍යහය","t":"අතිව්‍යාප්ත ව්‍යුහය","by":"gemini","v":"right"}
+{"h":"structure","f":"12. ව්‍යහය","t":"12. ව්‍යුහය","by":"gemini","v":"right"}
+{"h":"struggle","f":"වෙභෙසෙනවා","t":"වෙහෙසෙනවා","by":"gemini","v":"right"}
+{"h":"struggle","f":"වෙභෙස","t":"වෙහෙස","by":"gemini","v":"right"}
+{"h":"stubbornly","f":"සිතමතයේ","t":"සිතුමතයේ","by":"opus"}
+{"h":"stubble","f":"2. [n.] රැවුල් කොට සහිත","t":"2. [a.] රැවුල් කොට සහිත","by":"gemini","v":"wrong"}
+{"h":"stubbornly","f":"1. [adv.] සිතමතයේ","t":"1. [adv.] සිතුමතයේ","by":"gemini","v":"right"}
+{"h":"stunt","f":"4. වැම වළක්වනවා","t":"4. වැඩීම වළක්වනවා","by":"opus"}
+{"h":"stunt","f":"වැම වළක්වනවා","t":"වැඩීම වළක්වනවා","by":"gemini","v":"right"}
+{"h":"stupid","f":"චඩ","t":"ජඩ","by":"opus"}
+{"h":"stupor","f":"හ්‍රාන්තිය","t":"භ්‍රාන්තිය","by":"both"}
+{"h":"stupefaction","f":"තොන්තුව","t":"තෝන්තුව","by":"gemini","v":"right"}
+{"h":"stupid","f":"5. [a.] චඩ","t":"5. [a.] ජඩ","by":"gemini","v":"right"}
+{"h":"style","f":"පන්හිද වැනි දේ","t":"පන්හිඳ වැනි දේ","by":"gemini","v":"right"}
+{"h":"style","f":"22. [Law.] විලාසමය","t":"22. [Law.] විලාසය","by":"gemini","v":"right"}
+{"h":"stylus","f":"තුලිකාව","t":"තූලිකාව","by":"both"}
+{"h":"suave","f":"2. [a.] ප්‍රියශ්‍රීලි","t":"2. [a.] ප්‍රියශීලී","by":"gemini","v":"right"}
+{"h":"suave","f":"3. ප්‍රියශීලි","t":"3. ප්‍රියශීලී","by":"gemini","v":"right"}
+{"h":"suavity","f":"1. [n.] ප්‍රියශ්‍රීලිභාවය","t":"1. [n.] ප්‍රියශීලීභාවය","by":"gemini","v":"right"}
+{"h":"suavity","f":"2. ප්‍රියශීලිභාවය","t":"2. ප්‍රියශීලීභාවය","by":"gemini"}
+{"h":"sub-agent","f":"ප්‍රතීකාරකයා","t":"ප්‍රතිකාරකයා","by":"gemini","v":"right"}
+{"h":"subcategory","f":"ද්වීතිය වර්ගය","t":"ද්විතීය වර්ගය","by":"opus"}
+{"h":"subacute","f":"මන්දතී ව්‍ර","t":"මන්දතීව්‍ර","by":"gemini","v":"right"}
+{"h":"subacute","f":"මන්දුතීව්‍ර","t":"මන්දතීව්‍ර","by":"gemini","v":"right"}
+{"h":"subcategory","f":"ද්වීතිය","t":"ද්විතීය","by":"gemini","v":"right"}
+{"h":"subcript","f":"subcript","t":"subscript","by":"both"}
+{"h":"subcontract","f":"අතු කොන්ත්‍රාත්තුව","t":"අතුරු කොන්ත්‍රාත්තුව","by":"gemini","v":"wrong"}
+{"h":"subcontrary","f":"උපප්‍රත්‍යනික","t":"උපප්‍රත්‍යනීක","by":"gemini","v":"right"}
+{"h":"subheading","f":"උපශ්‍රීර්ෂය","t":"උපශීර්ෂය","by":"both"}
+{"h":"subjective","f":"පුද්ගලනිහ්ශ්‍රීත","t":"පුද්ගලනිහ්ශ්‍රිත","by":"both"}
+{"h":"sublenticular","f":"මන්දකාවාකාර","t":"මන්දකාචාකාර","by":"both"}
+{"h":"sublimation","f":"ඌර්ද්වපාතනය","t":"ඌර්ධ්වපාතනය","by":"both"}
+{"h":"sublimation","f":"ඌර්ධවපානනය","t":"ඌර්ධ්වපාතනය","by":"both"}
+{"h":"sublime","f":"අත්‍යදාර","t":"අත්‍යුදාර","by":"both"}
+{"h":"sublime","f":"උර්ධ්වපාතනය","t":"ඌර්ධ්වපාතනය","by":"both"}
+{"h":"sublingual","f":"අධෝහ්ව","t":"අධෝජිහ්ව","by":"both"}
+{"h":"sublittoral","f":"උපතීරස්ත","t":"උපතීරස්ථ","by":"both"}
+{"h":"subject","f":"ස්වා යත්ත","t":"ස්වායත්ත","by":"gemini","v":"right"}
+{"h":"subjunctive","f":"[a.] ව්‍යාකරණයෙහි අසම්භාව්‍ය ක්‍රියාව","t":"[n.] ව්‍යාකරණයෙහි අසම්භාව්‍ය ක්‍රියාව","by":"gemini","v":"right"}
+{"h":"submental","f":"උපවබුකීය","t":"උපචිබුකීය","by":"both"}
+{"h":"submerge","f":"කිදා බහිනවා","t":"කිඳා බහිනවා","by":"gemini","v":"right"}
+{"h":"subscription","f":"ග්‍රාහකමිළ","t":"ග්‍රාහකමිල","by":"opus"}
+{"h":"subsistence","f":"[n.] විකාව","t":"[n.] ජීවිකාව","by":"opus"}
+{"h":"subsistence","f":"විකාවෘත්තිය","t":"ජීවිකාවෘත්තිය","by":"opus"}
+{"h":"subsidiary","f":"9. [a.] උපාංගය","t":"9. [n.] උපාංගය","by":"gemini","v":"right"}
+{"h":"subsistence","f":"9. [n.] විකාව","t":"9. [n.] ජීවිකාව","by":"gemini","v":"right"}
+{"h":"subsistence","f":"10. [n.] විකාවෘත්තිය","t":"10. [n.] ජීවිකාවෘත්තිය","by":"gemini","v":"right"}
+{"h":"substandard","f":"3. [Phy.] උපාප්‍රමාණිකය","t":"3. [Phy.] උපප්‍රමාණිකය","by":"gemini"}
+{"h":"substitution","f":"[Bot.] අදේශය","t":"[Bot.] ආදේශය","by":"opus"}
+{"h":"subsume","f":"අධහ්ස්ථ","t":"අධස්ථ","by":"opus"}
+{"h":"subterete","f":"මඳු-","t":"මඳ-","by":"opus"}
+{"h":"substitution","f":"අදේශය","t":"ආදේශය","by":"gemini","v":"right"}
+{"h":"substructure","f":"යටි හැටුම","t":"යටි සැකිල්ල","by":"gemini","v":"wrong"}
+{"h":"subterete","f":"මඳු-සිලින්ඩරාකාර","t":"මඳ-සිලින්ඩරාකාර","by":"gemini","v":"right"}
+{"h":"subtitle","f":"උපශ්‍රීර්ෂය","t":"උපශීර්ෂය","by":"both"}
+{"h":"subtribe","f":"උපවරිගය","t":"උපවර්ගය","by":"opus"}
+{"h":"subtlety","f":"කපටභාවය","t":"කපටිභාවය","by":"gemini","v":"right"}
+{"h":"suburbs","f":"යවමැදුම්ගම","t":"යටමැදුම්ගම","by":"gemini"}
+{"h":"subversion","f":"[a.] පෙරළිය","t":"[n.] පෙරළිය","by":"opus"}
+{"h":"succession","f":"පම්පරාව","t":"පරම්පරාව","by":"both"}
+{"h":"succour","f":"පිහිටි වෙනවා","t":"පිහිට වෙනවා","by":"both"}
+{"h":"subversion","f":"1. [a.] පෙරළිය","t":"1. [n.] පෙරළිය","by":"gemini","v":"right"}
+{"h":"succeed","f":"සඑල වෙනවා","t":"සඵල වෙනවා","by":"gemini","v":"right"}
+{"h":"success","f":"වාච්වය","t":"වාච්චිය","by":"gemini","v":"right"}
+{"h":"success","f":"සඑලත්වය","t":"සඵලත්වය","by":"gemini","v":"right"}
+{"h":"successful","f":"2. [a.] සඑල","t":"2. [a.] සඵල","by":"gemini","v":"right"}
+{"h":"succession","f":"සන්තනිය","t":"සන්තතිය","by":"gemini","v":"right"}
+{"h":"succession","f":"සන්නතිය","t":"සන්තතිය","by":"gemini","v":"right"}
+{"h":"sucking","f":"[Soc.] චුෂණය","t":"[Soc.] චූෂණය","by":"opus"}
+{"h":"such","f":"එභෙම","t":"එහෙම","by":"gemini","v":"right"}
+{"h":"sucking","f":"චුෂණය","t":"චූෂණය","by":"gemini","v":"right"}
+{"h":"suffer","f":"වානවා","t":"වාවනවා","by":"opus"}
+{"h":"suffice","f":"සෑභෙනවා","t":"සෑහෙනවා","by":"both"}
+{"h":"sufficiency","f":"සෑභෙන තරම","t":"සෑහෙන තරම","by":"both"}
+{"h":"sufficient","f":"[Psy.] සෑභෙන","t":"[Psy.] සෑහෙන","by":"opus"}
+{"h":"sufficient","f":"සෑභෙන පමණ","t":"සෑහෙන පමණ","by":"opus"}
+{"h":"suffixes","f":"ප්‍රත්‍ය","t":"ප්‍රත්‍යය","by":"opus"}
+{"h":"sufism","f":"සු වාදය","t":"සුෆී වාදය","by":"both"}
+{"h":"sufficient","f":"2. [Psy.] සෑභෙන","t":"2. [Psy.] සෑහෙන","by":"gemini","v":"right"}
+{"h":"sufficient","f":"3. [a.] සෑභෙන පමණ වූ","t":"3. [a.] සෑහෙන පමණ වූ","by":"gemini","v":"right"}
+{"h":"suffix","f":"පාදස්තය","t":"පාදස්ථය","by":"gemini","v":"right"}
+{"h":"suggestible","f":"ලෙභෙසියෙන්","t":"ලෙහෙසියෙන්","by":"both"}
+{"h":"suicide","f":"සියපණ හැනි","t":"සියපණ හානි","by":"opus"}
+{"h":"suit","f":"කට්ටළය","t":"කට්ටලය","by":"opus"}
+{"h":"suit","f":"[vti.] සෑභෙනවා","t":"[vti.] සෑහෙනවා","by":"opus"}
+{"h":"suitability","f":"උච්තභාවය","t":"උචිතභාවය","by":"both"}
+{"h":"suitability","f":"4. ඖවත්‍යය","t":"4. ඖචිත්‍යය","by":"opus"}
+{"h":"suitable","f":"අනූරූප","t":"අනුරූප","by":"both"}
+{"h":"suitable","f":"8. ඖවත්‍ය","t":"8. ඖචිත්‍ය","by":"opus"}
+{"h":"suitable","f":"[a.] සෑභෙන","t":"[a.] සෑහෙන","by":"opus"}
+{"h":"sulfate","f":"සල්පේට්","t":"සල්ෆේට්","by":"opus"}
+{"h":"suicide","f":"සියපණ හැනි කරගැනීම","t":"සියපණ හානි කරගැනීම","by":"gemini","v":"right"}
+{"h":"suit","f":"සෑභෙනවා","t":"සෑහෙනවා","by":"gemini","v":"right"}
+{"h":"suitability","f":"ඖවත්‍යය","t":"ඖචිත්‍යය","by":"gemini","v":"right"}
+{"h":"suitable","f":"ඖවත්‍ය","t":"ඖචිත්‍ය","by":"gemini","v":"right"}
+{"h":"suitable","f":"සෑභෙන","t":"සෑහෙන","by":"gemini","v":"right"}
+{"h":"sulkily","f":"තරභෙන්","t":"තරහෙන්","by":"both"}
+{"h":"sully","f":"දුරවර්ණ","t":"දුර්වර්ණ","by":"both"}
+{"h":"sulphating","f":"ලුණූ බැඳුම","t":"ලුණු බැඳුම","by":"both"}
+{"h":"sulphating","f":"ලුණූ බැඳීම","t":"ලුණු බැඳීම","by":"both"}
+{"h":"sulphathiazole","f":"සල් පතයසෝල්","t":"සල්පතයසෝල්","by":"gemini","v":"right"}
+{"h":"sulphonal","f":"සල් පොනල්","t":"සල්පොනල්","by":"gemini","v":"right"}
+{"h":"sulphonamide","f":"සල් පොනමයිඩ්","t":"සල්පොනමයිඩ්","by":"gemini","v":"right"}
+{"h":"sunburn","f":"පිලිස්සීම","t":"පිළිස්සීම","by":"opus"}
+{"h":"summit","f":"කඳුමුඳුන","t":"කඳුමුදුන","by":"gemini","v":"right"}
+{"h":"summon","f":"අජ ගසනවා","t":"අඬ ගසනවා","by":"gemini","v":"right"}
+{"h":"sun","f":"30. රව","t":"30. රවි","by":"gemini","v":"right"}
+{"h":"sun","f":"සසකිරණ","t":"සහසකිරණ","by":"gemini","v":"right"}
+{"h":"sunken","f":"[n.] ගිල්වනු","t":"[a.] ගිල්වනු","by":"opus"}
+{"h":"sunken","f":"[n.] පහතට","t":"[a.] පහතට","by":"opus"}
+{"h":"sup","f":"රූ කෑම","t":"රෑ කෑම","by":"opus"}
+{"h":"super","f":"[prep.] අධි","t":"[prefix.] අධි","by":"opus"}
+{"h":"sunken","f":"1. [n.] ගිල්වනු ලැබූ","t":"1. [a.] ගිල්වනු ලැබූ","by":"gemini","v":"right"}
+{"h":"sunken","f":"2. [n.] පහතට ගිලී ගිය","t":"2. [a.] පහතට ගිලී ගිය","by":"gemini","v":"right"}
+{"h":"sup","f":"රූ කෑම කනවා","t":"රෑ කෑම කනවා","by":"gemini","v":"right"}
+{"h":"supercede","f":"අබිබනවා","t":"අභිභවනවා","by":"opus"}
+{"h":"supercharger","f":"එන්මට","t":"එන්ජිමට","by":"opus"}
+{"h":"superficial","f":"පාෂ්ඨිය","t":"පෘෂ්ඨීය","by":"both"}
+{"h":"superfluous","f":"විඑල","t":"විඵල","by":"both"}
+{"h":"superfemale","f":"ගැහැණු","t":"ගැහැනු","by":"opus"}
+{"h":"supercede","f":"අබිබනවා","t":"අබිබවනවා","by":"gemini","v":"right"}
+{"h":"supercharger","f":"අභ්‍යන්තර දහන එන්මට වැඩිපුර වාතය හෝ ඉන්ධන කවන උ","t":"අභ්‍යන්තර දහන එන්ජිමට වැඩිපුර වාතය හෝ ඉන්ධන කවන උපකරණය","by":"gemini","v":"right"}
+{"h":"superficial","f":"වාහ්‍ය","t":"බාහ්‍ය","by":"gemini","v":"right"}
+{"h":"supernatural","f":"අතිළෞකික","t":"අතිලෞකික","by":"both"}
+{"h":"superlative","f":"[a.] ව්‍යාකරණයෙහි අතිශයාර්ථවාචකය","t":"[n.] ව්‍යාකරණයෙහි අතිශයාර්ථවාචකය","by":"gemini","v":"right"}
+{"h":"supermarket","f":"සුපිරි වෙළඳු හල","t":"සුපිරි වෙළඳ හල","by":"gemini","v":"right"}
+{"h":"supernatural","f":"සෘද්ධිමය","t":"ඍද්ධිමය","by":"gemini","v":"wrong"}
+{"h":"superscription","f":"ලීවීම","t":"ලිවීම","by":"both"}
+{"h":"superstructure","f":"උපරිව්‍යහය","t":"උපරිව්‍යූහය","by":"both"}
+{"h":"supervise","f":"අධික්ෂණය","t":"අධීක්ෂණය","by":"opus"}
+{"h":"supervision","f":"පරික්ෂාව","t":"පරීක්ෂාව","by":"both"}
+{"h":"supination","f":"උක්කුජ්ජනය","t":"උත්කුජ්ජනය","by":"opus"}
+{"h":"supper","f":"රූ කෑම","t":"රෑ කෑම","by":"both"}
+{"h":"supple","f":"අස්ථීර","t":"අස්ථිර","by":"both"}
+{"h":"supervise","f":"අධික්ෂණය කරනවා","t":"අධීක්ෂණය කරනවා","by":"gemini","v":"right"}
+{"h":"supine","f":"උඩුපැල්ලෙන් වැටී සිටින","t":"උඩුබැල්ලෙන් වැටී සිටින","by":"gemini","v":"wrong"}
+{"h":"supplies","f":"බඩු මුට්ටු","t":"බඩු මූට්ටු","by":"opus"}
+{"h":"support","f":"උපස්තමභක","t":"උපස්තම්භක","by":"opus"}
+{"h":"support","f":"[pron.] මුක්කුව","t":"[n.] මුක්කුව","by":"opus"}
+{"h":"supposedly","f":"හිතු","t":"හිතූ","by":"opus"}
+{"h":"suppository","f":"බෙභෙත්","t":"බෙහෙත්","by":"opus"}
+{"h":"suppressed","f":"මර්දුනය","t":"මර්දනය","by":"opus"}
+{"h":"suppressive","f":"වලක්වන","t":"වළක්වන","by":"opus"}
+{"h":"suppurate","f":"සාරේ සෑදෙනවා","t":"සැරව සෑදෙනවා","by":"opus"}
+{"h":"supplies","f":"2. [n.] බඩු මූට්ටු ආදිය","t":"2. [n.] බඩු මුට්ටු ආදිය","by":"gemini","v":"right"}
+{"h":"supply","f":"8. [v.] සලසෑය","t":"8. [v.] සලසනවා","by":"gemini","v":"right"}
+{"h":"support","f":"16. [v.] උපස්තමභක වෙනවා","t":"16. [v.] උපස්තම්භක වෙනවා","by":"gemini","v":"right"}
+{"h":"support","f":"22. නඩත්තු කරන්න","t":"22. නඩත්තු කරන්නා","by":"gemini","v":"wrong"}
+{"h":"support","f":"28. [pron.] මුක්කුව","t":"28. [n.] මුක්කුව","by":"gemini","v":"right"}
+{"h":"supposal","f":"1. අභ්‍යපගතය","t":"1. අභ්‍යුපගතය","by":"gemini","v":"right"}
+{"h":"supposedly","f":"[adv.] හිතු පරිදිම","t":"[adv.] හිතූ පරිදිම","by":"gemini","v":"right"}
+{"h":"supposition","f":"2. අභ්‍යපගමනය","t":"2. අභ්‍යුපගමනය","by":"gemini","v":"right"}
+{"h":"supposition","f":"3. අභ්‍යපගමය","t":"3. අභ්‍යුපගමය","by":"gemini","v":"right"}
+{"h":"suppositious","f":"1. අභ්‍යපගමික","t":"1. අභ්‍යුපගමික","by":"gemini","v":"right"}
+{"h":"suppository","f":"දියවීමට දමන බෙභෙත්","t":"දියවීමට දමන බෙහෙත්","by":"gemini","v":"right"}
+{"h":"suppressed","f":"2. මර්දුනය කළ","t":"2. මර්දනය කළ","by":"gemini","v":"right"}
+{"h":"suppressed","f":"3. [Soc.] මැඩලු","t":"3. [Soc.] මැඩලූ","by":"gemini","v":"right"}
+{"h":"suppurate","f":"[vi.] සාරේ සෑදෙනවා","t":"[vi.] සැරව සෑදෙනවා","by":"gemini","v":"right"}
+{"h":"suprascapular","f":"අධ්‍යාංසඵලක","t":"අධ්‍යංසඵලක","by":"opus"}
+{"h":"supreme","f":"අත්‍යත්තම","t":"අත්‍යුත්තම","by":"both"}
+{"h":"surd","f":"අවිනිශ්වත","t":"අවිනිශ්චිත","by":"both"}
+{"h":"supra-ethmoid","f":"අධි-ඡිධාස්ථිය","t":"අධි-ඡිද්‍රාස්ථිය","by":"gemini","v":"right"}
+{"h":"supreme","f":"උත්තරිතර","t":"උත්තරීතර","by":"gemini","v":"right"}
+{"h":"surcingle","f":"ඔට්ටුච්වය","t":"ඔට්ටු කච්චිය","by":"gemini"}
+{"h":"surd","f":"5. [n.] ඝෝෂාක්ෂර","t":"5. [n.] අඝෝෂාක්ෂර","by":"gemini","v":"right"}
+{"h":"surgery","f":"බෙභෙත්","t":"බෙහෙත්","by":"opus"}
+{"h":"surfacing","f":"පිටිතලය","t":"පිටතලය","by":"opus"}
+{"h":"surface","f":"11. [n.] මුණය","t":"11. [n.] මූණය","by":"gemini"}
+{"h":"surfboard","f":"පුවරුවක","t":"පුවරුවක්","by":"gemini","v":"right"}
+{"h":"surgery","f":"බෙභෙත් ශාලාව","t":"බෙහෙත් ශාලාව","by":"gemini","v":"right"}
+{"h":"surpassing","f":"අත්‍යත්කෘෂ්ට","t":"අත්‍යුත්කෘෂ්ට","by":"opus"}
+{"h":"surplice","f":"දේවගැතිවරුන්ගේ ගේ","t":"දේවගැතිවරුන්ගේ","by":"both"}
+{"h":"surtax","f":"අදිබද්ද","t":"අධිබද්ද","by":"opus"}
+{"h":"surpassed","f":"අති ක්‍රාන්ත","t":"අතික්‍රාන්ත","by":"opus"}
+{"h":"surpassing","f":"1. අත්‍යත්කෘෂ්ට","t":"1. අත්‍යුත්කෘෂ්ට","by":"gemini","v":"right"}
+{"h":"surplus","f":"2. [n.] අධික","t":"2. [a.] අධික","by":"gemini","v":"right"}
+{"h":"surplus","f":"7. [n.] වැඩිපුර වූ","t":"7. [a.] වැඩිපුර වූ","by":"gemini","v":"right"}
+{"h":"surreptitious","f":"3. [Psy.] සළ","t":"3. [Psy.] ඡල","by":"gemini","v":"wrong"}
+{"h":"surreptitiously","f":"සෙළෙන්","t":"සෙලෙන්","by":"gemini","v":"wrong"}
+{"h":"surrounding","f":"5. [Soc.] වටාපිටාව","t":"5. [Soc.] වටපිටාව","by":"gemini"}
+{"h":"surroundings","f":"4. වටාපිටාව","t":"4. වටපිටාව","by":"gemini"}
+{"h":"surtax","f":"1. [Law.] අදිබද්ද","t":"1. [Law.] අධිබද්ද","by":"gemini","v":"right"}
+{"h":"surveyor","f":"මිනිතඥුයා","t":"මිනිතඥයා","by":"both"}
+{"h":"survival","f":"නොනැසී වත් වීම","t":"නොනැසී ජීවත් වීම","by":"both"}
+{"h":"survival","f":"ස්ථීතිය","t":"ස්ථිතිය","by":"both"}
+{"h":"survive","f":"නැවත වත් වෙනවා","t":"නැවත ජීවත් වෙනවා","by":"both"}
+{"h":"survivor","f":"අතිවියා","t":"අතිජීවියා","by":"both"}
+{"h":"survivor","f":"තව කල් වත් වෙන්නා","t":"තව කල් ජීවත් වෙන්නා","by":"both"}
+{"h":"survivor","f":"[n.] වත්ව සිටින්නා","t":"[n.] ජීවත්ව සිටින්නා","by":"opus"}
+{"h":"survivorship","f":"අතිවිතාව","t":"අතිජීවිතාව","by":"both"}
+{"h":"suspend","f":"විලම්භනය","t":"විලම්බනය","by":"both"}
+{"h":"suspensoid","f":"අවලම්බාහය","t":"අවලම්බාභය","by":"both"}
+{"h":"surveyor","f":"මනනුවරයා","t":"මිනුම්වරයා","by":"gemini"}
+{"h":"survival","f":"උත්වනය","t":"උජ්ජීවනය","by":"gemini","v":"wrong"}
+{"h":"survivor","f":"5. [n.] වත්ව සිටින්නා","t":"5. [n.] ජීවත්ව සිටින්නා","by":"gemini","v":"wrong"}
+{"h":"suspenders","f":"2. [n.] මෙස් පටි","t":"2. [n.] මේස් පටි","by":"gemini","v":"right"}
+{"h":"sustain","f":"ස්ථීර කරනවා","t":"ස්ථිර කරනවා","by":"both"}
+{"h":"suture","f":"සූවකරණය","t":"සූචිකරණය","by":"opus"}
+{"h":"suture","f":"අස්ථීසීබනය","t":"අස්ථිසීවනය","by":"both"}
+{"h":"suspicious","f":"ශිවංකර","t":"ශංකර","by":"gemini","v":"wrong"}
+{"h":"suture","f":"සූවකරණය","t":"සීවකරණය","by":"gemini","v":"wrong"}
+{"h":"swab","f":"පතුවැල","t":"පතුවැළ","by":"gemini"}
+{"h":"swampy","f":"ගොහොදු","t":"ගොහොරු","by":"opus"}
+{"h":"swarmer","f":"චලබීජාණූව","t":"චලබීජාණුව","by":"both"}
+{"h":"sward","f":"තණබිඩලි","t":"තණපිඩලි","by":"gemini","v":"right"}
+{"h":"swarmer","f":"සුස්පෝරය","t":"සූස්පෝරය","by":"gemini","v":"right"}
+{"h":"sway","f":"ආන්ද්‍යෝලනය","t":"ආන්දෝලනය","by":"both"}
+{"h":"swearing","f":"දිවිරීම","t":"දිවුරීම","by":"opus"}
+{"h":"sweetener","f":"රසගන්වන","t":"රසගැන්වන","by":"opus"}
+{"h":"sweetheart","f":"සෙනෙභෙවන්තයා","t":"සෙනෙහෙවන්තයා","by":"both"}
+{"h":"sweetheart","f":"සෙනෙභෙවන්තිය","t":"සෙනෙහෙවන්තිය","by":"both"}
+{"h":"sweep","f":"ආඬ්මානය","t":"ආඬිමානය","by":"gemini"}
+{"h":"sweep","f":"ආඬ්යා","t":"ආඬියා","by":"gemini","v":"right"}
+{"h":"swift","f":"ශ්‍රීඝ්‍ර","t":"ශීඝ්‍ර","by":"both"}
+{"h":"swing","f":"ආන්ද්‍යෝලනය","t":"ආන්දෝලනය","by":"both"}
+{"h":"swing","f":"උංච්ල්ලාව","t":"උංචිල්ලාව","by":"both"}
+{"h":"swing","f":"ඔංවිලි","t":"ඔංචිලි","by":"both"}
+{"h":"swing","f":"[n.] ඔවිලි","t":"[n.] ඔංචිලි","by":"opus"}
+{"h":"swift","f":"රඳුවනය","t":"රඳවනය","by":"gemini","v":"right"}
+{"h":"switching","f":"ස්චිච්චි ලෑම","t":"ස්විච්චි ලෑම","by":"both"}
+{"h":"swoon","f":"මුර්ච්ජාව","t":"මූර්ච්ඡාව","by":"both"}
+{"h":"swordsman","f":"කඩුසරඹයෙහි","t":"කඩුහරඹයෙහි","by":"opus"}
+{"h":"swinging","f":"පෑද්දුම","t":"පැද්දුම","by":"gemini","v":"right"}
+{"h":"switch","f":"ස්විච්වය","t":"ස්විච්චිය","by":"gemini","v":"right"}
+{"h":"switchboard","f":"සංවියුත එලකය","t":"සංවියුත ඵලකය","by":"gemini","v":"right"}
+{"h":"switchgear","f":"ස්විච්වපන්න","t":"ස්විච්චිපන්න","by":"gemini"}
+{"h":"switching","f":"ස්වච්ව ලෑම","t":"ස්විච්චි ලෑම","by":"gemini","v":"right"}
+{"h":"switching","f":"ස්විච්වලෑම","t":"ස්විච්චිලෑම","by":"gemini","v":"right"}
+{"h":"sycophancy","f":"කයිවාරු දෙම","t":"කයිවාරු දෙඩීම","by":"opus"}
+{"h":"symbol","f":"අඩායාළම","t":"අඩයාළම","by":"opus"}
+{"h":"symbol","f":"විහ්නය","t":"චිහ්නය","by":"opus"}
+{"h":"swot","f":"2. [vi.] පොත්ගුල්ලා","t":"2. [n.] පොත්ගුල්ලා","by":"gemini","v":"right"}
+{"h":"sycophancy","f":"2. කයිවාරු දෙම","t":"2. කයිවාරු දෙඩීම","by":"gemini","v":"right"}
+{"h":"syllable","f":"1. අක","t":"1. අකුර","by":"gemini"}
+{"h":"symbiont","f":"2. [Bot.] සහවියා","t":"2. [Bot.] සහජීවියා","by":"gemini","v":"wrong"}
+{"h":"symbiosis","f":"5. [n.] සහවනය","t":"5. [n.] සහජීවනය","by":"gemini","v":"wrong"}
+{"h":"symbiotic","f":"4. [Bot.] සහවක","t":"4. [Bot.] සහජීවක","by":"gemini","v":"wrong"}
+{"h":"symbiotic","f":"5. [Bot.] සහවී","t":"5. [Bot.] සහජීවී","by":"gemini","v":"wrong"}
+{"h":"symbol","f":"2. [n.] අඩායාළම","t":"2. [n.] අඩයාළම","by":"gemini","v":"right"}
+{"h":"symbol","f":"6. [n.] විහ්නය","t":"6. [n.] චිහ්නය","by":"gemini","v":"right"}
+{"h":"symbolism","f":"සංකෙතනය","t":"සංකේතනය","by":"both"}
+{"h":"symmetric","f":"සමිමිතික","t":"සමමිතික","by":"opus"}
+{"h":"sympathetic","f":"අනුකම්පාසහත","t":"අනුකම්පාසහගත","by":"both"}
+{"h":"sympathy","f":"සභානුභූතිය","t":"සහානුභූතිය","by":"both"}
+{"h":"symmetric","f":"සමිමිතික","t":"සම්මිතික","by":"gemini","v":"wrong"}
+{"h":"synallagmatic","f":"අන්‍යෙන්‍ය","t":"අන්‍යෝන්‍ය","by":"both"}
+{"h":"syncarp","f":"සමඑලය","t":"සමඵලය","by":"both"}
+{"h":"synarthrosis","f":"සංපාර්වය","t":"සම්පර්වය","by":"gemini"}
+{"h":"synchronisation","f":"සමමුහුර්ත කරනය","t":"සමමුහුර්ත කරණය","by":"both"}
+{"h":"synclinorium","f":"යටිනැමි මඩුල්ල","t":"යටිනැමි මඬුල්ල","by":"opus"}
+{"h":"syncretic","f":"ඒකරාශ්‍රී","t":"ඒකරාශී","by":"both"}
+{"h":"synchrotron","f":"සින්කොට්‍රෝනය","t":"සින්ක්‍රොට්‍රෝනය","by":"gemini","v":"right"}
+{"h":"syncline","f":"ද්‍රෝණි ය","t":"ද්‍රෝණිය","by":"gemini","v":"right"}
+{"h":"syncretize","f":"සව්‍ය කිරීමේ","t":"සමගි කිරීමේ","by":"gemini","v":"right"}
+{"h":"syndic","f":"සාමාකයා","t":"සාමාජිකයා","by":"both"}
+{"h":"synthetic","f":"කෘත්‍රීම","t":"කෘත්‍රිම","by":"opus"}
+{"h":"syringe","f":"සිරිංය","t":"සිරිංජය","by":"both"}
+{"h":"systematic","f":"ව්‍යවස්ථීත","t":"ව්‍යවස්ථිත","by":"both"}
+{"h":"systematist","f":"වර්ගීකරණඥුයා","t":"වර්ගීකරණඥයා","by":"both"}
+{"h":"systemic","f":"අවශෝෂිත","t":"අවශෝෂක","by":"opus"}
+{"h":"syren","f":"ග්‍රීක අප්සරාවි","t":"ග්‍රීක අප්සරාවී","by":"gemini"}
+{"h":"systematically","f":"කමසේවා","t":"ක්‍රමසේවා","by":"gemini","v":"right"}
+{"h":"tabloid","f":"බෙභෙත්","t":"බෙහෙත්","by":"opus"}
+{"h":"taboo","f":"තහන්වය","t":"තහන්චිය","by":"both"}
+{"h":"table","f":"[n.] එලකය","t":"[n.] ඵලකය","by":"opus"}
+{"h":"tablet","f":"කුඩා එලකය","t":"කුඩා ඵලකය","by":"both"}
+{"h":"tabanid","f":"ටැබනිඩයාවා","t":"ටැබනිඩයා","by":"opus"}
+{"h":"table","f":"එලකය","t":"ඵලකය","by":"gemini","v":"right"}
+{"h":"tabloid","f":"බෙභෙත් පෙත්ත","t":"බෙහෙත් පෙත්ත","by":"gemini","v":"right"}
+{"h":"tabulator","f":"නොලියන ලද එලකය","t":"නොලියන ලද ඵලකය","by":"opus"}
+{"h":"tachometer","f":"භ්‍රමවේගාමානය","t":"භ්‍රමවේගමානය","by":"opus"}
+{"h":"tacit","f":"සූවත","t":"සූචිත","by":"opus"}
+{"h":"tack","f":"ටින්ටැස් ඇණය","t":"ටින්ටැක්ස් ඇණය","by":"opus"}
+{"h":"tabular","f":"1. [vt.] අනුක්‍රමණික","t":"1. [a.] අනුක්‍රමණික","by":"gemini","v":"right"}
+{"h":"tabular","f":"3. [vt.] පැතලි","t":"3. [a.] පැතලි","by":"gemini","v":"right"}
+{"h":"tabular","f":"4. [vt.] ලැයිස්තුවලට ඇතුළත්","t":"4. [a.] ලැයිස්තුවලට ඇතුළත්","by":"gemini","v":"right"}
+{"h":"tabulator","f":"1. [n.] නොලියන ලද එලකය","t":"1. [n.] නොලියන ලද ඵලකය","by":"gemini","v":"right"}
+{"h":"tachometer","f":"5. භ්‍රමවේගාමානය","t":"5. භ්‍රමවේගමානය","by":"gemini","v":"right"}
+{"h":"tacit","f":"7. සූවත","t":"7. සූචිත","by":"gemini","v":"right"}
+{"h":"taciturnity","f":"නොමැතිකම","t":"නොකැමතිකම","by":"gemini","v":"right"}
+{"h":"tack","f":"5. [Art.] ටින්ටැස් ඇණය","t":"5. [Art.] ටින්ටැක්ස් ඇණය","by":"gemini","v":"right"}
+{"h":"tackle","f":"ලනු ගුටක එසවුම් යන්ත්‍රනය","t":"ලනු ගුටක එසවුම් යන්ත්‍රය","by":"opus"}
+{"h":"tactful","f":"උපායශ්‍රීලි","t":"උපායශීලි","by":"opus"}
+{"h":"tag","f":"යමක අවුණනවා","t":"යමක අමුණනවා","by":"opus"}
+{"h":"tactful","f":"උපායශ්‍රීලි","t":"උපායශීලී","by":"gemini","v":"right"}
+{"h":"tactful","f":"2. උපායශීලි","t":"2. උපායශීලී","by":"gemini","v":"right"}
+{"h":"taint","f":"ද්‍යෝෂය","t":"දෝෂය","by":"both"}
+{"h":"tail","f":"අන්තාශ්තය","t":"අන්තාන්තය","by":"gemini"}
+{"h":"taille-douce","f":"උත්කීරණය","t":"උත්කීර්ණය","by":"gemini","v":"wrong"}
+{"h":"tailor","f":"තුන්නවයා","t":"තුන්නවායා","by":"gemini","v":"right"}
+{"h":"tailor-made","f":"1. [n.] ඇඳුම් සන්නාලියකු විසින් ඇණුවුමට මැසූ","t":"1. [a.] ඇඳුම් සන්නාලියකු විසින් ඇණවුමට මැසූ","by":"gemini","v":"right"}
+{"h":"tailor-made","f":"2. [n.] විශේෂ","t":"2. [a.] විශේෂ","by":"gemini","v":"right"}
+{"h":"taku","f":"සළඟට","t":"සුළඟට","by":"both"}
+{"h":"talent","f":"සහජ කුශතලාව","t":"සහජ කුශලතාව","by":"both"}
+{"h":"talent","f":"දුක්ෂතාව","t":"දක්ෂතාව","by":"both"}
+{"h":"talent","f":"සාමර්ථය","t":"සාමර්ථ්‍යය","by":"opus"}
+{"h":"talc","f":"සුවඳු සුණු","t":"සුවඳ සුණු","by":"gemini","v":"right"}
+{"h":"talk","f":"9. දෙම","t":"9. දෙඩුම","by":"gemini","v":"right"}
+{"h":"taming","f":"දපනය","t":"දමනය","by":"opus"}
+{"h":"tame","f":"[v.] මෙල්ල කරනවාමෙවක","t":"[v.] මෙල්ල කරනවා","by":"gemini","v":"right"}
+{"h":"tamper","f":"මට කැටය","t":"මිටි කැටය","by":"gemini"}
+{"h":"tang","f":"5. [vti.] ලෝහ භාජනයක් ගැටීමෙන් නැඟෙන හඬ වැනි ශබ්දය","t":"5. [n.] ලෝහ භාජනයක් ගැටීමෙන් නැඟෙන හඬ වැනි ශබ්දය","by":"gemini","v":"right"}
+{"h":"tang","f":"6. ලෝහ භාජනයක් ගැටීමෙන් නැඟෙන හඬ වැනි ශබ්දයක් නැ","t":"6. ලෝහ භාජනයක් ගැටීමෙන් නැඟෙන හඬ වැනි ශබ්දයක් නැඟෙනවා","by":"gemini","v":"right"}
+{"h":"tangential","f":"ස්පර්ශ්‍රී","t":"ස්පර්ශී","by":"both"}
+{"h":"tangible","f":"ස්පාශ්‍ය","t":"ස්පෘශ්‍ය","by":"gemini","v":"right"}
+{"h":"tannery","f":"1. [n.] දුඹුරු බවට හැරුණු","t":"1. [a.] දුඹුරු බවට හැරුණු","by":"gemini","v":"right"}
+{"h":"tannery","f":"2. [n.] පදම් කරනලද","t":"2. [a.] පදම් කරනලද","by":"gemini","v":"right"}
+{"h":"tapestry","f":"විවත්‍ර ජවනිකාව","t":"විචිත්‍ර ජවනිකාව","by":"both"}
+{"h":"tantrum","f":"රහස","t":"රොස","by":"gemini","v":"right"}
+{"h":"tao","f":"ටාස","t":"ටාඕ","by":"gemini","v":"right"}
+{"h":"taoism","f":"ටාසවාදය","t":"ටාඕවාදය","by":"gemini","v":"right"}
+{"h":"tap-dance","f":"කරන න","t":"කරන නැටුම","by":"gemini","v":"right"}
+{"h":"tap-root","f":"මුඳුන් මුල","t":"මුදුන් මුල","by":"gemini"}
+{"h":"tapping","f":"ක්‍රාණනය","t":"ස්‍රාවණය","by":"gemini","v":"wrong"}
+{"h":"tarsus","f":"වපිටය","t":"චිපිටය","by":"both"}
+{"h":"tart","f":"එලමෝදක","t":"ඵලමෝදක","by":"both"}
+{"h":"tarmac","f":"ගුවන්‍යානා","t":"ගුවන්යානා","by":"gemini","v":"right"}
+{"h":"tarsus","f":"පාදුකුර්චය","t":"පාදකූර්චය","by":"gemini","v":"right"}
+{"h":"tarsus","f":"පාදුකූර්චාස්ථිය","t":"පාදකූර්චාස්ථිය","by":"gemini","v":"right"}
+{"h":"task","f":"මහත් සේ වෙභෙසනවා","t":"මහත් සේ වෙහෙසනවා","by":"opus"}
+{"h":"taste","f":"අභිරුවය","t":"අභිරුචිය","by":"both"}
+{"h":"taste","f":"රස විඳිම","t":"රස විඳීම","by":"both"}
+{"h":"tastes","f":"2. අභිරුව","t":"2. අභිරුචි","by":"opus"}
+{"h":"tasty","f":"රුව උපදවන","t":"රුචි උපදවන","by":"both"}
+{"h":"task","f":"වෙභෙසනවා","t":"වෙහෙසනවා","by":"gemini","v":"right"}
+{"h":"taste","f":"රස දැනනවා","t":"රස දැනෙනවා","by":"gemini","v":"right"}
+{"h":"taste","f":"රස විදිනවා","t":"රස විඳිනවා","by":"gemini","v":"right"}
+{"h":"tastes","f":"අභිරුව","t":"අභිරුචි","by":"gemini","v":"right"}
+{"h":"tatoo","f":"tatoo","t":"tattoo","by":"gemini","v":"right"}
+{"h":"tattle","f":"සපාදූප","t":"ඕපාදූප","by":"gemini","v":"right"}
+{"h":"tattoo","f":"පුරප්පට්ටුව","t":"පුරප්පාට්ටුව","by":"gemini"}
+{"h":"tautology","f":"පුනරුත් ද්‍යෝෂය","t":"පුනරුත් දෝෂය","by":"both"}
+{"h":"taxable","f":"බලවත් සේ වෙභෙසනවා","t":"බලවත් සේ වෙහෙසනවා","by":"opus"}
+{"h":"taxable","f":"වෙභෙසනවා","t":"වෙහෙසනවා","by":"gemini","v":"right"}
+{"h":"taxi","f":"ටැක්ෂිය","t":"ටැක්සිය","by":"gemini","v":"wrong"}
+{"h":"taxonomist","f":"විද්‍යාඥුයා","t":"විද්‍යාඥයා","by":"both"}
+{"h":"taxonomy","f":"වරගීකරණය","t":"වර්ගීකරණය","by":"both"}
+{"h":"taxonomy","f":"ව විද්‍යාවේ","t":"ජීව විද්‍යාවේ","by":"both"}
+{"h":"teapot","f":"තේ පෝච්වය","t":"තේ පෝච්චිය","by":"both"}
+{"h":"tear","f":"කඳුළු වෑභෙනවා","t":"කඳුළු වෑහෙනවා","by":"opus"}
+{"h":"tear","f":"වාෂිප","t":"වාෂ්ප","by":"both"}
+{"h":"tease","f":"වෙභෙසනවා","t":"වෙහෙසනවා","by":"both"}
+{"h":"teasing","f":"විජටනය කිරිම","t":"විජටනය කිරීම","by":"opus"}
+{"h":"technique","f":"ශාස්ත්‍රිය ක්‍රමය","t":"ශාස්ත්‍රීය ක්‍රමය","by":"opus"}
+{"h":"tear","f":"ඉරණවා","t":"ඉරනවා","by":"gemini","v":"right"}
+{"h":"tear","f":"වෑභෙනවා","t":"වෑහෙනවා","by":"gemini","v":"right"}
+{"h":"tearjerker","f":"අශ්‍රපාතකය","t":"අශ්‍රැපාතකය","by":"gemini","v":"right"}
+{"h":"tears","f":"2. අශ්‍ර","t":"2. අශ්‍රැ","by":"gemini","v":"right"}
+{"h":"teasing","f":"කිරිම","t":"කිරීම","by":"gemini","v":"right"}
+{"h":"technician","f":"තාක්ෂිණිකයා","t":"තාක්ෂණිකයා","by":"gemini","v":"right"}
+{"h":"technique","f":"තක්ෂණය","t":"තාක්ෂණය","by":"gemini","v":"right"}
+{"h":"technique","f":"ශාස්ත්‍රිය","t":"ශාස්ත්‍රීය","by":"gemini","v":"right"}
+{"h":"technostructure","f":"ව්‍යහය","t":"ව්‍යූහය","by":"both"}
+{"h":"tedious","f":"බෙහෝ","t":"බොහෝ","by":"both"}
+{"h":"tedious","f":"වෙභෙස","t":"වෙහෙස","by":"both"}
+{"h":"tee","f":"වල්ග පයිපය","t":"වල්ග පයිප්පය","by":"gemini","v":"right"}
+{"h":"teeter","f":"වෙලෙවිව","t":"වෙව්ලවෙව්ලී","by":"gemini"}
+{"h":"telegnosis","f":"පරවත්තඥානය","t":"පරචිත්තඥානය","by":"opus"}
+{"h":"teetotal","f":"3. අමද්‍යුප","t":"3. අමද්‍යප","by":"gemini","v":"right"}
+{"h":"teetotal","f":"4. අමද්‍යුපාන","t":"4. අමද්‍යපාන","by":"gemini","v":"right"}
+{"h":"teetotalism","f":"3. අමද්‍යුපවාදය","t":"3. අමද්‍යපවාදය","by":"gemini","v":"right"}
+{"h":"teetotalism","f":"4. අමද්‍යුපානය","t":"4. අමද්‍යපානය","by":"gemini","v":"right"}
+{"h":"telangiectasis","f":"සාතිවහිස්ත්‍ර විස්කෘතිය","t":"ජාතිවාහිස්‍රෝත විස්තෘතිය","by":"gemini"}
+{"h":"telecommunication","f":"දුරවිනැවුම","t":"දූරවිනැවුම","by":"gemini"}
+{"h":"telegnosis","f":"2. පරවත්තඥානය","t":"2. පරචිත්තඥානය","by":"gemini","v":"right"}
+{"h":"telegram","f":"1. ටෙලිග්රැම්","t":"1. ටෙලිග්‍රෑම්","by":"gemini","v":"right"}
+{"h":"telepath","f":"පරවත්තඥානයෙන්","t":"පරචිත්තඥානයෙන්","by":"gemini","v":"right"}
+{"h":"telepathic","f":"පරවත්ත විජානන","t":"පරචිත්ත විජානන","by":"gemini","v":"right"}
+{"h":"telepathic","f":"පරවත්තඥානය පිළිබඳ වූ","t":"පරචිත්තඥානය පිළිබඳ වූ","by":"gemini","v":"right"}
+{"h":"telepathist","f":"1. [n.] පරචිත්තඥානය ඇති තැනැත්ත","t":"1. [n.] පරචිත්තඥානය ඇති තැනැත්තා","by":"gemini","v":"right"}
+{"h":"telepathist","f":"2. පරවත්තඥානය ඇති තැනැත්ත","t":"2. පරචිත්තඥානය ඇති තැනැත්තා","by":"gemini","v":"right"}
+{"h":"telepathy","f":"පරවත්ත විජානනය","t":"පරචිත්ත විජානනය","by":"gemini","v":"right"}
+{"h":"telepathy","f":"පරවත්තඥානය","t":"පරචිත්තඥානය","by":"gemini","v":"right"}
+{"h":"telltale","f":"සපදූපකාරයා","t":"ඕපදූපකාරයා","by":"both"}
+{"h":"telescope","f":"සඹුක්කාලව","t":"සඹුක්කාලම","by":"gemini","v":"right"}
+{"h":"tell","f":"ප්‍රතිඑල ඇති කරනවා","t":"ප්‍රතිඵල ඇති කරනවා","by":"gemini","v":"right"}
+{"h":"teller","f":"කැෂයර්","t":"කැෂියර්","by":"gemini","v":"right"}
+{"h":"telling","f":"වහා ප්‍රතිඑල උපදවන","t":"වහා ප්‍රතිඵල උපදවන","by":"gemini","v":"right"}
+{"h":"telluric","f":"පෘථ්වීය","t":"පෘථිවීය","by":"gemini","v":"right"}
+{"h":"tellurion","f":"පෘථිවි පර්වර්තන","t":"පෘථිවි පරිවර්තන","by":"opus"}
+{"h":"temperance","f":"මිත්‍යාචාරය","t":"මිතාචාරය","by":"opus"}
+{"h":"temperate","f":"මිත්‍යාචාරී","t":"මිතාචාරී","by":"opus"}
+{"h":"temperate","f":"සමශ්‍රීතෝෂ්ණ ඇති","t":"සමශීතෝෂ්ණ ඇති","by":"opus"}
+{"h":"temperature","f":"[n.] ශ්‍රීතෝෂ්ණ","t":"[n.] ශීතෝෂ්ණ","by":"opus"}
+{"h":"tellurion","f":"පෘථිවි පර්වර්තන දර්ශකය","t":"පෘථිවි පරිවර්තන දර්ශකය","by":"gemini","v":"right"}
+{"h":"temper","f":"8. පදුම","t":"8. පදම","by":"gemini","v":"right"}
+{"h":"temper","f":"9. පදුම් කිරීම","t":"9. පදම් කිරීම","by":"gemini","v":"right"}
+{"h":"temper","f":"10. පදුම් ද්‍රව්‍ය","t":"10. පදම් ද්‍රව්‍ය","by":"gemini","v":"right"}
+{"h":"temper","f":"22. හිතේ ස","t":"22. හිතේ ස්වභාවය","by":"gemini","v":"right"}
+{"h":"temperance","f":"3. මිත්‍යාචාරය","t":"3. මිතාචාරය","by":"gemini","v":"right"}
+{"h":"temperate","f":"2. [Soc.] මිතචාරී","t":"2. [Soc.] මිතාචාරී","by":"gemini","v":"right"}
+{"h":"temperate","f":"3. මිත්‍යාචාරී","t":"3. මිතාචාරී","by":"gemini","v":"right"}
+{"h":"temperate","f":"5. [a.] සමශ්‍රීතෝෂ්ණ","t":"5. [a.] සමශීතෝෂ්ණ","by":"gemini","v":"right"}
+{"h":"temperate","f":"6. [a.] සමශ්‍රීතෝෂ්ණ ඇති දේශගුණය","t":"6. [n.] සමශීතෝෂ්ණ ඇති දේශගුණය","by":"gemini"}
+{"h":"temperate","f":"9. [Geo.] සෞමය","t":"9. [Geo.] සෞම්‍ය","by":"gemini","v":"right"}
+{"h":"temperature","f":"3. [n.] ශ්‍රීතෝෂ්ණ ප්‍රමාණය","t":"3. [n.] ශීතෝෂ්ණ ප්‍රමාණය","by":"gemini","v":"right"}
+{"h":"temporal","f":"ලෞකික විතයට","t":"ලෞකික ජීවිතයට","by":"opus"}
+{"h":"temporal","f":"[Law.] ලොකායත්ත","t":"[Law.] ලෝකායත්ත","by":"opus"}
+{"h":"temporality","f":"සථාන","t":"ස්ථාන","by":"both"}
+{"h":"temptation","f":"ප්‍රලෝහනය","t":"ප්‍රලෝභනය","by":"opus"}
+{"h":"tenacity","f":"ස්ථීරභාවය","t":"ස්ථිරභාවය","by":"opus"}
+{"h":"temporal","f":"5. [Law.] ලොකායත්ත","t":"5. [Law.] ලෝකායත්ත","by":"gemini","v":"right"}
+{"h":"temporal","f":"8. [a.] ලෞකික විතයට අයත්","t":"8. [a.] ලෞකික ජීවිතයට අයත්","by":"gemini","v":"right"}
+{"h":"temptation","f":"4. [Aes.] ප්‍රලෝහනය","t":"4. [Aes.] ප්‍රලෝභනය","by":"gemini","v":"right"}
+{"h":"tempura","f":"අවුල","t":"අවුළ","by":"gemini"}
+{"h":"tenancy","f":"තනැතියාව","t":"තැනැතියාව","by":"both"}
+{"h":"tenant","f":"නියැසියා","t":"නිවැසියා","by":"both"}
+{"h":"tendency","f":"ප්‍රවණතාය","t":"ප්‍රවණතාව","by":"both"}
+{"h":"tenderly","f":"[a.] කරුණාවන්තව","t":"[adv.] කරුණාවන්තව","by":"both"}
+{"h":"tenesmus","f":"මෝචන රුඬා","t":"මෝචන රූජා","by":"opus"}
+{"h":"tender","f":"තොත්ත","t":"තෙත්ත","by":"gemini","v":"wrong"}
+{"h":"tenesmus","f":"මෝචන රුඬා","t":"මෝචන රුජා","by":"gemini","v":"right"}
+{"h":"tenesmus","f":"මෝචන රූජා","t":"මෝචන රුජා","by":"gemini","v":"right"}
+{"h":"tennis","f":"ක්‍රිඩාව","t":"ක්‍රීඩාව","by":"both"}
+{"h":"tension","f":"අවිනිශ්වතභාවය","t":"අවිනිශ්චිතභාවය","by":"both"}
+{"h":"tenor","f":"හාවය","t":"භාවය","by":"both"}
+{"h":"tentative","f":"අස්ථීර","t":"අස්ථිර","by":"both"}
+{"h":"tenure","f":"බුත්තිය","t":"බුක්තිය","by":"opus"}
+{"h":"tense","f":"රීස්සුම්","t":"රිස්සුම්","by":"gemini","v":"right"}
+{"h":"tequila","f":"මද්‍යුසාර","t":"මද්‍යසාර","by":"both"}
+{"h":"tepee","f":"කුඩාරම","t":"කූඩාරම","by":"gemini","v":"right"}
+{"h":"tepid","f":"මන්ද්‍යෝෂ්ණ","t":"මන්දෝෂ්ණ","by":"gemini","v":"right"}
+{"h":"terbium","f":"2. බියම","t":"2. ටබියම","by":"gemini","v":"right"}
+{"h":"terbium","f":"3. බියම්","t":"3. ටබියම්","by":"gemini","v":"right"}
+{"h":"term","f":"ශ්‍රීර්ෂය","t":"ශීර්ෂය","by":"both"}
+{"h":"terminology","f":"නිඝන්ඩුව","t":"නිඝණ්ඩුව","by":"gemini","v":"right"}
+{"h":"ternary","f":"ත්‍රියංගි","t":"ත්‍රියංගී","by":"gemini","v":"right"}
+{"h":"terpene","f":"3. පීන්","t":"3. ටර්පීන්","by":"gemini","v":"right"}
+{"h":"terpenoid","f":"පිනොයිඩ","t":"ටර්පිනොයිඩ","by":"gemini","v":"right"}
+{"h":"territorial","f":"දේශ්‍රීය","t":"දේශීය","by":"both"}
+{"h":"terrace","f":"මුහුදු මඑව","t":"මුහුදු මළුව","by":"gemini","v":"right"}
+{"h":"terrace","f":"මුහුදු මඵව","t":"මුහුදු මළුව","by":"gemini","v":"right"}
+{"h":"terse","f":"කෙටි එභෙත් පැහැදිලි","t":"කෙටි එහෙත් පැහැදිලි","by":"opus"}
+{"h":"tertiary","f":"තෘතියික","t":"තෘතීයික","by":"both"}
+{"h":"test","f":"පරික්ෂාව","t":"පරීක්ෂාව","by":"both"}
+{"h":"test","f":"වෙභෙසට","t":"වෙහෙසට","by":"both"}
+{"h":"terse","f":"එභෙත්","t":"එහෙත්","by":"gemini","v":"right"}
+{"h":"testaceous","f":"කට්ටක් රහිත","t":"කට්ටක් සහිත","by":"gemini","v":"right"}
+{"h":"testes","f":"වෘෂ්ණ ග්‍රන්ථි","t":"වෘෂණ ග්‍රන්ථි","by":"both"}
+{"h":"testify","f":"වාවක සාක්ෂ්‍ය දෙනවා","t":"වාචික සාක්ෂ්‍ය දෙනවා","by":"both"}
+{"h":"testimony","f":"3. වාවක සාක්ෂ්‍යය","t":"3. වාචික සාක්ෂ්‍යය","by":"opus"}
+{"h":"testimony","f":"4. වාවක සාක්ෂිය","t":"4. වාචික සාක්ෂිය","by":"opus"}
+{"h":"testimony","f":"සාක්කිය","t":"සාක්ෂිය","by":"opus"}
+{"h":"tetractys","f":"චතූෂ්ක","t":"චතුෂ්ක","by":"both"}
+{"h":"testimony","f":"වාවක සාක්ෂ්‍යය","t":"වාචික සාක්ෂ්‍යය","by":"gemini","v":"right"}
+{"h":"testimony","f":"වාවක සාක්ෂිය","t":"වාචික සාක්ෂිය","by":"gemini","v":"right"}
+{"h":"tetanus","f":"ටෙටනස","t":"ටෙටනසය","by":"gemini"}
+{"h":"tetralemma","f":"චතූර්","t":"චතුර්","by":"opus"}
+{"h":"tetrahedron","f":"2. [Geo.] වස්තුලය","t":"2. [Geo.] චතුස්තලය","by":"gemini","v":"right"}
+{"h":"tetralemma","f":"චතූර් අභිගතය","t":"චතුර් අභිගතය","by":"gemini","v":"right"}
+{"h":"tetramerous","f":"චතුරාංක","t":"චතුරංගක","by":"gemini","v":"wrong"}
+{"h":"text","f":"පාඨ ග්‍රන්තය","t":"පාඨ ග්‍රන්ථය","by":"both"}
+{"h":"text","f":"මූල ග්‍රන්තය","t":"මූල ග්‍රන්ථය","by":"both"}
+{"h":"textile","f":"පෙභෙකම්","t":"පෙහෙකම්","by":"both"}
+{"h":"thalamencephalon","f":"තැලමස-","t":"තැලමස්-","by":"opus"}
+{"h":"thai","f":"[n.] තායිලන්තයට අයත්","t":"[a.] තායිලන්තයට අයත්","by":"gemini","v":"right"}
+{"h":"thankfully","f":"[a.] කෘතඥතා","t":"[adv.] කෘතඥතා","by":"opus"}
+{"h":"thankless","f":"නිෂ්එල","t":"නිෂ්ඵල","by":"opus"}
+{"h":"thalloid","f":"තලසාහ","t":"තලසාභ","by":"gemini","v":"right"}
+{"h":"thalloidal","f":"තලසාහ","t":"තලසාභ","by":"gemini","v":"right"}
+{"h":"thankfully","f":"[a.]","t":"[adv.]","by":"gemini","v":"right"}
+{"h":"thankless","f":"3. [a.] නිෂ්එල","t":"3. [a.] නිෂ්ඵල","by":"gemini","v":"right"}
+{"h":"thatch","f":"භෙවිල්ලනවා","t":"හෙවිල්ලනවා","by":"both"}
+{"h":"theft","f":"අදත්තාදනය","t":"අදත්තාදානය","by":"both"}
+{"h":"thecodont","f":"[n.][n.]","t":"[n.]","by":"gemini","v":"right"}
+{"h":"thecodont","f":"[adj.][adj.]","t":"[adj.]","by":"gemini","v":"right"}
+{"h":"then","f":"[a.] එක්බිති","t":"[adv.] එක්බිති","by":"both"}
+{"h":"theodolite","f":"5. විකෝණමානය","t":"5. ද්විකෝණමානය","by":"both"}
+{"h":"then","f":"එභෙනම්","t":"එහෙනම්","by":"gemini","v":"right"}
+{"h":"theophany","f":"දේව විශ්කරණය","t":"දේව ආවිෂ්කරණය","by":"gemini","v":"right"}
+{"h":"theophany","f":"දේවාවිශ්කරණය","t":"දේවාවිෂ්කරණය","by":"gemini","v":"right"}
+{"h":"theoretical","f":"අවිනිශ්වත","t":"අවිනිශ්චිත","by":"opus"}
+{"h":"theories","f":"න්‍යයාන්","t":"න්‍යායන්","by":"both"}
+{"h":"theorist","f":"න්‍යායාචාරිය","t":"න්‍යායාචාරියා","by":"opus"}
+{"h":"theory","f":"සිද්දාන්තය","t":"සිද්ධාන්තය","by":"opus"}
+{"h":"there","f":"අරභෙ","t":"අරහෙ","by":"opus"}
+{"h":"there","f":"එභෙ","t":"එහෙ","by":"opus"}
+{"h":"thereafter","f":"[a.] ඉන්පසු","t":"[adv.] ඉන්පසු","by":"opus"}
+{"h":"thereafter","f":"[a.] තදනත්තර","t":"[adv.] තදනන්තර","by":"opus"}
+{"h":"therefore","f":"[a.] ඉන්නිසා","t":"[adv.] ඉන්නිසා","by":"opus"}
+{"h":"therefore","f":"එභෙයින්","t":"එහෙයින්","by":"opus"}
+{"h":"therefore","f":"ඒකහන්දා","t":"ඒකහින්දා","by":"opus"}
+{"h":"therein","f":"[a.] එහි","t":"[adv.] එහි","by":"opus"}
+{"h":"theoretical","f":"2. අවිනිශ්වත","t":"2. අවිනිශ්චිත","by":"gemini","v":"right"}
+{"h":"theoretical","f":"10. සෛද්ධාන්තක","t":"10. සෛද්ධාන්තික","by":"gemini","v":"right"}
+{"h":"theorist","f":"4. [Soc.] න්‍යායාචාරිය","t":"4. [Soc.] න්‍යායාචාරියා","by":"gemini","v":"right"}
+{"h":"theory","f":"10. [Aes.] සිද්දාන්තය","t":"10. [Aes.] සිද්ධාන්තය","by":"gemini","v":"right"}
+{"h":"therblig","f":"3. [Mng.] තර්බිලිග්ස්","t":"3. [Mng.] තර්බ්ලිග්ස්","by":"gemini"}
+{"h":"there","f":"3. [adv.] අරභෙ","t":"3. [adv.] අරහෙ","by":"gemini","v":"right"}
+{"h":"there","f":"7. [adv.] එභෙ","t":"7. [adv.] එහෙ","by":"gemini","v":"right"}
+{"h":"thereafter","f":"1. [a.] ඉන්පසු","t":"1. [adv.] ඉන්පසු","by":"gemini","v":"right"}
+{"h":"thereafter","f":"4. [a.] තදනත්තර","t":"4. [adv.] තදනන්තර","by":"gemini","v":"right"}
+{"h":"therefore","f":"1. [a.] ඉන්නිසා","t":"1. [adv.] ඉන්නිසා","by":"gemini","v":"right"}
+{"h":"therefore","f":"4. [adv.] එභෙයින්","t":"4. [adv.] එහෙයින්","by":"gemini","v":"right"}
+{"h":"therefore","f":"8. [adv.] ඒකහන්දා","t":"8. [adv.] ඒකහින්දා","by":"gemini","v":"wrong"}
+{"h":"therein","f":"1. [a.] එහි","t":"1. [adv.] එහි","by":"gemini","v":"right"}
+{"h":"therein","f":"2. [a.] ඒ කාලය තුළ","t":"2. [adv.] ඒ කාලය තුළ","by":"gemini","v":"right"}
+{"h":"thereof","f":"[a.] එයින්","t":"[adv.] එයින්","by":"gemini","v":"right"}
+{"h":"thereupon","f":"[a.] එක්බිති","t":"[adv.] එක්බිති","by":"opus"}
+{"h":"thermocouple","f":"තාපවිද්‍යුත්‍යග්මය","t":"තාපවිද්‍යුත්‍යුග්මය","by":"opus"}
+{"h":"thermoelectricity","f":"විදයුතය","t":"විද්‍යුතය","by":"opus"}
+{"h":"thermoelectron","f":"ඉලෙක්ට්‍රෙනය","t":"ඉලෙක්ට්‍රෝනය","by":"opus"}
+{"h":"thereupon","f":"1. [a.] එක්බිති","t":"1. [adv.] එක්බිති","by":"gemini","v":"right"}
+{"h":"therm","f":"3. මය","t":"3. තර්මය","by":"gemini","v":"right"}
+{"h":"thermionic","f":"2. මයන","t":"2. තර්මයන","by":"gemini","v":"right"}
+{"h":"thermistor","f":"3. මිස්ටරය","t":"3. තර්මිස්ටරය","by":"gemini","v":"right"}
+{"h":"thermocouple","f":"5. තාපවිද්‍යුත්‍යග්මය","t":"5. තාපවිද්‍යුත්‍යුග්මය","by":"gemini","v":"right"}
+{"h":"thermoelectric","f":"2. [n.] තාපවිද්‍යුත්","t":"2. [a.] තාපවිද්‍යුත්","by":"gemini","v":"right"}
+{"h":"thermoelectricity","f":"තාපජ විදයුතය","t":"තාපජ විද්‍යුතය","by":"gemini","v":"right"}
+{"h":"thermoelectron","f":"තාප ඉලෙක්ට්‍රෙනය","t":"තාප ඉලෙක්ට්‍රෝනය","by":"gemini","v":"right"}
+{"h":"thermometer","f":"උස්ණත්වමානය","t":"උෂ්ණත්වමානය","by":"both"}
+{"h":"thermoluminescence","f":"තාපසම්දීප්තකාලනිර්ණය","t":"තාපසන්දීප්තකාලනිර්ණය","by":"opus"}
+{"h":"thermoplastic","f":"තාපසුවිකාරය","t":"තාපසුවිකාර්ය","by":"opus"}
+{"h":"thermometer","f":"උෂ්ණාපකය","t":"උෂ්ණමාපකය","by":"gemini","v":"right"}
+{"h":"thermophone","f":"තාපබනුව","t":"තාපබණුව","by":"gemini"}
+{"h":"thesaurus","f":"නිබිල කෝෂය","t":"නිඛිල කෝෂය","by":"gemini","v":"right"}
+{"h":"thiamine","f":"නයැමයින්","t":"තයැමයින්","by":"both"}
+{"h":"thick-set","f":"ස්ථුල","t":"ස්ථූල","by":"opus"}
+{"h":"thief","f":"භෙර","t":"හෙර","by":"opus"}
+{"h":"thievish","f":"හොර ගති අති","t":"හොර ගති ඇති","by":"both"}
+{"h":"thicket","f":"ආජාරය","t":"ආඬාරය","by":"gemini"}
+{"h":"thicket","f":"මූකළන්","t":"මූකළාන","by":"gemini","v":"wrong"}
+{"h":"thief","f":"5. [n.] භෙර","t":"5. [n.] හෙර","by":"gemini","v":"right"}
+{"h":"thin-skinned","f":"ද්‍යෝෂාරෝපණ","t":"දෝෂාරෝපණ","by":"both"}
+{"h":"thinness","f":"කෘෂකම","t":"කෘශකම","by":"both"}
+{"h":"thixotropy","f":"[Civ.] විජල්ලිකරණය","t":"[Civ.] විජල්ලීකරණය","by":"opus"}
+{"h":"thixotropy","f":"විජල්ලිකරණය","t":"විජල්ලීකරණය","by":"gemini","v":"right"}
+{"h":"thorium","f":"විකිරණශ්‍රීලී","t":"විකිරණශීලී","by":"both"}
+{"h":"though","f":"එභෙත්","t":"එහෙත්","by":"both"}
+{"h":"thoracoplasty","f":"සූවිකාර්යය","t":"සූචිකාර්යය","by":"gemini","v":"right"}
+{"h":"thrall","f":"වාලා","t":"වහලා","by":"opus"}
+{"h":"thread","f":"[Bot.] නුල","t":"[Bot.] නූල","by":"both"}
+{"h":"three-faced","f":"තුත් හුලස්","t":"තුන් හුලස්","by":"both"}
+{"h":"threefold","f":"[adj.] තිවිධ","t":"[a.] තිවිධ","by":"opus"}
+{"h":"thread","f":"සංගසූරිය","t":"සංගසූත්‍රය","by":"gemini"}
+{"h":"threaten","f":"අත අරුක්","t":"අත උරුක් කරනවා","by":"gemini","v":"right"}
+{"h":"three-cornered","f":"[a.] තුන්පක්ෂයකින් යුත් තරඟය","t":"[n.] තුන්පක්ෂයකින් යුත් තරඟය","by":"gemini","v":"wrong"}
+{"h":"three-dimensional","f":"ත්‍රිකාවිස්කෘත","t":"ත්‍රිකාවිස්තෘත","by":"gemini","v":"right"}
+{"h":"thrive","f":"සඑල වෙනවා","t":"සඵල වෙනවා","by":"both"}
+{"h":"throb","f":"ගැභෙනවා","t":"ගැහෙනවා","by":"both"}
+{"h":"throbbing","f":"ස්එුරණය","t":"ස්ඵුරණය","by":"both"}
+{"h":"throes","f":"චිත්ත සන්තා","t":"චිත්ත සන්තාපය","by":"both"}
+{"h":"thrift","f":"රකසුරුවම","t":"සකසුරුවම","by":"gemini"}
+{"h":"through","f":"නොකැ කෙරෙන","t":"නොකැඩී කෙරෙන","by":"both"}
+{"h":"thud","f":"[v.] හඩ නගමින්","t":"[v.] හඬ නගමින්","by":"opus"}
+{"h":"throng","f":"තෙරපි තෙරපී","t":"තෙරපී තෙරපී","by":"gemini"}
+{"h":"throughput","f":"ප්‍රථිපලය","t":"ප්‍රතිඵලය","by":"gemini","v":"right"}
+{"h":"thrust","f":"1. උලැගිය","t":"1. උලැඟිය","by":"gemini","v":"right"}
+{"h":"thud","f":"හඩ නගමින්","t":"හඬ නගමින්","by":"gemini","v":"right"}
+{"h":"thundering","f":"ගිගුම","t":"ගිගුරුම","by":"opus"}
+{"h":"thumb","f":"මහපැටඟිල්ල","t":"මහපටැඟිල්ල","by":"opus"}
+{"h":"thunder","f":"9. [st.] භෙණ","t":"9. [st.] හෙණ","by":"gemini","v":"right"}
+{"h":"thunder","f":"10. [v.] භෙණ ගහනවා","t":"10. [v.] හෙණ ගහනවා","by":"gemini","v":"right"}
+{"h":"thunder","f":"11. [n.] භෙණය","t":"11. [n.] හෙණය","by":"gemini","v":"right"}
+{"h":"thunderbolt","f":"3. [Phy.] භෙණ","t":"3. [Phy.] හෙණ","by":"gemini","v":"right"}
+{"h":"thymol","f":"විශබීජ","t":"විෂබීජ","by":"opus"}
+{"h":"thymus","f":"නෛමස්","t":"තෛමස්","by":"opus"}
+{"h":"tibia","f":"ජංසාව","t":"ජංඝාව","by":"both"}
+{"h":"thymus","f":"නෛමස් නම් ග්‍රන්ථිය","t":"තෛමස් නම් ග්‍රන්ථිය","by":"gemini","v":"right"}
+{"h":"thyroidectomy","f":"එරාභවිච්ඡේදනය","t":"ඵරාභවිච්ඡේදනය","by":"gemini","v":"right"}
+{"h":"thyrotoxicosis","f":"එරාභ ධුලකතාව","t":"ඵරාභ ධුලකතාව","by":"gemini","v":"right"}
+{"h":"tick","f":"කිණිතුල්ල","t":"කිණිතුල්ලා","by":"gemini","v":"wrong"}
+{"h":"tick","f":"කිනිතුලා","t":"කිනිතුල්ලා","by":"gemini"}
+{"h":"tickle","f":"කිවය","t":"කිචිය","by":"opus"}
+{"h":"tide","f":"අදම","t":"උදම","by":"opus"}
+{"h":"tidiness","f":"පිරිසුදුකම","t":"පිරිසිදුකම","by":"opus"}
+{"h":"tie","f":"ප්‍රතිඑලය","t":"ප්‍රතිඵලය","by":"opus"}
+{"h":"tie-up","f":"[n.] ආයෝජනය","t":"[v.] ආයෝජනය","by":"opus"}
+{"h":"tie-up","f":"[n.] බඳිනවා","t":"[v.] බඳිනවා","by":"opus"}
+{"h":"tickle","f":"4. කිවය","t":"4. කිචිය","by":"gemini","v":"right"}
+{"h":"tide","f":"1. [Sur.] අදම","t":"1. [Sur.] උදම","by":"gemini","v":"right"}
+{"h":"tie","f":"4. [n.] එක සමාන ප්‍රතිඑලය","t":"4. [n.] එක සමාන ප්‍රතිඵලය","by":"gemini","v":"right"}
+{"h":"tie-up","f":"1. [n.] ආයෝජනය කරනවා","t":"1. [v.] ආයෝජනය කරනවා","by":"gemini","v":"right"}
+{"h":"tie-up","f":"2. [n.] බඳිනවා","t":"2. [v.] බඳිනවා","by":"gemini","v":"right"}
+{"h":"tigress","f":"ව්‍යාඝ්‍ර දේනුව","t":"ව්‍යාඝ්‍ර ධේනුව","by":"opus"}
+{"h":"till","f":"බීම ගොවිතැන් කරනවා","t":"බිම ගොවිතැන් කරනවා","by":"opus"}
+{"h":"tillering","f":"[Bot.] පඳුරු දැමිම","t":"[Bot.] පඳුරු දැමීම","by":"opus"}
+{"h":"tilt","f":"භෙල්ලෙන් පහරදීම","t":"හෙල්ලෙන් පහරදීම","by":"opus"}
+{"h":"timber","f":"දැටදඬු","t":"දැවදඬු","by":"opus"}
+{"h":"tile","f":"[n.] උළු සෙවිලි කරනවා","t":"[v.] උළු සෙවිලි කරනවා","by":"opus"}
+{"h":"tile","f":"[n.] ගඩොල් අල්ලනවා","t":"[v.] ගඩොල් අල්ලනවා","by":"opus"}
+{"h":"tile","f":"4. [n.] උළු සෙවිලි කරනවා","t":"4. [v.] උළු සෙවිලි කරනවා","by":"gemini","v":"right"}
+{"h":"tile","f":"7. [n.] ගඩොල් අල්ලනවා","t":"7. [v.] ගඩොල් අල්ලනවා","by":"gemini","v":"right"}
+{"h":"till","f":"12. [vt.] බීම ගොවිතැන් කරනවා","t":"12. [vt.] බිම ගොවිතැන් කරනවා","by":"gemini","v":"right"}
+{"h":"tillering","f":"1. [Bot.] පඳුරු දැමිම","t":"1. [Bot.] පඳුරු දැමීම","by":"gemini","v":"right"}
+{"h":"tilling","f":"ප්‍රිෂ් ක්‍රමය","t":"ප්‍රිෂ්-ක්‍රමය","by":"gemini","v":"wrong"}
+{"h":"tilt","f":"8. [n.] භෙල්ලෙන් පහරදීම","t":"8. [n.] හෙල්ලෙන් පහරදීම","by":"gemini","v":"right"}
+{"h":"timber","f":"3. [Law.] දැටදඬු","t":"3. [Law.] දැවදඬු","by":"gemini","v":"right"}
+{"h":"timely","f":"කාලෝවත","t":"කාලෝචිත","by":"both"}
+{"h":"tincture","f":"බෙභෙත්","t":"බෙහෙත්","by":"both"}
+{"h":"timer","f":"මුහුර්තකය","t":"මුහූර්තකය","by":"gemini","v":"right"}
+{"h":"timing","f":"මුහුර්තනය","t":"මුහූර්තනය","by":"gemini","v":"right"}
+{"h":"tinning","f":"ටින් කිරිම","t":"ටින් කිරීම","by":"both"}
+{"h":"tint","f":"මඳු පැහැය","t":"මඳ පැහැය","by":"both"}
+{"h":"tinkler","f":"ගෙජ්ජ","t":"ගෙජ්ජි","by":"gemini","v":"right"}
+{"h":"tinnitus","f":"කන් කුරුකුරුවා","t":"කන් කුරුකුරුව","by":"gemini","v":"wrong"}
+{"h":"tinstone","f":"ටින්ස්ටොන්","t":"ටින්ස්ටෝන්","by":"gemini","v":"right"}
+{"h":"tiny","f":"පුංව","t":"පුංචි","by":"both"}
+{"h":"tip","f":"භෙමින් තට්ටු කරනවා","t":"හෙමින් තට්ටු කරනවා","by":"gemini","v":"right"}
+{"h":"tip","f":"භෙළනය","t":"හෙළනය","by":"gemini","v":"right"}
+{"h":"tippler","f":"භෙළනය","t":"හෙළනය","by":"gemini","v":"right"}
+{"h":"tiptoe","f":"[prep.] පාද ඇඟිලිවල අග","t":"[n.] පාද ඇඟිලිවල අග","by":"gemini","v":"right"}
+{"h":"tire","f":"වෙභෙසෙනවා","t":"වෙහෙසෙනවා","by":"gemini","v":"right"}
+{"h":"tired","f":"භෙම්බත්","t":"හෙම්බත්","by":"gemini","v":"right"}
+{"h":"tired","f":"වෙභෙස ඇති","t":"වෙහෙස ඇති","by":"gemini","v":"right"}
+{"h":"tired","f":"වෙභෙසුණු","t":"වෙහෙසුණු","by":"gemini","v":"right"}
+{"h":"tired","f":"10. [a.] ශාන්ත","t":"10. [a.] ශ්‍රාන්ත","by":"gemini","v":"right"}
+{"h":"tireless","f":"වෙභෙස නොදැනෙන","t":"වෙහෙස නොදැනෙන","by":"gemini","v":"right"}
+{"h":"tiresome","f":"වෙභෙස ඇති කරන","t":"වෙහෙස ඇති කරන","by":"gemini","v":"right"}
+{"h":"tissue","f":"[Phy.] පිටකය","t":"[Phy.] පටකය","by":"opus"}
+{"h":"title","f":"ගරානාමය","t":"ගරුනාමය","by":"opus"}
+{"h":"tittle-tattle","f":"සම්එප්‍රලාප","t":"සම්ඵප්‍රලාප","by":"opus"}
+{"h":"tithe","f":"4. [n.] පොඩිත්ත","t":"","by":"opus"}
+{"h":"tissue","f":"4. [Phy.] පිටකය","t":"4. [Phy.] පටකය","by":"gemini","v":"right"}
+{"h":"title","f":"4. [Soc.] ගරානාමය හිමිකම","t":"4. [Soc.] ගරුනාමය හිමිකම","by":"gemini","v":"right"}
+{"h":"tittle-tattle","f":"3. සපාදූප","t":"3. ඕපාදූප","by":"gemini","v":"right"}
+{"h":"tittle-tattle","f":"4. [n.] සම්එප්‍රලාප","t":"4. [n.] සම්ඵප්‍රලාප","by":"gemini","v":"right"}
+{"h":"titular","f":"1. [n.] ධූරන්ධර","t":"1. [a.] ධූරන්ධර","by":"gemini"}
+{"h":"toast","f":"වූර්ණිකාව","t":"චූර්ණිකාව","by":"both"}
+{"h":"toastmaster","f":"කරන තැනැත්","t":"කරන තැනැත්තා","by":"opus"}
+{"h":"tobacco","f":"2. දුම්කොල","t":"2. දුම්කොළ","by":"opus"}
+{"h":"tizzy","f":"ව්‍යාකුලත්වය","t":"ව්‍යාකූලත්වය","by":"gemini","v":"right"}
+{"h":"to","f":"6. [adv.] පිණිස","t":"6. [prep.] පිණිස","by":"gemini","v":"right"}
+{"h":"to","f":"8. [adv.] සඳහා","t":"8. [prep.] සඳහා","by":"gemini","v":"right"}
+{"h":"toast","f":"පැලභෙනවා","t":"පැලහෙනවා","by":"gemini","v":"right"}
+{"h":"toastmaster","f":"තැනැත්","t":"තැනැත්තා","by":"gemini","v":"right"}
+{"h":"today","f":"2. [adv.] වර්තමාන","t":"2. [a.] වර්තමාන","by":"gemini"}
+{"h":"toil","f":"[vt.] වෙභෙස","t":"[vt.] වෙහෙස","by":"opus"}
+{"h":"toilsome","f":"වෙභෙස ඇති","t":"වෙහෙස ඇති","by":"opus"}
+{"h":"toiletries","f":"සාධන කාමරයට","t":"ප්‍රසාධන කාමරයට","by":"both"}
+{"h":"tolerance","f":"ඉවැසීම","t":"ඉවසීම","by":"opus"}
+{"h":"tolerance","f":"තිතීක්ෂාව","t":"තිතික්ෂාව","by":"opus"}
+{"h":"together","f":"4. [prep.] සං","t":"4. [adv.] සං","by":"opus"}
+{"h":"together","f":"5. [prep.] සහ","t":"5. [adv.] සහ","by":"opus"}
+{"h":"together","f":"6. [prep.] සහිත","t":"6. [adv.] සහිත","by":"opus"}
+{"h":"toil","f":"වෙභෙස වී වැඩ කරනවා","t":"වෙහෙස වී වැඩ කරනවා","by":"gemini","v":"right"}
+{"h":"toilet","f":"ව්කිළිය","t":"වැසිකිළිය","by":"gemini","v":"right"}
+{"h":"toilsome","f":"වෙභෙස ඇති කරන","t":"වෙහෙස ඇති කරන","by":"gemini","v":"right"}
+{"h":"toleration","f":"සහනශ්‍රීලිත්වය","t":"සහනශීලිත්වය","by":"opus"}
+{"h":"toleration","f":"සහනශ්‍රීලිත්වය","t":"සහනශීලීත්වය","by":"gemini","v":"wrong"}
+{"h":"tomorrow","f":"1. [n.] භෙට","t":"1. [n.] හෙට","by":"both"}
+{"h":"tomorrow","f":"භෙටට","t":"හෙටට","by":"opus"}
+{"h":"tongue-shaped","f":"හ්වාකාර","t":"ජිහ්වාකාර","by":"both"}
+{"h":"tonnage","f":"නෞහාරය","t":"නෞභාරය","by":"both"}
+{"h":"tomography","f":"එකස්‍රේ","t":"එක්ස්‍රේ","by":"gemini","v":"right"}
+{"h":"tomorrow","f":"2. [adv.] භෙටට","t":"2. [adv.] හෙටට","by":"gemini","v":"right"}
+{"h":"tone","f":"16. [Psy.] හඩ","t":"16. [Psy.] හඬ","by":"gemini","v":"right"}
+{"h":"tongue","f":"3. ජිහ්වාහ","t":"3. ජිහ්වාව","by":"gemini","v":"right"}
+{"h":"tongue","f":"4. [n.] ජීව්හ","t":"4. [n.] ජිව්හ","by":"gemini","v":"right"}
+{"h":"tongue","f":"5. [n.] ජීහ්වය","t":"5. [n.] ජිහ්වය","by":"gemini","v":"right"}
+{"h":"tongue","f":"9. [Aes.] ව්හාව","t":"9. [Aes.] ජිව්හාව","by":"gemini","v":"right"}
+{"h":"tonic","f":"6. [a.] රසායනය","t":"6. [n.] රසායනය","by":"gemini","v":"right"}
+{"h":"tonic","f":"7. [a.] ශක්තිජනක ඖෂධය","t":"7. [n.] ශක්තිජනක ඖෂධය","by":"gemini","v":"right"}
+{"h":"tonight","f":"1. අද","t":"1. අද රෑ","by":"gemini","v":"right"}
+{"h":"tonight","f":"2. අද ට","t":"2. අද රෑට","by":"gemini","v":"right"}
+{"h":"tonight","f":"3. [n.] අද රූ","t":"3. [n.] අද රෑ","by":"gemini","v":"right"}
+{"h":"tonight","f":"4. [adv.] අද රූට","t":"4. [adv.] අද රෑට","by":"gemini","v":"right"}
+{"h":"tonsorial","f":"කරණැවෑමි","t":"කරණවෑමි","by":"opus"}
+{"h":"toot","f":"හාරණෑශබ්දය","t":"හොරණෑශබ්දය","by":"both"}
+{"h":"too","f":"වුවමනාවාට","t":"වුවමනාවට","by":"both"}
+{"h":"tooth","f":"දුන්තය","t":"දන්තය","by":"both"}
+{"h":"tonsure","f":"ඉස්මුඳුන","t":"ඉස්මුදුන","by":"gemini"}
+{"h":"tools","f":"ආවුදු","t":"ආවුද","by":"gemini","v":"wrong"}
+{"h":"topical","f":"කාලෝවත","t":"කාලෝචිත","by":"opus"}
+{"h":"topically","f":"කාලෝවතව","t":"කාලෝචිතව","by":"opus"}
+{"h":"topochemical","f":"ඒතානීය","t":"ස්ථානීය","by":"both"}
+{"h":"topical","f":"3. කාලෝවත","t":"3. කාලෝචිත","by":"gemini","v":"right"}
+{"h":"topically","f":"2. කාලෝවතව","t":"2. කාලෝචිතව","by":"gemini","v":"right"}
+{"h":"topographic","f":"කේතීය","t":"ක්ෂේත්‍රීය","by":"gemini"}
+{"h":"topography","f":"භු-ලක්ෂණ","t":"භූ-ලක්ෂණ","by":"opus"}
+{"h":"torch","f":"එළි පන්දුම","t":"එළි පන්දම","by":"both"}
+{"h":"tore","f":"නාලිවලයය","t":"නාලිවලය","by":"opus"}
+{"h":"topography","f":"3. භු-ලක්ෂණ","t":"3. භූ-ලක්ෂණ","by":"gemini","v":"right"}
+{"h":"torah","f":"මොසෙස්","t":"මෝසෙස්","by":"gemini","v":"right"}
+{"h":"torch","f":"වලක්කු","t":"විලක්කු","by":"gemini","v":"right"}
+{"h":"torr","f":"මිනීමේ","t":"මැනීමේ","by":"opus"}
+{"h":"torsion","f":"[Bot.] ඇඹරිම","t":"[Bot.] ඇඹරීම","by":"opus"}
+{"h":"tort","f":"තෝරනය","t":"තෝරතය","by":"both"}
+{"h":"torque","f":"ව්‍යවර්තය","t":"ව්‍යාවර්තය","by":"gemini","v":"right"}
+{"h":"torsion","f":"ඇඹරිම","t":"ඇඹරීම","by":"gemini","v":"right"}
+{"h":"torticollis","f":"වක්‍රගලස්ථම්ත්වය","t":"වක්‍රගලස්තම්භත්වය","by":"gemini","v":"right"}
+{"h":"totem","f":"ගෝත්‍ර වහ්නය","t":"ගෝත්‍ර චිහ්නය","by":"opus"}
+{"h":"totalitarian","f":"[a.] ඒකාධිපති රජය","t":"[n.] ඒකාධිපති රජය","by":"gemini"}
+{"h":"tote","f":"වංශවිහ්නය","t":"වංශචිහ්නය","by":"gemini","v":"right"}
+{"h":"totem","f":"2. ගෝත්‍ර වහ්නය","t":"2. ගෝත්‍ර චිහ්නය","by":"gemini","v":"right"}
+{"h":"totem","f":"3. [Aes.] ගෝත්‍ර විහ්නය","t":"3. [Aes.] ගෝත්‍ර චිහ්නය","by":"gemini","v":"right"}
+{"h":"totem","f":"වංශවිහ්නය","t":"වංශචිහ්නය","by":"gemini","v":"right"}
+{"h":"totemism","f":"ගෝත්‍ර විහ්න ධර්මය","t":"ගෝත්‍ර චිහ්න ධර්මය","by":"gemini","v":"right"}
+{"h":"totemism","f":"ගෝත්‍රවිහ්නවාදය","t":"ගෝත්‍රචිහ්නවාදය","by":"gemini","v":"right"}
+{"h":"totemism","f":"වංශවිහ්න ප්‍රගුණ කිරීම","t":"වංශචිහ්න ප්‍රගුණ කිරීම","by":"gemini","v":"right"}
+{"h":"tottering","f":"අස්ථීර","t":"අස්ථිර","by":"both"}
+{"h":"touch","f":"භෙමින්","t":"හෙමින්","by":"opus"}
+{"h":"touchy","f":"ඉක්මණින්","t":"ඉක්මනින්","by":"opus"}
+{"h":"tournament","f":"තරඟාවලිය","t":"තරගාවලිය","by":"opus"}
+{"h":"touch","f":"භෙමින් තට්ටු කරනවා","t":"හෙමින් තට්ටු කරනවා","by":"gemini","v":"right"}
+{"h":"tow","f":"ඝණ කෙඳි","t":"ඝන කෙඳි","by":"opus"}
+{"h":"tow","f":"1. අඹරා සකස් කරන ලදු ඝණ කෙඳි","t":"1. අඹරා සකස් කරන ලද හණ කෙඳි","by":"gemini","v":"right"}
+{"h":"towering","f":"2. [a.] දරුණු කෝපය","t":"2. [n.] දරුණු කෝපය","by":"gemini","v":"wrong"}
+{"h":"tracheostomy","f":"ශ්වසනාල","t":"ශ්වාසනාල","by":"both"}
+{"h":"tracing","f":"පිටලස් කිරිම","t":"පිටලස් කිරීම","by":"both"}
+{"h":"track","f":"14. මිරිය මාර්ගය","t":"14. දුම්රිය මාර්ගය","by":"opus"}
+{"h":"tracing","f":"ට්රේසිං","t":"ට්‍රේසිං","by":"gemini","v":"right"}
+{"h":"track","f":"මිරිය මාර්ගය","t":"දුම්රිය මාර්ගය","by":"gemini","v":"right"}
+{"h":"tractable","f":"විනෙය","t":"විනේය","by":"opus"}
+{"h":"trade","f":"වෙළභෙළඳාම","t":"වෙළහෙළඳාම","by":"opus"}
+{"h":"tradition","f":"[n.] ශුතිය","t":"[n.] ශ්‍රැතිය","by":"opus"}
+{"h":"traditional","f":"[n.] චිරන්තන","t":"[a.] චිරන්තන","by":"opus"}
+{"h":"traditional","f":"[n.] පරම්පරාගත","t":"[a.] පරම්පරාගත","by":"opus"}
+{"h":"traditional","f":"[n.] සාම්ප්‍රදායික","t":"[a.] සාම්ප්‍රදායික","by":"opus"}
+{"h":"tractor","f":"2. ට්‍රුක්ටරය","t":"2. ට්‍රැක්ටරය","by":"gemini","v":"right"}
+{"h":"trade","f":"12. [st.] වෙණදාම්","t":"12. [st.] වෙළඳාම්","by":"gemini","v":"right"}
+{"h":"trade","f":"16. [n.] වෙළභෙළඳාම","t":"16. [n.] වෙළහෙළඳාම","by":"gemini","v":"right"}
+{"h":"tradition","f":"7. [n.] ශුතිය","t":"7. [n.] ශ්‍රැතිය","by":"gemini","v":"right"}
+{"h":"traditional","f":"1. [n.] චිරන්තන","t":"1. [a.] චිරන්තන","by":"gemini","v":"right"}
+{"h":"traditional","f":"3. [n.] පරම්පරාගත","t":"3. [a.] පරම්පරාගත","by":"gemini","v":"right"}
+{"h":"traditional","f":"8. [n.] සාම්ප්‍රදායික","t":"8. [a.] සාම්ප්‍රදායික","by":"gemini","v":"right"}
+{"h":"tragi-comedy","f":"ට්‍රැකොමඩිය","t":"ට්‍රැජිකොමඩිය","by":"both"}
+{"h":"train","f":"කොච්වය","t":"කොච්චිය","by":"opus"}
+{"h":"train","f":"මිරිය","t":"දුම්රිය","by":"both"}
+{"h":"traffic","f":"වෙළභෙළඳාම","t":"වෙළහෙළඳාම","by":"gemini","v":"right"}
+{"h":"tragacanthin","f":"ට්‍රුගකැන්තින්","t":"ට්‍රැගකැන්තින්","by":"gemini","v":"right"}
+{"h":"tragedy","f":"ට්රුජඩිය","t":"ට්රැජඩිය","by":"gemini","v":"right"}
+{"h":"tragedy","f":"ට්‍රුජඩිය","t":"ට්‍රැජඩිය","by":"gemini","v":"right"}
+{"h":"tragedy","f":"දුහ්ඛදායක","t":"දුඃඛදායක","by":"gemini","v":"right"}
+{"h":"tragedy","f":"ව්‍යාසනය","t":"ව්‍යසනය","by":"gemini","v":"right"}
+{"h":"tragedy","f":"ශොකාන්තය","t":"ශෝකාන්තය","by":"gemini","v":"right"}
+{"h":"tragi-comedy","f":"ඛ පරවශ සුඛාන්තය","t":"ශෝක පරවශ සුඛාන්තය","by":"gemini","v":"wrong"}
+{"h":"tragi-comedy","f":"ට්රැජිකොමඩියු","t":"ට්රැජිකොමඩිය","by":"gemini","v":"right"}
+{"h":"tragi-comedy","f":"ට්රුජිකොමඩිය","t":"ට්රැජිකොමඩිය","by":"gemini","v":"right"}
+{"h":"train","f":"කොච්චිය","t":"කෝච්චිය","by":"gemini","v":"right"}
+{"h":"train","f":"කොච්වය","t":"කෝච්චිය","by":"gemini","v":"right"}
+{"h":"train","f":"වෙඩිබෙභෙත් වැල","t":"වෙඩිබෙහෙත් වැල","by":"gemini","v":"right"}
+{"h":"train","f":"සේව නූල","t":"සේවා නූල","by":"gemini","v":"wrong"}
+{"h":"train","f":"හේ කරනවා","t":"හීලෑ කරනවා","by":"gemini"}
+{"h":"trample","f":"භෙළා දකිනවා","t":"හෙළා දකිනවා","by":"opus"}
+{"h":"tramontana","f":"සූළං","t":"සුළං","by":"both"}
+{"h":"tranquility","f":"ප්‍රගමනය","t":"ප්‍රශමනය","by":"opus"}
+{"h":"tranquility","f":"ප්‍රගමය","t":"ප්‍රශමය","by":"opus"}
+{"h":"trammel","f":"ට්රැමල් කටුව","t":"ට්‍රැමල් කටුව","by":"opus"}
+{"h":"trammel","f":"ට්රැමල්","t":"ට්‍රැමල්","by":"gemini","v":"right"}
+{"h":"trammer","f":"වැරැදුම්කරු","t":"වැරැඳුම්කරු","by":"gemini"}
+{"h":"trample","f":"1. [v.] අසු කරනවා","t":"1. [v.] අඩු කරනවා","by":"gemini","v":"wrong"}
+{"h":"trample","f":"5. [vt.] භෙළා දකිනවා","t":"5. [vt.] හෙළා දකිනවා","by":"gemini","v":"right"}
+{"h":"trampoline","f":"කැන්වස් රෙද්","t":"කැන්වස් රෙද්ද","by":"gemini","v":"right"}
+{"h":"tramways","f":"ට්රූම්","t":"ට්‍රෑම්","by":"gemini","v":"right"}
+{"h":"trance","f":"ක්ධාන","t":"ධ්‍යාන","by":"gemini","v":"right"}
+{"h":"tranquility","f":"2. [n.] ප්‍රගමනය","t":"2. [n.] ප්‍රශමනය","by":"gemini","v":"right"}
+{"h":"tranquility","f":"3. [n.] ප්‍රගමය","t":"3. [n.] ප්‍රශමය","by":"gemini","v":"right"}
+{"h":"transact","f":"[n.] ගණුදෙනුවල යෙදෙනවා","t":"[vt.] ගණුදෙනුවල යෙදෙනවා","by":"opus"}
+{"h":"transconductance","f":"[Ele.] පරසන්නයනතාව","t":"[Ele.] පාරසන්නයනතාව","by":"opus"}
+{"h":"transact","f":"2. [n.] ගණුදෙනුවල යෙදෙනවා","t":"2. [v.] ගනුදෙනුවල යෙදෙනවා","by":"gemini","v":"right"}
+{"h":"transconductance","f":"පරසන්නයනතාව","t":"පාරසන්නයනතාව","by":"gemini","v":"right"}
+{"h":"transect","f":"අනුච්ඡදය","t":"අනුච්ඡේදය","by":"both"}
+{"h":"transfix","f":"ගැභෙනවා","t":"ගැහෙනවා","by":"both"}
+{"h":"transformer","f":"පර්වර්තකය","t":"පරිවර්තකය","by":"both"}
+{"h":"transferase","f":"ට්‍රාන්සෆරේස්","t":"ට්‍රාන්ස්ෆරේස්","by":"gemini","v":"right"}
+{"h":"transform","f":"පරිනාමිතය","t":"පරිණාමිතය","by":"gemini","v":"right"}
+{"h":"transformation","f":"පරිණාමණය","t":"පරිණාමනය","by":"gemini","v":"right"}
+{"h":"transformation","f":"පරිනාමය","t":"පරිණාමය","by":"gemini","v":"right"}
+{"h":"transformer","f":"ට්රාන්ස්ෆෝමරය","t":"ට්‍රාන්ස්ෆෝමරය","by":"gemini","v":"right"}
+{"h":"translation","f":"පර්වර්තනය","t":"පරිවර්තනය","by":"both"}
+{"h":"transition","f":"සංක්‍රමනය","t":"සංක්‍රමණය","by":"both"}
+{"h":"tranship","f":"නියමයනවා","t":"නිමයනවා","by":"gemini","v":"wrong"}
+{"h":"transitive","f":"[a.] ව්‍යාකරණයෙහි සකර්මක ක්‍රියාව","t":"[n.] ව්‍යාකරණයෙහි සකර්මක ක්‍රියාව","by":"gemini"}
+{"h":"translator","f":"[a.] තෝල්කයා","t":"[n.] තෝල්කයා","by":"opus"}
+{"h":"translator","f":"[a.] පරිවර්තකයා","t":"[n.] පරිවර්තකයා","by":"opus"}
+{"h":"transmissible","f":"සම්ප්‍රේෂණයීය","t":"සම්ප්‍රේෂණීය","by":"both"}
+{"h":"translator","f":"1. [a.] තෝල්කයා","t":"1. [n.] තෝල්කයා","by":"gemini","v":"right"}
+{"h":"translator","f":"4. [a.] පරිවර්තකයා","t":"4. [n.] පරිවර්තකයා","by":"gemini","v":"right"}
+{"h":"transmit","f":"1. [v.] නොවළක්වා යාමට ඉඩ","t":"1. [v.] නොවළක්වා යාමට ඉඩ දෙනවා","by":"gemini","v":"right"}
+{"h":"transposition","f":"අන්යෙෆන්‍ය ස්ථාපනය","t":"අන්‍යෝන්‍ය ස්ථාපනය","by":"opus"}
+{"h":"transposition","f":"අන්‍යෙන්‍ය ස්ථාපනය","t":"අන්‍යෝන්‍ය ස්ථාපනය","by":"opus"}
+{"h":"transposition","f":"අන්යෙෆන්‍ය","t":"අන්‍යෝන්‍ය","by":"gemini","v":"right"}
+{"h":"transposition","f":"අන්‍යෙන්‍ය","t":"අන්‍යෝන්‍ය","by":"gemini","v":"right"}
+{"h":"trauma","f":"ක්ෂත්තිය","t":"ක්ෂතිය","by":"both"}
+{"h":"travail","f":"විළිරුඬාව","t":"විළිරුජාව","by":"opus"}
+{"h":"trapeziform","f":"උංවලි හැඩ","t":"උංචිලි හැඩ","by":"both"}
+{"h":"trapezoid","f":"2. උංවලි හැඩ","t":"2. උංචිලි හැඩ","by":"opus"}
+{"h":"trapezoid","f":"ත්‍රපිසාහය","t":"ත්‍රපිසාභය","by":"both"}
+{"h":"trapeze","f":"ට්රුපීසය","t":"ට්‍රැපීසය","by":"both"}
+{"h":"trapezoid","f":"උංවලි හැඩ","t":"උංචිලි හැඩ","by":"gemini","v":"right"}
+{"h":"trapezoidal","f":"ත්‍රපිසාහ","t":"ත්‍රපිසාභ","by":"gemini","v":"right"}
+{"h":"travail","f":"විළිරුඬාව","t":"විළිරුදාව","by":"gemini","v":"right"}
+{"h":"travelogue","f":"2. වත්‍රාධාරයෙන්","t":"2. චිත්‍රාධාරයෙන්","by":"opus"}
+{"h":"travertine","f":"ට්‍රුවටින්","t":"ට්‍රැවටින්","by":"both"}
+{"h":"tray","f":"භෙප්පුව","t":"හෙප්පුව","by":"both"}
+{"h":"treacle","f":"පැණී","t":"පැණි","by":"both"}
+{"h":"treason","f":"රාජද්‍රෝහීකම","t":"රාජද්‍රෝහිකම","by":"opus"}
+{"h":"treason","f":"රාජ්‍යද්‍රෝහීත්වය","t":"රාජ්‍යද්‍රෝහිත්වය","by":"opus"}
+{"h":"traveller","f":"පන්ථක","t":"පාන්ථක","by":"opus"}
+{"h":"travelogue","f":"වත්‍රාධාරයෙන්","t":"චිත්‍රාධාරයෙන්","by":"gemini","v":"right"}
+{"h":"trawl","f":"මැදැල","t":"මාදැල","by":"gemini","v":"right"}
+{"h":"treason","f":"රාජ්‍යද්‍රෝහිත්වය","t":"රාජ්‍යද්‍රෝහීත්වය","by":"gemini","v":"wrong"}
+{"h":"tremble","f":"ගැභෙනවා","t":"ගැහෙනවා","by":"both"}
+{"h":"tremble","f":"භෙල්ලෙනවා","t":"හෙල්ලෙනවා","by":"both"}
+{"h":"treat","f":"තව්වනවා","t":"නවත්වනවා","by":"gemini","v":"wrong"}
+{"h":"treenail","f":"තිරැණය","t":"තිරුණය","by":"gemini","v":"right"}
+{"h":"tremble","f":"වෙවිලීම","t":"වෙව්ලීම","by":"gemini","v":"wrong"}
+{"h":"trend","f":"[Mat.] උ නතිය","t":"[Mat.] උපනතිය","by":"gemini","v":"right"}
+{"h":"trend","f":"[Aes.] තනිය","t":"[Aes.] නතිය","by":"gemini","v":"right"}
+{"h":"triable","f":"සමේෂණිය","t":"සමේෂණීය","by":"both"}
+{"h":"trestle","f":"පලංවය","t":"පලංචිය","by":"gemini","v":"right"}
+{"h":"trial","f":"නහැසුම","t":"නැහැසුම","by":"gemini"}
+{"h":"triangular","f":"තුත් හුලස්","t":"තුන් හුලස්","by":"gemini","v":"right"}
+{"h":"trichinized","f":"ට්‍රිකිනීභුත","t":"ට්‍රිකිනීභූත","by":"both"}
+{"h":"trichogyne","f":"ජයාරෝමය","t":"ජායාරෝමය","by":"both"}
+{"h":"trickery","f":"1. [n.] තයම්","t":"1. [n.] තායම්","by":"gemini","v":"right"}
+{"h":"trickle","f":"7. [v.] වැක්කෙරනවා","t":"7. [v.] වැක්කෙරෙනවා","by":"gemini","v":"right"}
+{"h":"trickster","f":"2. [n.] කළ්ළයා","t":"2. [n.] කල්ලයා","by":"gemini","v":"wrong"}
+{"h":"trifid","f":"තෙබ්ඩි","t":"තෙබිඩි","by":"both"}
+{"h":"trill","f":"හඬ්න්","t":"හඬින්","by":"both"}
+{"h":"trilocular","f":"ත්‍රිකෝෂ්ඨීක","t":"ත්‍රිකෝෂ්ඨික","by":"both"}
+{"h":"trimeter","f":"පද්‍යු","t":"පද්‍ය","by":"both"}
+{"h":"trim","f":"කලේලි","t":"කලඑළි","by":"gemini","v":"wrong"}
+{"h":"tripartite","f":"ත්‍රි-අර්ධච්ඡේදු","t":"ත්‍රි-අර්ධච්ඡේද","by":"both"}
+{"h":"tripolar","f":"ත්‍රිධ්‍රැවීය","t":"ත්‍රිධ්‍රුවීය","by":"opus"}
+{"h":"triquetrous","f":"තුන්ගිරිs","t":"තුන්ගිරි","by":"opus"}
+{"h":"trisect","f":"ත්‍රිඡේද කරනවා","t":"ත්‍රිච්ඡේද කරනවා","by":"opus"}
+{"h":"triquetrous","f":"2. තුන්ගිරිs","t":"2. තුන්ගිරි","by":"gemini","v":"right"}
+{"h":"triticin","f":"ට්‍රයිට්සින්","t":"ට්‍රයිටිසින්","by":"both"}
+{"h":"triton","f":"මූදු","t":"මුහුදු","by":"opus"}
+{"h":"triumph","f":"විජයෝජිත්සවය","t":"විජයෝත්සවය","by":"both"}
+{"h":"triturating","f":"පරිචාර්වණ","t":"පරිචර්වණ","by":"gemini","v":"right"}
+{"h":"trituration","f":"පරිචාර්වණය","t":"පරිචර්වණය","by":"gemini","v":"right"}
+{"h":"troglodyte","f":"[a.] ලෙන් වැසියා","t":"[n.] ලෙන් වැසියා","by":"both"}
+{"h":"troll","f":"හඬ්න්","t":"හඬින්","by":"opus"}
+{"h":"troller","f":"හඬ්න්","t":"හඬින්","by":"opus"}
+{"h":"trolleybus","f":"බස්රළථය","t":"බස්රථය","by":"both"}
+{"h":"troll","f":"1. [vti.] අඟුටුමිට්ටා","t":"1. [n.] අඟුටුමිට්ටා","by":"gemini","v":"right"}
+{"h":"troll","f":"උස් හඬ්න්","t":"උස් හඬින්","by":"gemini","v":"right"}
+{"h":"troll","f":"උස් හන්","t":"උස් හඬින්","by":"gemini","v":"right"}
+{"h":"troller","f":"උස් හඬ්න්","t":"උස් හඬින්","by":"gemini","v":"right"}
+{"h":"troller","f":"උස් හන්","t":"උස් හඬින්","by":"gemini","v":"right"}
+{"h":"trolleybus","f":"බස්‍රථය","t":"බස්රථය","by":"gemini","v":"wrong"}
+{"h":"trophy","f":"එලකය","t":"ඵලකය","by":"both"}
+{"h":"tropophilous","f":"අනුවාරකාමී","t":"අනුචාරකාමී","by":"opus"}
+{"h":"tropophyte","f":"අනුවාර ශාකය","t":"අනුචාර ශාකය","by":"opus"}
+{"h":"troposphere","f":"පහලම","t":"පහළම","by":"opus"}
+{"h":"trope","f":"අනඅර්ථ","t":"අන්අර්ථ","by":"gemini","v":"right"}
+{"h":"tropopause","f":"පරිවර්ති මණ්ඩලය","t":"පරිවර්තී මණ්ඩලය","by":"gemini","v":"wrong"}
+{"h":"troposphere","f":"පරිවර්ති ගෝලය","t":"පරිවර්තී ගෝලය","by":"gemini","v":"wrong"}
+{"h":"trot","f":"[n.] භෙමින් දිවීම","t":"[n.] හෙමින් දිවීම","by":"opus"}
+{"h":"trot","f":"[vt.] භෙමින් දුවනවා","t":"[vt.] හෙමින් දුවනවා","by":"opus"}
+{"h":"trot","f":"හැල්මෙ යනවා","t":"හැල්මේ යනවා","by":"opus"}
+{"h":"trotters","f":"බැටළුවන්ග්","t":"බැටළුවන්ගේ","by":"both"}
+{"h":"trouble","f":"[n.] වෙභෙස","t":"[n.] වෙහෙස","by":"opus"}
+{"h":"trouble","f":"[vti.] වෙභෙසනවා","t":"[vti.] වෙහෙසනවා","by":"opus"}
+{"h":"trouble","f":"[vti.] වෙභෙසෙනවා","t":"[vti.] වෙහෙසෙනවා","by":"opus"}
+{"h":"troubleshooter","f":"ද්‍යෝෂ","t":"දෝෂ","by":"both"}
+{"h":"trough","f":"ද්‍රෝණිකවා","t":"ද්‍රෝණිකාව","by":"opus"}
+{"h":"trouper","f":"සාමාකයා","t":"සාමාජිකයා","by":"both"}
+{"h":"trot","f":"5. [n.] භෙමින් දිවීම","t":"5. [n.] හෙමින් දිවීම","by":"gemini","v":"right"}
+{"h":"trot","f":"6. [vt.] භෙමින් දුවනවා","t":"6. [vt.] හෙමින් දුවනවා","by":"gemini","v":"right"}
+{"h":"trotter","f":"[n.] වේගයෙන් ඇවිදිනවා","t":"[n.] වේගයෙන් ඇවිදින්නා","by":"gemini","v":"right"}
+{"h":"trouble","f":"13. [n.] වෙභෙස","t":"13. [n.] වෙහෙස","by":"gemini","v":"right"}
+{"h":"trouble","f":"14. [vti.] වෙභෙසනවා","t":"14. [vti.] වෙහෙසනවා","by":"gemini","v":"right"}
+{"h":"trouble","f":"15. [vti.] වෙභෙසෙනවා","t":"15. [vti.] වෙහෙසෙනවා","by":"gemini","v":"right"}
+{"h":"trough","f":"3. [n.] ද්‍රෝණිකවා","t":"3. [n.] ද්‍රෝණිකාව","by":"gemini","v":"right"}
+{"h":"truncate","f":"මුඳුනෙන්","t":"මුදුනෙන්","by":"both"}
+{"h":"truism","f":"සාත්‍යය","t":"සත්‍යය","by":"opus"}
+{"h":"trudge","f":"වනුගානවා","t":"චනුගානවා","by":"gemini"}
+{"h":"trunk","f":"1. (ශාක) කඳු","t":"1. (ශාක) කඳ","by":"gemini","v":"right"}
+{"h":"trunk","f":"4. කඳු","t":"4. කඳ","by":"gemini","v":"right"}
+{"h":"trunk","f":"8. බඳු","t":"8. බඳ","by":"gemini","v":"right"}
+{"h":"trussing","f":"සකස් කිරිම","t":"සකස් කිරීම","by":"both"}
+{"h":"try","f":"වෙභෙසෙනවා","t":"වෙහෙසෙනවා","by":"gemini","v":"right"}
+{"h":"trying","f":"වෙභෙසෙන","t":"වෙහෙසෙන","by":"gemini","v":"right"}
+{"h":"tucker","f":"ලොවිච්වය","t":"ලොවිච්චය","by":"opus"}
+{"h":"tumble","f":"එභෙමෙභෙ","t":"එහෙමෙහෙ","by":"opus"}
+{"h":"tuff","f":"ගිණිකඳු","t":"ගිනිකඳු","by":"opus"}
+{"h":"tucker","f":"2. ලොවිච්වය","t":"2. ලොවිච්චිය","by":"gemini","v":"right"}
+{"h":"tug","f":"4. [n.] කඹ ඇඳීම","t":"4. [n.] කඹ ඇදීම","by":"gemini","v":"right"}
+{"h":"tumble","f":"1. [vti.] එභෙමෙභෙ වීසිකරනවා","t":"1. [vti.] එහෙමෙහෙ වීසිකරනවා","by":"gemini","v":"right"}
+{"h":"tumult","f":"කෝලහලය","t":"කෝලාහලය","by":"both"}
+{"h":"tuneless","f":"කඪෝර","t":"කඨෝර","by":"both"}
+{"h":"tumeric","f":"ටීයුමෙරික්","t":"ටියුමෙරික්","by":"gemini","v":"right"}
+{"h":"tumescent","f":"වඳතුල","t":"මදතුල","by":"gemini","v":"right"}
+{"h":"tup","f":"භෙලුම් මිටිය","t":"හෙලුම් මිටිය","by":"opus"}
+{"h":"turbellarian","f":"ටරැබෙලාරියාවා","t":"ටර්බෙලාරියාවා","by":"both"}
+{"h":"tunicated","f":"[a.] වලිත","t":"[a.] චෝලිත","by":"gemini","v":"wrong"}
+{"h":"tunnel","f":"[n.] ද්‍යෝනාව","t":"[n.] දෝනාව","by":"gemini","v":"right"}
+{"h":"tup","f":"[Civ.] භෙලුම් මිටිය","t":"[Civ.] හෙලුම් මිටිය","by":"gemini","v":"right"}
+{"h":"turbid","f":"[a.] ආකූල වූ","t":"[a.] ආකුල වූ","by":"gemini","v":"right"}
+{"h":"turbine","f":"2. [Phy.] ට බයිම","t":"2. [Phy.] ටබයිම","by":"gemini","v":"right"}
+{"h":"turbine","f":"5. නල බමනය","t":"5. තල බමනය","by":"gemini","v":"wrong"}
+{"h":"turbine","f":"6. බයිම","t":"6. ටබයිම","by":"gemini","v":"right"}
+{"h":"turbulence","f":"2. [Civ.] ආකූලතාව","t":"2. [Civ.] ආකුලතාව","by":"gemini","v":"right"}
+{"h":"turgescence","f":"1. [Bot.] ශුනතාව","t":"1. [Bot.] ශූනතාව","by":"gemini","v":"right"}
+{"h":"turgescent","f":"2. [Bot.] ශුන","t":"2. [Bot.] ශූන","by":"gemini","v":"right"}
+{"h":"turgidity","f":"2. [Bot.] ශුනතාව","t":"2. [Bot.] ශූනතාව","by":"gemini","v":"right"}
+{"h":"turki","f":"[adj.] තුර්කි බස","t":"[n.] තුර්කි බස","by":"gemini","v":"right"}
+{"h":"turmeric","f":"4. මෙරික් රංජකය","t":"4. ටර්මෙරික් රංජකය","by":"gemini","v":"right"}
+{"h":"tut","f":"1. වහ්","t":"1. චහ්","by":"gemini","v":"right"}
+{"h":"twelfth","f":"දොළභෙන් පංගුව","t":"දොළහෙන් පංගුව","by":"opus"}
+{"h":"tutoress","f":"ගුරුවරයා","t":"ගුරුවරිය","by":"gemini","v":"right"}
+{"h":"twaddle","f":"නිෂ්එල","t":"නිෂ්ඵල","by":"gemini","v":"right"}
+{"h":"twaddle","f":"සම්එප්‍රලාප","t":"සම්ඵප්‍රලාප","by":"gemini","v":"right"}
+{"h":"tweedy","f":"ටුවිඩ්","t":"ටුවීඩ්","by":"gemini","v":"right"}
+{"h":"tweeter","f":"ට්විවරය","t":"ට්වීටරය","by":"gemini","v":"right"}
+{"h":"twelfth","f":"දොළභෙන්","t":"දොළහෙන්","by":"gemini","v":"right"}
+{"h":"twinkling","f":"ඇසිපිය භෙලීම","t":"ඇසිපිය හෙලීම","by":"both"}
+{"h":"twitch","f":"නහර ගැභෙනවා","t":"නහර ගැහෙනවා","by":"both"}
+{"h":"twilight","f":"තාරුකා වෙලාව","t":"තාරකා වෙලාව","by":"opus"}
+{"h":"twinge","f":"කොනිස","t":"කෙනිස","by":"gemini"}
+{"h":"two","f":"ද්වන්ද","t":"ද්වන්ද්ව","by":"opus"}
+{"h":"typical","f":"දර්ශ්‍රීය","t":"දර්ශීය","by":"opus"}
+{"h":"typography","f":"මුද්‍රණක්ෂර","t":"මුද්‍රණාක්ෂර","by":"opus"}
+{"h":"tyranny","f":"ප්‍රජාපිඩනය","t":"ප්‍රජාපීඩනය","by":"opus"}
+{"h":"typical","f":"4. [Eco.] දර්ශ්‍රීය","t":"4. [Eco.] දර්ශීය","by":"gemini","v":"right"}
+{"h":"typical","f":"6. ද්ර්ශිය","t":"6. දර්ශීය","by":"gemini","v":"right"}
+{"h":"typography","f":"6. [Oth.] මුද්‍රණක්ෂර විද්‍යාව","t":"6. [Oth.] මුද්‍රණාක්ෂර විද්‍යාව","by":"gemini","v":"right"}
+{"h":"tyrannical","f":"1. [a.] ක්‍රෑර","t":"1. [a.] ක්‍රූර","by":"gemini","v":"right"}
+{"h":"tyranny","f":"1. [n.] ක්‍රෑරභාවය","t":"1. [n.] ක්‍රූරභාවය","by":"gemini","v":"right"}
+{"h":"tyranny","f":"4. [Log.] ප්‍රජාපිඩනය","t":"4. [Log.] ප්‍රජාපීඩනය","by":"gemini","v":"right"}
+{"h":"tyrant","f":"1. [n.] ක්‍රෑර පාලකයා","t":"1. [n.] ක්‍රූර පාලකයා","by":"gemini","v":"right"}
+{"h":"tyrian","f":"[a.] තීර් නුවර වැසියා","t":"[n.] තීර් නුවර වැසියා","by":"gemini","v":"right"}
+{"h":"ubiquitous","f":"සාර්චත්‍රික","t":"සාර්වත්‍රික","by":"both"}
+{"h":"u.s.","f":"u.s.","t":"us","by":"gemini","v":"right"}
+{"h":"ugly","f":"2. අඬුව","t":"2. අජූව","by":"gemini"}
+{"h":"ulna","f":"ප්‍රකෝෂ්ඨාභ්‍යන්තරාස්ථීය","t":"ප්‍රකෝෂ්ඨාභ්‍යන්තරාස්ථිය","by":"both"}
+{"h":"ulcers","f":"වෘණය","t":"ව්‍රණය","by":"gemini","v":"right"}
+{"h":"umbra","f":"පූරණ ඡායාව","t":"පූර්ණ ඡායාව","by":"both"}
+{"h":"umbelliferous","f":"ඡත්‍රාකෘති පත්‍රධාරී","t":"ඡත්‍රාකෘති ඡත්‍රධාරී","by":"gemini","v":"wrong"}
+{"h":"umbrella","f":"[st.] සක්","t":"[st.] සත්","by":"gemini","v":"right"}
+{"h":"umbrella","f":"හිරවරණ","t":"හිරාවරණ","by":"gemini","v":"wrong"}
+{"h":"unabashed","f":"නිර්ලජ්","t":"නිර්ලජ්ජ","by":"both"}
+{"h":"unabridged","f":"2. අසංෂිප්ත","t":"2. අසංක්ෂිප්ත","by":"opus"}
+{"h":"unaffected","f":"නිරුපද්‍රැත","t":"නිරුපද්‍රුත","by":"opus"}
+{"h":"unaffected","f":"2. නිරුපද්‍රත","t":"2. නිරුපද්‍රුත","by":"opus"}
+{"h":"unambiguous","f":"තේරුම නිශ්වත","t":"තේරුම නිශ්චිත","by":"both"}
+{"h":"unabridged","f":"අසංෂිප්ත","t":"අසංක්ෂිප්ත","by":"gemini","v":"right"}
+{"h":"unadulterated","f":"නුමුකළ","t":"නුමුසුකළ","by":"gemini","v":"right"}
+{"h":"unaffected","f":"නිරුපද්‍රත","t":"නිරුපද්‍රැත","by":"gemini","v":"right"}
+{"h":"unalienable","f":"අන්සතු කල නොහැකි","t":"අන්සතු කළ නොහැකි","by":"gemini","v":"right"}
+{"h":"unanimously","f":"එකභෙළා","t":"එකහෙළා","by":"both"}
+{"h":"unassailable","f":"ද්‍යෝෂාරෝපණය","t":"දෝෂාරෝපණය","by":"both"}
+{"h":"unattainable","f":"අප්‍රාපණිය","t":"අප්‍රාපණීය","by":"both"}
+{"h":"unauthorised","f":"අධිබලය ලත්","t":"අධිබලය නොලත්","by":"both"}
+{"h":"unavailing","f":"නිෂ්එල","t":"නිෂ්ඵල","by":"both"}
+{"h":"unbearable","f":"අසභ්‍ය","t":"අසහ්‍ය","by":"both"}
+{"h":"unbearable","f":"දූර්ධර","t":"දුර්ධර","by":"both"}
+{"h":"unbending","f":"ස්ථීර","t":"ස්ථිර","by":"opus"}
+{"h":"unbiassed","f":"නොගැඹුරු","t":"නොනැඹුරු","by":"opus"}
+{"h":"unbalanced","f":"තුලනය නොකල","t":"තුලනය නොකළ","by":"gemini","v":"right"}
+{"h":"unbeliever","f":"ශ්‍රජා නැත්තා","t":"ශ්‍රද්ධා නැත්තා","by":"gemini","v":"right"}
+{"h":"unbeliever","f":"ශ්‍රඬා නැත්තා","t":"ශ්‍රද්ධා නැත්තා","by":"gemini","v":"right"}
+{"h":"unbiassed","f":"[Sta.] නොගැඹුරු","t":"[Sta.] නොනැඹුරු","by":"gemini","v":"right"}
+{"h":"uncapped","f":"නොතේරුන","t":"නොතේරුණ","by":"opus"}
+{"h":"unchanged","f":"අවිපරිත","t":"අවිපරීත","by":"opus"}
+{"h":"uncertain","f":"8. අවිනිශ්වත","t":"8. අවිනිශ්චිත","by":"both"}
+{"h":"uncertainty","f":"අවිනිශ්වතතාව","t":"අවිනිශ්චිතතාව","by":"opus"}
+{"h":"unchastity","f":"අශතීත්වය","t":"අසතීත්වය","by":"both"}
+{"h":"unbroken","f":"6. [n.] නොකඩව පැවතෙන","t":"6. [a.] නොකඩව පැවතෙන","by":"gemini","v":"right"}
+{"h":"unbroken","f":"7. [n.] නොකැඩුණු","t":"7. [a.] නොකැඩුණු","by":"gemini","v":"right"}
+{"h":"unbroken","f":"8. [n.] පරාද නොකරන ලද","t":"8. [a.] පරාද නොකරන ලද","by":"gemini","v":"right"}
+{"h":"unbroken","f":"9. [n.] පුරුදු නැති","t":"9. [a.] පුරුදු නැති","by":"gemini","v":"right"}
+{"h":"uncertainty","f":"5. අවිනිශ්වතතාව","t":"5. අවිනිශ්චිතතාව","by":"gemini","v":"right"}
+{"h":"uncivil","f":"අශ්‍රීලාචාර","t":"අශීලාචාර","by":"opus"}
+{"h":"unclaimed","f":"අයාවත","t":"අයාචිත","by":"opus"}
+{"h":"unclear","f":"අස්ථීර","t":"අස්ථිර","by":"opus"}
+{"h":"unclear","f":"සංශයක","t":"සංශයික","by":"opus"}
+{"h":"uncivil","f":"3. [a.] අශ්‍රීලාචාර","t":"3. [a.] අශීලාචාර","by":"gemini","v":"right"}
+{"h":"unclaimed","f":"2. අයාවත","t":"2. අයාචිත","by":"gemini","v":"right"}
+{"h":"unclear","f":"2. [a.] අස්ථීර","t":"2. [a.] අස්ථිර","by":"gemini","v":"right"}
+{"h":"uncoated","f":"3. [Aes.] අලේපිත","t":"3. [Aes.] අනාලේපිත","by":"gemini","v":"wrong"}
+{"h":"uncommitted","f":"1. කැප නොවු","t":"1. කැප නොවූ","by":"gemini","v":"right"}
+{"h":"unconditional","f":"අසංකත","t":"අසංඛත","by":"opus"}
+{"h":"unconquered","f":"අජීත","t":"අජිත","by":"both"}
+{"h":"unconquered","f":"අපරාජීත","t":"අපරාජිත","by":"both"}
+{"h":"uncompromising","f":"ස්ථීර","t":"ස්ථිර","by":"gemini","v":"right"}
+{"h":"unconfused","f":"අනාකූල","t":"අනාකුල","by":"gemini","v":"right"}
+{"h":"unconscious","f":"7. විසංඥු","t":"7. විසංඥ","by":"gemini","v":"right"}
+{"h":"unconsciousness","f":"විසංඥුතාව","t":"විසංඥතාව","by":"gemini","v":"right"}
+{"h":"uncontested","f":"තරඟ නොකල","t":"තරඟ නොකළ","by":"gemini","v":"right"}
+{"h":"uncontrollable","f":"පාලනය කල නොහැකි","t":"පාලනය කළ නොහැකි","by":"gemini","v":"right"}
+{"h":"uncovered","f":"අච්ඡන්න","t":"අනච්ඡන්න","by":"opus"}
+{"h":"unctad","f":"එක්සත් ජාතින්ගේ","t":"එක්සත් ජාතීන්ගේ","by":"opus"}
+{"h":"unctad","f":"සංවර්ධනය පිළිබඳු කොමිසම","t":"සංවර්ධනය පිළිබඳ කොමිසම","by":"gemini","v":"wrong"}
+{"h":"unctad","f":"එක්සත් ජාතින්ගේ සා","t":"එක්සත් ජාතීන්ගේ සාකච්ඡාව","by":"gemini"}
+{"h":"unctious","f":"unctious","t":"unctuous","by":"gemini","v":"right"}
+{"h":"undecided","f":"අවිනිශ්වත","t":"අවිනිශ්චිත","by":"both"}
+{"h":"underachieve","f":"ප්‍රතිඑල","t":"ප්‍රතිඵල","by":"both"}
+{"h":"undeclared","f":"අප්‍රකාශික","t":"අප්‍රකාශිත","by":"gemini","v":"right"}
+{"h":"underfeature","f":"අනුලක්ෂනය","t":"අනුලක්ෂණය","by":"both"}
+{"h":"undercutting","f":"යටිකැපි","t":"යටිකැපීම","by":"gemini","v":"right"}
+{"h":"undercutting","f":"හෑරියාම","t":"හෑරීයාම","by":"gemini","v":"right"}
+{"h":"underfoot","f":"1. [a.] පය යට","t":"1. [adv.] පය යට","by":"gemini","v":"right"}
+{"h":"underground","f":"උමං දුමිරිය","t":"උමං දුම්රිය","by":"both"}
+{"h":"underground","f":"10. භුගත","t":"10. භූගත","by":"both"}
+{"h":"underlying","f":"පවතිනා","t":"පවතින","by":"gemini","v":"wrong"}
+{"h":"understand","f":"වැටභෙනවා","t":"වැටහෙනවා","by":"both"}
+{"h":"understandable","f":"ඥෙය","t":"ඥේය","by":"opus"}
+{"h":"undeveloped","f":"[n.] අභාවිත","t":"[a.] අභාවිත","by":"opus"}
+{"h":"undifferentiated","f":"අස්එටික","t":"අස්ඵටික","by":"opus"}
+{"h":"undifferentiated","f":"විභේදුනය","t":"විභේදනය","by":"opus"}
+{"h":"undiplomatic","f":"උපායශ්‍රීලී","t":"උපායශීලී","by":"opus"}
+{"h":"undeveloped","f":"3. [n.] අභාවිත","t":"3. [a.] අභාවිත","by":"gemini","v":"right"}
+{"h":"undifferentiated","f":"3. [a.] අස්එටික","t":"3. [a.] අස්ඵටික","by":"gemini","v":"right"}
+{"h":"undifferentiated","f":"6. විභේදුනය නොවූ","t":"6. විභේදනය නොවූ","by":"gemini","v":"right"}
+{"h":"undiplomatic","f":"2. [a.] උපායශ්‍රීලී නොවන","t":"2. [a.] උපායශීලී නොවන","by":"gemini","v":"right"}
+{"h":"undisclosed","f":"භෙළි නො කළ","t":"හෙළි නො කළ","by":"opus"}
+{"h":"undoubted","f":"නිශ්විත","t":"නිශ්චිත","by":"opus"}
+{"h":"undulating","f":"8. රුළි","t":"8. රැළි","by":"both"}
+{"h":"undulating","f":"රුළි සහති බිම","t":"රැළි සහිත බිම","by":"opus"}
+{"h":"undisclosed","f":"1. [Law.] භෙළි නො කළ","t":"1. [Law.] හෙළි නො කළ","by":"gemini","v":"right"}
+{"h":"undisclosed","f":"2. [Soc.] භෙළි නොකළ","t":"2. [Soc.] හෙළි නොකළ","by":"gemini","v":"right"}
+{"h":"undo","f":"1. අස් කරන්න","t":"1. අස් කරනවා","by":"gemini"}
+{"h":"undoubted","f":"2. නිශ්විත","t":"2. නිශ්චිත","by":"gemini","v":"right"}
+{"h":"undulating","f":"9. රුළි සහති බිම","t":"9. රැළි සහිත බිම","by":"gemini","v":"right"}
+{"h":"undulatory","f":"1. [a.] තරංගකාර","t":"1. [a.] තරංගාකාර","by":"gemini"}
+{"h":"uneconomic","f":"[adj.] එලදායි","t":"[adj.] ඵලදායි","by":"opus"}
+{"h":"unemployment","f":"රැකියා හිගය","t":"රැකියා හිඟය","by":"opus"}
+{"h":"unemployment","f":"වියුක්‍තීය","t":"වියුක්‍තිය","by":"opus"}
+{"h":"unearth","f":"[v.] පාදනවා","t":"[vt.] පාදනවා","by":"opus"}
+{"h":"uneconomic","f":"එලදායි","t":"ඵලදායි","by":"gemini","v":"right"}
+{"h":"unemployment","f":"හිගය","t":"හිඟය","by":"gemini","v":"right"}
+{"h":"unemployment","f":"වියුක්‍තීය","t":"වියුක්තිය","by":"gemini","v":"right"}
+{"h":"unendurably","f":"නොකමසේ","t":"නොකැමති සේ","by":"gemini"}
+{"h":"unenforceable","f":"ක්‍රියාත්මක කල නොහැකි","t":"ක්‍රියාත්මක කළ නොහැකි","by":"gemini","v":"right"}
+{"h":"unesco","f":"එක්සත් ජාතින්ගේ","t":"එක්සත් ජාතීන්ගේ","by":"opus"}
+{"h":"unexplored","f":"අගවේශිත","t":"අගවේෂිත","by":"both"}
+{"h":"unfaltering","f":"අසංඛලිත","t":"අස්ඛලිත","by":"opus"}
+{"h":"unequivocal","f":"ඒකාර්ථි","t":"ඒකාර්ථී","by":"gemini"}
+{"h":"unesco","f":"ජාතින්ගේ","t":"ජාතීන්ගේ","by":"gemini","v":"right"}
+{"h":"unfamiliar","f":"අපරිවත","t":"අපරිචිත","by":"gemini","v":"right"}
+{"h":"unfavorable","f":"අනුග්‍රාහි","t":"අනුග්‍රාහී","by":"gemini","v":"right"}
+{"h":"unfit","f":"අනුවත","t":"අනුචිත","by":"opus"}
+{"h":"unflagging","f":"වෙභෙස","t":"වෙහෙස","by":"opus"}
+{"h":"unfit","f":"2. අනුවත","t":"2. අනුචිත","by":"gemini","v":"right"}
+{"h":"unflagging","f":"3. [adj.] වෙභෙස නොදැනෙන","t":"3. [adj.] වෙහෙස නොදැනෙන","by":"gemini","v":"right"}
+{"h":"unforseen","f":"unforseen","t":"unforeseen","by":"gemini","v":"right"}
+{"h":"unfossilized","f":"පාෂාණීභූත නොවු","t":"පාෂාණීභූත නොවූ","by":"opus"}
+{"h":"unfounded","f":"අබූත","t":"අභූත","by":"opus"}
+{"h":"ungenerous","f":"ත්‍යාගශ්‍රීලි","t":"ත්‍යාගශීලි","by":"opus"}
+{"h":"unglazed","f":"ඔප් නොලූ","t":"ඔප නොලූ","by":"opus"}
+{"h":"unfossilized","f":"නොවු","t":"නොවූ","by":"gemini","v":"right"}
+{"h":"ungenerous","f":"ත්‍යාගශ්‍රීලි","t":"ත්‍යාගශීලී","by":"gemini","v":"right"}
+{"h":"ungenerous","f":"2. ත්‍යාගශීලි","t":"2. ත්‍යාගශීලී","by":"gemini","v":"right"}
+{"h":"ungulate","f":"කූර සහිත සත්තු","t":"කුර සහිත සත්තු","by":"opus"}
+{"h":"unguligrade","f":"ඛුරවාරී","t":"ඛුරචාරී","by":"both"}
+{"h":"ungulate","f":"2. [a.] කූර සහිත සත්තු","t":"2. [n.] කුර සහිත සත්තු","by":"gemini","v":"right"}
+{"h":"unhatched","f":"1. (බිජුවෙන්) බිහි නොවු","t":"1. (බිජුවෙන්) බිහි නොවූ","by":"gemini","v":"right"}
+{"h":"unicef","f":"එක්සත් ජාතින්ගේ","t":"එක්සත් ජාතීන්ගේ","by":"opus"}
+{"h":"unhorse","f":"භෙළනවා","t":"හෙළනවා","by":"gemini","v":"right"}
+{"h":"unicef","f":"ජාතින්ගේ","t":"ජාතීන්ගේ","by":"gemini","v":"right"}
+{"h":"unicell","f":"එකසෛලික","t":"ඒකසෛලික","by":"gemini","v":"right"}
+{"h":"unimaginable","f":"අවන්ත්‍ය","t":"අචින්ත්‍ය","by":"both"}
+{"h":"unimpeachable","f":"අද්‍යෝෂාභියෝගකාරී","t":"අදෝෂාභියෝගකාරී","by":"both"}
+{"h":"unimpeachable","f":"නිරවද්‍යු","t":"නිරවද්‍ය","by":"both"}
+{"h":"unimpeachable","f":"නිර්ද්‍යෝෂ","t":"නිර්දෝෂ","by":"both"}
+{"h":"unimportant","f":"අල්පේශාක්‍ය","t":"අල්පේශාඛ්‍ය","by":"opus"}
+{"h":"unincorporated","f":"සංස්තාගත නොකල","t":"සංස්ථාගත නොකළ","by":"both"}
+{"h":"uniform","f":"සමරූපි","t":"සමරූපී","by":"both"}
+{"h":"uniformity","f":"එකාකාරත්වය","t":"ඒකාකාරත්වය","by":"both"}
+{"h":"uniformity","f":"එකීයත්වය","t":"ඒකීයත්වය","by":"both"}
+{"h":"unilocular","f":"ඒකකෝෂ්ඨීක","t":"ඒකකෝෂ්ඨික","by":"opus"}
+{"h":"unimodal","f":"ඒකමාත","t":"ඒකමාත්‍ර","by":"opus"}
+{"h":"uniformity","f":"සාරුප්‍යය","t":"සාරූප්‍යය","by":"gemini","v":"right"}
+{"h":"unilabiate","f":"ඒක-ඕෂ්ඨි","t":"ඒක-ඕෂ්ඨී","by":"gemini","v":"right"}
+{"h":"unimpressive","f":"සිත් නොගන්න","t":"සිත් නොගන්නා","by":"gemini"}
+{"h":"uninviting","f":"අරුව උපදවන","t":"අරුචි උපදවන","by":"opus"}
+{"h":"unionist","f":"සාමාකයා","t":"සාමාජිකයා","by":"both"}
+{"h":"unipolar","f":"ඒකධ්‍රැවීය","t":"ඒකධ්‍රුවීය","by":"both"}
+{"h":"uninviting","f":"3. අරුව උපදවන","t":"3. අරුචි උපදවන","by":"gemini","v":"right"}
+{"h":"unity","f":"සන්දර්හය","t":"සන්දර්භය","by":"both"}
+{"h":"unitization","f":"ඒකක කරනය","t":"ඒකක කරණය","by":"both"}
+{"h":"unitary","f":"2. [a.] එකී","t":"2. [a.] ඒකී","by":"gemini","v":"right"}
+{"h":"unitary","f":"3. [a.] එකීය","t":"3. [a.] ඒකීය","by":"gemini","v":"right"}
+{"h":"unknown","f":"නන් නාඳුනවන","t":"නන් නාඳුනන","by":"both"}
+{"h":"unlawful","f":"නීති විරොධි","t":"නීති විරෝධී","by":"both"}
+{"h":"unland","f":"unland","t":"upland","by":"gemini","v":"wrong"}
+{"h":"unloved","f":"සෙනෙභෙ","t":"සෙනෙහෙ","by":"both"}
+{"h":"unloving","f":"[a.] සෙනෙභෙ","t":"[a.] සෙනෙහෙ","by":"opus"}
+{"h":"unliquidated","f":"අප්‍රමාණිකෘත","t":"අප්‍රමාණීකෘත","by":"both"}
+{"h":"unload","f":"හිස් කිරිම","t":"හිස් කිරීම","by":"both"}
+{"h":"unlucky","f":"අසුභ","t":"අශුභ","by":"opus"}
+{"h":"unlimited","f":"නොහිම්","t":"නොනිම්","by":"opus"}
+{"h":"unloving","f":"සෙනෙභෙ","t":"සෙනෙහෙ","by":"gemini","v":"right"}
+{"h":"unmarried","f":"තනිකම","t":"තනිකඩ","by":"gemini","v":"right"}
+{"h":"unmatched","f":"අනූපම","t":"අනුපම","by":"opus"}
+{"h":"unmoved","f":"ස්ථීර","t":"ස්ථිර","by":"both"}
+{"h":"unmuzzle","f":"මුක වාඩම්","t":"මුඛ වාඩම්","by":"opus"}
+{"h":"unmasticated","f":"චර්වනය","t":"චර්වණය","by":"gemini","v":"right"}
+{"h":"unmature","f":"නොමේරු","t":"නොමේරූ","by":"gemini","v":"right"}
+{"h":"unnerve","f":"හිත වංචල කරනවා","t":"හිත චංචල කරනවා","by":"gemini","v":"right"}
+{"h":"unpardonable","f":"කමා කළ","t":"ක්ෂමා කළ","by":"opus"}
+{"h":"unofficial","f":"නිළ නොවූ","t":"නිල නොවූ","by":"opus"}
+{"h":"unobservable","f":"1. අපරික්ෂාකාරිභවය","t":"1. අපරීක්ෂාකාරීභාවය","by":"gemini","v":"right"}
+{"h":"unobservable","f":"2. අපරික්ෂාකාරී බව","t":"2. අපරීක්ෂාකාරී බව","by":"gemini","v":"right"}
+{"h":"unofficial","f":"3. [a.] දූසමාන ආරංචිය","t":"3. [n.] දූසමාන ආරංචිය","by":"gemini","v":"right"}
+{"h":"unpalatable","f":"1. [n.] අප්‍රසන්න","t":"1. [a.] අප්‍රසන්න","by":"gemini","v":"right"}
+{"h":"unpalatable","f":"2. [n.] අප්‍රිය","t":"2. [a.] අප්‍රිය","by":"gemini","v":"right"}
+{"h":"unpalatable","f":"4. [n.] අරුචි","t":"4. [a.] අරුචි","by":"gemini","v":"right"}
+{"h":"unparalleled","f":"5. අසමානුපිතික","t":"5. අසමානුපාතික","by":"gemini","v":"right"}
+{"h":"unprecedented","f":"2. [a.] අපේ","t":"2. [a.] අපූරු","by":"gemini","v":"right"}
+{"h":"unprescribed","f":"අනිර්දෂ්ට","t":"අනිර්දිෂ්ට","by":"both"}
+{"h":"unprincipled","f":"ප්‍රතිප්තියක්","t":"ප්‍රතිපත්තියක්","by":"both"}
+{"h":"unquestionably","f":"[a.] අවිවාදයෙන්","t":"[adv.] අවිවාදයෙන්","by":"both"}
+{"h":"unproductive","f":"එල නොදෙන","t":"ඵල නොදෙන","by":"gemini","v":"right"}
+{"h":"unproductive","f":"නිශ්එල","t":"නිශ්ඵල","by":"gemini","v":"right"}
+{"h":"unproductive","f":"නිෂ්එල","t":"නිෂ්ඵල","by":"gemini","v":"right"}
+{"h":"unprofitable","f":"නිෂ්එල","t":"නිෂ්ඵල","by":"gemini","v":"right"}
+{"h":"unrealised","f":"උපලබ්ධ නොවු","t":"උපලබ්ධ නොවූ","by":"both"}
+{"h":"unrealism","f":"ආතාත්විකවීම","t":"අතාත්විකවීම","by":"both"}
+{"h":"unreasonable","f":"නොසෑභෙන","t":"නොසෑහෙන","by":"both"}
+{"h":"unrelenting","f":"ක්‍රෑර","t":"ක්‍රූර","by":"opus"}
+{"h":"unreality","f":"අතථතාව","t":"අතථ්‍යතාව","by":"gemini"}
+{"h":"unrequited","f":"නිෂ්එල","t":"නිෂ්ඵල","by":"both"}
+{"h":"unresolved","f":"නෙබිඳුණු","t":"නොබිඳුණු","by":"both"}
+{"h":"unsaddle","f":"භෙළනවා","t":"හෙළනවා","by":"gemini","v":"right"}
+{"h":"unsavory","f":"3. අරුව","t":"3. අරුචි","by":"both"}
+{"h":"unsavoury","f":"4. අරුව උපදවන","t":"4. අරුචි උපදවන","by":"both"}
+{"h":"unseaworthy","f":"සමුදායෝග්‍ය","t":"සමුද්‍රයෝග්‍ය","by":"both"}
+{"h":"unscathed","f":"1. [adv.] අනතුරු","t":"1. [a.] අනතුරු","by":"opus"}
+{"h":"unscreened","f":"රැයිසියකින්","t":"රයිසියකින්","by":"gemini"}
+{"h":"unsecured","f":"සුරකු නොලත්","t":"සුරැකුම් නොලත්","by":"gemini","v":"right"}
+{"h":"unshakable","f":"2. අභේද්‍යු","t":"2. අභේද්‍ය","by":"opus"}
+{"h":"unshakable","f":"[a.] අවල","t":"[a.] අචල","by":"opus"}
+{"h":"unshakeable","f":"3. අවල","t":"3. අචල","by":"opus"}
+{"h":"unshaven","f":"මුඬු","t":"මුඩු","by":"opus"}
+{"h":"unsociable","f":"සමාජශ්‍රීලි","t":"සමාජශීලි","by":"opus"}
+{"h":"unseen","f":"[adv.] නොපෙනී","t":"[a.] නොපෙනී","by":"opus"}
+{"h":"unshakable","f":"අභේද්‍යු","t":"අභේද්‍ය","by":"gemini","v":"right"}
+{"h":"unshakable","f":"අවල","t":"අචල","by":"gemini","v":"wrong"}
+{"h":"unshakeable","f":"අවල","t":"අචල","by":"gemini","v":"wrong"}
+{"h":"unshakeable","f":"සෙලවි නොහැකි","t":"සෙලවිය නොහැකි","by":"gemini","v":"right"}
+{"h":"unship","f":"[vt.] ලාඩම් රහිත","t":"[a.] ලාඩම් රහිත","by":"gemini"}
+{"h":"unsociable","f":"සමාජශ්‍රීලි නොවූ","t":"සමාජශීලි නොවූ","by":"gemini","v":"right"}
+{"h":"unsold","f":"අළෙවි","t":"අලෙවි","by":"opus"}
+{"h":"unsold","f":"නොවිකුනුණු","t":"නොවිකුණුණු","by":"opus"}
+{"h":"unstable","f":"අස්ථීර","t":"අස්ථිර","by":"opus"}
+{"h":"unsteady","f":"අස්ථීර","t":"අස්ථිර","by":"opus"}
+{"h":"unsteady","f":"භෙලෙත්තාඩු","t":"හෙලෙත්තාඩු","by":"opus"}
+{"h":"unsocial","f":"3. [Soc.] අසමාය","t":"3. [Soc.] අසමාජය","by":"gemini"}
+{"h":"unsocial","f":"4. [a.] සමාජශ්‍රීලී නොවන","t":"4. [a.] සමාජශීලී නොවන","by":"gemini","v":"right"}
+{"h":"unsporting","f":"4. [a.] ත්‍යාගශ්‍රීලි නොවන","t":"4. [a.] ත්‍යාගශීලී නොවන","by":"gemini","v":"right"}
+{"h":"unstable","f":"3. [a.] අස්ථීර","t":"3. [a.] අස්ථිර","by":"gemini","v":"right"}
+{"h":"unsteady","f":"1. [a.] අස්ථීර","t":"1. [a.] අස්ථිර","by":"gemini","v":"right"}
+{"h":"unsteady","f":"5. [a.] භෙලෙත්තාඩු","t":"5. [a.] හෙලෙත්තාඩු","by":"gemini","v":"right"}
+{"h":"unsubstituted","f":"අනාදෙශිත","t":"අනාදේශිත","by":"both"}
+{"h":"unsustainable","f":"පවත්වාගන","t":"පවත්වාගෙන","by":"opus"}
+{"h":"unsubstantiated","f":"නිවරදතාව","t":"නිවැරදිතාව","by":"gemini","v":"right"}
+{"h":"unsubstituted","f":"අදේශිත","t":"ආදේශිත","by":"gemini","v":"right"}
+{"h":"unsurpassed","f":"අජීත","t":"අජිත","by":"gemini","v":"right"}
+{"h":"unswerving","f":"ස්ථීර","t":"ස්ථිර","by":"gemini","v":"right"}
+{"h":"untenable","f":"අස්ථීර","t":"අස්ථිර","by":"both"}
+{"h":"unthinkable","f":"අවන්තනීය","t":"අචින්තනීය","by":"both"}
+{"h":"unthinkable","f":"අවන්ත්‍ය","t":"අචින්ත්‍ය","by":"both"}
+{"h":"untie","f":"[n.] උනනවා","t":"[v.] උනනවා","by":"opus"}
+{"h":"untie","f":"[n.] උනා දමනවා","t":"[v.] උනා දමනවා","by":"opus"}
+{"h":"untiring","f":"වෙභෙස නොදැනෙන","t":"වෙහෙස නොදැනෙන","by":"opus"}
+{"h":"untiring","f":"වෙභෙස නොබලා","t":"වෙහෙස නොබලා","by":"opus"}
+{"h":"untouched","f":"වත්තාවේග","t":"චිත්තාවේග","by":"both"}
+{"h":"untrained","f":"[n.] අභාවිත","t":"[a.] අභාවිත","by":"opus"}
+{"h":"untrustworthy","f":"නොකළැකි","t":"නොකළහැකි","by":"opus"}
+{"h":"untarnished","f":"මළ නොබැඳි","t":"මල නොබැඳි","by":"opus"}
+{"h":"untie","f":"1. [n.] උනනවා","t":"1. [v.] උනනවා","by":"gemini","v":"right"}
+{"h":"untie","f":"2. [n.] උනා දමනවා","t":"2. [v.] උනා දමනවා","by":"gemini","v":"right"}
+{"h":"untimely","f":"1. [adv.] අකල්","t":"1. [a.] අකල්","by":"gemini"}
+{"h":"untiring","f":"1. [a.] වෙභෙස නොදැනෙන","t":"1. [a.] වෙහෙස නොදැනෙන","by":"gemini","v":"right"}
+{"h":"untiring","f":"2. [a.] වෙභෙස නොබලා ක්‍රියාකරන","t":"2. [a.] වෙහෙස නොබලා ක්‍රියාකරන","by":"gemini","v":"right"}
+{"h":"untrained","f":"1. [n.] අභාවිත","t":"1. [a.] අභාවිත","by":"gemini","v":"right"}
+{"h":"unused","f":"[n.] අභාවිත","t":"[a.] අභාවිත","by":"both"}
+{"h":"unwavering","f":"ස්ථීර","t":"ස්ථිර","by":"gemini","v":"right"}
+{"h":"unyielding","f":"[a.] එලදායී නොවන","t":"[a.] ඵලදායී නොවන","by":"opus"}
+{"h":"unyoke","f":"වියගභෙන්","t":"වියගහෙන්","by":"both"}
+{"h":"upbraiding","f":"[prep.] අවලාද කිරීම","t":"[n.] අවලාද කිරීම","by":"opus"}
+{"h":"upbraiding","f":"[prep.] අවලාදය","t":"[n.] අවලාදය","by":"opus"}
+{"h":"upbreathe","f":"ඌර්ද්වාශ්වාසය","t":"ඌර්ධ්වාශ්වාසය","by":"opus"}
+{"h":"unyielding","f":"එලදායී","t":"ඵලදායී","by":"gemini","v":"right"}
+{"h":"up-and-coming","f":"මතුවීගන","t":"මතුවීගෙන","by":"gemini","v":"right"}
+{"h":"up-stream","f":"සමත්ත","t":"උඩුඅත","by":"gemini"}
+{"h":"upbraiding","f":"1. [prep.] අවලාද කිරීම","t":"1. [n.] අවලාද කිරීම","by":"gemini","v":"right"}
+{"h":"upbraiding","f":"2. [prep.] අවලාදය","t":"2. [n.] අවලාදය","by":"gemini","v":"right"}
+{"h":"update","f":"2. යාවත්කාල කිරිම","t":"2. යාවත්කාල කිරීම","by":"opus"}
+{"h":"upgrading","f":"වැඩිදියුණු කිරිම","t":"වැඩිදියුණු කිරීම","by":"both"}
+{"h":"upheaval","f":"උද්තය","t":"උද්ගතය","by":"both"}
+{"h":"upholsterer","f":"පොරොන්දු කාරයා","t":"පොරොදු කාරයා","by":"both"}
+{"h":"upland","f":"ඉස්බිම","t":"උස්බිම","by":"opus"}
+{"h":"update","f":"යාවත්කාල කිරිම","t":"යාවත්කාල කිරීම","by":"gemini","v":"right"}
+{"h":"upheaval","f":"සාක්ෂෝභය","t":"සංක්ෂෝභය","by":"gemini","v":"right"}
+{"h":"uphill","f":"3. [a.] නැඟීම් සහිත පාර","t":"3. [n.] නැඟීම් සහිත පාර","by":"gemini","v":"right"}
+{"h":"uproot","f":"[n.] උදුරනවා","t":"[v.] උදුරනවා","by":"both"}
+{"h":"upshot","f":"ප්‍රතිඑලය","t":"ප්‍රතිඵලය","by":"both"}
+{"h":"upswing","f":"පුවණතාව","t":"ප්‍රවණතාව","by":"both"}
+{"h":"uproar","f":"කලබැගෑනිය","t":"කලබගෑනිය","by":"opus"}
+{"h":"uprising","f":"කැරුල්ල","t":"කැරැල්ල","by":"gemini","v":"wrong"}
+{"h":"upstairs","f":"[n.] භූම","t":"[n.] භූමක","by":"gemini"}
+{"h":"upturn","f":"ප්‍රගමණය","t":"ප්‍රගමනය","by":"both"}
+{"h":"uranium","f":"යරේනියම්","t":"යුරේනියම්","by":"both"}
+{"h":"urbane","f":"වනීතාචාරවත්","t":"විනීතාචාරවත්","by":"both"}
+{"h":"urbane","f":"විනිතාචාරවත්","t":"විනීතාචාරවත්","by":"both"}
+{"h":"urbanity","f":"ආචාරශ්‍රීලීභාවය","t":"ආචාරශීලීභාවය","by":"both"}
+{"h":"urceolate","f":"තුම්බිකාකාර","t":"කුම්භිකාකාර","by":"opus"}
+{"h":"uredospore","f":"ද්‍රහ බීජාණුව","t":"දාහ බීජාණුව","by":"gemini","v":"right"}
+{"h":"urethane","f":"යූරිතෙන්","t":"යූරිතේන්","by":"gemini"}
+{"h":"urgent","f":"1. [n.] අත්‍යවශ්‍යක","t":"1. [a.] අත්‍යවශ්‍ය","by":"gemini"}
+{"h":"urgent","f":"2. [n.] ඉතා ඉක්මන්","t":"2. [a.] ඉතා ඉක්මන්","by":"gemini","v":"right"}
+{"h":"urgent","f":"3. [n.] ඕනෑකමින් සලකා බැලියයුතු","t":"3. [a.] ඕනෑකමින් සලකා බැලියයුතු","by":"gemini","v":"right"}
+{"h":"urgent","f":"4. [n.] වහා කළයුතු","t":"4. [a.] වහා කළයුතු","by":"gemini","v":"right"}
+{"h":"usage","f":"පාවිච්වය","t":"පාවිච්චිය","by":"both"}
+{"h":"use","f":"සනෑකම","t":"ඕනෑකම","by":"both"}
+{"h":"use","f":"හාවිතිය","t":"භාවිතිය","by":"both"}
+{"h":"urn-shaped","f":"තුම්බිකාකාර","t":"කුම්බිකාකාර","by":"gemini","v":"wrong"}
+{"h":"usability","f":"උපයෝජතාව","t":"උපයෝජ්‍යතාව","by":"gemini","v":"right"}
+{"h":"use","f":"පරිශ්‍රීලනය","t":"පරිශීලනය","by":"gemini","v":"right"}
+{"h":"useful","f":"එලදායක","t":"ඵලදායක","by":"gemini","v":"right"}
+{"h":"useful","f":"එලදායී","t":"ඵලදායී","by":"gemini","v":"right"}
+{"h":"useful","f":"සඑල","t":"සඵල","by":"gemini","v":"right"}
+{"h":"useless","f":"නිෂ්එල","t":"නිෂ්ඵල","by":"gemini","v":"right"}
+{"h":"user","f":"පරිශ්‍රීලක","t":"පරිශීලක","by":"gemini","v":"right"}
+{"h":"usufruct","f":"ප්‍රයෝජනඑලය","t":"ප්‍රයෝජනඵලය","by":"both"}
+{"h":"usufructuary","f":"[Law.] එලලාභියා","t":"[Law.] ඵලලාභියා","by":"opus"}
+{"h":"usufructuary","f":"ප්‍රයෝජනඑලලාභියා","t":"ප්‍රයෝජනඵලලාභියා","by":"both"}
+{"h":"usury","f":"කෞසිදය","t":"කෞසීදය","by":"opus"}
+{"h":"utensil","f":"[prep.] භාජනය","t":"[n.] භාජනය","by":"both"}
+{"h":"uterine","f":"ගර්භාෂ","t":"ගර්භාශ","by":"opus"}
+{"h":"utility","f":"පාවිච්වය","t":"පාවිච්චිය","by":"both"}
+{"h":"utilization","f":"අපයෝගිතාව","t":"උපයෝගිතාව","by":"both"}
+{"h":"usn","f":"usn","t":"urn","by":"gemini"}
+{"h":"usufructuary","f":"එලලාභියා","t":"ඵලලාභියා","by":"gemini","v":"right"}
+{"h":"utilitarian","f":"[a.] උපයෝගිතාවාදියා","t":"[n.] උපයෝගිතාවාදියා","by":"gemini","v":"right"}
+{"h":"utopian","f":"මනෝරාක","t":"මනෝරාජික","by":"both"}
+{"h":"utterly","f":"සම්පුර්ණයෙන්","t":"සම්පූර්ණයෙන්","by":"both"}
+{"h":"uvula","f":"පුංව දිව","t":"පුංචි දිව","by":"both"}
+{"h":"vab","f":"හඩප්‍රති පිළිතරු","t":"හඬ ප්‍රති පිළිතුරු","by":"opus"}
+{"h":"uttermost","f":"අත්‍යාධික","t":"අත්‍යධික","by":"opus"}
+{"h":"vab","f":"හඩප්‍රති පිළිතරු","t":"හඬප්‍රති පිළිතුරු","by":"gemini","v":"right"}
+{"h":"vaccinotherapy","f":"වකිත්සාව","t":"චිකිත්සාව","by":"both"}
+{"h":"vacillation","f":"අවිනිශ්වතභාවය","t":"අවිනිශ්චිතභාවය","by":"both"}
+{"h":"vacation","f":"බල රහිත කිරිම","t":"බල රහිත කිරීම","by":"both"}
+{"h":"vaccine","f":"ඒන්නත","t":"එන්නත","by":"both"}
+{"h":"vacillating","f":"1. [n.] අස්ථිර","t":"1. [a.] අස්ථිර","by":"gemini","v":"right"}
+{"h":"vacillating","f":"2. [n.] වැනෙන","t":"2. [a.] වැනෙන","by":"gemini","v":"right"}
+{"h":"vagrant","f":"ස්ථීර පදිංවයක් නැති","t":"ස්ථීර පදිංචියක් නැති","by":"opus"}
+{"h":"valedictory","f":"ශුභාශ්‍රීර්වාදාත්මක","t":"ශුභාශීර්වාදාත්මක","by":"opus"}
+{"h":"valence","f":"[Psy.] වලිතතාව","t":"[Psy.] චලිතතාව","by":"opus"}
+{"h":"valet","f":"අතවැසි මෙභෙකරුවා","t":"අතවැසි මෙහෙකරුවා","by":"opus"}
+{"h":"valet","f":"[n.] භෙංචා","t":"[n.] හෙංචා","by":"opus"}
+{"h":"vagrant","f":"10. ස්ථීර පදිංවයක් නැති","t":"10. ස්ථීර පදිංචියක් නැති","by":"gemini","v":"right"}
+{"h":"vague","f":"3. [Log.] අස්එට","t":"3. [Log.] අස්ඵට","by":"gemini","v":"right"}
+{"h":"vagueness","f":"2. [Log.] අස්එටතාව","t":"2. [Log.] අස්ඵටතාව","by":"gemini","v":"right"}
+{"h":"vain","f":"4. [a.] නිෂ්එල","t":"4. [a.] නිෂ්ඵල","by":"gemini","v":"right"}
+{"h":"vainly","f":"2. [adv.] නිෂ්එල ලෙස","t":"2. [adv.] නිෂ්ඵල ලෙස","by":"gemini","v":"right"}
+{"h":"valedictory","f":"1. [a.] ශුභාශ්‍රීර්වාදාත්මක","t":"1. [a.] ශුභාශීර්වාදාත්මක","by":"gemini","v":"right"}
+{"h":"valet","f":"1. [n.] අතවැසි මෙභෙකරුවා","t":"1. [n.] අතවැසි මෙහෙකරුවා","by":"gemini","v":"right"}
+{"h":"valet","f":"4. [n.] භෙංචා","t":"4. [n.] හෙංචා","by":"gemini","v":"right"}
+{"h":"validly","f":"වළංගු ලෙස","t":"වලංගු ලෙස","by":"opus"}
+{"h":"valuation","f":"අගය කිරිම","t":"අගය කිරීම","by":"opus"}
+{"h":"valley","f":"6. [n.] නිමිනභූමිය","t":"6. [n.] නිම්නභූමිය","by":"gemini","v":"right"}
+{"h":"valorization","f":"4. [Eco.] මිලැයිම","t":"4. [Eco.] මිලැයීම","by":"gemini","v":"right"}
+{"h":"valuables","f":"2. [n.] රන්‍රිදී ආභරණාදිය","t":"2. [n.] රන් රිදී ආභරණාදිය","by":"gemini","v":"right"}
+{"h":"valuation","f":"1. [Acc.] අගය කිරිම","t":"1. [Acc.] අගය කිරීම","by":"gemini","v":"right"}
+{"h":"vampire","f":"රීරි පිසාචයා","t":"රීරි පිශාචයා","by":"opus"}
+{"h":"valuer","f":"1. [Law.] අගැයූ","t":"1. [Law.] ඇගැයූ","by":"gemini"}
+{"h":"vanadium","f":"වනේඩියම්","t":"වැනේඩියම්","by":"gemini","v":"wrong"}
+{"h":"vanilla","f":"සුවඳු","t":"සුවඳ","by":"gemini"}
+{"h":"vanish","f":"සෘද්ධි වෙනවා","t":"ඍද්ධි වෙනවා","by":"gemini","v":"right"}
+{"h":"vanity","f":"[n.] නිෂ්එලභාවය","t":"[n.] නිෂ්ඵලභාවය","by":"opus"}
+{"h":"vaporware","f":"ධුමාංග","t":"ධූමාංග","by":"opus"}
+{"h":"vapour","f":"වාෂිප","t":"වාෂ්ප","by":"both"}
+{"h":"variability","f":"ප්‍රභේද්‍යුතාව","t":"ප්‍රභේද්‍යතාව","by":"both"}
+{"h":"variable","f":"අස්ථීර","t":"අස්ථිර","by":"both"}
+{"h":"variance","f":"ප්‍රභෙදය","t":"ප්‍රභේදය","by":"both"}
+{"h":"variance","f":"ප්‍රහෙදය","t":"ප්‍රභේදය","by":"both"}
+{"h":"variant","f":"ප්‍රභේද්‍යුය","t":"ප්‍රභේද්‍යය","by":"both"}
+{"h":"vanity","f":"නිෂ්එලභාවය","t":"නිෂ්ඵලභාවය","by":"gemini","v":"right"}
+{"h":"varlet","f":"[n.] භෙන්චා","t":"[n.] හෙන්චා","by":"opus"}
+{"h":"varlet","f":"මෙභෙකරුවා","t":"මෙහෙකරුවා","by":"opus"}
+{"h":"varve","f":"වර්ෂසතරය","t":"වර්ෂස්තරය","by":"both"}
+{"h":"varicocele","f":"අපස්ඵීත පුඤය","t":"අපස්ඵීත පුඤ්ජය","by":"gemini","v":"right"}
+{"h":"variety","f":"නානත්වය","t":"නානාත්වය","by":"gemini","v":"wrong"}
+{"h":"various","f":"වෛවාරන්න","t":"වෛවාරණ්ණ","by":"gemini"}
+{"h":"varlet","f":"2. [n.] භෙන්චා","t":"2. [n.] හෙන්චා","by":"gemini","v":"right"}
+{"h":"varlet","f":"3. [n.] මෙභෙකරුවා","t":"3. [n.] මෙහෙකරුවා","by":"gemini","v":"right"}
+{"h":"varve","f":"වාර්ෂික අවසානස්තර","t":"වාර්ෂික අවසාදනස්තර","by":"gemini","v":"right"}
+{"h":"vasomotor","f":"වාහීචාලක","t":"වාහිනීචාලක","by":"opus"}
+{"h":"vasopressin","f":"වේසොපරෙසින්","t":"වේසොප්‍රෙසින්","by":"opus"}
+{"h":"vascular","f":"1. [n.] ධමනී පිළිබඳ","t":"1. [a.] ධමනී පිළිබඳ","by":"gemini","v":"right"}
+{"h":"vasectomy","f":"3. වාහිවිච්ඡේදය","t":"3. වාහිනීවිච්ඡේදය","by":"gemini"}
+{"h":"vasopressin","f":"2. [Med.] වේසොපරෙසින්","t":"2. [Med.] වේසොප්‍රෙසින්","by":"gemini","v":"right"}
+{"h":"vdu","f":"6. වීයූ","t":"6. වීඩීයූ","by":"gemini","v":"right"}
+{"h":"vegetate","f":"කම්මැලි කමින් වත් වෙනවා","t":"කම්මැලි කමින් ජීවත් වෙනවා","by":"opus"}
+{"h":"veil","f":"රැවවිල්ල","t":"රැවටිල්ල","by":"both"}
+{"h":"vegetarian","f":"[a.] ශාකභක්ෂකයා","t":"[n.] ශාකභක්ෂකයා","by":"opus"}
+{"h":"vegetable","f":"5. [n.] එළවලු වර්ගයට අයත්","t":"5. [a.] එළවලු වර්ගයට අයත්","by":"gemini","v":"right"}
+{"h":"vegetarian","f":"4. [a.] ශාකභක්ෂකයා","t":"4. [n.] ශාකභක්ෂකයා","by":"gemini","v":"right"}
+{"h":"vegetarianism","f":"ශාක බොජකතාව","t":"ශාක භෝජකතාව","by":"gemini"}
+{"h":"vegetate","f":"වත් වෙනවා","t":"ජීවත් වෙනවා","by":"gemini","v":"right"}
+{"h":"velvety","f":"වීලුද වැනි","t":"විලුද වැනි","by":"opus"}
+{"h":"vendor","f":"විකරෙතෘ","t":"වික්‍රෙතෘ","by":"opus"}
+{"h":"vendor","f":"2. [Law.] විකරෙතෘ","t":"2. [Law.] වික්‍රේතෘ","by":"gemini","v":"right"}
+{"h":"vendor","f":"3. වික්‍රෙතෘ","t":"3. වික්‍රේතෘ","by":"gemini","v":"right"}
+{"h":"venter","f":"3. බඳු","t":"3. බඩ","by":"gemini","v":"right"}
+{"h":"ventilate","f":"සංවාතන කිරිම","t":"සංවාතන කිරීම","by":"opus"}
+{"h":"ventriculography","f":"නීල වත්‍රණය","t":"නීල චිත්‍රණය","by":"opus"}
+{"h":"ventilate","f":"කිරිම","t":"කිරීම","by":"gemini","v":"right"}
+{"h":"ventriculography","f":"වත්‍රණය","t":"චිත්‍රණය","by":"gemini","v":"right"}
+{"h":"verbalism","f":"සුපරික්ෂාකාරී","t":"සුපරීක්ෂාකාරී","by":"both"}
+{"h":"verbatim","f":"[v.] වචනයක් පාසා","t":"[adv.] වචනයක් පාසා","by":"opus"}
+{"h":"verbatim","f":"පදනුගත","t":"පදානුගත","by":"opus"}
+{"h":"veridical","f":"සත්‍යනුකූල","t":"සත්‍යානුකූල","by":"opus"}
+{"h":"verbal","f":"කථීත","t":"කථිත","by":"opus"}
+{"h":"verbal","f":"2. [Law.] කථීත","t":"2. [Law.] කථිත","by":"gemini","v":"right"}
+{"h":"verbal","f":"9. වාවක","t":"9. වාචක","by":"gemini","v":"right"}
+{"h":"verbatim","f":"3. [Soc.] පදනුගත","t":"3. [Soc.] පදානුගත","by":"gemini","v":"right"}
+{"h":"verbatim","f":"5. [v.] වචනයක් පාසා","t":"5. [adv.] වචනයක් පාසා","by":"gemini","v":"right"}
+{"h":"veridical","f":"1. [Psy.] සත්‍යනුකූල","t":"1. [Psy.] සත්‍යානුකූල","by":"gemini","v":"right"}
+{"h":"veridical","f":"2. [Log.] සත්‍යාවාචී","t":"2. [Log.] සත්‍යවාචී","by":"gemini","v":"right"}
+{"h":"verifying","f":"සත්‍යපනය","t":"සත්‍යාපනය","by":"both"}
+{"h":"vermin","f":"පලිබොධකයන්","t":"පලිබෝධකයන්","by":"both"}
+{"h":"vermis","f":"පුලකය","t":"පූලකය","by":"opus"}
+{"h":"verifiable","f":"සත්‍යෙක්ෂණය","t":"සත්‍යේක්ෂණය","by":"gemini","v":"right"}
+{"h":"verification","f":"4. [Psy.] සත්‍යෙක්ෂණය","t":"4. [Psy.] සත්‍යේක්ෂණය","by":"gemini","v":"right"}
+{"h":"verifier","f":"1. [Acc.] සත්‍යයකය","t":"1. [Acc.] සත්‍යායකය","by":"gemini","v":"right"}
+{"h":"verifier","f":"2. සත්‍යාකය","t":"2. සත්‍යායකය","by":"gemini","v":"right"}
+{"h":"verify","f":"සත්‍යෙක්ෂණය","t":"සත්‍යේක්ෂණය","by":"gemini","v":"right"}
+{"h":"verse","f":"[adv.] කව","t":"[n.] කව","by":"both"}
+{"h":"versicle","f":"දේවමෙභෙයේ","t":"දේවමෙහෙයේ","by":"both"}
+{"h":"vernet","f":"නේ පවුල","t":"වනේ පවුල","by":"gemini","v":"right"}
+{"h":"vernier","f":"1. නියර","t":"1. වනියර","by":"gemini","v":"right"}
+{"h":"vernier","f":"2. නියරය","t":"2. වනියරය","by":"gemini","v":"right"}
+{"h":"vernier","f":"[Psy.] වර්නියරය","t":"[Phy.] වර්නියරය","by":"gemini","v":"right"}
+{"h":"vertebrata","f":"ටිබ්‍රේටා","t":"වර්ටිබ්‍රේටා","by":"both"}
+{"h":"vertex","f":"ශ්‍රීර්ෂය","t":"ශීර්ෂය","by":"both"}
+{"h":"vesper","f":"මෙභෙය","t":"මෙහෙය","by":"both"}
+{"h":"vertex","f":"මුඳුන","t":"මුදුන","by":"gemini","v":"right"}
+{"h":"vertex","f":"ශිර්ෂය","t":"ශීර්ෂය","by":"gemini","v":"right"}
+{"h":"vertical","f":"මුඳුනෙහි","t":"මුදුනෙහි","by":"gemini","v":"right"}
+{"h":"vertical","f":"සෘජුව","t":"ඍජුව","by":"gemini","v":"wrong"}
+{"h":"verticillate","f":"චක්‍රිය","t":"චක්‍රීය","by":"gemini","v":"right"}
+{"h":"vessel","f":"යත්‍රාව","t":"යාත්‍රාව","by":"opus"}
+{"h":"vestry","f":"නියෝත","t":"නියෝජිත","by":"opus"}
+{"h":"vessel","f":"[n.] කුඩම","t":"[n.] කුඹම","by":"gemini"}
+{"h":"vessel","f":"[n.] යත්‍රාව","t":"[n.] යාත්‍රාව","by":"gemini","v":"right"}
+{"h":"vessel","f":"[n.] වහනය","t":"[n.] වාහනය","by":"gemini"}
+{"h":"vestal","f":"[a.] පවිත්‍ර කන්‍යාව","t":"[n.] පවිත්‍ර කන්‍යාව","by":"gemini","v":"right"}
+{"h":"vestibule","f":"අලින්දය","t":"ආලින්දය","by":"gemini","v":"wrong"}
+{"h":"vestry","f":"නියෝත පිරිස","t":"නියෝජිත පිරිස","by":"gemini","v":"right"}
+{"h":"veteran","f":"[a.] පැරණියා","t":"[n.] පැරණියා","by":"gemini","v":"right"}
+{"h":"veterinary","f":"4. පශු වෛද්‍යු","t":"4. පශු වෛද්‍ය","by":"gemini","v":"right"}
+{"h":"vhf","f":"ඉතා උචිච","t":"ඉතා උච්ච","by":"opus"}
+{"h":"vibrant","f":"මහහඬ්න්","t":"මහහඬින්","by":"opus"}
+{"h":"vibrate","f":"ගැභෙනවා","t":"ගැහෙනවා","by":"both"}
+{"h":"vibration","f":"ස්ථුරණය","t":"ස්ඵුරණය","by":"both"}
+{"h":"vibratory","f":"ස්එුරණාත්ක","t":"ස්ඵුරණාත්මක","by":"both"}
+{"h":"vibratory","f":"5. ස්ඵුරණාත්ක","t":"5. ස්ඵුරණාත්මක","by":"opus"}
+{"h":"vhf","f":"උචිච","t":"උච්ච","by":"gemini","v":"right"}
+{"h":"vibrant","f":"මහහඬ්න් යුත්","t":"මහහඬින් යුත්","by":"gemini","v":"right"}
+{"h":"vibrant","f":"මහහන් යුත්","t":"මහහඬින් යුත්","by":"gemini","v":"right"}
+{"h":"vibratory","f":"ස්ඵුරණාත්ක","t":"ස්ඵුරණාත්මක","by":"gemini","v":"right"}
+{"h":"vicegerent","f":"පාවිච්ච් කරන","t":"පාවිච්චි කරන","by":"opus"}
+{"h":"victimize","f":"විපතට භෙලනවා","t":"විපතට හෙලනවා","by":"opus"}
+{"h":"vice","f":"3. [Phy.] දඩු අඩුව","t":"3. [Phy.] දඬු අඬුව","by":"gemini","v":"right"}
+{"h":"vice","f":"4. දඩු අඬුව","t":"4. දඬු අඬුව","by":"gemini","v":"right"}
+{"h":"vicegerent","f":"පාවිච්ච්","t":"පාවිච්චි","by":"gemini","v":"right"}
+{"h":"victim","f":"උපහටයා","t":"උපහතයා","by":"gemini","v":"right"}
+{"h":"victimisation","f":"උපභටනය","t":"උපහතනය","by":"gemini","v":"right"}
+{"h":"victimisation","f":"උපහටන","t":"උපහතන","by":"gemini","v":"right"}
+{"h":"victimize","f":"5. [vt.] විපතට භෙලනවා","t":"5. [vt.] විපතට හෙලනවා","by":"gemini","v":"right"}
+{"h":"victorious","f":"[a.] විත","t":"[a.] විජිත","by":"opus"}
+{"h":"view","f":"දෘෂ්ථිපථය","t":"දෘෂ්ටිපථය","by":"both"}
+{"h":"viewer","f":"යමක් ලබන්නා","t":"යමක් බලන්නා","by":"opus"}
+{"h":"victorious","f":"විත","t":"ජිත","by":"gemini","v":"right"}
+{"h":"vicuna","f":"වර්ගෙ","t":"වර්ගය","by":"gemini","v":"right"}
+{"h":"video","f":"5. [a.] වීඩියෝ කිරීම","t":"5. [n.] වීඩියෝ කිරීම","by":"gemini","v":"right"}
+{"h":"viewer","f":"ලබන්නා","t":"බලන්නා","by":"gemini","v":"right"}
+{"h":"viewfinder","f":"දසුක් දක්නය","t":"දසුන් දක්නය","by":"both"}
+{"h":"viewing","f":"ආලෝවනය","t":"ආලෝචනය","by":"both"}
+{"h":"vigilance","f":"මුරීකිරීම","t":"මුරකිරීම","by":"both"}
+{"h":"viking","f":"වෙළෙන්ඳෝ","t":"වෙළෙන්දෝ","by":"opus"}
+{"h":"vilification","f":"භෙලා දැකීම","t":"හෙලා දැකීම","by":"opus"}
+{"h":"vigorous","f":"සජස්වී","t":"තේජස්වී","by":"gemini","v":"right"}
+{"h":"vilification","f":"1. [n.] භෙලා දැකීම","t":"1. [n.] හෙලා දැකීම","by":"gemini","v":"right"}
+{"h":"vindicate","f":"2. [Soc.] ද්‍යෝෂමුක්ත කරනවා","t":"2. [Soc.] දෝෂමුක්ත කරනවා","by":"gemini","v":"right"}
+{"h":"vindicate","f":"3. [Aes.] ද්‍යෝෂහරණය","t":"3. [Aes.] දෝෂහරණය","by":"gemini","v":"right"}
+{"h":"vindication","f":"1. [Log.] ද්‍යෝෂමුක්ත කිරීම","t":"1. [Log.] දෝෂමුක්ත කිරීම","by":"gemini","v":"right"}
+{"h":"violence","f":"ක්ෂෝහය","t":"ක්ෂෝභය","by":"both"}
+{"h":"virologist","f":"විද්‍යාඥුයා","t":"විද්‍යාඥයා","by":"both"}
+{"h":"virtue","f":"ශ්‍රීලය","t":"ශීලය","by":"both"}
+{"h":"virtuous","f":"ශ්‍රීලවන්ත","t":"ශීලවන්ත","by":"both"}
+{"h":"virtuous","f":"සුශ්‍රීල","t":"සුශීල","by":"both"}
+{"h":"virtuous","f":"ගණවන්ත","t":"ගුණවන්ත","by":"both"}
+{"h":"vis-a-vis","f":"vis-a-vis","t":"vis-à-vis","by":"opus"}
+{"h":"virtuous","f":"හූදී","t":"හුදී","by":"gemini","v":"right"}
+{"h":"vis","f":"සැජකම","t":"සැරකම","by":"gemini","v":"right"}
+{"h":"vis-a-vis","f":"1. [Law.] අනන්‍යාභිමුඛ ව","t":"1. [Law.] අන්‍යොන්‍යාභිමුඛ ව","by":"gemini","v":"right"}
+{"h":"vis-a-vis","f":"2. [Acc.] අනන්‍යාභිමුඛව","t":"2. [Acc.] අන්‍යොන්‍යාභිමුඛව","by":"gemini","v":"right"}
+{"h":"viscoelasticity","f":"දුස්‍රාවී ප්‍රත්‍යස්ථතාව","t":"දුස්ස්‍රාවී ප්‍රත්‍යාස්ථතාව","by":"both"}
+{"h":"viscosity","f":"දුස්ස්‍රවිතාව","t":"දුස්ස්‍රාවිතාව","by":"both"}
+{"h":"viscous","f":"දුස්සාවී","t":"දුස්ස්‍රාවී","by":"opus"}
+{"h":"viscous","f":"දූස්ස්‍රාවී","t":"දුස්ස්‍රාවී","by":"opus"}
+{"h":"visible","f":"විද්‍යුමාන","t":"විද්‍යමාන","by":"opus"}
+{"h":"visitation","f":"වෙභෙසකර","t":"වෙහෙසකර","by":"both"}
+{"h":"viscous","f":"6. දුස්ස්‍රාවි","t":"6. දුස්ස්‍රාවී","by":"gemini","v":"right"}
+{"h":"viscous","f":"7. දුස්සාවී","t":"7. දුස්ස්‍රාවී","by":"gemini","v":"right"}
+{"h":"viscous","f":"9. දූස්ස්‍රාවී","t":"9. දුස්ස්‍රාවී","by":"gemini","v":"right"}
+{"h":"visible","f":"10. විද්‍යුමාන","t":"10. විද්‍යමාන","by":"gemini","v":"right"}
+{"h":"visualize","f":"දශ්‍යනය","t":"දෘශ්‍යනය","by":"opus"}
+{"h":"vital","f":"වත්වීමට","t":"ජීවත්වීමට","by":"opus"}
+{"h":"vitalism","f":"ව වාදය","t":"ජීව වාදය","by":"opus"}
+{"h":"vitalism","f":"වත්වය","t":"ජීවත්වය","by":"both"}
+{"h":"vitalism","f":"[Log.] වවාදය","t":"[Log.] ජීවවාදය","by":"both"}
+{"h":"vitalism","f":"[n.] වාත්මවාදය","t":"[n.] ජීවාත්මවාදය","by":"both"}
+{"h":"vitality","f":"[n.] වන ශක්තිය","t":"[n.] ජීවන ශක්තිය","by":"opus"}
+{"h":"vitals","f":"විතේන්ද්‍රිය","t":"ජීවිතේන්ද්‍රිය","by":"both"}
+{"h":"vitamin","f":"ජිව පදාර්ථ","t":"ජීව පදාර්ථ","by":"both"}
+{"h":"vitamin","f":"ව ධාතුව","t":"ජීව ධාතුව","by":"both"}
+{"h":"visualize","f":"දශ්‍යනය කරනවා","t":"දෘශ්‍යනය කරනවා","by":"gemini","v":"right"}
+{"h":"vital","f":"වත්වීමට අවශ්‍ය","t":"ජීවත්වීමට අවශ්‍ය","by":"gemini","v":"right"}
+{"h":"vitalism","f":"[Psy.] ව වාදය","t":"[Psy.] ජීව වාදය","by":"gemini","v":"right"}
+{"h":"vitality","f":"වන ශක්තිය","t":"ජීවන ශක්තිය","by":"gemini","v":"right"}
+{"h":"vituperation","f":"අක්‍රොශය","t":"ආක්‍රෝශය","by":"gemini","v":"right"}
+{"h":"viva-voce","f":"2. [Law.] ව වාච","t":"2. [Law.] සවාච","by":"gemini","v":"wrong"}
+{"h":"viva-voce","f":"3. [Acc.] වවාච","t":"3. [Acc.] සවාච","by":"gemini","v":"wrong"}
+{"h":"viva-voce","f":"4. [adv.] සම්මුඛ පරීක්ෂණය","t":"4. [n.] සම්මුඛ පරීක්ෂණය","by":"gemini","v":"right"}
+{"h":"vocal","f":"කටහඬ්න්","t":"කටහඬින්","by":"both"}
+{"h":"voices","f":"වාවාශ්‍රවය","t":"වාචාශ්‍රවය","by":"both"}
+{"h":"vocal","f":"කටහන්","t":"කටහඬින්","by":"gemini","v":"right"}
+{"h":"vocalic","f":"1. [n.] ස්වර අඩංගු","t":"1. [a.] ස්වර අඩංගු","by":"gemini","v":"right"}
+{"h":"vocalic","f":"2. [n.] ස්වරවලට සම්බන්ධ","t":"2. [a.] ස්වරවලට සම්බන්ධ","by":"gemini","v":"right"}
+{"h":"vocational","f":"වෘත්තීමය","t":"වෘත්තියමය","by":"gemini","v":"wrong"}
+{"h":"vocative","f":"2. [a.] ආලපන විභක්තිය","t":"2. [n.] ආලපන විභක්තිය","by":"gemini","v":"right"}
+{"h":"vociferate","f":"1. [vti.] කෑගසන","t":"1. [vti.] කෑගසනවා","by":"gemini","v":"right"}
+{"h":"voice","f":"කටහඩ","t":"කටහඬ","by":"gemini","v":"right"}
+{"h":"voice","f":"කථා හඩ","t":"කථා හඬ","by":"gemini","v":"right"}
+{"h":"void","f":"ජිද්‍රගත","t":"ඡිද්‍රගත","by":"both"}
+{"h":"voiding","f":"කිරිම","t":"කිරීම","by":"both"}
+{"h":"volatile","f":"වාෂ්පශ්‍රීල","t":"වාෂ්පශීල","by":"both"}
+{"h":"volatility","f":"වාෂ්පශ්‍රීලතාව","t":"වාෂ්පශීලතාව","by":"both"}
+{"h":"volatilize","f":"වාශ්පශ්‍රීලී","t":"වාශ්පශීලී","by":"opus"}
+{"h":"void","f":"රඩු","t":"රිටු","by":"gemini","v":"wrong"}
+{"h":"void","f":"14. ශුන්‍ය","t":"14. ශූන්‍ය","by":"gemini","v":"right"}
+{"h":"voidable","f":"හිස් කල හැකි","t":"හිස් කළ හැකි","by":"gemini","v":"right"}
+{"h":"volatilize","f":"1. [v.] වාශ්පශ්‍රීලී කරනවා","t":"1. [v.] වාෂ්පශීලී කරනවා","by":"gemini","v":"right"}
+{"h":"volatilize","f":"2. වාශ්පශීලී කරනවා","t":"2. වාෂ්පශීලී කරනවා","by":"gemini","v":"right"}
+{"h":"volt","f":"[Psy.] වෝල්ටය","t":"[Phy.] වෝල්ටය","by":"gemini","v":"right"}
+{"h":"voltmeter","f":"වෝලට්මානය","t":"වෝල්ට්මානය","by":"both"}
+{"h":"volume","f":"ඝනඑලය","t":"ඝනඵලය","by":"both"}
+{"h":"voluntary","f":"ස්ව්ච්ඡාසේවක","t":"ස්වේච්ඡාසේවක","by":"both"}
+{"h":"voltmeter","f":"වෝල්ටමානය","t":"වෝල්ට්මානය","by":"gemini","v":"right"}
+{"h":"voluntarism","f":"ස්වේච්ඡානුගතාව","t":"ස්වේච්ඡානුගතතාව","by":"gemini","v":"right"}
+{"h":"voluntary","f":"ඉච්ජානුගත","t":"ඉච්ඡානුගත","by":"gemini","v":"right"}
+{"h":"voluntary","f":"ස්වෙච්ජා","t":"ස්වෙච්ඡා","by":"gemini","v":"right"}
+{"h":"volva","f":"බඳනය","t":"බඳුනය","by":"gemini","v":"right"}
+{"h":"vomit","f":"[n.] කටින්","t":"[v.] කටින්","by":"opus"}
+{"h":"vomit","f":"[n.] වමනය කරනවා","t":"[v.] වමනය කරනවා","by":"opus"}
+{"h":"vomit","f":"[n.] වමාරනවා","t":"[v.] වමාරනවා","by":"opus"}
+{"h":"vortex","f":"අවර්තය","t":"ආවර්තය","by":"opus"}
+{"h":"votaress","f":"[prep.]","t":"[n.]","by":"opus"}
+{"h":"votaress","f":"ස්ත්‍රිය","t":"ස්ත්‍රීය","by":"opus"}
+{"h":"vote","f":"වැය ශ්‍රීර්ෂය","t":"වැය ශීර්ෂය","by":"opus"}
+{"h":"vomit","f":"1. [n.] කටින් පිටකරනවා","t":"1. [v.] කටින් පිටකරනවා","by":"gemini","v":"right"}
+{"h":"vomit","f":"3. [n.] වමනය කරනවා","t":"3. [v.] වමනය කරනවා","by":"gemini","v":"right"}
+{"h":"vomit","f":"6. [n.] වමාරනවා","t":"6. [v.] වමාරනවා","by":"gemini","v":"right"}
+{"h":"vortex","f":"1. [n.] අවර්තය","t":"1. [n.] ආවර්තය","by":"gemini","v":"right"}
+{"h":"vorticity","f":"[Mat.] සළාම","t":"[Mat.] සළාබව","by":"gemini","v":"wrong"}
+{"h":"votaress","f":"[prep.] කන්‍යා ස්ත්‍රිය","t":"[n.] කන්‍යා ස්ත්‍රිය","by":"gemini","v":"right"}
+{"h":"vote","f":"11. [Mng.] වැය ශ්‍රීර්ෂය","t":"11. [Mng.] වැය ශීර්ෂය","by":"gemini","v":"right"}
+{"h":"vowel","f":"ප්‍රාණක්ෂරය","t":"ප්‍රාණාක්ෂරය","by":"opus"}
+{"h":"wadding","f":"පෝරු දුමන රෙදි","t":"පෝරු දමන රෙදි","by":"both"}
+{"h":"waffle","f":"[n.] සම්එප්‍රලාප","t":"[n.] සම්ඵප්‍රලාප","by":"opus"}
+{"h":"waffle","f":"[vi.] සම්එප්‍රලාප දොඩනවා","t":"[vi.] සම්ඵප්‍රලාප දොඩනවා","by":"opus"}
+{"h":"wage","f":"චේතනය","t":"වේතනය","by":"opus"}
+{"h":"waffle","f":"1. [n.] සම්එප්‍රලාප","t":"1. [n.] සම්ඵප්‍රලාප","by":"gemini","v":"right"}
+{"h":"waffle","f":"2. [vi.] සම්එප්‍රලාප දොඩනවා","t":"2. [vi.] සම්ඵප්‍රලාප දොඩනවා","by":"gemini","v":"right"}
+{"h":"waft","f":"සුළගෙහි","t":"සුළඟෙහි","by":"gemini","v":"right"}
+{"h":"wage","f":"4. චේතනය","t":"4. වේතනය","by":"gemini","v":"right"}
+{"h":"wail","f":"අද්‍යෝනාව","t":"අදෝනාව","by":"both"}
+{"h":"wainscot","f":"බිත්ති ජනේල වැඩ","t":"බිත්ති පනේල වැඩ","by":"opus"}
+{"h":"wainscot","f":"බිත්ති ජනේල වැඩ කරනවා","t":"බිත්ති පනේල වැඩ කරනවා","by":"gemini","v":"right"}
+{"h":"walk","f":"භෙමින් දක්කනවා","t":"හෙමින් දක්කනවා","by":"opus"}
+{"h":"walk","f":"භෙමින්ගමන","t":"හෙමින්ගමන","by":"opus"}
+{"h":"walk-in","f":"ඇතුළු වනවා","t":"ඇතුළු වන","by":"both"}
+{"h":"wall","f":"භික්තිය","t":"භිත්තිය","by":"opus"}
+{"h":"walk","f":"10. [vti.] භෙමින් දක්කනවා","t":"10. [vti.] හෙමින් දක්කනවා","by":"gemini","v":"right"}
+{"h":"walk","f":"11. [n.] භෙමින්ගමන","t":"11. [n.] හෙමින්ගමන","by":"gemini","v":"right"}
+{"h":"wall","f":"9. [n.] භික්තිය","t":"9. [n.] භිත්තිය","by":"gemini","v":"right"}
+{"h":"walloon","f":"බෙල් ජියමේ","t":"බෙල්ජියමේ","by":"gemini","v":"right"}
+{"h":"wane","f":"පිරිභෙනවා","t":"පිරිහෙනවා","by":"both"}
+{"h":"wanting","f":"අඩුලුහුජු","t":"අඩුලුහුඬු","by":"both"}
+{"h":"wand","f":"චේත්‍රය","t":"වේත්‍රය","by":"gemini","v":"right"}
+{"h":"wanton","f":"අනුපරොධී","t":"අනුපරෝධී","by":"gemini","v":"right"}
+{"h":"wantonly","f":"අනුපරොධී","t":"අනුපරෝධී","by":"gemini","v":"right"}
+{"h":"war","f":"බළාම්","t":"බළාම","by":"gemini"}
+{"h":"warfare","f":"පුද කිරීම","t":"යුද කිරීම","by":"both"}
+{"h":"warhead","f":"ශ්‍රීර්ෂය","t":"ශීර්ෂය","by":"both"}
+{"h":"warm","f":"[Phy.] උණසුම","t":"[Phy.] උණුසුම","by":"opus"}
+{"h":"warm-hearted","f":"හහදක්","t":"හදක්","by":"both"}
+{"h":"warble","f":"නාද නද දෙනවා","t":"නාද දෙනවා","by":"opus"}
+{"h":"warm","f":"උණසුම","t":"උණුසුම","by":"gemini","v":"right"}
+{"h":"warmth","f":"උණූසුම","t":"උණුසුම","by":"both"}
+{"h":"warp","f":"ඇද ගැභෙනවා","t":"ඇද ගැහෙනවා","by":"both"}
+{"h":"warp","f":"නූල් හැදය","t":"නූල් හෑදය","by":"gemini"}
+{"h":"warp","f":"නූල් හැඳුය","t":"නූල් හෑඳය","by":"gemini"}
+{"h":"warranted","f":"තැඹැයු","t":"තැඹැයූ","by":"gemini"}
+{"h":"warranty","f":"ප්‍රතිඥාහාරය","t":"ප්‍රතිඥාභාරය","by":"gemini","v":"right"}
+{"h":"warred","f":"සටන් කලා","t":"සටන් කළා","by":"gemini","v":"right"}
+{"h":"wash","f":"ද්‍යෝවනවා","t":"දෝවනවා","by":"both"}
+{"h":"wash","f":"ගෑමට බෙභෙත්","t":"ගෑමට බෙහෙත්","by":"opus"}
+{"h":"wash","f":"සේදීමට බෙභෙත්","t":"සේදීමට බෙහෙත්","by":"opus"}
+{"h":"waste","f":"නිෂ්එල","t":"නිෂ්ඵල","by":"both"}
+{"h":"waste","f":"වියදුම","t":"වියදම","by":"opus"}
+{"h":"wash","f":"ගෑමට බෙභෙත් වතුර","t":"ගෑමට බෙහෙත් වතුර","by":"gemini","v":"right"}
+{"h":"wash","f":"සේදීමට බෙභෙත් වතුර","t":"සේදීමට බෙහෙත් වතුර","by":"gemini","v":"right"}
+{"h":"waste","f":"රඩු","t":"රොඩු","by":"gemini","v":"right"}
+{"h":"waster","f":"අපතය","t":"අපතයා","by":"gemini"}
+{"h":"watch","f":"මුරකායය","t":"මුරකාලය","by":"opus"}
+{"h":"water","f":"ශ්‍රීත","t":"ශීත","by":"opus"}
+{"h":"water","f":"සිලිල","t":"සලිල","by":"opus"}
+{"h":"water-cooled","f":"සිසිල වෙන","t":"සිසිල් වෙන","by":"both"}
+{"h":"wattle","f":"7. වරිච්ව","t":"7. වරිච්චි","by":"both"}
+{"h":"wattle","f":"වරිච්ව පැළැල්ල","t":"වරිච්චි පැළැල්ල","by":"opus"}
+{"h":"wattle","f":"වරිච්වය","t":"වරිච්චිය","by":"opus"}
+{"h":"wave","f":"රූළ ගැසීම","t":"රළ ගැසීම","by":"both"}
+{"h":"wave","f":"20. ළ ගැසීම","t":"20. රළ ගැසීම","by":"both"}
+{"h":"waterfall","f":"නිර්ක්ධර","t":"නිර්ඣර","by":"gemini","v":"right"}
+{"h":"watershed","f":"දිය බෙත්ම","t":"දිය බෙදුම","by":"gemini","v":"right"}
+{"h":"wattle","f":"8. වරිච්ව පැළැල්ල","t":"8. වරිච්චි පැළැල්ල","by":"gemini","v":"right"}
+{"h":"wattle","f":"9. වරිච්වය","t":"9. වරිච්චිය","by":"gemini","v":"right"}
+{"h":"wavenumber","f":"තරංග උංකය","t":"තරංග අංකය","by":"both"}
+{"h":"waver","f":"අවිනිශ්වතව","t":"අවිනිශ්චිතව","by":"both"}
+{"h":"waxy","f":"ඉටී වැනි","t":"ඉටි වැනි","by":"both"}
+{"h":"waxy","f":"ඉටී සහිත","t":"ඉටි සහිත","by":"both"}
+{"h":"way-out","f":"ප්‍රගතිශ්‍රීලි","t":"ප්‍රගතිශීලී","by":"both"}
+{"h":"weakness","f":"ද්‍යෝෂය","t":"දෝෂය","by":"both"}
+{"h":"weaning","f":"නතර කිරිම","t":"නතර කිරීම","by":"opus"}
+{"h":"weak-kneed","f":"ස්ථීර","t":"ස්ථිර","by":"gemini","v":"right"}
+{"h":"wealth","f":"ඓශ්චර්ය","t":"ඓශ්වර්ය","by":"gemini","v":"right"}
+{"h":"weaning","f":"කිරිම","t":"කිරීම","by":"gemini","v":"right"}
+{"h":"wear-out","f":"ගෙවියෑම","t":"ගෙවීයෑම","by":"gemini","v":"right"}
+{"h":"wearily","f":"වෙභෙස","t":"වෙහෙස","by":"gemini","v":"right"}
+{"h":"weariness","f":"වෙභෙස","t":"වෙහෙස","by":"gemini","v":"right"}
+{"h":"wearing","f":"වෙභෙස","t":"වෙහෙස","by":"gemini","v":"right"}
+{"h":"wearisome","f":"වෙභෙස","t":"වෙහෙස","by":"gemini","v":"right"}
+{"h":"weatherproof","f":"[n.] කාලගුණයට","t":"[a.] කාලගුණයට","by":"both"}
+{"h":"weathering","f":"(ශිලා) ජරණය","t":"(ශිලා) ජීරණය","by":"opus"}
+{"h":"weathering","f":"[Che.] රණය","t":"[Che.] ජීරණය","by":"opus"}
+{"h":"weathering","f":"[Art.] කාලගුණය අනුව සකස් කිරිම","t":"[Art.] කාලගුණය අනුව සකස් කිරීම","by":"opus"}
+{"h":"weathering","f":"ජීර්ණය විම","t":"ජීර්ණය වීම","by":"both"}
+{"h":"wedding","f":"විවා මඟුල","t":"විවාහ මඟුල","by":"opus"}
+{"h":"wedge","f":"[Bot.] කුඤ්ඤය","t":"[Bot.] කූඤ්ඤය","by":"both"}
+{"h":"webbing","f":"සියොදූව","t":"සියොදුව","by":"opus"}
+{"h":"weary","f":"වෙභෙස ඇති","t":"වෙහෙස ඇති","by":"gemini","v":"right"}
+{"h":"weary","f":"වෙභෙස වූ","t":"වෙහෙස වූ","by":"gemini","v":"right"}
+{"h":"weary","f":"වෙභෙසට","t":"වෙහෙසට","by":"gemini","v":"right"}
+{"h":"weary","f":"වෙභෙසනවා","t":"වෙහෙසනවා","by":"gemini","v":"right"}
+{"h":"weather","f":"බේරෙන","t":"බේරෙනවා","by":"gemini","v":"right"}
+{"h":"weathering","f":"සකස් කිරිම","t":"සකස් කිරීම","by":"gemini","v":"right"}
+{"h":"weathering","f":"[Che.] රණය","t":"[Che.] ජරණය","by":"gemini","v":"right"}
+{"h":"weaver","f":"පෙභෙකාර","t":"පෙහෙකාර","by":"gemini","v":"right"}
+{"h":"weaver","f":"[n.] පෙභෙර","t":"[n.] පෙහෙර","by":"gemini","v":"right"}
+{"h":"weaver","f":"පෙභෙරා","t":"පෙහෙරා","by":"gemini","v":"right"}
+{"h":"weaving","f":"පෙභෙකම්","t":"පෙහෙකම්","by":"gemini","v":"right"}
+{"h":"web","f":"අඟිලි අතරෙහි සවිය","t":"ඇඟිලි අතරෙහි සිවිය","by":"gemini","v":"right"}
+{"h":"wedge","f":"තදු කරනවා","t":"තද කරනවා","by":"gemini","v":"right"}
+{"h":"weed","f":"වල් පළෑටිය","t":"වල් පැළෑටිය","by":"both"}
+{"h":"weep","f":"කඳුළු භෙළනවා","t":"කඳුළු හෙළනවා","by":"opus"}
+{"h":"weepers","f":"වැළපෙන්නෝ","t":"වැලපෙන්නෝ","by":"opus"}
+{"h":"weevils","f":"ගුල්ලො","t":"ගුල්ලෝ","by":"opus"}
+{"h":"weevils","f":"[Med.]","t":"[n.]","by":"opus"}
+{"h":"ween","f":"නඟිනවා","t":"හඟිනවා","by":"opus"}
+{"h":"ween","f":"2. [vt.] නඟිනවා","t":"2. [vt.] හඟිනවා","by":"gemini","v":"right"}
+{"h":"weep","f":"2. [vti.] කඳුළු භෙළනවා","t":"2. [vti.] කඳුළු හෙළනවා","by":"gemini","v":"right"}
+{"h":"weighing","f":"ද්‍යෝලායනය","t":"දෝලායනය","by":"both"}
+{"h":"weighted","f":"හරිත","t":"භරිත","by":"both"}
+{"h":"weld","f":"[n.] පාහනවා","t":"[v.] පාහනවා","by":"opus"}
+{"h":"welding","f":"වෙන්ඩිං කිරීම","t":"වෙල්ඩිං කිරීම","by":"both"}
+{"h":"welfare","f":"භුභසාධක","t":"ශුභසාධක","by":"both"}
+{"h":"welk","f":"welk","t":"whelk","by":"opus"}
+{"h":"weighting","f":"වන බර දීමනාව","t":"ජීවන බර දීමනාව","by":"gemini","v":"right"}
+{"h":"weighting","f":"හරණය","t":"භරණය","by":"gemini","v":"right"}
+{"h":"weld","f":"3. [n.] පාහනවා","t":"3. [v.] පාහනවා","by":"gemini","v":"right"}
+{"h":"weldability","f":"වෙල්යතාව","t":"වෙල්ඩ්‍යතාව","by":"gemini","v":"wrong"}
+{"h":"welder","f":"වෙල්ම්කරු","t":"වෙල්ඩිම්කරු","by":"gemini","v":"right"}
+{"h":"welding","f":"11. වෙල්ම","t":"11. වෙල්ඩිම","by":"gemini","v":"right"}
+{"h":"well-rounded","f":"ගැලැපූ","t":"ගැලපූ","by":"opus"}
+{"h":"well-known","f":"[prep.] පතා","t":"[a.] පතළ","by":"gemini","v":"wrong"}
+{"h":"well-known","f":"[adv.] පළට","t":"[a.] පළට","by":"gemini","v":"wrong"}
+{"h":"wen","f":"හිසෙහි ඉන්නා","t":"හිසෙහි ඉන්න","by":"opus"}
+{"h":"westerly","f":"[adv.] එන බටහිරට වූ","t":"[a.] එන බටහිරට වූ","by":"opus"}
+{"h":"western","f":"6. පශ්වම","t":"6. පශ්චිම","by":"both"}
+{"h":"western","f":"පශ්වම ගංගාව","t":"පශ්චිම ගංගාව","by":"opus"}
+{"h":"western","f":"ප්‍රතිචීන","t":"ප්‍රතීචීන","by":"opus"}
+{"h":"westernization","f":"බටහිරිකරණය","t":"බටහිරීකරණය","by":"both"}
+{"h":"westernize","f":"හැඩගැභෙනවා","t":"හැඩගැහෙනවා","by":"both"}
+{"h":"wet","f":"අමද්‍යුප","t":"අමද්‍යප","by":"both"}
+{"h":"western","f":"7. පශ්වම ගංගාව","t":"7. පශ්චිම ගංගාව","by":"gemini","v":"right"}
+{"h":"wether","f":"පුසි කරන","t":"පුස්සි කරන","by":"gemini"}
+{"h":"wham","f":"පටාස් හඩ","t":"පටාස් හඬ","by":"both"}
+{"h":"wheel","f":"[n.] වක්‍රය","t":"[n.] චක්‍රය","by":"gemini","v":"right"}
+{"h":"wheel","f":"වක්‍රය වැනි දේ","t":"චක්‍රය වැනි දේ","by":"gemini","v":"right"}
+{"h":"wheezy","f":"[a.] සද්දෙට හුස්ම ගන්නවා","t":"[a.] සද්දෙට හුස්ම ගන්නා","by":"gemini","v":"right"}
+{"h":"where","f":"6. [conj.] යම් තැනක ද බීතන","t":"6. [conj.] යම් තැනක ද එතන","by":"gemini","v":"right"}
+{"h":"while","f":"එභෙත්","t":"එහෙත්","by":"both"}
+{"h":"whine","f":"නාභෙන්","t":"නාහෙන්","by":"both"}
+{"h":"whilom","f":"3. විටෙ","t":"3. විටෙක","by":"gemini","v":"right"}
+{"h":"whip","f":"සඹුක්කුව","t":"සවුක්කුව","by":"gemini","v":"wrong"}
+{"h":"whipoorwill","f":"whipoorwill","t":"whippoorwill","by":"gemini","v":"right"}
+{"h":"whirling","f":"විභ්‍රමණනය","t":"විභ්‍රමණය","by":"both"}
+{"h":"whirlybird","f":"භෙලිකොප්ටරය","t":"හෙලිකොප්ටරය","by":"both"}
+{"h":"whisperer","f":"හඬ්න්","t":"හඬින්","by":"both"}
+{"h":"whisperer","f":"හීන් හන් කොඳුරන්නා","t":"හීන් හඬින් කොඳුරන්නා","by":"opus"}
+{"h":"whistle","f":"[n.] සිවුරුවම් බානවා","t":"[v.] සිවුරුවම් බානවා","by":"opus"}
+{"h":"white","f":"භෙළ","t":"හෙළ","by":"both"}
+{"h":"whisperer","f":"හීන් හන්","t":"හීන් හඬින්","by":"gemini","v":"wrong"}
+{"h":"whistle","f":"13. [n.] සිවුරුවම් බානවා","t":"13. [v.] සිවුරුවම් බානවා","by":"gemini","v":"right"}
+{"h":"wholesale","f":"තොග වෙළෙඳශවම","t":"තොග වෙළෙඳාම","by":"opus"}
+{"h":"whole","f":"3. [a.] නොබෙදු ගණන","t":"3. [n.] නොබෙදූ ගණන","by":"gemini","v":"right"}
+{"h":"wholesale","f":"වෙළෙඳශවම","t":"වෙළෙඳාම","by":"gemini","v":"right"}
+{"h":"whoop","f":"ජයසෝෂාව","t":"ජයඝෝෂාව","by":"both"}
+{"h":"whoop","f":"[v.] මොරහඬ","t":"[n.] මොරහඬ","by":"both"}
+{"h":"whorl","f":"සුළීරුව","t":"සුළිරුව","by":"gemini","v":"right"}
+{"h":"wide","f":"විහිඟුම්","t":"විහිගුම්","by":"gemini","v":"wrong"}
+{"h":"wield","f":"ඔසවා පාවිච්ව කරනවා","t":"ඔසවා පාවිච්චි කරනවා","by":"opus"}
+{"h":"wig","f":"ප්‍රතිශ්‍රීර්ෂකය","t":"ප්‍රතිශීර්ෂකය","by":"both"}
+{"h":"wiggery","f":"කොණඩයක්","t":"කොණ්ඩයක්","by":"both"}
+{"h":"widower","f":"කණවැන්දුම පුරුෂයා","t":"කණවැන්දුම් පුරුෂයා","by":"both"}
+{"h":"widow","f":"වනවමිය","t":"වනචරිය","by":"gemini","v":"wrong"}
+{"h":"wield","f":"පාවිච්ව","t":"පාවිච්චි","by":"gemini","v":"right"}
+{"h":"wife","f":"1. [n.] අඹ","t":"1. [n.] අඹු","by":"gemini"}
+{"h":"wild","f":"අෂ්ට","t":"අශිෂ්ට","by":"gemini","v":"right"}
+{"h":"willingness","f":"1. [a.] කැමැත්ත","t":"1. [n.] කැමැත්ත","by":"both"}
+{"h":"willingness","f":"2. [a.] සතුටු බව","t":"2. [n.] සතුටු බව","by":"both"}
+{"h":"wilted","f":"[Bot.] විශුන","t":"[Bot.] විශූන","by":"opus"}
+{"h":"wilt","f":"විශූන","t":"විශීර්ණ","by":"gemini","v":"wrong"}
+{"h":"wilted","f":"1. [Bot.] විශුන","t":"1. [Bot.] විශීර්ණ","by":"gemini","v":"wrong"}
+{"h":"wilted","f":"2. විශූන","t":"2. විශීර්ණ","by":"gemini","v":"wrong"}
+{"h":"win","f":"දනනවා","t":"දිනනවා","by":"opus"}
+{"h":"windlass","f":"ඩබරය","t":"දබරය","by":"opus"}
+{"h":"window-dressing","f":"අලංකාද්‍රීරය","t":"අලංකාරය","by":"both"}
+{"h":"window-shop","f":"කවුලුවල","t":"කවුළුවල","by":"opus"}
+{"h":"win","f":"6. [v.] දනනවා","t":"6. [v.] දිනනවා","by":"gemini","v":"right"}
+{"h":"winch","f":"4. විංවය","t":"4. විංචිය","by":"gemini","v":"right"}
+{"h":"winch","f":"6. විඤ්වය","t":"6. විඤ්චිය","by":"gemini","v":"right"}
+{"h":"winch","f":"9. වින්වය","t":"9. වින්චිය","by":"gemini","v":"right"}
+{"h":"winch","f":"11. වීංවය","t":"11. වීංචිය","by":"gemini","v":"right"}
+{"h":"winder","f":"[Civ.] එතන එන්ම","t":"[Civ.] එතන එල්ම","by":"gemini"}
+{"h":"wink","f":"ඇසිපිය භෙළනවා","t":"ඇසිපිය හෙළනවා","by":"both"}
+{"h":"winter","f":"භෙමත්","t":"හෙමත්","by":"opus"}
+{"h":"wing","f":"1. [n.] අත්හැන්ද","t":"1. [n.] අත්සැන්ද","by":"gemini"}
+{"h":"wing","f":"2. [n.] අත්හැන්ද වැනි දේ","t":"2. [n.] අත්සැන්ද වැනි දේ","by":"gemini"}
+{"h":"winkled","f":"winkled","t":"wrinkled","by":"gemini","v":"right"}
+{"h":"winter","f":"1. [st.] භෙමත්","t":"1. [st.] හෙමත්","by":"gemini","v":"right"}
+{"h":"winter","f":"2. [n.] ශ්‍රීත ඍතුව","t":"2. [n.] ශීත ඍතුව","by":"gemini","v":"right"}
+{"h":"winter","f":"3. [a.] ශ්‍රීත ඍතුවට අයත්","t":"3. [a.] ශීත ඍතුවට අයත්","by":"gemini","v":"right"}
+{"h":"winter","f":"4. [a.] ශ්‍රීත ඍතුවේදී ඇතිවන","t":"4. [a.] ශීත ඍතුවේදී ඇතිවන","by":"gemini","v":"right"}
+{"h":"winter","f":"5. [n.] ශ්‍රීතඍතුව","t":"5. [n.] ශීතඍතුව","by":"gemini","v":"right"}
+{"h":"wintry","f":"ශ්‍රීත සුලං ඇති","t":"ශීත සුලං ඇති","by":"gemini","v":"right"}
+{"h":"wire","f":"කමබි අදිනවා","t":"කම්බි අදිනවා","by":"both"}
+{"h":"wiring","f":"විදුලි රැහැන් ඇඳිම","t":"විදුලි රැහැන් ඇදීම","by":"opus"}
+{"h":"wish","f":"ඉච්චාව","t":"ඉච්ඡාව","by":"opus"}
+{"h":"wistful","f":"4. වන්තාපර","t":"4. චින්තාපර","by":"opus"}
+{"h":"wiping","f":"පියලෑම","t":"පිසලෑම","by":"gemini"}
+{"h":"wire","f":"නනය","t":"තතය","by":"gemini"}
+{"h":"wiring","f":"ඇඳිම","t":"ඇදීම","by":"gemini","v":"right"}
+{"h":"wistful","f":"වන්තාපර","t":"චින්තාපර","by":"gemini","v":"right"}
+{"h":"without","f":"රසිත","t":"රහිත","by":"opus"}
+{"h":"witticism","f":"තර්මාලාපය","t":"නර්මාලාපය","by":"both"}
+{"h":"wither","f":"හංවෙනවා","t":"හැකිළෙනවා","by":"gemini","v":"wrong"}
+{"h":"withering","f":"මිලාන","t":"ම්ලාන","by":"gemini","v":"right"}
+{"h":"without","f":"[a.] රසිත","t":"[a.] රහිත","by":"gemini","v":"right"}
+{"h":"witty","f":"හාස්‍යෝජිත්පාදක","t":"හාස්‍යෝත්පාදක","by":"both"}
+{"h":"wizardry","f":"වශ්‍රී කිරීමේ","t":"වශී කිරීමේ","by":"opus"}
+{"h":"woman","f":"මෙභෙකාරී","t":"මෙහෙකාරී","by":"both"}
+{"h":"wizardry","f":"වශ්‍රී කිරීමේ බලය","t":"වශී කිරීමේ බලය","by":"gemini","v":"right"}
+{"h":"wizen","f":"වෑහෑරී ගිය","t":"වැහැරී ගිය","by":"gemini","v":"right"}
+{"h":"woman","f":"කල්බද","t":"කල්බඳ","by":"gemini","v":"right"}
+{"h":"woman","f":"බබලතා","t":"බඹලතා","by":"gemini"}
+{"h":"womanhood","f":"ස්ත්‍රිත්වය","t":"ස්ත්‍රීත්වය","by":"gemini","v":"right"}
+{"h":"womanhood","f":"ස්ත්‍රිභාවය","t":"ස්ත්‍රීභාවය","by":"gemini","v":"right"}
+{"h":"womanizer","f":"ස්ත්‍රිලෝලයා","t":"ස්ත්‍රීලෝලයා","by":"both"}
+{"h":"womb","f":"ගැප්","t":"ගැබ්","by":"opus"}
+{"h":"wonderful","f":"විස්මයාවග","t":"විස්මයාවහ","by":"both"}
+{"h":"wood","f":"කෘෂ්ඨය","t":"කාෂ්ඨය","by":"both"}
+{"h":"wood","f":"වල් පැළෑටීය","t":"වල් පැළෑටිය","by":"both"}
+{"h":"womanizer","f":"ගැහැණුසොඩා","t":"ගැහැණුසොඬා","by":"gemini","v":"right"}
+{"h":"womb","f":"ධරාලය","t":"ධරාශය","by":"gemini"}
+{"h":"wooded","f":"වනයෙන් ගැවසි","t":"වනයෙන් ගැවසී","by":"opus"}
+{"h":"workplace","f":"සේවාස්ථනය","t":"සේවාස්ථානය","by":"both"}
+{"h":"workmanship","f":"ශිල්ප කෞෂල්‍යය","t":"ශිල්ප කෞශල්‍යය","by":"gemini","v":"right"}
+{"h":"world","f":"11. [st.] ලොවි","t":"11. [st.] ලොව්","by":"gemini"}
+{"h":"worldly","f":"ලෞකිත","t":"ලෞකික","by":"opus"}
+{"h":"worn","f":"[a.] අතිශය වෙභෙසට පත්","t":"[a.] අතිශය වෙහෙසට පත්","by":"opus"}
+{"h":"worn","f":"9. [a.] වෙභෙසට පත්","t":"9. [a.] වෙහෙසට පත්","by":"both"}
+{"h":"worry","f":"වෙභෙසනවා","t":"වෙහෙසනවා","by":"opus"}
+{"h":"worshipful","f":"ගෞරවාර්භ","t":"ගෞරවාර්හ","by":"opus"}
+{"h":"worldly","f":"4. [a.] ලොවි","t":"4. [a.] ලොවී","by":"gemini","v":"right"}
+{"h":"wormholes","f":"ගුලු සිදුරු","t":"ගුල් සිදුරු","by":"gemini"}
+{"h":"worn","f":"1. [a.] අතිශය වෙභෙසට පත්","t":"1. [a.] අතිශය වෙහෙසට පත්","by":"gemini","v":"right"}
+{"h":"worry","f":"6. [n.] තැපීම","t":"6. [n.] තැවීම","by":"gemini","v":"right"}
+{"h":"worry","f":"13. [v.] වෙභෙසනවා","t":"13. [v.] වෙහෙසනවා","by":"gemini","v":"right"}
+{"h":"worshipful","f":"1. [a.] ගෞරවාර්භ","t":"1. [a.] ගෞරවාර්හ","by":"gemini","v":"right"}
+{"h":"worth","f":"2. [Law.] වටනය","t":"2. [Law.] වටිනය","by":"gemini"}
+{"h":"worthy","f":"අර්භ","t":"අර්හ","by":"both"}
+{"h":"wraparound","f":"1. [a.]","t":"1. [n.]","by":"gemini","v":"right"}
+{"h":"wraparound","f":"2. [a.]","t":"2. [n.]","by":"gemini","v":"right"}
+{"h":"wrench","f":"රෙංවය","t":"රෙංචිය","by":"both"}
+{"h":"wrench","f":"රෙන්වය","t":"රෙන්චිය","by":"both"}
+{"h":"wrest","f":"වෙභෙසී","t":"වෙහෙසී","by":"both"}
+{"h":"wretch","f":"කාලණ්ණියා","t":"කාලකණ්ණියා","by":"both"}
+{"h":"wriggle","f":"[n.] නළියනවා","t":"[vi.] නළියනවා","by":"both"}
+{"h":"writ","f":"ලෙඛ්‍යාඥාව","t":"ලේඛ්‍යාඥාව","by":"opus"}
+{"h":"wreck","f":"බුන්නැව් බඬු","t":"බුන්නැව් බඩු","by":"gemini","v":"right"}
+{"h":"wreckage","f":"බුනු බඬු","t":"බුනු බඩු","by":"gemini","v":"right"}
+{"h":"written","f":"විරවිත","t":"විරචිත","by":"both"}
+{"h":"wrong","f":"නීසිය","t":"නීතිය","by":"opus"}
+{"h":"wrong","f":"සාවද්‍යුතාව","t":"සාවද්‍යතාව","by":"both"}
+{"h":"writerly","f":"ලේඛ කෝචිත","t":"ලේඛකෝචිත","by":"gemini","v":"right"}
+{"h":"wrong","f":"සිවිල් නීසිය","t":"සිවිල් නීතිය","by":"gemini","v":"right"}
+{"h":"xanthopsia","f":"පීතදෘෂ්ඨිතාව","t":"පීතදෘෂ්ටිතාව","by":"opus"}
+{"h":"xenoglossia","f":"අනිථි භාෂාව","t":"අතිථි භාෂාව","by":"both"}
+{"h":"xenophobic","f":"අනිථි භීතිකා","t":"අතිථි භීතිකා","by":"both"}
+{"h":"xenograft","f":"දායකයකුගෙ","t":"දායකයකුගේ","by":"both"}
+{"h":"xenolith","f":"අගම් සල","t":"අගම් සෙල","by":"opus"}
+{"h":"xerography","f":"2. විදුලි ආරෝපණ පාදක කොටගෙන නිපැයුණු ඡායා පිටප","t":"2. විදුලි ආරෝපණ පාදක කොටගෙන නිපැයුණු ඡායා පිටපත","by":"both"}
+{"h":"xylophone","f":"සයිලපෝනය","t":"සයිලෆෝනය","by":"opus"}
+{"h":"yammer","f":"නැඟිම","t":"නැඟීම","by":"opus"}
+{"h":"yammer","f":"මැසිවිලි නැඟිම","t":"මැසිවිලි නැඟීම","by":"gemini","v":"right"}
+{"h":"yeast","f":"3. යිස්ට්","t":"3. යීස්ට්","by":"both"}
+{"h":"yarn","f":"වැල්වටන්දර","t":"වැල්වටාරම්","by":"gemini","v":"right"}
+{"h":"yawl","f":"මසුන් මරණ","t":"මසුන් මරන","by":"gemini","v":"right"}
+{"h":"yea","f":"එභෙයි","t":"එහෙයි","by":"gemini","v":"right"}
+{"h":"yeah","f":"එභෙයි","t":"එහෙයි","by":"gemini","v":"right"}
+{"h":"yearling","f":"ලිත් වසරේ අඩු පැටවා","t":"ලිත් වසරේ අශ්ව පැටවා","by":"gemini","v":"right"}
+{"h":"yell","f":"මොර හඩ","t":"මොර හඬ","by":"both"}
+{"h":"yellow","f":"බියසුලු","t":"බියගුලු","by":"opus"}
+{"h":"yellowing","f":"ගැසුණූ","t":"ගැසුණු","by":"opus"}
+{"h":"yellowing","f":"කහ ගැසුණූ","t":"කහ ගැසුණු","by":"gemini","v":"right"}
+{"h":"yes","f":"එභෙයි","t":"එහෙයි","by":"gemini","v":"right"}
+{"h":"yes-man","f":"එභෙයි කාරයා","t":"එහෙයි කාරයා","by":"gemini","v":"right"}
+{"h":"yet","f":"එභෙත්","t":"එහෙත්","by":"gemini","v":"right"}
+{"h":"yet","f":"එසේවුවහොත්","t":"එසේවුවත්","by":"gemini","v":"right"}
+{"h":"yield","f":"එලදාව","t":"ඵලදාව","by":"gemini","v":"right"}
+{"h":"yield","f":"එලය","t":"ඵලය","by":"gemini","v":"right"}
+{"h":"yourselves","f":"[n.] නුඹලා ම","t":"[pron.] නුඹලා ම","by":"gemini","v":"right"}
+{"h":"ytterbium","f":"2. බියම්","t":"2. ඉට්බියම්","by":"gemini","v":"right"}
+{"h":"yttrium","f":"1. [Phy.] ඉට්ට්‍රියම්","t":"1. [Phy.] ඉට්‍රියම්","by":"gemini"}
+{"h":"zany","f":"2. [n.] ගුඩ්ඩයා","t":"2. [n.] ගොඩ්ඩයා","by":"gemini"}
+{"h":"zest","f":"අභිරුවය","t":"අභිරුචිය","by":"both"}
+{"h":"zenith","f":"මුඳුන","t":"මුදුන","by":"gemini","v":"wrong"}
+{"h":"zincite","f":"සින්සයිට්","t":"සින්කයිට්","by":"opus"}
+{"h":"zodiac","f":"ජ්‍යෝජිතිශ්චක්‍රය","t":"ජ්‍යෝතිශ්චක්‍රය","by":"both"}
+{"h":"zinc","f":"තුන්තනාගම්","t":"තුත්තනාගම්","by":"gemini","v":"right"}
+{"h":"zinc","f":"සීන්ක්","t":"සින්ක්","by":"gemini","v":"right"}
+{"h":"zircon","f":"1. කොන්","t":"1. සර්කොන්","by":"gemini","v":"right"}
+{"h":"zirconia","f":"කෝනියා","t":"සර්කෝනියා","by":"gemini","v":"right"}
+{"h":"zirconium","f":"1. කෝනියම්","t":"1. සර්කෝනියම්","by":"gemini","v":"right"}
+{"h":"zloty","f":"1. [Eco.] ස්ලොට්","t":"1. [Eco.] ස්ලොටි","by":"gemini","v":"right"}
+{"h":"zloty","f":"2. ස්ලොට්","t":"2. ස්ලොටි","by":"gemini","v":"right"}
+{"h":"zonda","f":"ඇෆ්ඩීස්","t":"ඇන්ඩීස්","by":"both"}
+{"h":"zoo","f":"සත්චෝද්‍යානය","t":"සත්වෝද්‍යානය","by":"both"}
+{"h":"zooid","f":"[Psy.] වාංගයා","t":"[Psy.] ජීවාංගයා","by":"both"}
+{"h":"zoom","f":"6. සුමකරණය","t":"6. සූමකරණය","by":"gemini","v":"wrong"}
+{"h":"zoom","f":"7. සුමය","t":"7. සූමය","by":"gemini","v":"wrong"}
+{"h":"zooming","f":"සුමකරණය","t":"සූමකරණය","by":"gemini"}
+{"h":"zoospore","f":"චලබීජාණූව","t":"චලබීජාණුව","by":"both"}
+{"h":"zoroastrianism","f":"ශරකුස්ත්‍රවාදය","t":"ශරතුස්ත්‍රවාදය","by":"both"}
+{"h":"zymosis","f":"1. පැසිම","t":"1. පැසීම","by":"opus"}
+{"h":"zymosis","f":"පැසිම","t":"පැසීම","by":"gemini","v":"right"}
+{"h":"a posteriori","f":"[Mat.] පශ්වාදනුභූත","t":"[Mat.] පශ්චාදනුභූත","by":"both"}
+{"h":"about turn","f":"[adv.] පස්සට හැරෙනවා","t":"[v.] පස්සට හැරෙනවා","by":"opus"}
+{"h":"about turn","f":"2. [adv.] පස්සට හැරෙනවා","t":"2. [v.] පස්සට හැරෙනවා","by":"gemini","v":"right"}
+{"h":"absolute zero","f":"නිරපේක්ෂ ශුන්‍යය","t":"නිරපේක්ෂ ශූන්‍යය","by":"opus"}
+{"h":"abstract art","f":"අමුර්ත කලාව","t":"අමූර්ත කලාව","by":"both"}
+{"h":"accessory fruit","f":"අතිරේක එලය","t":"අතිරේක ඵලය","by":"opus"}
+{"h":"absolute zero","f":"ශුන්‍යය","t":"ශූන්‍යය","by":"gemini","v":"right"}
+{"h":"accessory fruit","f":"එලය","t":"ඵලය","by":"gemini","v":"right"}
+{"h":"acetic acid","f":"[a.] ඇසිටික් අම්ලය","t":"[n.] ඇසිටික් අම්ලය","by":"gemini","v":"right"}
+{"h":"achromatic lens","f":"අවර්ණක කාවය","t":"අවර්ණක කාචය","by":"both"}
+{"h":"acquired immunity","f":"අර්ත ප්‍රතිශක්තිය","t":"අර්ජිත ප්‍රතිශක්තිය","by":"both"}
+{"h":"achondroplasty","f":"එකොන්ඩොප්ලේසියාව","t":"එකොන්ඩ්‍රොප්ලේසියාව","by":"gemini","v":"right"}
+{"h":"act of god","f":"දුර්දෛව්‍ය","t":"දුර්දෛවය","by":"gemini","v":"right"}
+{"h":"ad infinitum","f":"[a.] අන්තයට","t":"[a.] අනන්තයට","by":"opus"}
+{"h":"adiabatic process","f":"ස්ථීරතාපී","t":"ස්ථිරතාපී","by":"both"}
+{"h":"active voice","f":"කතෘ කාරකය","t":"කර්තෘ කාරකය","by":"gemini","v":"right"}
+{"h":"adipose tissue","f":"තුල පටකය","t":"තෙල් පටකය","by":"gemini"}
+{"h":"aedes aegypti","f":"ඊඩීස් ඊප්තායි","t":"ඊඩීස් ඊජිප්තායි","by":"both"}
+{"h":"again and again","f":"[prep.] පුනපුනා","t":"[adv.] පුනපුනා","by":"opus"}
+{"h":"again and again","f":"[prep.] යොර යොර","t":"[adv.] යොර යොර","by":"opus"}
+{"h":"aegyptopithecus","f":"එප්තොපිතෙකුස්","t":"එජිප්තොපිතෙකුස්","by":"gemini","v":"right"}
+{"h":"again and again","f":"2. [prep.] පුනපුනා","t":"2. [adv.] පුනපුනා","by":"gemini","v":"right"}
+{"h":"again and again","f":"3. [prep.] යොර යොර","t":"3. [adv.] තොර තොර","by":"gemini","v":"wrong"}
+{"h":"aggregate fruit","f":"සමුහ එලය","t":"සමූහ ඵලය","by":"both"}
+{"h":"agonic line","f":"අකෝනික රේඛාව","t":"අකෝණික රේඛාව","by":"opus"}
+{"h":"agonic line","f":"අකෝනික","t":"අකෝණික","by":"gemini","v":"right"}
+{"h":"al dente","f":"මස වුළු","t":"සේ පිසූ","by":"gemini","v":"right"}
+{"h":"algebraic number","f":"වීය සංඛ්‍යාව","t":"වීජීය සංඛ්‍යාව","by":"both"}
+{"h":"alginic acid","f":"ඇල්නික්","t":"ඇල්ජිනික්","by":"opus"}
+{"h":"alginic acid","f":"ඇල්නික් අම්ලය","t":"ඇල්ජිනික් අම්ලය","by":"gemini","v":"right"}
+{"h":"all fours","f":"හැමතින් ම","t":"හැම අතින් ම","by":"gemini"}
+{"h":"all right","f":"සනිපයි","t":"සනීපයි","by":"gemini","v":"right"}
+{"h":"alpha particle","f":"විකිරණශ්‍රීලී","t":"විකිරණශීලී","by":"both"}
+{"h":"alter ego","f":"අඹ යහළුවා","t":"අඹු යහළුවා","by":"gemini","v":"wrong"}
+{"h":"alternating current","f":"[adv.] ප්‍රත්‍යාවර්තක ධාරාව","t":"[n.] ප්‍රත්‍යාවර්තක ධාරාව","by":"gemini","v":"right"}
+{"h":"amortisation","f":"කාලික ණය නිදහස් කිරිම","t":"කාලික ණය නිදහස් කිරීම","by":"opus"}
+{"h":"amortisation","f":"ක්‍රමපක්ෂයය","t":"ක්‍රමපක්ෂය","by":"opus"}
+{"h":"amortisation","f":"ක්‍රමපක්ෂයය","t":"ක්‍රමක්ෂයය","by":"gemini","v":"right"}
+{"h":"amortisation","f":"කිරිම","t":"කිරීම","by":"gemini","v":"right"}
+{"h":"amplitude distortion","f":"කුරුපණය","t":"විරූපණය","by":"gemini","v":"right"}
+{"h":"aneroid barometer","f":"නර්ද්‍රව වායුපීඩනමානය","t":"නිර්ද්‍රව වායුපීඩනමානය","by":"opus"}
+{"h":"ancestor worship","f":"මුතුමිත්තන්","t":"මුතුන්මිත්තන්","by":"gemini","v":"right"}
+{"h":"aneroid barometer","f":"නර්ද්‍රව","t":"නිර්ද්‍රව","by":"gemini","v":"right"}
+{"h":"angle of incidence","f":"[Psy.]","t":"[Phy.]","by":"gemini","v":"right"}
+{"h":"angstrom unit","f":"[Psy.]","t":"[Phy.]","by":"gemini","v":"right"}
+{"h":"applied mathematics","f":"ව්‍යහාරික","t":"ව්‍යවහාරික","by":"both"}
+{"h":"aqua fortis","f":"සුබල","t":"සබල","by":"gemini","v":"right"}
+{"h":"aqueous humour","f":"අම්මය","t":"අම්බුමය","by":"gemini","v":"right"}
+{"h":"arctic circle","f":"ධ්රැව","t":"ධ්‍රැව","by":"gemini","v":"right"}
+{"h":"arithmetic mean","f":"මාධ්‍යන්‍යය","t":"මධ්‍යන්‍යය","by":"gemini","v":"right"}
+{"h":"armorial bearing","f":"සන්නාභ","t":"සන්නාහ","by":"both"}
+{"h":"arriere pensee","f":"භෙළි","t":"හෙළි","by":"both"}
+{"h":"artesian well","f":"ආටීසියානු ලිඳ","t":"ආටීසියානු ළිඳ","by":"opus"}
+{"h":"arithmetic progression","f":"ශ්‍රේඨිය","t":"ශ්‍රේඪිය","by":"gemini","v":"right"}
+{"h":"arithmetic progression","f":"ශ්‍රේධිය","t":"ශ්‍රේඪිය","by":"gemini","v":"right"}
+{"h":"artesian well","f":"[a.] ආටීසියානු ලිඳ","t":"[n.] ආටීසියානු ලිඳ","by":"gemini","v":"right"}
+{"h":"astatic galvanometer","f":"අස්ථීතික","t":"අස්ථිතික","by":"opus"}
+{"h":"assembly line","f":"එකළස් පෙළ","t":"එකලස් පෙළ","by":"opus"}
+{"h":"ash wednesday","f":"[a.] අළු බදාදා","t":"[n.] අළු බදාදා","by":"opus"}
+{"h":"ash wednesday","f":"[a.]","t":"[n.]","by":"gemini","v":"right"}
+{"h":"assumed name","f":"ආරූඩ","t":"ආරූඪ","by":"gemini","v":"right"}
+{"h":"astatic galvanometer","f":"අස්ථීතික ගැල්වනොමීටරය","t":"අස්ථිතික ගැල්වනෝමීටරය","by":"gemini","v":"right"}
+{"h":"at all","f":"කොභෙත්ම","t":"කොහෙත්ම","by":"both"}
+{"h":"at least","f":"කොකෙහාම","t":"කොහොම","by":"opus"}
+{"h":"at the least","f":"කොකෙහාම","t":"කොහොම","by":"opus"}
+{"h":"at a loss","f":"[n.] අවිනිශ්චිත","t":"[a.] අවිනිශ්චිත","by":"gemini","v":"right"}
+{"h":"at any rate","f":"කොහොම නමත්","t":"කොහොම නමුත්","by":"gemini","v":"right"}
+{"h":"at home","f":"4. [n.] හරහට","t":"4. [adv.] හරහට","by":"gemini"}
+{"h":"at large","f":"3. [a.] සවිස්තරව","t":"3. [adv.] සවිස්තරව","by":"gemini","v":"right"}
+{"h":"at least","f":"කොකෙහාම නමුත්","t":"කොහොම නමුත්","by":"gemini","v":"right"}
+{"h":"at leisure","f":"[n.] අවකාශ ඇති ලෙසින්","t":"[adv.] අවකාශ ඇති ලෙසින්","by":"gemini","v":"right"}
+{"h":"at sea","f":"1. [n.] අන්දුන් කුන්දුන් වූ","t":"1. [a.] අන්දුන් කුන්දුන් වූ","by":"gemini","v":"right"}
+{"h":"at sea","f":"2. [n.] ගොඩබිමෙන් ඈත් වූ","t":"2. [a.] ගොඩබිමෙන් ඈත් වූ","by":"gemini","v":"right"}
+{"h":"at the least","f":"කොකෙහාම නමුත්","t":"කොහොම නමුත්","by":"gemini","v":"right"}
+{"h":"at the same time","f":"එභෙත්","t":"එහෙත්","by":"both"}
+{"h":"at times","f":"1. [conj.] බාග වේලාවට","t":"1. [adv.] බාග වේලාවට","by":"gemini","v":"right"}
+{"h":"at times","f":"3. [conj.] සමහර විටෙක","t":"3. [adv.] සමහර විටෙක","by":"gemini","v":"right"}
+{"h":"au fait","f":"[adv.] හොඳාකාර දන්නා","t":"[a.] හොඳාකාර දන්නා","by":"gemini","v":"right"}
+{"h":"autumnal equinox","f":"ශරත් භෙවත්","t":"ශරත් හෙවත්","by":"opus"}
+{"h":"autumnal equinox","f":"ශරත් භෙවත් ජලවිෂුවය","t":"ශරත් හෙවත් ජලවිෂුවය","by":"gemini","v":"right"}
+{"h":"bail out","f":"අහස්‍යාත්‍රාවෙන්","t":"අහස් යාත්‍රාවෙන්","by":"opus"}
+{"h":"babbitt metal","f":"බැබිටි","t":"බැබිට්","by":"gemini","v":"right"}
+{"h":"bacillary dysentery","f":"බැසීල","t":"බැසිල","by":"gemini"}
+{"h":"baking powder","f":"කරකුඩු","t":"කාරකුඩු","by":"gemini"}
+{"h":"banana oil","f":"කෙභෙල් තෙල්","t":"කෙහෙල් තෙල්","by":"opus"}
+{"h":"banana oil","f":"තදලි තෙල්","t":"කදලි තෙල්","by":"opus"}
+{"h":"balance wheel","f":"ද්‍යෝලන චක්‍රය","t":"දෝලන චක්‍රය","by":"opus"}
+{"h":"balance wheel","f":"ද්‍යෝලන","t":"දෝලන","by":"gemini","v":"right"}
+{"h":"ballistic galvanometer","f":"ගැල්වනොමීටරය","t":"ගැල්වනෝමීටරය","by":"gemini","v":"right"}
+{"h":"banana oil","f":"කෙභෙල්","t":"කෙහෙල්","by":"gemini","v":"right"}
+{"h":"banana oil","f":"තදලි","t":"කදලි","by":"gemini","v":"right"}
+{"h":"basal metabolism","f":"චූලස්ථ","t":"මූලස්ථ","by":"both"}
+{"h":"be born","f":"[n.] උපදිනවා","t":"[v.] උපදිනවා","by":"opus"}
+{"h":"be born","f":"1. [n.] උපදිනවා","t":"1. [v.] උපදිනවා","by":"gemini","v":"right"}
+{"h":"beat up","f":"[adj.] අතින්","t":"[v.] අතින්","by":"opus"}
+{"h":"beauty parlour","f":"රූපලාවණ්‍යගාරය","t":"රූපලාවණ්‍යාගාරය","by":"both"}
+{"h":"bearer bond","f":"හාරක පිළිනපත","t":"හාරක පිළිණපත","by":"opus"}
+{"h":"bear up","f":"ඔරුත්තු දෙනවා","t":"ඔරොත්තු දෙනවා","by":"gemini","v":"right"}
+{"h":"bear up","f":"හැම්මෙනවා","t":"හැම්බෙනවා","by":"gemini"}
+{"h":"beat up","f":"[adj.]","t":"[v.]","by":"gemini","v":"right"}
+{"h":"bedford cord","f":"බෙඩ්පරැඩ් පිළි","t":"බෙඩ්ෆර්ඩ් පිළි","by":"gemini","v":"right"}
+{"h":"bell-shaped curve","f":"හැඩ චක්‍රය","t":"හැඩ වක්‍රය","by":"both"}
+{"h":"belly laugh","f":"හඬ්න්","t":"හඬින්","by":"both"}
+{"h":"bench warrant","f":"පිඨ අධිපත්‍රය","t":"පීඨ අධිපත්‍රය","by":"both"}
+{"h":"beta particle","f":"විකිරණශ්‍රීලී","t":"විකිරණශීලී","by":"both"}
+{"h":"betting shop","f":"තිප්පොල","t":"තිප්පෝල","by":"opus"}
+{"h":"bench mark","f":"බැංකු ලකුණ","t":"බංකු ලකුණ","by":"gemini","v":"right"}
+{"h":"bench mark","f":"මිනින්ද්‍යෝරු ලකුණ","t":"මිනින්දෝරු ලකුණ","by":"gemini","v":"right"}
+{"h":"bench mark","f":"මිනින්ද්‍යෝරුවාගේ","t":"මිනින්දෝරුවාගේ","by":"gemini","v":"right"}
+{"h":"bid price","f":"ලසු මිල","t":"ලංසු මිල","by":"both"}
+{"h":"binary arithmetic operation","f":"මෙභෙයුම","t":"මෙහෙයුම","by":"both"}
+{"h":"bevel square","f":"ස්වාය මට්ටම් ලෑල්ල","t":"සුවාය මට්ටම් ලෑල්ල","by":"gemini"}
+{"h":"bile duct","f":"පිත්ත නායකය","t":"පිත්ත නාලකය","by":"gemini","v":"right"}
+{"h":"bill of lading","f":"නෞහාර බිල","t":"නෞභාර බිල","by":"gemini","v":"right"}
+{"h":"bill of lading","f":"නෞහාර බිල්පත","t":"නෞභාර බිල්පත","by":"gemini","v":"right"}
+{"h":"bind over","f":"ඇඟ බදිනවා","t":"ඇඟ බඳිනවා","by":"opus"}
+{"h":"bird of passage","f":"අස්ථීර","t":"අස්ථිර","by":"both"}
+{"h":"binary star","f":"[st.]","t":"[Ast.]","by":"gemini","v":"right"}
+{"h":"bind over","f":"බදිනවා","t":"බඳිනවා","by":"gemini","v":"right"}
+{"h":"black death","f":"කාල මෘත්‍යූ","t":"කාල මෘත්‍යු","by":"opus"}
+{"h":"black maria","f":"බනධනාගාරයට","t":"බන්ධනාගාරයට","by":"both"}
+{"h":"blast off","f":"[n.]","t":"[v.]","by":"opus"}
+{"h":"black art","f":"හූනියන්","t":"හූනියම්","by":"opus"}
+{"h":"blanket stitch","f":"බ්ලැන්කේට්ටු","t":"බ්ලැන්කට්ටු","by":"opus"}
+{"h":"black magic","f":"කළු අභිවාරය","t":"කළු අභිචාරය","by":"gemini","v":"right"}
+{"h":"blast off","f":"[n.] රොකට් ආදිය දියත් කරනවා","t":"[v.] රොකට් ආදිය දියත් කරනවා","by":"gemini","v":"right"}
+{"h":"blood group","f":"රුදිර කාණ්ඩය","t":"රුධිර කාණ්ඩය","by":"both"}
+{"h":"block and tackle","f":"ලනු ගුටකය","t":"ලණු ගුටකය","by":"gemini","v":"right"}
+{"h":"blood plasma","f":"රුධිය ප්ලාස්මය","t":"රුධිර ප්ලාස්මය","by":"both"}
+{"h":"blood transfusion","f":"පාරවියලනය","t":"පාරවිලයනය","by":"opus"}
+{"h":"blood vessel","f":"රුධිර වාහිණිය","t":"රුධිර වාහිනිය","by":"opus"}
+{"h":"blow fly","f":"[vt.] ඉහඳ මැස්සා","t":"[n.] ඉහඳ මැස්සා","by":"both"}
+{"h":"blood transfusion","f":"රුධිර පාරවියලනය","t":"රුධිර පාරවිලයනය","by":"gemini","v":"right"}
+{"h":"blue baby","f":"නීල බිළිදා","t":"නීල බිළිඳා","by":"gemini","v":"right"}
+{"h":"body servant","f":"මෙභෙකරුවා","t":"මෙහෙකරුවා","by":"both"}
+{"h":"blunt file","f":"උජ මොට පීර","t":"උල මොට පීර","by":"gemini"}
+{"h":"bona fide","f":"9. [adj.] හොඳ අදහසින්","t":"9. [adv.] හොඳ අදහසින්","by":"gemini","v":"right"}
+{"h":"bona fide","f":"10. [a.] හොඳ හිතින්","t":"10. [adv.] හොඳ හිතින්","by":"gemini","v":"right"}
+{"h":"brain drain","f":"බුඩිමතුන්","t":"බුද්ධිමතුන්","by":"both"}
+{"h":"brain-fag","f":"මානසික වෙභෙස","t":"මානසික වෙහෙස","by":"both"}
+{"h":"brain-fag","f":"මොලේ ඇතිවන වෙභෙස","t":"මොළේ ඇතිවන වෙහෙස","by":"opus"}
+{"h":"borrow pit","f":"ඉන වළ","t":"ණය වළ","by":"gemini","v":"wrong"}
+{"h":"boundary condition","f":"භාව්‍යතත්වය","t":"තත්වය","by":"gemini"}
+{"h":"brachial artery","f":"භූය","t":"භුජ","by":"gemini","v":"right"}
+{"h":"brachial plexus","f":"භූය","t":"භුජ","by":"gemini","v":"right"}
+{"h":"brain-fag","f":"ඇතිවන වෙභෙස","t":"ඇතිවන වෙහෙස","by":"gemini","v":"right"}
+{"h":"bread and butter","f":"විකාවෘත්තිය","t":"ජීවිකාවෘත්තිය","by":"both"}
+{"h":"bring down","f":"පහත භෙළනවා","t":"පහත හෙළනවා","by":"both"}
+{"h":"bring up","f":"ඇති දැඩි කරවා","t":"ඇති දැඩි කරනවා","by":"both"}
+{"h":"brush discharge","f":"තුලිකාකාර","t":"තූලිකාකාර","by":"opus"}
+{"h":"bring down","f":"පිරිභෙලනවා","t":"පිරිහෙලනවා","by":"gemini","v":"right"}
+{"h":"brush discharge","f":"තුලිකාකාර විසර්ජනය","t":"තූලිකාකාර විසර්ජනය","by":"gemini","v":"right"}

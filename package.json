@@ -21,7 +21,9 @@
     "test:e2e": "npm run build:dict:fixture && npm run build:web && npm run build:web:app && npm run build:server && playwright test -c e2e/playwright.config.ts",
     "check:css": "node scripts/check-css.mjs",
     "check:sync": "bash scripts/check-sync.sh",
-    "parity": "tsx scripts/parity-v1.ts"
+    "parity": "tsx scripts/parity-v1.ts",
+    "dict:ai": "tsx scripts/dict-ai.ts",
+    "dict:scan": "python3 build/m3-scan.py"
   },
   "dependencies": {
     "@pnfo/pali-converter": "github:pnfo/pali-converter#90ae03ecb28d1c2585c8d58e21dfde5625b35834",
