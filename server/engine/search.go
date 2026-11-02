@@ -683,7 +683,7 @@ func (e *Engine) Suggest(ctx context.Context, q string, dicts []string, limit in
 		take(rs, &exact, limit)
 	}
 	prefix := func(k, srcCond string) ([]hrow, error) {
-		return e.headRows(ctx, headSel+"WHERE k.key > ? AND k.key < ?"+srcCond+" ORDER BY h.score DESC LIMIT ?", k, prefixEnd(k), limit*2)
+		return e.headRows(ctx, headSel+"WHERE k.key > ? AND k.key < ?"+srcCond+" AND NOT "+longSense+" ORDER BY h.score DESC LIMIT ?", k, prefixEnd(k), limit*2)
 	}
 	enRows, err := prefix(x.key, " AND h.src = 'en'")
 	if err != nil {

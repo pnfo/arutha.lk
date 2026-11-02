@@ -10,6 +10,11 @@ Droplet `tipitaka.lk` (1 CPU, 1 GB RAM, shared with tipitaka.app and tipitaka.lk
 3. `scripts/deploy.sh --go`: points `~/www/arutha.lk/current` at the release, installs the units
    (`server/arutha_lk.service`, the watchdog timer) when they changed, restarts and waits for `/api/health` to report
    the new content hash. The db is uploaded zstd compressed (only when new) and shared by releases.
+   The restart needs no password with this sudoers rule (once; installing changed units still asks):
+   ```
+   ssh -t tipitaka.lk 'echo "janaka ALL=(root) NOPASSWD: /usr/bin/systemctl restart arutha_lk" | sudo tee /etc/sudoers.d/arutha-deploy >/dev/null \
+     && sudo chmod 440 /etc/sudoers.d/arutha-deploy && sudo visudo -cf /etc/sudoers.d/arutha-deploy'
+   ```
 4. `~/www/arutha.lk/stats.env` with `STATS_PASSWORD=...` for https://arutha.lk/stats.
 
 ## The first v3 deploy (cutover)

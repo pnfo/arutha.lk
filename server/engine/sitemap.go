@@ -7,9 +7,13 @@ import "context"
 
 const paliOnly = "src = 'pi'"
 
+// longSense: a Sinhala sense of three or more words that only the Sinhala-English dictionary has as a headword (the
+// reverse of an English-Sinhala meaning, often a description): its page stays, out of the sitemap and the suggestions.
+const longSense = "(dicts = 'sinhala-english' AND word LIKE '% % %')"
+
 // SitemapCounts: the number of headwords in the sitemaps of the words and of the Pali words.
 func (e *Engine) SitemapCounts(ctx context.Context) (words, pali int, err error) {
-	if err = e.dict.QueryRowContext(ctx, "SELECT count(*) FROM headword WHERE NOT "+paliOnly).Scan(&words); err != nil {
+	if err = e.dict.QueryRowContext(ctx, "SELECT count(*) FROM headword WHERE NOT "+paliOnly+" AND NOT "+longSense).Scan(&words); err != nil {
 		return
 	}
 	err = e.dict.QueryRowContext(ctx, "SELECT count(*) FROM headword WHERE "+paliOnly).Scan(&pali)
@@ -21,7 +25,7 @@ type SitemapWord struct{ Word, Lastmod string }
 
 // SitemapWords returns a part of the headwords (in id order) of the words or the Pali words.
 func (e *Engine) SitemapWords(ctx context.Context, pali bool, offset, limit int) ([]SitemapWord, error) {
-	cond := "NOT " + paliOnly
+	cond := "NOT " + paliOnly + " AND NOT " + longSense
 	if pali {
 		cond = paliOnly
 	}

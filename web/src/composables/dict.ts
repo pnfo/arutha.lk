@@ -37,12 +37,17 @@ export function useDicts() {
 /** the sources of a headword (si, pi, en: comma separated) as a label */
 export const srcLabel = (src: string) => src.split(',').map(s => ({ si: 'සිං', pi: 'පාලි', en: 'Eng' } as Record<string, string>)[s] || s).join(' · ')
 
+/** a link as people read it: Sinhala letters instead of %E0%B6.. (spaces stay %20, so the link stays one piece in a text) */
+export function readableUrl(url: string) {
+  try { return decodeURI(url).replace(/ /g, '%20') } catch { return url }
+}
+
 export async function share(title: string, url: string) {
-  try { if (window.AruthaNative?.share) { window.AruthaNative.share(`${title}\n${url}`); return 'shared' } } catch { /* old app */ }
+  try { if (window.AruthaNative?.share) { window.AruthaNative.share(`${title}\n${readableUrl(url)}`); return 'shared' } } catch { /* old app */ }
   if (navigator.share) {
     try { await navigator.share({ title, url }); return 'shared' } catch { return 'cancelled' }
   }
-  return (await copyText(url)) ? 'copied' : 'failed'
+  return (await copyText(readableUrl(url))) ? 'copied' : 'failed'
 }
 
 export async function copyText(text: string): Promise<boolean> {
